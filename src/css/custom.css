@@ -18,8 +18,8 @@
   background: #1f2937;
 }
 
-[data-theme='light'] .hero__title,
-[data-theme='light'] .hero__subtitle {
+[data-theme='light'] .hero--primary .hero__title,
+[data-theme='light'] .hero--primary .hero__subtitle {
   color: #ffffff;
 }
 
@@ -59,8 +59,8 @@
   background: #111827;
 }
 
-[data-theme='dark'] .hero__title,
-[data-theme='dark'] .hero__subtitle,
+[data-theme='dark'] .hero--primary .hero__title,
+[data-theme='dark'] .hero--primary .hero__subtitle,
 [data-theme='dark'] .navbar,
 [data-theme='dark'] .footer,
 [data-theme='dark'] .navbar__title,

@@ -36,6 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          showLastUpdateAuthor: true,
           editUrl:
             'https://github.com/yannikg/locobox-docs/tree/main/',
         },
@@ -44,6 +45,19 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        // Index all docs to provide a fast client-side search.
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+        language: ['de'],
+        hashed: true,
+      },
     ],
   ],
 
@@ -118,6 +132,10 @@ const config: Config = {
           position: 'right',
         },
         {
+          type: 'search',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/yannikg/locobox-docs',
           label: 'GitHub',
           position: 'right',
@@ -132,7 +150,7 @@ const config: Config = {
           items: [
             {
               label: 'Einstieg',
-              to: '/docs/generelles-erste-schritte',
+              to: '/docs/generelles/generelles-erste-schritte',
             },
           ],
         },

@@ -7,19 +7,26 @@ const sidebars: SidebarsConfig = {
       label: 'Generelles',
       link: {
         type: 'doc',
-        id: 'generelles',
+        id: 'generelles/generelles',
       },
-      items: ['generelles-erste-schritte'],
+      items: [
+        'generelles/generelles-erste-schritte',
+        'generelles/spotlight-globale-suche',
+      ],
     },
   ],
-  uebersichtSidebar: ['uebersicht'],
-  artikelSidebar: ['artikel'],
-  zuegeSidebar: ['zuege'],
-  decoderSidebar: ['decoder'],
-  kategorienSidebar: ['kategorien'],
-  druckenSidebar: ['drucken'],
-  einstellungenSidebar: ['einstellungen'],
-  papierkorbSidebar: ['papierkorb'],
+  uebersichtSidebar: ['uebersicht/uebersicht'],
+  artikelSidebar: ['artikel/artikel'],
+  zuegeSidebar: ['zuege/zuege'],
+  decoderSidebar: ['decoder/decoder'],
+  kategorienSidebar: ['kategorien/kategorien'],
+  druckenSidebar: ['drucken/drucken'],
+  einstellungenSidebar: [
+    'einstellungen/einstellungen',
+    'einstellungen/anzeigeeinstellungen',
+    'einstellungen/nutzung',
+  ],
+  papierkorbSidebar: ['papierkorb/papierkorb'],
 };
 
 export default sidebars;
