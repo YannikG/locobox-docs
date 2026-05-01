@@ -4,6 +4,8 @@ title: Kategorien
 description: Kategorien helfen, Artikel schneller zu finden und gezielt zu filtern.
 ---
 
+import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
+
 # Kategorien
 
 Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) nach Themen ordnen. So bleiben Inhalte schneller auffindbar und der Überblick erhalten.
@@ -14,6 +16,5 @@ Kategorien lassen sich neu anlegen, in Namen oder Beschreibung anpassen und lös
 
 Beim Löschen wird eine Kategorie zuerst nur in den [Papierkorb](../papierkorb/papierkorb.md) verschoben. Eine endgültige Löschung ist nicht möglich, solange noch aktive Artikel damit verknüpft sind. Zuerst diese Zuordnungen entfernen und die Kategorie danach erneut löschen.
 
-## Limiten
+<LimitsPlanNote />
 
-Siehe [Nutzungslimiten](../einstellungen/nutzung.md).

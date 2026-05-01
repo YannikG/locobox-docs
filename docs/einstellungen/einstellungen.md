@@ -1,14 +1,22 @@
 ---
 id: einstellungen
 title: Einstellungen
-description: Persönliche Einstellungen für die App.
+description: Persönliche Einstellungen, Konto, Anzeige und Nutzung der App.
 ---
 
 # Einstellungen
 
-Im Bereich **Einstellungen** wird die App an die eigene Nutzung angepasst.
-Hier liegen unter anderem [Anzeigeeinstellungen](./anzeigeeinstellungen.md) und [Nutzung](./nutzung.md).
+Im Menü erreichen Sie über **Einstellungen** eine Seite, auf der Sie Konto-Anzeigen, Darstellung der Oberfläche und Ihre **aktuellen Limits** sowie **Premium** im Blick behalten.
 
-## Limiten
+## Registerkarten in der Oberfläche
 
-Siehe [Nutzungslimiten](./nutzung.md).
+Die Einstellungsseite ist in **Registerkarten** strukturiert. Im Handbuch sind diese Bereiche beschrieben:
+
+- **[Konto](./konto.md)** — Hinweise zur Anmeldung und **Passwort zurücksetzen**, wo möglich.
+- **[Anzeigeeinstellungen](./anzeigeeinstellungen.md)** — Sprache (lokal auf Gerät oder Browser), **Artikel-Anzeige** und **Globale Suche**, jeweils in eigenen Fenstern.
+- **[Nutzung](./nutzung.md)** — Plan, Kontingente pro Bereich, **Status aktualisieren**, Hinweise beim **Premium** und Kurzinfos.
+
+## Limits
+
+Zu **Gratislimits**, **Premium** und den Bereichen Artikel, Züge, Kategorien und Decoder siehe **[Nutzung](./nutzung.md)**.
+

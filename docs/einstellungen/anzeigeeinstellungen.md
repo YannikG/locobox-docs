@@ -1,37 +1,45 @@
 ---
 id: anzeigeeinstellungen
 title: Anzeigeeinstellungen
-description: Sprache und Ansicht der Artikelliste anpassen.
+description: Sprache, Artikel-Liste und globale Suche optisch einstellen.
 ---
 
 # Anzeigeeinstellungen
 
-Im Bereich **Anzeigeeinstellungen** wird die Darstellung der App angepasst.
-Hier lassen sich die **Sprache** und die **Spalten in der [Artikelliste](../artikel/artikel.md)** einstellen.
+Unter **Einstellungen** die Registerkarte **Anzeigeeinstellungen** wählen. Dort wird die **Darstellung** der App angepasst, ohne Ihre Daten (Artikel, Kategorien, Decoder usw.) zu ändern.
 
 ## Sprache
 
-Gewünschte Sprache auswählen und die Änderung speichern.
-Die Auswahl bleibt beim nächsten Öffnen der App erhalten.
+**Sprache:** Über die Auswahl stellen Sie die gewünschte Sprache ein. Die App zeigt einen Hinweis, dass diese Einstellung **nur dieses Gerät und diesen Browser** betrifft und **nicht** in Ihr Nutzerkonto synchronisiert wird.
 
-## Spalten in der Artikelliste
+## Artikel-Anzeige (eigenes Fenster)
 
-- Spalten ein- oder ausblenden
-- die Reihenfolge der Spalten ändern
-- die Ansicht auf den Standard zurücksetzen
+Die Schaltfläche **«Artikel Anzeige Einstellungen»** öffnet ein **Fenster** für dieselben Spaltenthemen wie in der **[Artikel Liste](../artikel/artikel-liste.md)**:
 
-Einige Spalten sind immer sichtbar und bleiben vorne.
+- Spalten **ein- oder ausblenden**
+- **Reihenfolge** ändern
+- mit **«Auf Standard zurücksetzen»** die wiederherstellen
 
-## Speichern
+Einige Spalten bleiben zwingend sichtbar und stehen vorne; das entspricht dem Verhalten beim Anpassen der Liste aus der Artikelübersicht.
 
-Änderungen gelten erst nach Klick auf **Speichern**.
-Mit **Zurücksetzen** wird die Standardansicht wiederhergestellt.
+**Speichern** übernimmt die Einstellungen. **Abbrechen** verwirft ungesicherte Änderungen beim Verlassen des Fensters.
+
+## Globale Suche (eigenes Fenster)
+
+**«Globale Suche Anzeige Einstellungen»** steuert nur die **Treffer-Karten** in der **[Globale Suche](../generelles/globale-suche.md)**.
+
+Im Fenster gibt es einen kurzen erklärenden Text. Sie entscheiden pro Option, ob zusätzliche **Artikeldetails** in den Suchtreffern angezeigt werden:
+
+- optional **Kaufpreis**, **Kaufdatum**, **Verkaufspreis**, **Verkaufsdatum** (wie in der Oberfläche benannt),
+- zusätzlich: **«Verkauftes Badge auf dem Artikelbild anzeigen»**, falls die App dieses Feld anzeigt.
+
+Auch hier gelten **Speichern**, **«Auf Standard zurücksetzen»** und **Abbrechen** wie oben beschrieben.
 
 ## Wichtig zu wissen
 
-Dieser Bereich ändert nur die Darstellung in der App.
-Inhalte wie [Artikel](../artikel/artikel.md), [Kategorien](../kategorien/kategorien.md) oder [Decoder](../decoder/decoder.md) bleiben unverändert.
+Dieser Bereich ändert nur **Darstellung und Such-Darstellung**, nicht bestehende Inhalte oder Verknüpfungen.
 
-## Limiten
+## Limits
 
-Siehe [Nutzungslimiten](./nutzung.md).
+Welche Mengenlimits unabhängig von der Ansicht gelten, steht unter **[Nutzung](./nutzung.md)**.
+

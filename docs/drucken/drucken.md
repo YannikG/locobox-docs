@@ -1,17 +1,18 @@
 ---
 id: drucken
 title: Drucken
-description: Erstelle aus deiner Auswahl schnell eine druckfertige PDF-Liste.
+description: Aus Ihrer Auswahl schnell eine druckfertige PDF-Liste erzeugen.
 ---
+
+import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Drucken
 
-Im Bereich **Drucken** entsteht aus der aktuellen Auswahl eine PDF-Datei. Die Ausgabe übernimmt genau die Einträge, die vorher in [Artikeln](../artikel/artikel.md) gesucht oder gefiltert wurden. So lassen sich Listen schnell ausdrucken, offline nutzen oder weitergeben, zum Beispiel für Betrieb, Kontrolle oder Archivierung.
+Im Bereich **Drucken** wählen Sie auf der ersten Seite, welche Art von PDF Sie erzeugen möchten. Es gibt etwa die **[Adressliste](adressliste.md)** (Übersicht mit Bild, Artikelangaben und Decoder-Adressen) und **QR Code Raster** (ein Raster aus QR Codes für ausgewählte Einträge, siehe [QR Codes drucken](drucken-qr-code.md)). Die konkreten Schritte erfolgen nach dem Öffnen der jeweiligen Karte dort mit eigener Tabelle, Filtern und Auswahl; Details zur Adressliste stehen auf der verlinkten Seite.
 
-Die PDF ist auf gute Lesbarkeit ausgelegt und zeigt die wichtigsten Angaben in einer klaren Struktur. Ohne ausgewählten Eintrag ist keine PDF-Erstellung möglich. Zuerst mindestens einen Eintrag auswählen, danach den Export starten.
+Damit lassen sich Listen und Etiketten schnell ausdrucken, offline nutzen oder weitergeben, zum Beispiel für Betrieb, Kontrolle oder Archivierung. Die Ausgaben sind auf gute Lesbarkeit ausgelegt und zeigen die gewählten Angaben strukturiert. Ohne ausgewählten Eintrag ist keine PDF-Erstellung möglich. Zuerst mindestens einen Eintrag auswählen, danach den Export starten.
 
-Nach dem Erstellen wird die Datei direkt auf das Gerät heruntergeladen. Für schnelleres Wiederfinden von Einträgen hilft auch [Spotlight / Globale Suche](../generelles/spotlight-globale-suche.md).
+Nach dem Erstellen wird die Datei direkt auf das Gerät heruntergeladen. Für schnelleres Wiederfinden von Einträgen hilft auch die [Globale Suche](../generelles/globale-suche.md).
 
-## Limiten
+<LimitsPlanNote />
 
-Siehe [Nutzungslimiten](../einstellungen/nutzung.md).
