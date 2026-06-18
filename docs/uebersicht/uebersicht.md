@@ -1,20 +1,33 @@
 ---
 id: uebersicht
 title: Übersicht
-description: Sofort sichtbar, was in der Sammlung wichtig ist.
+description: Startseite mit Kennzahlen, zuletzt geänderten Artikeln und optionalen Finanz-Informationen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Übersicht
 
-Die Übersicht ist die Startseite mit Dashboard. Auf einen Blick sichtbar sind die wichtigsten Zahlen zur Sammlung, aktuelle Änderungen und die Entwicklung über die Zeit.
-
-Im Dashboard erscheinen unter anderem die Anzahl der Einträge, der aktuelle Bestand, zuletzt geänderte Einträge sowie wichtige Finanzwerte. So bleibt schnell erkennbar, was sich bewegt und wo Handlungsbedarf besteht.
-
-Basiszahlen sind in der Übersicht sichtbar. Beim Öffnen wird die Übersicht aktualisiert, damit mit einem möglichst aktuellen Stand gearbeitet wird.
+Nach dem [Anmelden](../generelles/generelles-anmelden.md) landen Sie auf der **Übersicht** (Dashboard). Hier sehen Sie auf einen Blick, wie Ihre Sammlung steht.
 
 <LimitsPlanNote />
 
+## Registerkarte «Übersicht»
 
-Wie Sie [Züge](../zuege/zuege.md) aus Artikeln zusammenstellen und die [Komposition](../zuege/zuege-komposition.md) bearbeiten, ist im Kapitel Züge beschrieben.
+- **Kennzahlen** zur Sammlung (Anzahl Artikel, Bestand, wichtige Summen).
+- **Zuletzt geänderte Artikel** — Tabelle am Desktop, Karten auf dem Handy. Tippen oder klicken Sie einen Eintrag, um ihn zu öffnen.
+- Beim Öffnen wird die Seite **aktualisiert**, damit die Zahlen möglichst aktuell sind.
+
+## Registerkarte «Finanz»
+
+Optional gibt es eine zweite Registerkarte **Finanz** mit Auswertungen zu Einkauf, Verkauf und Bestand. Beim ersten Besuch kann sie kurz laden.
+
+## Hinweise auf der Startseite
+
+- **Einrichtungs-Assistent:** Beim ersten Mal kann ein Banner erscheinen, das Sie durch die Grundeinstellungen führt. Sie können starten oder später in den [Einstellungen](../einstellungen/einstellungen.md) nachholen.
+- **Import aus einem Link:** Wenn Sie einen Artikel aus dem Web importieren wollten, kann ein Dialog erscheinen, um den Vorschlag zu prüfen, bevor ein neuer Artikel angelegt wird.
+
+## Weiterführend
+
+- Artikel pflegen: [Artikel](../artikel/artikel.md)
+- Züge bauen: [Züge](../zuege/zuege.md)

@@ -52,6 +52,10 @@ In der letzten Spalte **Aktionen** finden Sie pro Zeile:
 
 **Keine Einträge gefunden** erscheint, wenn die Tabelle leer ist.
 
+## Zurück aus der Detailansicht
+
+Öffnen Sie einen Artikel zum Ansehen oder Bearbeiten und kehren Sie danach zur Liste zurück, bleiben **Filter**, **Sortierung** und Ihre Stelle in der Liste in der Regel erhalten. So können Sie nacheinander mehrere Artikel prüfen, ohne die Filter jedes Mal neu zu setzen.
+
 ## Seitenweise Anzeige
 
 Unten an Tabelle oder Karten bestimmen Sie **Seitengrösse** und **Seite**; bei Bedarf werden weitere Einträge nachgeladen.
