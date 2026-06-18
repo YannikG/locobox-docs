@@ -112,7 +112,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'druckenSidebar',
           position: 'left',
-          label: 'Drucken',
+          label: 'Berichte',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'premiumSidebar',
+          position: 'left',
+          label: 'Premium',
         },
         {
           type: 'docSidebar',

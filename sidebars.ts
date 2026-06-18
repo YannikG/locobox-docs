@@ -4,13 +4,14 @@ const sidebars: SidebarsConfig = {
   generellesSidebar: [
     {
       type: 'category',
-      label: 'Generelles',
+      label: 'Einstieg',
       link: {
         type: 'doc',
         id: 'generelles/generelles',
       },
       items: [
         'generelles/generelles-erste-schritte',
+        'generelles/generelles-anmelden',
         'generelles/generelles-browser-kompatibilitaet',
         'generelles/globale-suche',
       ],
@@ -22,26 +23,39 @@ const sidebars: SidebarsConfig = {
     'artikel/artikel-liste',
     'artikel/artikel-detailansicht',
     'artikel/artikel-bearbeiten',
+    'artikel/artikel-duplizieren',
+    'artikel/artikel-bilder',
     'artikel/artikel-csv-import',
     'artikel/artikel-massenbearbeitung',
   ],
+  kategorienSidebar: ['kategorien/kategorien'],
   zuegeSidebar: ['zuege/zuege', 'zuege/zuege-komposition'],
   decoderSidebar: [
     'decoder/decoder',
+    'decoder/decoder-liste',
     'decoder/decoder-funktionsmatrix',
     'decoder/decoder-konfiguration',
+    'decoder/decoder-adressen',
   ],
-  kategorienSidebar: ['kategorien/kategorien'],
   druckenSidebar: [
-    'drucken/drucken',
+    'drucken/drucken-uebersicht',
     'drucken/adressliste',
+    'drucken/verkaufsliste',
+    'drucken/sammlungsverzeichnis',
     'drucken/drucken-qr-code',
+  ],
+  premiumSidebar: [
+    'premium/premium',
+    'premium/gratis-und-limits',
+    'premium/abonnement',
   ],
   einstellungenSidebar: [
     'einstellungen/einstellungen',
     'einstellungen/konto',
-    'einstellungen/anzeigeeinstellungen',
     'einstellungen/nutzung',
+    'einstellungen/anzeigeeinstellungen',
+    'einstellungen/sprache',
+    'einstellungen/waehrung',
   ],
   papierkorbSidebar: ['papierkorb/papierkorb'],
 };
