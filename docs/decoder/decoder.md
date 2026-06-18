@@ -9,6 +9,7 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 # Decoder
 
 Im Bereich **Decoder** lassen sich alle aktiven Decoder verwalten.
+Die [Decoder-Liste](./decoder-liste.md) ist der Einstieg; ein Klick öffnet die Detail- oder Bearbeitungsansicht.
 Direkt sichtbar ist, ob ein Decoder bereits mit einem [Artikel](../artikel/artikel.md) verbunden ist.
 
 Es gibt zwei klar getrennte Modi: eine **Detailansicht** zum Prüfen der Daten und eine **Bearbeitungsansicht**, in der alle Änderungen vorgenommen werden.
@@ -40,18 +41,28 @@ Oben stehen **Zurück**, **Abbrechen** und **Speichern** zur Verfügung.
 - **Konfiguration**: CV-artige Konfigurationseinträge mit Schlüssel und Wert, getrennt von der Funktionsmatrix.
   Ausführlich unter [Konfiguration](./decoder-konfiguration.md).
 
-## Funktionen
+## Neuen Decoder anlegen
 
-- Neue Decoder erfassen.
-- Decoder in der Detailansicht prüfen und in der Bearbeitungsansicht anpassen.
-- Einen Decoder mit genau einem Artikel verbinden.
-- Eine Verbindung zu einem Artikel wieder entfernen.
+In der [Decoder-Liste](./decoder-liste.md):
+
+- **Neuer Decoder** — Standard-Decoder.
+- Menü **Neuer Funktions-Decoder** — siehe [Nur Funktion](#nur-funktion).
+
+## Nur Funktion {#nur-funktion}
+
+Ein **Funktions-Decoder** (Kennzeichen **Nur Funktion**) steht für reine Zusatzfunktionen — z. B. Beleuchtung oder Sound — ohne eigenes angetriebenes Fahrzeug. Das Kennzeichen sehen Sie in Liste und Detailansicht.
+
+## Mit Artikel verknüpfen
+
+Ein Decoder kann mit **genau einem** [Artikel](../artikel/artikel.md) verbunden sein (Lok oder Wagen, in dem er eingebaut ist).
+
+- Beim **Anlegen** oder **Bearbeiten** wählen Sie den Artikel im Formular.
+- In der **Detailansicht** sehen Sie verknüpfte Artikel; von dort öffnen oder entfernen Sie die Verknüpfung, wo die App es erlaubt.
+- Umgekehrt zeigt der Artikel den zugehörigen Decoder.
 
 ## Gleiche Adresse
 
-Dieselbe Adresse kann mehrfach verwendet werden.
-Ist eine Adresse schon vergeben, erscheint ein klarer Hinweis, in der Detailansicht und bei der Bearbeitung auf dem Tab **Übersicht**.
-Damit bleibt sofort sichtbar, dass die Adresse bereits vorhanden ist.
+Dieselbe Adresse darf **mehrfach** vorkommen. Locobox warnt trotzdem, wenn eine Adresse schon vergeben ist — Speichern bleibt möglich. Ausführlich: [Decoder-Adressen](./decoder-adressen.md).
 
 ## Löschen
 

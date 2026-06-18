@@ -40,7 +40,7 @@ Legende: **ok** = Seite vorhanden, Inhalt prüfen · **stub** = Platzhalter ange
 | ------- | ----------- | ------ |
 | trains/list-and-search | `zuege/zuege.md` | ok |
 | trains/create-composition | `zuege/zuege-komposition.md` | ok |
-| decoders/* (12) | `decoder/*.md` | teils ok — 6 Stubs in Sidebar |
+| decoders/* (12) | `decoder/*.md` | ok (Rewrite) |
 
 ## 5 Berichte & Drucken (`drucken/`)
 

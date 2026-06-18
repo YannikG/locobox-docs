@@ -40,4 +40,35 @@ In jeder Zeile den Funktionstyp aus der Liste wählen und bei Bedarf ein eigenes
 
 Eine Zeile entfernen: dafür vorgesehene Aktion in der Zeile wählen und die Bestätigung in der App bestätigen, falls sie erscheint.
 
+## CSV importieren und exportieren
+
+Auf dem Tab **Funktionsmatrix** in der **Bearbeitung** finden Sie **CSV**:
+
+- **CSV exportieren** — lädt die aktuelle Matrix als Datei (Spalten: Funktionstaste, Funktionsart, optional Beschriftung). Für Gratis und Premium.
+- **CSV importieren** — Datei wählen, Spalten zuordnen, Vorschau prüfen, bestätigen. Ersetzt die **gesamte** Matrix im Entwurf; bei bereits befüllter Matrix fragt die App nach.
+
+Importierte Zeilen gelten erst nach **Speichern** in der Bearbeitungsansicht.
+
+## Eigene Voreinstellungen (Premium)
+
+**Als Voreinstellung speichern** gibt es in der **Detailansicht** (nicht während der Bearbeitung), Tab **Funktionsmatrix** — für die **zuletzt gespeicherte** Matrix. Sie vergeben einen Namen; Locobox legt eine persönliche Vorlage an.
+
+**Premium** nötig für:
+
+- Eigene Voreinstellungen speichern, umbenennen und löschen
+- Tab **Meine Voreinstellungen** im Dialog **Vorlage wählen**
+
+**Gratis:** Systemvorlagen und CSV; **Meine Voreinstellungen** führt zur Premium-Paywall.
+
+### Voreinstellungen verwalten
+
+Unter **Decoder** → **Funktionsmatrix-Voreinstellungen** (Menü) sehen Sie Ihre gespeicherten Vorlagen, Vorschau und — mit Premium — Umbenennen/Löschen. Gratis-Nutzer sehen die Liste, Änderungen erfordern Premium.
+
+## Systemvorlagen vs. eigene Vorlagen
+
+Im Dialog **Vorlage wählen**:
+
+- **Systemvorlagen** — von Locobox mitgeliefert, für alle Nutzer.
+- **Meine Voreinstellungen** — Ihre gespeicherten Matrizen (Premium zum Anwenden und Verwalten).
+
 Zurück zur Übersicht [Decoder](./decoder.md).
