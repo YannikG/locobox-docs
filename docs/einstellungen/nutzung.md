@@ -6,7 +6,7 @@ description: Aktueller Plan, Gratislimits, Premium und Status in den Einstellung
 
 # Nutzung
 
-Unter **Einstellungen** die Registerkarte **Nutzung** öffnen. Dort sehen Sie den **aktuellen Plan**, Kontingente im **Gratisplan** sowie Aktionen zu **Premium** und zum **Aktualisieren des Status**.
+Unter **Einstellungen** den Bereich **Premium** öffnen (Gruppe **Premium** in der Seitenleiste). Dort sehen Sie den **aktuellen Plan**, Kontingente im **Gratisplan** sowie Aktionen zum **Aktualisieren des Status**, **Jetzt abonnieren** und **Abo verwalten**.
 
 ## Überschrift und Status laden
 

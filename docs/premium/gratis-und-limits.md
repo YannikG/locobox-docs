@@ -6,7 +6,7 @@ description: Was im Gratisplan enthalten ist und wie die Kontingente in den Eins
 
 # Gratisplan und Limits
 
-Ohne bezahltes Premium gelten **Limits** pro Bereich: Artikel, Züge, Kategorien und Decoder. Sie sehen unter **Einstellungen → Nutzung** den Abschnitt **Nutzung nach Bereich** mit Balken und Zahlen (belegt / Limit).
+Ohne bezahltes Premium gelten **Limits** pro Bereich: Artikel, Züge, Kategorien und Decoder. Unter **Einstellungen → Premium** zeigt der Abschnitt **Nutzung nach Bereich** Balken und Zahlen (belegt / Limit).
 
 Wenn ein Limit erreicht ist, können Sie in diesem Bereich keine weiteren Einträge mehr anlegen, bis Sie welche löschen oder auf Premium wechseln.
 

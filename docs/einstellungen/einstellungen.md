@@ -1,22 +1,37 @@
 ---
 id: einstellungen
 title: Einstellungen
-description: Persönliche Einstellungen, Konto, Anzeige und Nutzung der App.
+description: Konto, Sprache, Premium, Sammlungsanzeige und Credits in der Einstellungsseite.
 ---
 
 # Einstellungen
 
-Im Menü erreichen Sie über **Einstellungen** eine Seite, auf der Sie Konto-Anzeigen, Darstellung der Oberfläche und Ihre **aktuellen Limits** sowie **Premium** im Blick behalten.
+Über **Einstellungen** im Menü gelangen Sie zu einer Seite mit **Seitenleiste** (Desktop) bzw. **Bereichsauswahl** (Mobile). Jeder Eintrag zeigt rechts den passenden Inhalt. Die App merkt sich den gewählten Bereich in der Adresszeile (`?tab=…`), sodass Lesezeichen und Zurück funktionieren.
 
-## Registerkarten in der Oberfläche
+## Bereiche in der Seitenleiste
 
-Die Einstellungsseite ist in **Registerkarten** strukturiert. Im Handbuch sind diese Bereiche beschrieben:
+| Gruppe | Eintrag in der App | Handbuch |
+| ------ | ------------------ | -------- |
+| **Konto** | Konto | [Konto](./konto.md) |
+| **Sprache und Design** | Sprache und Design | [Sprache](./sprache.md) |
+| **Premium** | Premium | [Nutzung und Abo](./nutzung.md) |
+| **Sammlung** | Anzeigewährung | [Währung](./waehrung.md) |
+| **Sammlung** | Artikelliste | [Anzeigeeinstellungen — Artikelliste](./anzeigeeinstellungen.md#artikelliste) |
+| **Sammlung** | Globale Suche | [Anzeigeeinstellungen — Globale Suche](./anzeigeeinstellungen.md#globale-suche) |
+| **Über** | Credits | Kurzinfos und Danksagungen (nur lesen) |
 
-- **[Konto](./konto.md)** — Hinweise zur Anmeldung und **Passwort zurücksetzen**, wo möglich.
-- **[Anzeigeeinstellungen](./anzeigeeinstellungen.md)** — Sprache (lokal auf Gerät oder Browser), **Artikel-Anzeige** und **Globale Suche**, jeweils in eigenen Fenstern.
-- **[Nutzung](./nutzung.md)** — Plan, Kontingente pro Bereich, **Status aktualisieren**, Hinweise beim **Premium** und Kurzinfos.
+Ausführlich zu Premium-Limits und Bezahlung: [Premium und Gratisplan](../premium/premium.md).
 
-## Limits
+## Desktop und Mobile
 
-Zu **Gratislimits**, **Premium** und den Bereichen Artikel, Züge, Kategorien und Decoder siehe **[Nutzung](./nutzung.md)**.
+**Desktop:** Links gruppierte Menüpunkte, rechts der Inhalt des aktiven Bereichs.
 
+**Mobile:** Unter der Überschrift **Einstellungen** wählen Sie zuerst die **Gruppe** (z. B. Sammlung), dann den konkreten Eintrag. Der Inhalt aktualisiert sich wie auf dem Desktop.
+
+## Ungespeicherte Änderungen
+
+Bearbeiten Sie **Artikelliste** oder **Globale Suche** und wechseln ohne **Speichern**, fragt die App, ob Sie die Änderungen verwerfen möchten. So gehen Spalten- oder Such-Einstellungen nicht versehentlich verloren.
+
+## Ersteinrichtung
+
+Neue Nutzer können dieselben Themen (Sprache, Währung, Spalten) auch im **Ersteinrichtungs-Assistenten** setzen. Start und erneuter Durchlauf stehen unter [Konto → Ersteinrichtung](./konto.md#ersteinrichtung).

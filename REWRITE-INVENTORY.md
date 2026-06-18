@@ -46,29 +46,29 @@ Legende: **ok** = Seite vorhanden, Inhalt prüfen · **stub** = Platzhalter ange
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| reporting/reports-hub | `drucken-uebersicht.md` | stub |
+| reporting/reports-hub | `drucken-uebersicht.md` | ok |
 | reporting/address-list | `adressliste.md` | ok |
 | reporting/qr-code-grid | `drucken-qr-code.md` | ok |
 | reporting/sales-list | `verkaufsliste.md` | stub |
-| reporting/collection-inventory-list | `sammlungsverzeichnis.md` | stub |
+| reporting/collection-inventory-list | `sammlungsverzeichnis.md` | ok |
 
 ## 6 Premium & Abrechnung (`premium/`)
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| settings/premium-usage | `premium/abonnement.md` + `einstellungen/nutzung.md` | stub + ok |
-| settings/credits | `premium/gratis-und-limits.md` | stub |
-| — | `premium/premium.md` | stub |
+| settings/premium-usage | `premium/abonnement.md` + `einstellungen/nutzung.md` | ok |
+| settings/credits | `premium/gratis-und-limits.md` | ok |
+| — | `premium/premium.md` | ok |
 
 ## 7 Einstellungen (`einstellungen/`)
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| settings/settings-navigation | `einstellungen.md` | ok |
-| settings/account | `konto.md` | ok |
-| settings/display-preferences | `anzeigeeinstellungen.md` | ok |
-| settings/display-language | `sprache.md` | stub |
-| settings/display-currency | `waehrung.md` | stub |
+| settings/settings-navigation | `einstellungen.md` | ok (Rewrite) |
+| settings/account | `konto.md` | ok (Rewrite) |
+| settings/display-preferences | `anzeigeeinstellungen.md` | ok (Rewrite) |
+| settings/display-language | `sprache.md` | ok |
+| settings/display-currency | `waehrung.md` | ok |
 
 ## 8 Papierkorb
 

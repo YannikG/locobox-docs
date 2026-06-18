@@ -1,45 +1,46 @@
 ---
 id: anzeigeeinstellungen
-title: Anzeigeeinstellungen
-description: Sprache, Artikel-Liste und globale Suche optisch einstellen.
+title: Sammlung — Artikelliste und Globale Suche
+description: Spalten der Artikelliste und Details in Suchtreffern anpassen.
 ---
 
-# Anzeigeeinstellungen
+# Sammlung — Artikelliste und Globale Suche
 
-Unter **Einstellungen** die Registerkarte **Anzeigeeinstellungen** wählen. Dort wird die **Darstellung** der App angepasst, ohne Ihre Daten (Artikel, Kategorien, Decoder usw.) zu ändern.
+Unter **Einstellungen** → Gruppe **Sammlung** passen Sie an, **wie** Ihre Daten erscheinen — ohne Artikel, Kategorien oder Decoder zu verändern.
 
-## Sprache
+Zwei Einträge gehören zusammen:
 
-**Sprache:** Über die Auswahl stellen Sie die gewünschte Sprache ein. Die App zeigt einen Hinweis, dass diese Einstellung **nur dieses Gerät und diesen Browser** betrifft und **nicht** in Ihr Nutzerkonto synchronisiert wird.
+- **Artikelliste** — Spalten in der [Artikel-Liste](../artikel/artikel-liste.md)
+- **Globale Suche** — Zusatzinfos auf den Treffer-Karten der [Globalen Suche](../generelles/globale-suche.md)
 
-## Artikel-Anzeige (eigenes Fenster)
+Sprache, Design und Währung: [Sprache und Design](./sprache.md), [Anzeigewährung](./waehrung.md).
 
-Die Schaltfläche **«Artikel Anzeige Einstellungen»** öffnet ein **Fenster** für dieselben Spaltenthemen wie in der **[Artikel Liste](../artikel/artikel-liste.md)**:
+## Artikelliste {#artikelliste}
 
-- Spalten **ein- oder ausblenden**
-- **Reihenfolge** ändern
-- mit **«Auf Standard zurücksetzen»** die wiederherstellen
+1. **Einstellungen** → **Sammlung** → **Artikelliste** öffnen.
+2. Spalten **ein- oder ausblenden** und die **Reihenfolge** per Drag-and-drop ändern.
+3. Mit **Auf Standard zurücksetzen** kehren Sie zur Werkseinstellung zurück.
+4. **Speichern** übernimmt die Einstellung für Ihr Konto.
 
-Einige Spalten bleiben zwingend sichtbar und stehen vorne; das entspricht dem Verhalten beim Anpassen der Liste aus der Artikelübersicht.
+Einige Spalten bleiben **immer sichtbar** und stehen vorne — wie beim Anpassen direkt aus der Artikelliste.
 
-**Speichern** übernimmt die Einstellungen. **Abbrechen** verwirft ungesicherte Änderungen beim Verlassen des Fensters.
+Nach dem Speichern sollte die [Artikel-Liste](../artikel/artikel-liste.md) dieselben Spalten zeigen.
 
-## Globale Suche (eigenes Fenster)
+## Globale Suche {#globale-suche}
 
-**«Globale Suche Anzeige Einstellungen»** steuert nur die **Treffer-Karten** in der **[Globale Suche](../generelles/globale-suche.md)**.
+1. **Einstellungen** → **Sammlung** → **Globale Suche** öffnen.
+2. Wählen Sie, welche **Artikeldetails** auf den Treffer-Karten erscheinen, z. B.:
+   - Kaufpreis, Kaufdatum
+   - Verkaufspreis, Verkaufsdatum
+   - **Verkauftes Badge** auf dem Artikelbild
+3. **Speichern**, **Auf Standard zurücksetzen** und Hinweise funktionieren wie bei der Artikelliste.
 
-Im Fenster gibt es einen kurzen erklärenden Text. Sie entscheiden pro Option, ob zusätzliche **Artikeldetails** in den Suchtreffern angezeigt werden:
+Testen Sie die Einstellung mit der [Globalen Suche](../generelles/globale-suche.md).
 
-- optional **Kaufpreis**, **Kaufdatum**, **Verkaufspreis**, **Verkaufsdatum** (wie in der Oberfläche benannt),
-- zusätzlich: **«Verkauftes Badge auf dem Artikelbild anzeigen»**, falls die App dieses Feld anzeigt.
+## Ungespeicherte Änderungen
 
-Auch hier gelten **Speichern**, **«Auf Standard zurücksetzen»** und **Abbrechen** wie oben beschrieben.
-
-## Wichtig zu wissen
-
-Dieser Bereich ändert nur **Darstellung und Such-Darstellung**, nicht bestehende Inhalte oder Verknüpfungen.
+Wechseln Sie den Bereich, **bevor** Sie speichern, erscheint ein Hinweis auf **ungespeicherte Änderungen**. Sie können abbrechen und weiter bearbeiten oder verwerfen.
 
 ## Limits
 
-Welche Mengenlimits unabhängig von der Ansicht gelten, steht unter **[Nutzung](./nutzung.md)**.
-
+Mengenlimits (Artikel, Züge, …) hängen nicht von der Ansicht ab. Siehe [Nutzung und Abo](./nutzung.md) bzw. [Gratisplan und Limits](../premium/gratis-und-limits.md).

@@ -10,7 +10,7 @@ Locobox können Sie **gratis** nutzen, mit sinnvollen Limits für Artikel, Züge
 
 ## Wo Sie Ihren Plan sehen
 
-Öffnen Sie **Einstellungen** und die Registerkarte **Nutzung**. Dort stehen Ihr aktueller Plan, die belegten Kontingente im Gratisplan und Aktionen wie **Jetzt abonnieren** oder **Abo verwalten**.
+Öffnen Sie **Einstellungen** und den Bereich **Premium**. Dort stehen Ihr aktueller Plan, die belegten Kontingente im Gratisplan und Aktionen wie **Jetzt abonnieren** oder **Abo verwalten**.
 
 Ausführliche Schritt-für-Schritt-Erklärung: [Nutzung in den Einstellungen](../einstellungen/nutzung.md).
 

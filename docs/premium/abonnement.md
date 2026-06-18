@@ -8,7 +8,7 @@ description: Premium buchen, Abo verwalten und Status nach der Zahlung aktualisi
 
 ## Premium buchen
 
-1. **Einstellungen** öffnen und **Nutzung** wählen.
+1. **Einstellungen** öffnen und **Premium** wählen.
 2. Im Bereich **Upgrade verfügbar** auf **Jetzt abonnieren** tippen.
 3. Den Bezahl-Schritt im Browser abschliessen.
 4. Zurück in Locobox **Status aktualisieren**, bis **Premium** angezeigt wird.
