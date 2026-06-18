@@ -9,7 +9,7 @@ Legende: **ok** = Seite vorhanden, Inhalt prüfen · **stub** = Platzhalter ange
 
 | Journey (locobox2) | Nutzerseite | Status |
 | ------------------ | ----------- | ------ |
-| platform/sign-in | `generelles-anmelden.md` | stub |
+| platform/sign-in | `generelles-anmelden.md` | ok |
 | platform/initial-setup | in `generelles-erste-schritte.md` einbauen | ok |
 | search/global-search | `globale-suche.md` | ok |
 | — | `generelles-browser-kompatibilitaet.md` | ok |
@@ -29,8 +29,8 @@ Legende: **ok** = Seite vorhanden, Inhalt prüfen · **stub** = Platzhalter ange
 | articles/create-article, edit-article | `artikel-bearbeiten.md` | ok |
 | articles/csv-import | `artikel-csv-import.md` | ok |
 | articles/bulk-edit | `artikel-massenbearbeitung.md` | ok |
-| articles/clone-article | `artikel-duplizieren.md` | stub |
-| articles/image-upload | `artikel-bilder.md` | stub |
+| articles/clone-article | `artikel-duplizieren.md` | ok |
+| articles/image-upload | `artikel-bilder.md` | ok |
 | articles/soft-delete-restore, delete-guards | Papierkorb + Artikel-Abschnitt | ok |
 | categories/* | `kategorien/kategorien.md` | ok (Rewrite) |
 
@@ -49,7 +49,7 @@ Legende: **ok** = Seite vorhanden, Inhalt prüfen · **stub** = Platzhalter ange
 | reporting/reports-hub | `drucken-uebersicht.md` | ok |
 | reporting/address-list | `adressliste.md` | ok |
 | reporting/qr-code-grid | `drucken-qr-code.md` | ok |
-| reporting/sales-list | `verkaufsliste.md` | stub |
+| reporting/sales-list | `verkaufsliste.md` | ok |
 | reporting/collection-inventory-list | `sammlungsverzeichnis.md` | ok |
 
 ## 6 Premium & Abrechnung (`premium/`)
