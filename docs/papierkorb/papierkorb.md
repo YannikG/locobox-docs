@@ -19,6 +19,8 @@ So können Sie versehentliches Löschen rückgängig machen, solange die Aufbewa
 
 ## Aufbau der Seite
 
+{/* SCREENSHOT_TODO /img/handbuch/papierkorb/papierkorb-register.png : Papierkorb mit den vier Registern und dem roten Badge (Gesamtzahl) am Menüeintrag */}
+
 Der Papierkorb ist in **vier Register** unterteilt:
 
 1. **Artikel**

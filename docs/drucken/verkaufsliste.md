@@ -17,6 +17,8 @@ Die Verkaufsliste gehört zu den Premium-Funktionen. Ohne Premium zeigt die Kart
 
 Über **Drucken** → **Verkaufsliste** öffnet sich ein Assistent mit vier Schritten:
 
+{/* SCREENSHOT_TODO /img/handbuch/drucken/verkaufsliste-assistent.png : Assistent der Verkaufsliste mit sichtbarer Schrittleiste (Artikel wählen, Preise, Spalten, Vorschau) */}
+
 1. **Artikel wählen**: markieren Sie die Einträge; oben sehen Sie, wie viele passenden Artikel ausgewählt sind. Die Treffer lassen sich über Filter und [Labels](../artikel/artikel-labels.md) eingrenzen.
 2. **Preise**: legen Sie je Artikel den **Verkaufspreis** fest.
 3. **Spalten**: öffnen Sie bei Bedarf **Export-Spalten**. Artikel und Verkaufspreis sind für den Export erforderlich; das Bild ist optional. Weitere Spalten wie **Zustand** können Sie dazuwählen und die Reihenfolge festlegen.

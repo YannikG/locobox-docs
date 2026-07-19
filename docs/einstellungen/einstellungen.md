@@ -22,6 +22,8 @@ description: Konto, Sprache, Premium, Sammlungsanzeige und Credits in der Einste
 
 Labels verwalten Sie nicht hier, sondern unter **Sammlung** → **Labels** im Hauptmenü.
 
+{/* SCREENSHOT_TODO /img/handbuch/einstellungen/einstellungen-seitenleiste.png : Einstellungs-Seitenleiste mit den Gruppen Konto, Sprache und Design, Premium, Sammlung und Über */}
+
 Ausführlich zu Premium-Limits und Bezahlung: [Premium und Gratisplan](../premium/premium.md).
 
 ## Desktop und Mobile

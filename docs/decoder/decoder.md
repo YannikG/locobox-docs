@@ -26,6 +26,8 @@ Oben stehen **Zurück**, **Bearbeiten** und **Löschen**. Ohne Wechsel in die Be
 
 ## Bearbeitungsansicht
 
+{/* SCREENSHOT_TODO /img/handbuch/decoder/decoder-bearbeitung.png : Bearbeitungsansicht mit den Registern «Übersicht», «Funktionsmatrix» und «Konfiguration», Fehlersymbol am Register hervorheben */}
+
 Die Bearbeitungsansicht ist der Arbeitsplatz für Änderungen. Oben stehen **Zurück**, **Abbrechen** und **Speichern**.
 
 - **Abbrechen** führt zurück zur Decoder-Ansicht, ohne die Änderungen dieses Durchgangs zu speichern.

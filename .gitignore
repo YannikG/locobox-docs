@@ -108,6 +108,9 @@ dist
 .docusaurus
 /build
 
+# Graphify generated knowledge graph
+/graphify-out/
+
 # Serverless directories
 .serverless/
 

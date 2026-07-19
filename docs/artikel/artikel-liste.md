@@ -18,6 +18,8 @@ Kurzüberblick zum Bereich: [Artikel](artikel.md). Zum Erfassen oder Ändern ein
 
 ## Toolbar
 
+{/* SCREENSHOT_TODO /img/handbuch/artikel/artikelliste.png : Artikelliste mit Toolbar und aufgeklapptem Filterbereich */}
+
 - **Zurück** kehrt zur vorherigen Stelle im Browser-Verlauf zurück.
 - **Ansichtseinstellungen** öffnet ein Fenster mit den Bereichen **Verfügbar** und **Ausgewählt**, in dem Sie Spalten wählen, suchen und in der Reihenfolge anpassen können. Dort speichern Sie Ihre Liste mit **Speichern**, setzen auf **Auf Standard zurücksetzen** oder brechen mit **Abbrechen** ab. Die Beschreibung im Dialog lautet wörtlich: «Wählen Sie die sichtbaren Spalten und legen Sie deren Reihenfolge fest.»
 - **Neu** öffnet das Formular für einen neuen Artikel (siehe [Artikel bearbeiten](artikel-bearbeiten.md)).

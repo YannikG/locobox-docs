@@ -22,6 +22,8 @@ Unterstützte Wege:
 
 Nach erfolgreicher Anmeldung landen Sie in der App, meist auf der [Übersicht](../uebersicht/uebersicht.md). Hatten Sie vorher eine bestimmte Seite geöffnet (z. B. einen Import-Link), kann Locobox Sie dorthin zurückführen.
 
+{/* SCREENSHOT_TODO /img/handbuch/generelles/anmeldebildschirm.png : Anmeldebildschirm mit den Wegen E-Mail und Passwort sowie Google und der Aktion «Passwort vergessen» */}
+
 ## Erster Besuch
 
 Beim ersten Login kann die Karte **Locobox anpassen** erscheinen. Mit **Einrichtung starten** öffnen Sie die **Ersteinrichtung**, mit **Später** blenden Sie den Hinweis aus. Schritte und erneuter Start: [Konto → Ersteinrichtung](../einstellungen/konto.md#ersteinrichtung). Kurzüberblick: [Erste Schritte](generelles-erste-schritte.md).
