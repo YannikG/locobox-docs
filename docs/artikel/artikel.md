@@ -10,7 +10,7 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 Im Bereich **Artikel** unter **Sammlung** lassen sich alle Einträge der Sammlung an einem Ort verwalten.
 Neue Artikel können erfasst, bestehende Einträge bearbeitet und bei Bedarf dupliziert werden.
-Mehrere neue Artikel lassen sich aus einer Tabelle über den [Artikel per CSV importieren](artikel-csv-import.md) anlegen.
+Mehrere neue Artikel lassen sich über den [CSV-Import](artikel-csv-import.md) anlegen.
 
 <LimitsPlanNote />
 

@@ -8,7 +8,7 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Kategorien
 
-Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) nach Themen ordnen. So bleiben Inhalte schneller auffindbar und der Überblick erhalten.
+Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) nach Themen ordnen.
 
 **Wo:** Hauptmenü **Sammlung** → **Kategorien**.
 

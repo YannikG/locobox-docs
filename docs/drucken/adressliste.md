@@ -7,7 +7,7 @@ description: PDF-Liste mit Bild, Artikelangaben und allen Decoder-Adressen je Ar
 
 # Adressliste drucken
 
-Die **Adressliste** ist ein druckfertiges PDF: pro ausgewähltem Artikel erscheinen Bild (falls vorhanden), die wichtigsten Artikelangaben sowie alle zugeordneten Decoder-Adressen. Damit eignet sich die Liste zum Ausdrucken, zum Mitnehmen zur Anlage oder zur Übergabe, ohne die Daten einzeln aus den Artikeldetails zusammensuchen zu müssen.
+Die **Adressliste** ist ein druckfertiges PDF: pro ausgewähltem Artikel erscheinen Bild (falls vorhanden), die wichtigsten Artikelangaben sowie alle zugeordneten Decoder-Adressen. So haben Sie die Adressen auf der Anlage ohne Umweg über die Artikeldetails.
 
 In der App lautet die Kartenbeschreibung: PDF mit Bild, Artikelangaben und allen Decoder-Adressen pro Artikel.
 

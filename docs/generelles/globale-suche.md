@@ -57,5 +57,3 @@ Artikelkarten können ein Vorschaubild und, je nach Ihren Anzeigeeinstellungen, 
 
 - **Pfeil ab** / **Pfeil auf:** Treffer markieren. Direkt nach dem Öffnen ist **kein** Treffer vorausgewählt; die Markierung erscheint, sobald Sie die Pfeiltasten nutzen oder einen Treffer fokussieren.
 - **Enter:** öffnet den **markierten** Treffer. Ist keiner markiert, wird der **erste** Treffer geöffnet.
-
-So sparen Sie in grossen Beständen Zeit, weil Sie ohne Umwege zum gewünschten Eintrag springen.

@@ -24,7 +24,7 @@ Nach erfolgreicher Anmeldung landen Sie in der App, meist auf der [Übersicht](.
 
 ## Erster Besuch
 
-Beim ersten Login kann die Karte **Locobox anpassen** erscheinen. Mit **Einrichtung starten** öffnen Sie die **Ersteinrichtung** (Schritte **Sprache**, **Währung**, **Artikeltabelle**, **Premium**). Mit **Später** blenden Sie den Hinweis aus. Sie können die Ersteinrichtung auch später unter [Einstellungen → Konto](../einstellungen/konto.md#ersteinrichtung) erneut starten. Kurzüberblick: [Erste Schritte](generelles-erste-schritte.md).
+Beim ersten Login kann die Karte **Locobox anpassen** erscheinen. Mit **Einrichtung starten** öffnen Sie die **Ersteinrichtung**, mit **Später** blenden Sie den Hinweis aus. Schritte und erneuter Start: [Konto → Ersteinrichtung](../einstellungen/konto.md#ersteinrichtung). Kurzüberblick: [Erste Schritte](generelles-erste-schritte.md).
 
 ## Abmelden
 

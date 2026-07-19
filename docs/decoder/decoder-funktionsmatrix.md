@@ -57,7 +57,7 @@ Importierte Zeilen gelten erst nach **Speichern** in der Bearbeitungsansicht.
 
 ## Eigene Voreinstellungen (Premium)
 
-**Als Voreinstellung speichern** gibt es in der Detailansicht (nicht während der Bearbeitung), Register **Funktionsmatrix**, für die zuletzt gespeicherte Matrix. Sie vergeben einen **Name**; Locobox legt eine persönliche Vorlage an.
+**Als Voreinstellung speichern** gibt es in der Detailansicht (nicht während der Bearbeitung), Register **Funktionsmatrix**, für die zuletzt gespeicherte Matrix. Sie vergeben einen **Namen**; Locobox legt eine persönliche Vorlage an.
 
 **Premium** nötig für:
 

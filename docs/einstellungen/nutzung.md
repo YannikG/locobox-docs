@@ -20,44 +20,23 @@ Die Karte **Aktueller Plan** fasst den Stand zusammen:
 - **Gratis**, mit dem Hinweis: Erstellungen sind durch die Gratis-Limits begrenzt.
 - oder **Premium**, mit dem Hinweis: Alle Premium-Funktionen sind aktuell aktiv.
 
+Liegen Daten vor, sehen Sie unter den Premium-Hinweisen z. B. den Satz, dass Ihr Premium vom angegebenen Datum bis zum Enddatum gültig ist, oder nur bis zu einem Enddatum.
+
 ## Kulanzzeit nach Auslaufen von Premium
 
 Läuft ein Abo aus, kann eine **Premium Kulanzfrist** angezeigt werden (3 Tage). In diesem Fall erscheint **Jetzt erneuern**, das wieder zu einem bezahlten Zugang führt.
 
 ## Upgrade und Abo-Verwaltung
 
-Ohne aktives Premium (oder in der Kulanzfrist):
+Ohne aktives Premium (oder in der Kulanzfrist) erscheint der Bereich **Upgrade verfügbar**. Mit Premium erscheint die Karte **Vielen Dank für Ihre Unterstützung von Locobox!** sowie, wenn hinterlegt, **Abo verwalten**.
 
-- Bereich **Upgrade verfügbar** mit der Erklärung: Abonnieren Sie, um unbegrenzte Einträge und erweiterte Funktionen freizuschalten.
-- **Jetzt abonnieren** startet den Bezahl-Abschluss im Browser. Der sichere Checkout wird über Stripe abgewickelt.
-
-Mit Premium:
-
-- Die Karte **Vielen Dank für Ihre Unterstützung von Locobox!** mit dem Hinweis, dass Ihr Premium-Plan aktiv ist.
-- Wenn Ihr Nutzerprofil bereits für die Abwicklung hinterlegt ist, gibt es **Abo verwalten**. Das öffnet den externen Kundenbereich, in dem Sie Laufzeit, Zahlweise oder Kündigung prüfen.
-
-Nach einem gelungenen Abschluss kann die App vorübergehend **Premium aktiviert!** einblenden.
-
-## Gültigkeitszeitraum Premium
-
-Liegen Daten vor, sehen Sie unter den Premium-Hinweisen z. B. den Satz, dass Ihr Premium vom angegebenen Datum bis zum Enddatum gültig ist, oder nur bis zu einem Enddatum.
+Wie Sie Premium buchen, den Status nach der Zahlung aktualisieren und das Abo verwalten: [Abonnement abschliessen und verwalten](../premium/abonnement.md).
 
 ## Kontingente im Gratisplan
 
-Ohne aktives Premium finden Sie:
+Ohne Premium zeigt die Seite **Im Gratisplan enthalten** und den Abschnitt **Nutzung nach Bereich** (Balken und Zahlen pro Kategorie). Mit Premium ersetzt die App das durch **Keine Limiten im Premium-Plan**.
 
-- den Hinweis **Im Gratisplan enthalten**,
-- dann den Abschnitt **Nutzung nach Bereich** mit Balken und Zahlen je Kategorie:
-
-  - **Artikel**
-  - **Züge**
-  - **Artikelsets**
-  - **Kategorien**
-  - **Decoder**
-
-Pro Zeile zeigt die App belegt und Limit (Prozent und Verhältnis). Farben markieren, ob noch Kapazität frei ist oder das Limit erreicht ist.
-
-Mit Premium ersetzt die App diese Aufschlüsselung durch **Keine Limiten im Premium-Plan**: Ihr Premium-Plan ist aktiv. Sie können ohne Gratisplan-Limits arbeiten.
+Was die Limits bedeuten und was passiert, wenn eines erreicht ist: [Gratisplan und Limits](../premium/gratis-und-limits.md).
 
 ## FAQ
 

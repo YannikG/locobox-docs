@@ -12,7 +12,7 @@ Zu jedem Artikel können Sie **Fotos** speichern, zum Beispiel Vorder- und Rück
 ## Bilder hinzufügen
 
 1. Artikel [bearbeiten](artikel-bearbeiten.md) oder neu anlegen.
-2. Im Bereich **Bilder** Dateien wählen (übliche Formate wie JPEG, PNG oder GIF).
+2. Im Bereich **Bilder** Dateien wählen (übliche Formate wie JPEG, PNG, GIF oder WebP).
 3. Artikel **speichern**, wenn die Oberfläche das verlangt.
 
 Neu ausgewählte Bilder werden erst **beim Speichern des Artikels** hochgeladen. In der [Detailansicht](artikel-detailansicht.md) erscheinen die Bilder als Vorschau, sobald sie hinterlegt sind.
