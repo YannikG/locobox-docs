@@ -15,7 +15,7 @@ Speichern: Änderungen gelten erst nach **Speichern** in der Bearbeitungsansicht
 
 Ist die Matrix leer, öffnet die App beim ersten Wechsel auf dieses Register automatisch den Dialog **Funktionsvorlage wählen** (einmal pro Decoder und Sitzung). Sie können den Dialog schliessen und später erneut **Vorlage wählen** nutzen.
 
-{/* SCREENSHOT_TODO /img/handbuch/decoder/funktionsmatrix.png : Funktionsmatrix-Tabelle mit Funktionstasten (F0, F1 ...), Funktionsart und Beschriftung */}
+![Funktionsmatrix-Tabelle mit Funktionstasten (F0, F1 ...), Funktionsart und Beschriftung](/img/handbuch/decoder/funktionsmatrix.webp)
 
 ## Vorlage aus dem Dialog übernehmen
 

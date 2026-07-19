@@ -18,7 +18,7 @@ Kurzüberblick zum Bereich: [Artikel](artikel.md). Zum Erfassen oder Ändern ein
 
 ## Toolbar
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/artikelliste.png : Artikelliste mit Toolbar und aufgeklapptem Filterbereich */}
+![Artikelliste mit Toolbar und aufgeklapptem Filterbereich](/img/handbuch/artikel/artikelliste.webp)
 
 - **Zurück** kehrt zur vorherigen Stelle im Browser-Verlauf zurück.
 - **Ansichtseinstellungen** öffnet ein Fenster mit den Bereichen **Verfügbar** und **Ausgewählt**, in dem Sie Spalten wählen, suchen und in der Reihenfolge anpassen können. Dort speichern Sie Ihre Liste mit **Speichern**, setzen auf **Auf Standard zurücksetzen** oder brechen mit **Abbrechen** ab. Die Beschreibung im Dialog lautet wörtlich: «Wählen Sie die sichtbaren Spalten und legen Sie deren Reihenfolge fest.»

@@ -17,7 +17,7 @@ So gelingt der Start mit Locobox:
 
 Auf der Übersicht und über die Hauptnavigation (**Sammlung**, **Züge**, **Drucken**) können Sie direkt mit der Verwaltung der Sammlung starten.
 
-{/* SCREENSHOT_TODO /img/handbuch/generelles/erste-schritte-locobox-anpassen.png : Karte «Locobox anpassen» und der Assistent mit den Schritten Sprache, Währung, Artikeltabelle und Premium */}
+![Karte «Locobox anpassen» und der Assistent mit den Schritten Sprache, Währung, Artikeltabelle und Premium](/img/handbuch/generelles/erste-schritte-locobox-anpassen.webp)
 
 ## Schreibweisen in diesem Handbuch
 

@@ -17,6 +17,8 @@ Adressvorschläge erscheinen erst, wenn Sie ein **Protokoll** gewählt haben (zu
 
 Nach der Protokollwahl zeigt das Formular **Vorgeschlagene freie Adressen**, bis zu fünf Buttons mit freien Adressen im gültigen Bereich.
 
+![Adressfeld mit gewähltem Protokoll, vorgeschlagenen freien Adressen und einem Verfügbarkeits- oder Warnhinweis](/img/handbuch/decoder/decoder-adressen.webp)
+
 - Tippen Sie einen Vorschlag an, dann wird das Adressfeld ausgefüllt.
 - Bei einer freien Adresse erscheint der Hinweis **Diese Adresse ist verfügbar.**
 

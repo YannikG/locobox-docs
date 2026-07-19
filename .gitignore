@@ -111,6 +111,9 @@ dist
 # Graphify generated knowledge graph
 /graphify-out/
 
+# Local agent / tooling scratch
+.pi/
+
 # Serverless directories
 .serverless/
 

@@ -24,6 +24,8 @@ Die Konfiguration bearbeiten Sie im Decoder unter **Bearbeiten**, Register **Kon
 
 **Eintrag hinzufügen** öffnet den Dialog **Konfigurationseintrag hinzufügen**. **Schlüssel** und **CV-Wert** eintragen (Wert als ganze Zahl von 0 bis 255) und mit **Speichern** bestätigen.
 
+![Register «Konfiguration» mit CV-Tabelle und geöffnetem Dialog «Konfigurationseintrag hinzufügen»](/img/handbuch/decoder/decoder-konfiguration.webp)
+
 Im Dialog erscheint der Wert zugleich als Bitfolge (**Dualzahl (Bitfolge)**). Einzelne Bits lassen sich dort anpassen; der Zahlenwert folgt mit.
 
 ## Eintrag ändern
@@ -38,6 +40,8 @@ Für die Zeile **Löschen** wählen. Die App fragt mit **Eintrag entfernen** nac
 - Fehlender Schlüssel: **Bitte einen Schlüssel eingeben.** Speichern ist bis zur Korrektur nicht möglich.
 
 ## Bit-Ansicht in der Detailansicht
+
+![Bit-Ansicht eines gespeicherten CV-Werts mit den einzelnen Bits](/img/handbuch/decoder/decoder-bitansicht.webp)
 
 In der Detailansicht, Register **Konfiguration**, können Sie pro Eintrag die Bitansicht öffnen (Hinweis **CV-Wert als Bits anzeigen.**). Die Ansicht zeigt den gespeicherten Wert als einzelne Bits.
 

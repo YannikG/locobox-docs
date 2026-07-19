@@ -18,6 +18,8 @@ Auf dieser Seite verwalten Sie Ihre **eigenen** Funktionsmatrix-Vorlagen. Eine V
 
 ## Liste Ihrer Voreinstellungen
 
+![Liste der Funktionsmatrix-Voreinstellungen mit Vorschau, Umbenennen und Löschen](/img/handbuch/decoder/decoder-voreinstellungen.webp)
+
 Die Seite zeigt Ihre gespeicherten Voreinstellungen mit den Spalten **Name** und **Erstellt am** sowie einer Spalte **Aktionen**. Die Liste ist nach Name sortiert und seitenweise durchblätterbar.
 
 Haben Sie noch keine gespeichert, erscheint der Hinweis «Sie haben noch keine Funktionsmatrix-Voreinstellungen gespeichert.».

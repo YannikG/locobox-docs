@@ -26,7 +26,7 @@ Nach einem Wechsel von Premium zurück in den Gratisplan bleiben Ihre Labels und
 
 ## Label-Liste
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/labels-liste.png : Labels-Seite mit den Spalten «Label» und «Artikel»; zusätzlich die farbigen Label-Chips am Artikel */}
+![Labels-Seite mit den Spalten «Label» und «Artikel» sowie geöffnetem Dialog zum Anlegen eines Labels](/img/handbuch/artikel/labels-liste.webp)
 
 Die Seite **Labels** zeigt alle Ihre Labels in einer Tabelle:
 

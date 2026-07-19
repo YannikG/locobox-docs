@@ -11,6 +11,8 @@ Unter **Decoder** im Menü sehen Sie alle aktiven Decoder in einer Tabelle. Von 
 
 ## Tabelle
 
+![Decoder-Liste mit Filterpanel, Spalten und einer hervorgehobenen mehrfach verwendeten Adresse](/img/handbuch/decoder/decoder-liste.webp)
+
 Spalten: **Hersteller**, **Modell**, **Protokoll**, **Adresse**, **Nur Funktion**, **Verknüpfter Artikel**, **Zuletzt aktualisiert** und **Aktionen**. Spaltenköpfe lassen sich sortieren; über das Filterpanel grenzen Sie die Liste ein (wie bei Artikeln).
 
 - Zeile öffnen: Die Aktion **Ansehen** (Augensymbol) öffnet die [Decoder-Detailansicht](./decoder.md#detailansicht).

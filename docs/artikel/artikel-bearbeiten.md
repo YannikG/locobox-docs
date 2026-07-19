@@ -35,7 +35,7 @@ Kann die Seite aus einem externen Import oder der Community vorbefüllt worden s
 
 ## Abschnitte des Formulars (Reihenfolge)
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/artikel-formular.png : Artikelformular mit den Abschnitten Allgemein, Kategorien, Decoder, Finanzen, Lager und Bilder */}
+![Artikelformular mit den Abschnitten Allgemein, Kategorien, Decoder, Finanzen, Lager und Bilder](/img/handbuch/artikel/artikel-formular.webp)
 
 Die Bereiche entsprechen den Panel-Überschriften in der Anwendung:
 

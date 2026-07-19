@@ -15,7 +15,7 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 Die Oberfläche führt Sie in vier Schritten: **Datei**, **Zuordnung**, **Vorschau** und **Ausführen**. Unten können Sie das Fenster über **Schliessen** beenden oder mit **Vorschau erstellen** und **Import starten** fortfahren.
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/csv-import.png : CSV-Import-Assistent (Datei, Zuordnung mit beiden Registern, Vorschau-Tabelle, Ausführen) */}
+![CSV-Import-Assistent (Datei, Zuordnung mit beiden Registern, Vorschau-Tabelle, Ausführen)](/img/handbuch/artikel/csv-import.webp)
 
 <LimitsPlanNote />
 

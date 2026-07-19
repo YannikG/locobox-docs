@@ -32,7 +32,7 @@ Die Liste zeigt alle Ihre aktiven Artikelsets. Über die Zeilenaktionen wählen 
 3. Auf den Registern **Finanzen** und **Lager** bei Bedarf Werte ergänzen.
 4. **Speichern**.
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/artikelset-formular.png : Set-Formular mit den Registern «Allgemein», «Finanzen» und «Lager»; bei Bedarf der Neuberechnungs-Dialog */}
+![Set-Formular mit den Registern «Allgemein», «Finanzen» und «Lager»; bei Bedarf der Neuberechnungs-Dialog](/img/handbuch/artikel/artikelset-formular.webp)
 
 Das Erfassungsformular ist in die Register **Allgemein**, **Finanzen** und **Lager** gegliedert. Enthält ein Register ungültige Eingaben, kennzeichnet die App das betroffene Register mit einem Fehlersymbol; beim Klick auf **Speichern** wechselt die Ansicht automatisch zum ersten Register mit Fehlern.
 

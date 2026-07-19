@@ -27,8 +27,6 @@ Der Einleitungstext auf der Optionsseite lautet: Alle nicht verkauften Artikel w
 
 ### Deckblatt
 
-{/* SCREENSHOT_TODO /img/handbuch/drucken/bestandsliste-deckblatt.png : Optionsseite mit Deckblatt-Feldern und ein Beispiel-Deckblatt des PDF */}
-
 Unter **Optionen** können Sie angeben:
 
 - **Name auf dem Deckblatt** (auf dem PDF als **Sammler**)

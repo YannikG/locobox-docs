@@ -17,7 +17,7 @@ Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) nach Themen ordn
 
 ## Liste
 
-{/* SCREENSHOT_TODO /img/handbuch/kategorien/kategorien-liste.png : Kategorien-Liste mit den Spalten und der Dialog «Neu Kategorien» */}
+![Kategorien-Liste mit den Spalten und dem Dialog «Neu Kategorien»](/img/handbuch/kategorien/kategorien-liste.webp)
 
 Die Seite zeigt alle aktiven Kategorien in einer Tabelle mit den Spalten:
 

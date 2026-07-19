@@ -34,8 +34,6 @@ Wie Sie Premium buchen, den Status nach der Zahlung aktualisieren und das Abo ve
 
 ## Kontingente im Gratisplan
 
-{/* SCREENSHOT_TODO /img/handbuch/einstellungen/nutzung-premium.png : Premium-Seite mit «Aktueller Plan» und «Nutzung nach Bereich» (Balken pro Kategorie) */}
-
 Ohne Premium zeigt die Seite **Im Gratisplan enthalten** und den Abschnitt **Nutzung nach Bereich** (Balken und Zahlen pro Kategorie). Mit Premium ersetzt die App das durch **Keine Limiten im Premium-Plan**.
 
 Was die Limits bedeuten und was passiert, wenn eines erreicht ist: [Gratisplan und Limits](../premium/gratis-und-limits.md).

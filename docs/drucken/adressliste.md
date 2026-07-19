@@ -15,7 +15,7 @@ In der App lautet die Kartenbeschreibung: PDF mit Bild, Artikelangaben und allen
 
 Die Seite öffnen Sie über **Drucken** → **Adressliste**. Sie hat eine eigene Artikeltabelle mit Filtern.
 
-{/* SCREENSHOT_TODO /img/handbuch/drucken/adressliste-auswahl.png : Auswahlseite der Adressliste mit Artikeltabelle und markierten Zeilen */}
+![Auswahlseite der Adressliste mit Artikeltabelle und markierten Zeilen](/img/handbuch/drucken/adressliste-auswahl.webp)
 
 1. Mit den Filtern die gewünschte Teilmenge eingrenzen. Standardmässig sind nicht verkaufte Artikel vorausgewählt; die Filter lassen sich anpassen (unter anderem die Spalte **Verkauft**). Mit Premium können Sie die Treffer zusätzlich über [Labels](../artikel/artikel-labels.md) eingrenzen.
 2. In der Tabelle eine oder mehrere Zeilen auswählen. Über die Kopfzeilen-Auswahl können Sie alle gemäss aktuellem Filter passenden Artikel auswählen, nicht nur die aktuelle Seite.
@@ -27,8 +27,6 @@ Ohne mindestens einen ausgewählten Artikel weist die App mit **Wählen Sie mind
 **Zurück** führt zur vorherigen Ansicht; oft ist das die Übersicht unter **Drucken**.
 
 ## PDF-Inhalt
-
-{/* SCREENSHOT_TODO /img/handbuch/drucken/adressliste-pdf.png : Beispiel-PDF der Adressliste mit den Spalten «Bild», «Artikel» und «Adresse(n)» */}
 
 Das PDF ist hochkant formatiert und enthält eine Tabelle mit den Spalten **Bild**, **Artikel** und **Adresse(n)**. Decoder ohne gültige Adresse werden im Dokument leer oder mit einem Platzhalter dargestellt, soweit zutreffend.
 

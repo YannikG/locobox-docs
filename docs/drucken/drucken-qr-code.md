@@ -24,7 +24,7 @@ Die Seite öffnen Sie über **Drucken** → **QR Code Raster**. Dort wählen Sie
 
 ## PDF-Einstellungen
 
-{/* SCREENSHOT_TODO /img/handbuch/drucken/qr-einstellungen.png : Einstellungen mit «Inhalt auf dem Etikett» und «QR Code Grösse» */}
+![Einstellungen mit «Inhalt auf dem Etikett» und «QR Code Grösse»](/img/handbuch/drucken/qr-einstellungen.webp)
 
 Unter **Einstellungen** legen Sie fest:
 
@@ -34,8 +34,6 @@ Unter **Einstellungen** legen Sie fest:
 - **QR Code Grösse**: Kantenlänge des Symbols in Zentimeter (Bereich und Schrittweite sind auf der Seite beschriftet). Damit lässt sich zwischen kompakterem Raster oder besserer Lesbarkeit beim Scannen wählen.
 
 ## PDF erzeugen und nutzen
-
-{/* SCREENSHOT_TODO /img/handbuch/drucken/qr-raster-pdf.png : Beispiel-PDF mit dem QR-Code-Raster */}
 
 Die Schaltfläche **PDF erzeugen** erstellt die Datei aus der aktuellen Auswahl und den eingestellten Optionen; anschliessend wird die Datei auf das Gerät heruntergeladen. Der Vorgang lässt sich bei Bedarf nach geänderter Auswahl oder Grösse wiederholen. Jeder QR-Code verknüpft den jeweiligen Artikel dieser Sammlung, sodass beim Scannen mit einem geeigneten Gerät der passende Eintrag geöffnet werden kann.
 

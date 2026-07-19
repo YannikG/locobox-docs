@@ -11,7 +11,7 @@ Die **Globale Suche** öffnet einen zentralen Suchdialog. Sie durchsucht Ihre [A
 
 Im Dialog entspricht der Platzhalter im Eingabefeld dem Text: «Suche über Artikel, Kategorien, Decoder und Züge...».
 
-{/* SCREENSHOT_TODO /img/handbuch/generelles/globale-suche.png : Geöffneter Suchdialog mit Eingabefeld und gemischter Trefferliste */}
+![Geöffneter Suchdialog mit Eingabefeld und gemischter Trefferliste](/img/handbuch/generelles/globale-suche.webp)
 
 ## So öffnen und schliessen Sie die Suche
 

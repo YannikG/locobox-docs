@@ -14,7 +14,7 @@ Nach dem [Anmelden](../generelles/generelles-anmelden.md) landen Sie auf der **�
 
 ## Registerkarte «Übersicht»
 
-{/* SCREENSHOT_TODO /img/handbuch/uebersicht/dashboard-uebersicht.png : Register «Übersicht» mit den drei Kennzahlenkarten und der Liste «Neueste Artikel» */}
+![Register «Übersicht» mit den drei Kennzahlenkarten und der Liste «Neueste Artikel»](/img/handbuch/uebersicht/dashboard-uebersicht.webp)
 
 - Drei Kennzahlenkarten: **Artikel im Bestand**, **Bahngesellschaften** und **Länder**.
 - Darunter die Liste **Neueste Artikel** (Tabelle am Desktop, Karten auf dem Handy). Tippen oder klicken Sie einen Eintrag, um ihn zu öffnen.
@@ -22,7 +22,7 @@ Nach dem [Anmelden](../generelles/generelles-anmelden.md) landen Sie auf der **�
 
 ## Registerkarte «Finanzen»
 
-{/* SCREENSHOT_TODO /img/handbuch/uebersicht/dashboard-finanzen.png : Register «Finanzen» mit den Karten «Gesamtausgaben», «Durch Verkäufe erhalten» und «Gesamtwert» */}
+![Register «Finanzen» mit den Karten «Gesamtausgaben», «Durch Verkäufe erhalten» und «Gesamtwert»](/img/handbuch/uebersicht/dashboard-finanzen.webp)
 
 Die zweite Registerkarte **Finanzen** zeigt Auswertungen zu Einkauf, Verkauf und Bestand. Beim ersten Besuch kann sie kurz **Laden...** anzeigen.
 

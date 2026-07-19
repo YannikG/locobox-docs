@@ -22,7 +22,7 @@ Unterstützte Wege:
 
 Nach erfolgreicher Anmeldung landen Sie in der App, meist auf der [Übersicht](../uebersicht/uebersicht.md). Hatten Sie vorher eine bestimmte Seite geöffnet (z. B. einen Import-Link), kann Locobox Sie dorthin zurückführen.
 
-{/* SCREENSHOT_TODO /img/handbuch/generelles/anmeldebildschirm.png : Anmeldebildschirm mit den Wegen E-Mail und Passwort sowie Google und der Aktion «Passwort vergessen» */}
+![Anmeldebildschirm mit den Wegen E-Mail und Passwort sowie Google und der Aktion «Passwort vergessen»](/img/handbuch/generelles/anmeldebildschirm.webp)
 
 ## Erster Besuch
 

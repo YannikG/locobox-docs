@@ -14,7 +14,7 @@ Diese Liste ergänzt die Qualitätssicherung aus dem Nutzerhandbuch-Workflow. Ei
 
 ## Screenshots
 
-Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Beschreibender Alt-Text](/img/handbuch/<bereich>/<name>.png)` einbinden. Immer eine Leerzeile vor dem Bild. Alt-Text auf Deutsch, beschreibt den Bildschirm (Barrierefreiheit). Konsistent aufnehmen: Sprache de-CH, helles Design, sensible Daten anonymisieren, einheitliche Annotationen (Kästchen/Nummern).
+Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Beschreibender Alt-Text](/img/handbuch/<bereich>/<name>.webp)` einbinden. Immer eine Leerzeile vor dem Bild. Alt-Text auf Deutsch, beschreibt den Bildschirm (Barrierefreiheit). Konsistent aufnehmen: Sprache de-CH, helles Design, sensible Daten anonymisieren, einheitliche Annotationen (Kästchen/Nummern).
 
 ### Tier 1: Kernflüsse (zuerst)
 
@@ -33,7 +33,11 @@ Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Be
 - [ ] `drucken/drucken-qr-code.md`: Einstellungen («Inhalt auf dem Etikett», «QR Code Grösse») + QR-Raster-PDF.
 - [ ] `artikel/artikel-labels.md`: Labels-Seite (Tabelle Label/Artikel) + farbige Chips am Artikel.
 - [ ] `artikel/artikel-sets.md`: Set-Formular mit Registern Allgemein/Finanzen/Lager + Neuberechnungs-Dialog.
+- [ ] `decoder/decoder-liste.md`: Decoder-Liste mit Filterpanel und hervorgehobener mehrfach verwendeter Adresse.
+- [ ] `decoder/decoder-adressen.md`: Protokoll, freie Adressvorschläge und Verfügbarkeits- oder Warnhinweis.
+- [ ] `decoder/decoder-konfiguration.md`: CV-Tabelle + Dialog zum Erfassen eines Konfigurationseintrags sowie separate Bit-Ansicht.
 - [ ] `decoder/decoder-funktionsmatrix.md`: Funktionsmatrix-Tabelle (F0/F1…, Funktionsart, Vorlagen-Auswahl).
+- [ ] `decoder/decoder-voreinstellungen.md`: Liste der Voreinstellungen mit Zeilenaktionen.
 - [ ] `einstellungen/einstellungen.md`: Einstellungs-Seitenleiste (Gruppen Konto/Sprache und Design/Premium/Sammlung/Über).
 
 ### Tier 3: Onboarding und Premium
