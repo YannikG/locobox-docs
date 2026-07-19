@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 id: generelles-browser-kompatibilitaet
 title: Welcher Browser für Locobox?
 description: Unterstützte und getestete Browser für Locobox; andere Browser werden nicht unterstützt.

@@ -1,26 +1,30 @@
 ---
+sidebar_position: 4
 id: verkaufsliste
-title: Verkaufsliste
-description: PDF-Verkaufsliste mit ausgewählten Artikeln und Spalten — Premium-Funktion.
+title: Verkaufsliste drucken
+description: PDF-Verkaufsliste mit ausgewählten Artikeln, Preisen und Spalten. Premium-Funktion.
 ---
 
-# Verkaufsliste
+# Verkaufsliste drucken
 
-Die **Verkaufsliste** ist ein PDF-Bericht für Artikel, die Sie verkaufen möchten oder bereits verkauft haben. Sie wählen **welche Artikel** und **welche Spalten** im PDF erscheinen.
+Die **Verkaufsliste** ist ein PDF-Bericht für den Verkauf: Darstellung wie bei der Adressliste, optional mit Zustand, wählbaren Zusatzspalten und anpassbarem Verkaufspreis. Sie wählen welche Artikel und welche Spalten im PDF erscheinen und können den **Verkaufspreis** je Artikel anpassen.
 
 ## Voraussetzung
 
-Die Verkaufsliste gehört zu den **Premium**-Funktionen. Ohne Premium sehen Sie in der App einen Hinweis zum Upgrade. Mehr dazu: [Premium und Gratisplan](../premium/premium.md).
+Die Verkaufsliste gehört zu den Premium-Funktionen. Ohne Premium zeigt die Karte unter **Drucken** die Schaltfläche **Premium erforderlich** und öffnet die Paywall. Mehr dazu: [Premium und Gratisplan](../premium/premium.md).
 
 ## Bericht erzeugen
 
-1. Im Menü **Drucken** (Berichte) die **Verkaufsliste** wählen.
-2. **Artikel auswählen** — markieren Sie die Einträge für diesen Bericht.
-3. **Spalten wählen** — legen Sie fest, welche Angaben (z. B. Bezeichnung, Preis) im PDF stehen.
-4. **PDF erzeugen** und herunterladen oder drucken.
+1. Im Menü **Drucken** die Karte **Verkaufsliste** wählen und **Drucken** tippen (mit Premium).
+2. Der Assistent führt Sie durch vier Schritte:
+   1. **Artikel wählen**: markieren Sie die Einträge; oben sehen Sie, wie viele passenden Artikel ausgewählt sind. Die Treffer lassen sich über Filter und [Labels](../artikel/artikel-labels.md) eingrenzen.
+   2. **Preise**: legen Sie je Artikel den **Verkaufspreis** fest.
+   3. **Spalten**: öffnen Sie bei Bedarf **Export-Spalten**. Artikel und Verkaufspreis sind für den Export erforderlich; das Bild ist optional. Weitere Spalten wie **Zustand** können Sie dazuwählen und die Reihenfolge festlegen.
+   4. **Vorschau**: prüfen Sie die Darstellung.
+3. **PDF erzeugen** und herunterladen oder drucken.
 
-Bei vielen Artikeln kann die Auswahl über Filter in der Artikelliste vorbereitet werden, bevor Sie den Bericht starten.
+Ohne Auswahl weist die App mit **Wählen Sie mindestens einen Artikel aus.** hin. Fehlen erforderliche Spalten, erscheint der Hinweis, dass Artikel und Verkaufspreis fehlen und die Spaltenauswahl angepasst werden muss.
 
 ## Weitere Berichte
 
-Übersicht aller Berichte: [Berichte und Drucken — Übersicht](drucken-uebersicht.md).
+Übersicht aller Berichte: [Berichte drucken](drucken-uebersicht.md).

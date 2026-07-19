@@ -2,6 +2,7 @@
 id: todo
 title: Manuelle Nacharbeit (Doku)
 description: Offene Punkte für Menschen, keine automatische Generierung.
+unlisted: true
 ---
 
 # Manuelle Nacharbeit

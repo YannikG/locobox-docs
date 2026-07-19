@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 id: generelles-anmelden
 title: Anmelden und abmelden
 description: Sich bei Locobox anmelden, Anmeldewege und sicher abmelden.
@@ -6,36 +7,37 @@ description: Sich bei Locobox anmelden, Anmeldewege und sicher abmelden.
 
 # Anmelden und abmelden
 
-Locobox ist **persönlich**: Nach der Anmeldung sehen Sie **nur Ihre** Sammlung — Artikel, Züge, Decoder und Einstellungen gehören zu Ihrem Konto.
+Locobox ist **persönlich**: Nach der Anmeldung sehen Sie **nur Ihre** Sammlung. Artikel, Züge, Decoder und Einstellungen gehören zu Ihrem Konto.
 
 ## Anmelden
 
 1. Locobox im Browser öffnen (z. B. [app.locobox.ch](https://app.locobox.ch)).
-2. Wenn Sie noch nicht angemeldet sind, leitet die App zur **Anmeldeseite** weiter.
-3. **Anmelden** wählen und den Schritten folgen.
+2. Wenn Sie noch nicht angemeldet sind, leitet die App zur Anmeldung weiter (Kartenüberschrift **Anmelden**). Kurz erscheint der Hinweis **Weiterleitung zur Anmeldung…**.
+3. Den Schritten auf dem Anmeldebildschirm folgen.
 
 Unterstützte Wege:
 
 - **E-Mail und Passwort**
 - **Google** (Anmeldung über Ihr Google-Konto)
+- **Apple** (Anmeldung über Ihr Apple-Konto)
 
-Nach erfolgreicher Anmeldung landen Sie in der App — meist auf der [Übersicht](../uebersicht/uebersicht.md). Hatten Sie vorher eine bestimmte Seite geöffnet (z. B. einen Import-Link), kann Locobox Sie dorthin zurückführen.
+Nach erfolgreicher Anmeldung landen Sie in der App, meist auf der [Übersicht](../uebersicht/uebersicht.md). Hatten Sie vorher eine bestimmte Seite geöffnet (z. B. einen Import-Link), kann Locobox Sie dorthin zurückführen.
 
 ## Erster Besuch
 
-Beim ersten Login kann der **Ersteinrichtungs-Assistent** erscheinen (Sprache, Währung, Spalten). Sie können ihn auch später unter [Einstellungen → Konto](../einstellungen/konto.md#ersteinrichtung) erneut starten. Kurzüberblick: [Erste Schritte](generelles-erste-schritte.md).
+Beim ersten Login kann die Karte **Locobox anpassen** erscheinen. Mit **Einrichtung starten** öffnen Sie die **Ersteinrichtung** (Schritte **Sprache**, **Währung**, **Artikeltabelle**, **Premium**). Mit **Später** blenden Sie den Hinweis aus. Sie können die Ersteinrichtung auch später unter [Einstellungen → Konto](../einstellungen/konto.md#ersteinrichtung) erneut starten. Kurzüberblick: [Erste Schritte](generelles-erste-schritte.md).
 
 ## Abmelden
 
-1. Profilmenü oben in der App öffnen (Ihr Name oder Avatar).
+1. **Benutzermenü** oben in der App öffnen (Ihr Name oder Avatar).
 2. **Abmelden** wählen.
 
-Die Sitzung endet; beim nächsten Besuch müssen Sie sich wieder anmelden.
+Die Sitzung endet; beim nächsten Besuch müssen Sie sich wieder anmelden. Kurz kann **Sie werden abgemeldet** erscheinen.
 
 ## Passwort vergessen
 
-- **E-Mail und Passwort:** unter [Einstellungen → Konto](../einstellungen/konto.md) können Sie eine **Rücksetz-E-Mail** anfordern (Sie werden danach abgemeldet).
-- **Google:** Passwortänderung erfolgt in Ihrem **Google-Konto**, nicht in Locobox.
+- **E-Mail und Passwort:** unter [Einstellungen → Konto](../einstellungen/konto.md) können Sie **Passwort zurücksetzen** bzw. **E-Mail zum Zurücksetzen senden, danach abmelden** wählen. Sie erhalten eine E-Mail und werden danach abgemeldet.
+- **Google und Apple:** Für Google oder Apple können Sie das Passwort nicht in Locobox zurücksetzen. Ändern Sie es direkt bei diesem Anbieter.
 
 ## Datenschutz und Browser
 

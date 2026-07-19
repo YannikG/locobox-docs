@@ -10,11 +10,39 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) nach Themen ordnen. So bleiben Inhalte schneller auffindbar und der Überblick erhalten.
 
-Im Bereich stehen alle aktiven Kategorien in einer Liste. Zu jeder Kategorie wird angezeigt, wie viele aktive Artikel damit verknüpft sind. So bleibt sofort erkennbar, welche Kategorien oft genutzt werden und wo noch aufgeräumt werden kann.
-
-Kategorien lassen sich neu anlegen, in Namen oder Beschreibung anpassen und löschen. Beim Wechsel aus einer Kategorie in die Artikelliste wird die Liste direkt auf diese Kategorie gefiltert.
-
-Beim Löschen wird eine Kategorie zuerst nur in den [Papierkorb](../papierkorb/papierkorb.md) verschoben. Eine endgültige Löschung ist nicht möglich, solange noch aktive Artikel damit verknüpft sind. Zuerst diese Zuordnungen entfernen und die Kategorie danach erneut löschen.
+**Wo:** Hauptmenü **Sammlung** → **Kategorien**.
 
 <LimitsPlanNote />
 
+
+## Liste
+
+Die Seite zeigt alle aktiven Kategorien in einer Tabelle mit den Spalten:
+
+- **Name** (sortierbar)
+- **Beschreibung**
+- **Verknüpfte Artikel** (Anzahl aktiver Artikel)
+- **Zuletzt aktualisiert** (sortierbar)
+- **Aktionen**
+
+Über die Toolbar erreichen Sie **Zurück** und **Neu**. Sind noch keine Kategorien vorhanden, erscheint «Keine Kategorien gefunden.»
+
+## Kategorie anlegen oder bearbeiten
+
+1. **Neu** öffnet den Dialog mit dem Titel **Neu Kategorien**.
+2. **Name** ist Pflicht (Hinweis «Name ist erforderlich.»). **Beschreibung** ist optional.
+3. Mit **Speichern** legen Sie die Kategorie an, mit **Abbrechen** verwerfen Sie den Dialog.
+
+Zum Anpassen einer bestehenden Zeile wählen Sie **Bearbeiten** (Dialogtitel **Bearbeiten Kategorien**), ändern **Name** oder **Beschreibung** und speichern.
+
+Neue und geänderte Kategorien stehen anschliessend in den Kategorie-Auswahlen am Artikel und in den Filtern der [Artikelliste](../artikel/artikel-liste.md) zur Verfügung.
+
+## Verknüpfte Artikel anzeigen
+
+Bei einer Kategorie mit mindestens einem verknüpften Artikel öffnet **Verknüpfte Artikel anzeigen** die Artikelliste, gefiltert auf diese Kategorie.
+
+## Löschen und Papierkorb
+
+Solange noch aktive Artikel mit der Kategorie verknüpft sind, bleibt **Löschen** deaktiviert. Der Hinweis lautet: «Diese Kategorie ist noch einem oder mehreren Artikeln zugeordnet. Entfernen Sie die Zuordnung bei allen Artikeln, bevor Sie die Kategorie löschen.»
+
+Sind keine aktiven Artikel mehr verknüpft, können Sie die Kategorie löschen. Sie wird zuerst in den [Papierkorb](../papierkorb/papierkorb.md) verschoben und kann dort wiederhergestellt werden.

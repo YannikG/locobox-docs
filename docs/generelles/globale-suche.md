@@ -1,4 +1,5 @@
 ---
+sidebar_position: 4
 id: globale-suche
 title: Globale Suche
 description: Zentrale Suche über Artikel, Kategorien, Decoder und Züge, inklusive Tastenkürzel und Trefferliste.
@@ -6,7 +7,7 @@ description: Zentrale Suche über Artikel, Kategorien, Decoder und Züge, inklus
 
 # Globale Suche
 
-Die **globale Suche** öffnet einen zentralen Suchdialog. Sie durchsucht Ihre [Artikel](../artikel/artikel.md), [Kategorien](../kategorien/kategorien.md), [Decoder](../decoder/decoder.md) und [Züge](../zuege/zuege.md) an einem Ort, statt jeden Bereich einzeln zu durchsuchen.
+Die **Globale Suche** öffnet einen zentralen Suchdialog. Sie durchsucht Ihre [Artikel](../artikel/artikel.md), [Kategorien](../kategorien/kategorien.md), [Decoder](../decoder/decoder.md) und [Züge](../zuege/zuege.md) an einem Ort, statt jeden Bereich einzeln zu durchsuchen. Einträge im [Papierkorb](../papierkorb/papierkorb.md) erscheinen in den Treffern nicht.
 
 Im Dialog entspricht der Platzhalter im Eingabefeld dem Text: «Suche über Artikel, Kategorien, Decoder und Züge...».
 
@@ -29,7 +30,7 @@ Der Text in der Toolbar und im Dialog ist **dieselbe Sucheingabe**, sie bleibt b
 **Schliessen:**
 
 - Taste `Esc`
-- Klick auf die Schaltfläche zum Schliessen (Bedienhinweis in der Oberfläche: «Suche schliessen»)
+- Klick auf die Schaltfläche zum Schliessen im Dialog
 - Klick ausserhalb des Dialogs auf den abgedunkelten Bereich
 - erneut `Cmd + K` bzw. `Ctrl + K`
 
@@ -48,9 +49,9 @@ Treffer sind **gemischt** nach Typ. In der Oberfläche werden die Typen mit den 
 - **Artikel:** Detailansicht des Artikels
 - **Decoder:** Detailansicht des Decoders
 - **Zug:** Detailansicht des Zuges
-- **Kategorie:** Wechsel zur [Artikel Liste](../artikel/artikel-liste.md) mit Filter auf diese Kategorie
+- **Kategorie:** Wechsel zur [Artikelliste](../artikel/artikel-liste.md) mit Filter auf diese Kategorie
 
-Artikelkarten können ein Vorschaubild und, je nach Ihren Anzeigeeinstellungen, Zusatzangaben wie Kaufdatum oder Preise zeigen. Diese optionalen Felder lassen sich unter [Anzeigeeinstellungen](../einstellungen/anzeigeeinstellungen.md) verwalten (Bereich «Globale Suche Anzeige Einstellungen» in der App).
+Artikelkarten können ein Vorschaubild und, je nach Ihren Anzeigeeinstellungen, Zusatzangaben wie **Kaufdatum**, **Kaufpreis**, **Verkaufsdatum** oder **Verkaufspreis** zeigen. Optional lässt sich ein Verkauft-Hinweis auf dem Artikelbild einblenden. Diese Optionen verwalten Sie unter [Anzeigeeinstellungen](../einstellungen/anzeigeeinstellungen.md) im Bereich **Globale Suche Anzeige Einstellungen**.
 
 ## Tastatur in der Trefferliste
 

@@ -1,14 +1,15 @@
 ---
+sidebar_position: 4
 id: decoder-konfiguration
-title: Konfiguration
+title: Decoder konfigurieren
 description: Schlüssel-Wert-Einträge am Decoder ergänzen, bearbeiten, löschen und speichern; Bit-Ansicht aus Nutzersicht.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
-# Konfiguration
+# Decoder konfigurieren
 
-Liste von **Schlüssel-Wert**-Einträgen (oft CV-bezogen): Schlüssel als Identifier, Wert als Zahl oder Text.
+Liste von Konfigurationseinträgen (oft CV-bezogen). In der Tabelle heissen die Spalten **CV** und **Wert**. Beim Erfassen heissen die Felder **Schlüssel** und **CV-Wert**.
 
 Zuordnung der Funktionstasten (F0, F1 und so weiter): [Funktionsmatrix](./decoder-funktionsmatrix.md).
 
@@ -19,29 +20,31 @@ Zuordnung der Funktionstasten (F0, F1 und so weiter): [Funktionsmatrix](./decode
 
 1. Decoder öffnen.
 2. **Bearbeiten** wählen.
-3. Tab **Konfiguration** öffnen.
+3. Register **Konfiguration** öffnen.
 
-Neue und geänderte Einträge werden erst beim **Speichern** in der **Bearbeitungsansicht** übernommen ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
+Neue und geänderte Einträge werden erst beim **Speichern** in der Bearbeitungsansicht übernommen ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
 
 ## Eintrag hinzufügen
 
-**Eintrag hinzufügen** → Schlüssel und Wert eintragen → Dialog bestätigen.
+**Eintrag hinzufügen** öffnet den Dialog **Konfigurationseintrag hinzufügen**. **Schlüssel** und **CV-Wert** eintragen (Wert als ganze Zahl von 0 bis 255) und mit **Speichern** bestätigen.
+
+Im Dialog erscheint der Wert zugleich als Bitfolge (**Dualzahl (Bitfolge)**). Einzelne Bits lassen sich dort anpassen; der Zahlenwert folgt mit.
 
 ## Eintrag ändern
 
-In der Liste für die Zeile **Bearbeiten** wählen → anpassen → Dialog bestätigen.
+In der Liste für die Zeile **Bearbeiten** wählen. Es öffnet sich **Konfigurationseintrag bearbeiten**. Anpassen und mit **Speichern** bestätigen. Der **Schlüssel** lässt sich beim Bearbeiten nicht mehr ändern.
 
 ## Eintrag löschen
 
-Für die Zeile **Entfernen** wählen und eine allenfalls angezeigte Sicherheitsabfrage bestätigen.
+Für die Zeile **Löschen** wählen. Die App fragt mit **Eintrag entfernen** nach.
 
-- Doppelte Schlüssel sind nicht erlaubt.
-- Fehlender oder ungültiger Schlüssel: Speichern ist bis zur Korrektur nicht möglich.
+- Doppelte Schlüssel sind nicht erlaubt (**Dieser Schlüssel existiert bereits.**).
+- Fehlender Schlüssel: **Bitte einen Schlüssel eingeben.** Speichern ist bis zur Korrektur nicht möglich.
 
-## Bit-Ansicht
+## Bit-Ansicht in der Detailansicht
 
-In der Bit-Ansicht wird der **Wert** eines Eintrags als **einzelne Bits** dargestellt. Pro Bit können Beschriftungen oder Bedeutungen sichtbar sein, je nach Eintrag und Datenhaltung.
+In der Detailansicht, Register **Konfiguration**, können Sie pro Eintrag die Bitansicht öffnen (Hinweis **CV-Wert als Bits anzeigen.**). Die Ansicht zeigt den gespeicherten Wert als einzelne Bits.
 
-Die Bits lassen sich dort auslesen; Anpassungen können in dieser Darstellung auf der Ebene einzelner Bits erfolgen, soweit die Oberfläche das zulässt.
+Die Bitansicht in der Detailansicht ist eine Premium-Funktion. Ohne Premium erscheint der Hinweis, dass die Bitansicht Premium ist.
 
 Zurück zur Übersicht [Decoder](./decoder.md).

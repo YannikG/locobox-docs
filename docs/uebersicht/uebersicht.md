@@ -1,31 +1,34 @@
 ---
 id: uebersicht
 title: Übersicht
-description: Startseite mit Kennzahlen, zuletzt geänderten Artikeln und optionalen Finanz-Informationen.
+description: Startseite mit Kennzahlen, neuesten Artikeln und optionalen Finanz-Informationen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Übersicht
 
-Nach dem [Anmelden](../generelles/generelles-anmelden.md) landen Sie auf der **Übersicht** (Dashboard). Hier sehen Sie auf einen Blick, wie Ihre Sammlung steht.
+Nach dem [Anmelden](../generelles/generelles-anmelden.md) landen Sie auf der **Übersicht**. Hier sehen Sie den aktuellen Stand Ihrer Sammlung.
 
 <LimitsPlanNote />
 
 ## Registerkarte «Übersicht»
 
-- **Kennzahlen** zur Sammlung (Anzahl Artikel, Bestand, wichtige Summen).
-- **Zuletzt geänderte Artikel** — Tabelle am Desktop, Karten auf dem Handy. Tippen oder klicken Sie einen Eintrag, um ihn zu öffnen.
-- Beim Öffnen wird die Seite **aktualisiert**, damit die Zahlen möglichst aktuell sind.
+- Drei Kennzahlenkarten: **Artikel im Bestand**, **Bahngesellschaften** und **Länder**.
+- Darunter die Liste **Neueste Artikel** (Tabelle am Desktop, Karten auf dem Handy). Tippen oder klicken Sie einen Eintrag, um ihn zu öffnen.
+- Beim Öffnen lädt die Seite aktuelle Zahlen und die neuesten Artikel.
 
-## Registerkarte «Finanz»
+## Registerkarte «Finanzen»
 
-Optional gibt es eine zweite Registerkarte **Finanz** mit Auswertungen zu Einkauf, Verkauf und Bestand. Beim ersten Besuch kann sie kurz laden.
+Die zweite Registerkarte **Finanzen** zeigt Auswertungen zu Einkauf, Verkauf und Bestand. Beim ersten Besuch kann sie kurz **Laden...** anzeigen.
+
+Oben stehen die Karten **Gesamtausgaben**, **Durch Verkäufe erhalten** und **Gesamtwert**. Diagramme und erweiterte Finanzanalysen sind für Premium verfügbar; ohne Premium sehen Sie dort den Hinweis **Erweiterte Finanzstatistiken**.
 
 ## Hinweise auf der Startseite
 
-- **Einrichtungs-Assistent:** Beim ersten Mal kann ein Banner erscheinen, das Sie durch die Grundeinstellungen führt. Sie können starten oder später in den [Einstellungen](../einstellungen/einstellungen.md) nachholen.
-- **Import aus einem Link:** Wenn Sie einen Artikel aus dem Web importieren wollten, kann ein Dialog erscheinen, um den Vorschlag zu prüfen, bevor ein neuer Artikel angelegt wird.
+- **Locobox anpassen:** Beim ersten Mal kann eine Karte mit diesem Titel erscheinen. Mit **Einrichtung starten** öffnen Sie die Ersteinrichtung, mit **Später** blenden Sie den Hinweis aus. Details unter [Einstellungen](../einstellungen/einstellungen.md).
+- **Premium-Kulanzfrist:** Wenn Ihre Premium-Kulanzfrist läuft, kann oben der Hinweis **Ihre Premium-Kulanzfrist hat begonnen** erscheinen, mit der Möglichkeit zu erneuern.
+- **Artikel aus Link übernehmen:** Wenn Sie einen Artikel aus dem Web importieren wollten, kann der Dialog **Angaben prüfen** erscheinen. Mit **Weiter zum Formular** öffnen Sie das Artikel-Formular; erst nach dem Speichern dort entsteht ein neuer Eintrag.
 
 ## Weiterführend
 

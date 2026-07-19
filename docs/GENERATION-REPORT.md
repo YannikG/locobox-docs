@@ -2,35 +2,39 @@
 id: generation-report
 title: Bericht Doku-Stand
 description: Letzter Prüfdurchlauf Nutzerhandbuch-Workflow (Skill user-manual-generator).
+unlisted: true
 ---
 
 # Bericht: Doku-Update
 
-**Datum:** 1. Mai 2026  
-**Quelle:** App `../locobox2` (nur Orientierung für Inhalte), Doku-Repo locobox-docs  
+**Datum:** 19. Juli 2026  
+**Quelle:** App `../locobox2` (Journeys, Specs, Komponenten, `public/i18n/de-CH.json`), Doku-Repo locobox-docs  
 **Build:** `npm run build` (Ergebnis: ok)
 
 ## Neu oder geändert (im Rahmen dieses Durchlaufs)
 
-- Dateien: `docs/TODO.md`, `docs/GENERATION-REPORT.md` (Workflow-Abschluss); inhaltliche Korrektur Nutzersprache in `docs/papierkorb/papierkorb.md` (Formulierung zu mitgelöschten Inhalten bei Artikeln).
-- Sidebars: keine Änderung in diesem Schritt; Ist-Stand deckt u. a. Generelles inkl. Browser-Hinweis, Decoder inkl. Funktionsmatrix und Konfiguration, ab.
+- **Neu:** `docs/artikel/artikel-labels.md`, `docs/artikel/artikel-sets.md`, `docs/artikel/artikel-externer-import.md`
+- **Flächendeckender Abgleich** aller Nutzerseiten gegen i18n und Journeys: Menüpfade (**Sammlung**, **Drucken**, Benutzermenü), exakte Schaltflächen/Meldungen, fehlende Flows
+- **Papierkorb:** vier Register inkl. **Artikelsets**, Badge im Benutzermenü
+- **Drucken:** Adressliste gratis; QR Code Raster, Verkaufsliste, Bestandsliste Premium
+- **Premium/Limits:** Artikelsets in den Gratisgrenzen
+- **Sidebars:** Labels unter Artikel ergänzt
 
 ## Geprüfte Nutzer-Themen
 
-- **Feature-Seiten:** Struktur und Sidebars gegenüber `docs/**/*.md` und `sidebars.ts` abgeglichen; technische Anbieter- oder Stack-Begriffe in Nutzerseiten nicht gefunden (Ausnahme: keine UI-Zitate mit solchen Begriffen nötig).
-- **How-tos:** Erste Schritte und verknüpfte Generelles-Seiten geprüft; Querverweise konsistent.
-- **Schnellstart:** `generelles-erste-schritte` vorhanden und von `generelles` verlinkt.
+- Einstieg, Übersicht, Artikel (inkl. Sets/Labels/Import), Kategorien, Züge, Decoder, Drucken, Premium, Einstellungen, Papierkorb
+- UI-Wortlaut gegen `de-CH.json` verifiziert; erfundene Labels entfernt oder durch exakte Strings ersetzt
 
 ## Vertrauen
 
-**mittel:** Inhalt basiert auf Repo-Texten und Skill-Regeln; Live-App wurde in diesem Lauf nicht klickweise durchgespielt. Für höheres Vertrauen UI-Texte und neue Funktionen gezielt in der App gegenlesen (siehe `docs/TODO.md`).
+**mittel bis hoch:** Inhalt gegen Repo-i18n, Journeys und Komponenten geprüft. Live-App wurde nicht klickweise durchgespielt. Screenshots fehlen weiterhin (siehe `docs/TODO.md`).
 
 ## Offenes
 
-Siehe `docs/TODO.md` (Screenshots, UI-Faktencheck nach Releases).
+Siehe `docs/TODO.md` (Screenshots, visueller UI-Faktencheck nach Releases).
 
 ## Nächste Schritte
 
-1. `npm start` – Seiten gegenlesen  
-2. `npm run build` – muss grün bleiben  
+1. `npm start`: Seiten gegenlesen  
+2. `npm run build`: muss grün bleiben  
 3. Deployment nach eurem üblichen Prozess (CI, Pages, oder gleichwertig)

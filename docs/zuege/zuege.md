@@ -16,12 +16,15 @@ Züge können angelegt, angezeigt, bearbeitet und bei Bedarf gelöscht werden.
 
 ## Zugliste
 
-Die Übersicht listet jeden Zug mit **Bezeichnung**, einer **Komposition**-Darstellung als waagerechte Reihe sowie dem Zeitpunkt der letzten **Aktualisierung**.
-Sie können **suchen** und die Tabelle blättern. Über **Neu** legen Sie einen Zug an.
-Pro Zeile öffnen **Anzeigen** die Detailansicht und **Bearbeiten** das Formular **Zug bearbeiten**.
+Die Übersicht listet jeden Zug mit **Bezeichnung**, einer **Komposition**-Darstellung als waagrechte Reihe sowie **Zuletzt aktualisiert**.
+Sie können mit **Suchen** filtern und die Tabelle blättern. Über **Neu** legen Sie einen Zug an. Das Anlegen eines neuen Zuges erfordert Premium.
+
+Pro Zeile öffnen **Ansehen** die Detailansicht und **Bearbeiten** das Formular **Zug bearbeiten**.
 
 ## Komposition zusammenstellen
 
-Wie Artikel eingefügt, sortiert, mit Haupt- oder Gespiegelt-Bild dargestellt und wie die **Zuglänge über Puffer** angezeigt wird, steht unter [Zug-Komposition bearbeiten](zuege-komposition.md).
+Wie Artikel eingefügt, sortiert, mit Haupt- oder gespiegeltem Bild dargestellt und wie die **Zuglänge über Puffer** angezeigt wird, steht unter [Zug zusammenstellen](zuege-komposition.md).
 
-Gelöschte Züge landen **nicht im Papierkorb**, sondern sind direkt entfernt.
+## Löschen
+
+Gelöschte Züge erscheinen **nicht** im [Papierkorb](../papierkorb/papierkorb.md) und können dort nicht wiederhergestellt werden. Nach dem Löschen sind sie aus der Zugliste entfernt.
