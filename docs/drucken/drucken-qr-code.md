@@ -18,13 +18,9 @@ Der Einstieg erfolgt über den Bereich **[Berichte drucken](drucken-uebersicht.m
 <LimitsPlanNote />
 
 
-## Überblick in Drucken
-
-Auf der Einstiegsseite von **Drucken** gibt es mehrere Karten. Neben der **Adressliste** gibt es die Karte **QR Code Raster**. Mit Premium öffnet **Drucken** die Seite zur Erstellung der QR-Codes.
-
 ## Artikel auswählen
 
-Auf der Seite **QR Code Raster** wählen Sie Artikel wie bei der **Adressliste** aus: Filter, eine oder mehrere Zeilen markieren. Standardmässig sind nur noch nicht verkaufte Artikel sichtbar; über die Filter grenzen Sie die Treffer weiter ein, mit Premium auch über [Labels](../artikel/artikel-labels.md). Ohne mindestens einen ausgewählten Eintrag lässt sich kein PDF erzeugen; die App weist mit **Wählen Sie mindestens einen Artikel aus.** hin. Oben steht, wie viele passende Einträge es insgesamt gibt und wie viele Sie gewählt haben.
+Die Seite öffnen Sie über **Drucken** → **QR Code Raster**. Dort wählen Sie Artikel wie bei der **Adressliste** aus: Filter, eine oder mehrere Zeilen markieren. Standardmässig sind nur noch nicht verkaufte Artikel sichtbar; über die Filter grenzen Sie die Treffer weiter ein, mit Premium auch über [Labels](../artikel/artikel-labels.md). Ohne mindestens einen ausgewählten Eintrag lässt sich kein PDF erzeugen; die App weist mit **Wählen Sie mindestens einen Artikel aus.** hin. Oben steht, wie viele passende Einträge es insgesamt gibt und wie viele Sie gewählt haben.
 
 ## PDF-Einstellungen
 

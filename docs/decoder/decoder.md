@@ -13,40 +13,32 @@ Die [Decoder finden und filtern](./decoder-liste.md) ist der Einstieg; ein Klick
 Direkt sichtbar ist, ob ein Decoder bereits mit einem [Artikel](../artikel/artikel.md) verbunden ist.
 
 Es gibt zwei klar getrennte Modi: eine **Detailansicht** zum Prüfen der Daten und eine **Bearbeitungsansicht**, in der alle Änderungen vorgenommen werden.
-Änderungen werden erst wirksam, wenn in der Bearbeitungsansicht **Speichern** gewählt wird.
+Beide nutzen dieselben Register: **Übersicht**, **Funktionsmatrix** und **Konfiguration**.
 
 <LimitsPlanNote />
 
 
 ## Detailansicht
 
-In der Detailansicht stehen dieselben Register wie in der Bearbeitung zur Verfügung: **Übersicht**, **Funktionsmatrix** und **Konfiguration**.
+Die Detailansicht zeigt die gespeicherten Daten nur zum Lesen. Auf **Übersicht** sehen Sie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion**, Beschreibung sowie **Verknüpfte Artikel**. Die Register **Funktionsmatrix** und **Konfiguration** zeigen die gespeicherten Zuordnungen und Einträge.
 
-Auf **Übersicht** sehen Sie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion**, Beschreibung sowie **Verknüpfte Artikel**.
-Die Register **Funktionsmatrix** und **Konfiguration** zeigen die gespeicherten Zuordnungen und Einträge zum Lesen.
-
-Oben stehen **Zurück**, **Bearbeiten** und **Löschen** zur Verfügung.
-Ohne Wechsel in die Bearbeitung oder in den Löschablauf werden auf dieser Ansicht keine Daten geändert.
+Oben stehen **Zurück**, **Bearbeiten** und **Löschen**. Ohne Wechsel in die Bearbeitung oder in den Löschablauf werden hier keine Daten geändert.
 
 ## Bearbeitungsansicht
 
-Die Bearbeitungsansicht ist der Arbeitsplatz für Änderungen.
-Oben stehen **Zurück**, **Abbrechen** und **Speichern** zur Verfügung.
+Die Bearbeitungsansicht ist der Arbeitsplatz für Änderungen. Oben stehen **Zurück**, **Abbrechen** und **Speichern**.
 
-- **Abbrechen** führt zurück zur Decoder-Ansicht, ohne die Änderungen dieses Bearbeitungsdurchgangs zu speichern.
-- **Speichern** übernimmt die Änderungen am Decoder, also die Felder auf dem Register **Übersicht**, die **Funktionsmatrix** und die **Konfiguration**, soweit sie in dieser Sitzung angepasst wurden.
+- **Abbrechen** führt zurück zur Decoder-Ansicht, ohne die Änderungen dieses Durchgangs zu speichern.
+- **Speichern** übernimmt alle in dieser Sitzung angepassten Daten der drei Register.
 - Verlassen Sie die Seite mit ungespeicherten Änderungen, fragt die App nach, ob Sie wirklich weitergehen möchten.
 
-### Tabs in der Bearbeitung
+Die drei Register:
 
-- **Übersicht**: Kernfelder des Decoders, zum Beispiel Hersteller, Modell, Protokoll, Adresse, **Nur Funktion** und Beschreibung, sowie die Artikelverknüpfung.
-  Hinweise zu doppelten Adressen erscheinen am Adressfeld, analog zur Übersicht [Gleiche Adresse](#gleiche-adresse).
-- **Funktionsmatrix**: Zuordnung der Funktionstasten (F0, F1, …) zu Funktionsarten und optionalen Beschriftungen.
-  Ausführlich unter [Funktionsmatrix](./decoder-funktionsmatrix.md).
-- **Konfiguration**: CV-Einträge mit Schlüssel und Wert, getrennt von der Funktionsmatrix.
-  Ausführlich unter [Konfiguration](./decoder-konfiguration.md).
+- **Übersicht**: Kernfelder wie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion** und Beschreibung sowie die Artikelverknüpfung. Hinweise zu doppelten Adressen erscheinen am Adressfeld, siehe [Decoder-Adressen verwalten](./decoder-adressen.md).
+- **Funktionsmatrix**: Zuordnung der Funktionstasten (F0, F1, …) zu Funktionsarten und optionalen Beschriftungen, ausführlich unter [Funktionsmatrix bearbeiten](./decoder-funktionsmatrix.md).
+- **Konfiguration**: CV-Einträge mit Schlüssel und Wert, getrennt von der Funktionsmatrix, ausführlich unter [Konfiguration](./decoder-konfiguration.md).
 
-Pflichtangaben werden auf dem Register **Übersicht** geprüft. Ist dort etwas ungültig, markiert die App das Register mit einem Fehlersymbol. Wählen Sie **Speichern**, während Fehler bestehen, wechselt die Ansicht automatisch zum Register mit Fehlern, sodass Sie die betroffenen Felder direkt sehen.
+Pflichtangaben werden auf dem Register **Übersicht** geprüft. Ist dort etwas ungültig, markiert die App das Register mit einem Fehlersymbol. Wählen Sie **Speichern**, während Fehler bestehen, wechselt die Ansicht automatisch zum Register mit Fehlern.
 
 ## Neuen Decoder anlegen
 
@@ -67,9 +59,9 @@ Ein Decoder lässt sich mit [Artikeln](../artikel/artikel.md) verbinden (Lok ode
 - In der Detailansicht sehen Sie unter **Verknüpfte Artikel** die Verbindungen; von dort öffnen oder entfernen Sie die Verknüpfung, wo die App es erlaubt.
 - Umgekehrt zeigt der Artikel den zugehörigen Decoder.
 
-## Gleiche Adresse
+## Adressen
 
-Dieselbe Adresse darf mehrfach vorkommen. Locobox warnt trotzdem, wenn eine Adresse schon vergeben ist. Speichern bleibt möglich. Ausführlich: [Decoder-Adressen](./decoder-adressen.md).
+Dieselbe Adresse darf mehrfach vorkommen; Locobox warnt trotzdem, ohne das Speichern zu blockieren. Wie Sie eine Adresse wählen, Vorschläge nutzen und die Hinweise verstehen, steht unter [Decoder-Adressen verwalten](./decoder-adressen.md).
 
 ## Löschen
 

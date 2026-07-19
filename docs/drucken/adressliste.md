@@ -11,14 +11,9 @@ Die **Adressliste** ist ein druckfertiges PDF: pro ausgewähltem Artikel erschei
 
 In der App lautet die Kartenbeschreibung: PDF mit Bild, Artikelangaben und allen Decoder-Adressen pro Artikel.
 
-## Aufruf
-
-1. Im Hauptmenü den Punkt **Drucken** wählen (Übersicht der PDF-Berichte).
-2. Bei der Karte **Adressliste** auf **Drucken** tippen oder klicken.
-
-Es öffnet sich die Seite **Adressliste** mit einer eigenen Artikeltabelle und Filtern.
-
 ## Artikel wählen und PDF erzeugen
+
+Die Seite öffnen Sie über **Drucken** → **Adressliste**. Sie hat eine eigene Artikeltabelle mit Filtern.
 
 1. Mit den Filtern die gewünschte Teilmenge eingrenzen. Standardmässig sind nicht verkaufte Artikel vorausgewählt; die Filter lassen sich anpassen (unter anderem die Spalte **Verkauft**). Mit Premium können Sie die Treffer zusätzlich über [Labels](../artikel/artikel-labels.md) eingrenzen.
 2. In der Tabelle eine oder mehrere Zeilen auswählen. Über die Kopfzeilen-Auswahl können Sie alle gemäss aktuellem Filter passenden Artikel auswählen, nicht nur die aktuelle Seite.

@@ -15,10 +15,6 @@ Unter **Drucken** im Menü finden Sie PDF-Auswertungen für Ihre Sammlung. Jede 
 | Bestandsliste | [Bestandsliste drucken](sammlungsverzeichnis.md) | ja |
 | Verkaufsliste | [Verkaufsliste drucken](verkaufsliste.md) | ja |
 
-## Ablauf
-
-1. Gewünschten Bericht in der Übersicht wählen (**Drucken** bzw. **Premium erforderlich**).
-2. Optionen setzen (je nach Bericht: Artikel auswählen, Preise, Spalten, Deckblatt-Felder).
-3. **PDF erzeugen** und herunterladen oder ausdrucken.
+Je nach Bericht setzen Sie danach die Optionen (Artikel auswählen, Preise, Spalten oder Deckblatt-Felder) und erzeugen mit **PDF erzeugen** die Datei. Die Einzelheiten stehen auf den verlinkten Seiten.
 
 Ohne Premium führt **Premium erforderlich** zur Paywall; Sie bleiben auf der Übersicht. Plan und Limits: [Premium](../premium/premium.md) und [Nutzung in den Einstellungen](../einstellungen/nutzung.md).

@@ -28,11 +28,11 @@ Nach einem Wechsel von Premium zurück in den Gratisplan bleiben Ihre Labels und
 
 Die Seite **Labels** zeigt alle Ihre Labels in einer Tabelle:
 
-- **Name** mit einem farbigen Punkt in der Label-Farbe.
-- **Artikelanzahl**: wie viele Artikel das Label tragen.
+- **Label** mit einem farbigen Punkt in der Label-Farbe.
+- **Artikel**: wie viele Artikel das Label tragen.
 - **Aktionen**: **Bearbeiten** und **Löschen** pro Zeile.
 
-Über die Toolbar erreichen Sie **Zurück** und **Neu**. Sind noch keine Labels vorhanden, erscheint der Hinweis **Keine Labels definiert**.
+Über die Toolbar erreichen Sie **Zurück** und **Neu**. Sind noch keine Labels vorhanden, erscheint der Hinweis **Keine Labels**.
 
 ## Label anlegen
 

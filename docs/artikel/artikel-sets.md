@@ -103,9 +103,7 @@ Das gleichzeitige Löschen des Sets **und aller enthaltenen Artikel** ist aktuel
 
 ## Set aus dem Papierkorb wiederherstellen
 
-1. **Papierkorb** öffnen und das Register **Artikelsets** wählen.
-2. Das gewünschte Set auswählen und **Wiederherstellen** wählen.
-3. Das Set erscheint wieder in der Liste; die zuvor verknüpften Artikel sind erneut zugeordnet.
+Ein gelöschtes Set stellen Sie im [Papierkorb](../papierkorb/papierkorb.md) unter dem Register **Artikelsets** wieder her; die zuvor verknüpften Artikel sind danach erneut zugeordnet.
 
 ## Grenzen
 

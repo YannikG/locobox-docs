@@ -19,7 +19,6 @@ Unterstützte Wege:
 
 - **E-Mail und Passwort**
 - **Google** (Anmeldung über Ihr Google-Konto)
-- **Apple** (Anmeldung über Ihr Apple-Konto)
 
 Nach erfolgreicher Anmeldung landen Sie in der App, meist auf der [Übersicht](../uebersicht/uebersicht.md). Hatten Sie vorher eine bestimmte Seite geöffnet (z. B. einen Import-Link), kann Locobox Sie dorthin zurückführen.
 
@@ -29,15 +28,16 @@ Beim ersten Login kann die Karte **Locobox anpassen** erscheinen. Mit **Einricht
 
 ## Abmelden
 
-1. **Benutzermenü** oben in der App öffnen (Ihr Name oder Avatar).
+1. **Benutzermenü** oben in der App öffnen (Profilbild oben rechts).
 2. **Abmelden** wählen.
 
 Die Sitzung endet; beim nächsten Besuch müssen Sie sich wieder anmelden. Kurz kann **Sie werden abgemeldet** erscheinen.
 
 ## Passwort vergessen
 
-- **E-Mail und Passwort:** unter [Einstellungen → Konto](../einstellungen/konto.md) können Sie **Passwort zurücksetzen** bzw. **E-Mail zum Zurücksetzen senden, danach abmelden** wählen. Sie erhalten eine E-Mail und werden danach abgemeldet.
-- **Google und Apple:** Für Google oder Apple können Sie das Passwort nicht in Locobox zurücksetzen. Ändern Sie es direkt bei diesem Anbieter.
+- **Nicht angemeldet (E-Mail und Passwort):** Wählen Sie auf dem Anmeldebildschirm **Passwort vergessen** und folgen Sie den Schritten. Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen.
+- **Angemeldet (E-Mail und Passwort):** unter [Einstellungen → Konto](../einstellungen/konto.md) können Sie **Passwort zurücksetzen** bzw. **E-Mail zum Zurücksetzen senden, danach abmelden** wählen. Sie erhalten eine E-Mail und werden danach abgemeldet.
+- **Google:** Für Google können Sie das Passwort nicht in Locobox zurücksetzen. Ändern Sie es direkt bei Google.
 
 ## Datenschutz und Browser
 

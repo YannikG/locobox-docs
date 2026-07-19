@@ -13,7 +13,7 @@ Unter **Einstellungen** → **Konto** sehen Sie zwei Bereiche: **Profil** und **
 
 Die Karte **Profil** zeigt:
 
-- Avatar, Anzeigename und E-Mail
+- Profilbild, Anzeigename und E-Mail
 - **Anmeldemethode** (z. B. **E-Mail und Passwort** oder **Google**)
 - Aktionen zum **Passwort**, sofern möglich
 

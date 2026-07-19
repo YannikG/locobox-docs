@@ -18,11 +18,7 @@ Zuordnung der Funktionstasten (F0, F1 und so weiter): [Funktionsmatrix](./decode
 
 ## Wo und Speichern
 
-1. Decoder öffnen.
-2. **Bearbeiten** wählen.
-3. Register **Konfiguration** öffnen.
-
-Neue und geänderte Einträge werden erst beim **Speichern** in der Bearbeitungsansicht übernommen ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
+Die Konfiguration bearbeiten Sie im Decoder unter **Bearbeiten**, Register **Konfiguration**. Neue und geänderte Einträge werden erst beim **Speichern** in der Bearbeitungsansicht übernommen ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
 
 ## Eintrag hinzufügen
 

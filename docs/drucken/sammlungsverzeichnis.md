@@ -17,10 +17,7 @@ Die Bestandsliste ist eine Premium-Funktion. Ohne Premium zeigt die Karte unter 
 
 ## Bericht starten
 
-1. Menü **Drucken** öffnen.
-2. Karte **Bestandsliste** wählen und mit Premium **Drucken** tippen.
-3. Auf der Optionsseite unter **Optionen** Felder anpassen (siehe unten).
-4. **PDF erzeugen**: die Datei wird heruntergeladen (Name z. B. `bestandsliste.pdf`).
+Über **Drucken** → **Bestandsliste** gelangen Sie auf die Optionsseite. Dort passen Sie unter **Optionen** die Deckblatt- und Tabellenfelder an (siehe unten) und starten mit **PDF erzeugen** den Download (Name z. B. `bestandsliste.pdf`).
 
 Es gibt keine Artikelauswahl: alle nicht verkauften Artikel werden in das PDF aufgenommen, sortiert nach **Hersteller** und **Artikelnummer**. Optional können Sie die Treffer über Labels eingrenzen.
 
