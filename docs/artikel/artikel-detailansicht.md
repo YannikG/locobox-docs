@@ -32,6 +32,8 @@ Nach dem Löschen finden Sie den Eintrag bei Bedarf im [Papierkorb](../papierkor
 
 ## Inhalt von oben nach unten
 
+{/* SCREENSHOT_TODO /img/handbuch/artikel/artikel-detailansicht.webp : Artikel-Detailansicht mit Bildern, Kartenraster und verknüpften Zügen */}
+
 1. **Bilder**: **Hauptbild** und ggf. **Gespiegeltes Bild**, soweit vorhanden.
 2. Karten im Raster (auf grösseren Bildschirmen zwei Spalten):
    - **Allgemein**: **Hersteller**, **Artikelnummer**, ggf. **Set-Artikelnummer** mit Sprung zum [Artikelset](artikel-sets.md), **Kategorien**, zugewiesene [Labels](artikel-labels.md) als farbige Chips (oder **Keine**), **Verpackung**, **Massstab**.

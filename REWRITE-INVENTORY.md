@@ -1,20 +1,21 @@
 # Doku-Rewrite — Journey-Inventar
 
-Stand: 2026-07-19 · Epic [locobox-docs#2](https://github.com/YannikG/locobox-docs/issues/2)  
+Stand: 2026-09-09 · Epic [locobox-docs#2](https://github.com/YannikG/locobox-docs/issues/2)  
 Quelle: `locobox2/docs/journeys/` + `public/i18n/de-CH.json` (Verhalten und Wortlaut), **nicht** für Endleser zitieren.
 
 Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalter angelegt · **fehlt** = noch anlegen
 
-> Abgeglichen mit locobox2 bis Commit `d0fead26` (2026-07-18), plus laufende Labels-Arbeit.  
-> Durchlauf 19.07.: flächendeckender i18n-/Journey-Abgleich (Menüpfade unter **Sammlung**, exakte UI-Strings, fehlende Flows).
+> Abgeglichen mit locobox2 **v2.0.0** (`f142f096`, 2026-09-08).  
+> Nachzug 09.09.: Dashboard **Datenqualität**, Monatsaktivität, PWA **App installieren**, Drucken-Hub **Erstellen**.
 
 ## 1 Einstieg (`generelles/`)
 
 | Journey (locobox2) | Nutzerseite | Status |
 | ------------------ | ----------- | ------ |
 | platform/sign-in | `generelles-anmelden.md` | ok (Auth0, Apple ergänzt) |
-| platform/initial-setup | `generelles-erste-schritte.md` + `konto.md` | ok |
-| platform/global-nav, user-menu-external-links, dirty-guard, keyboard-skip-navigation | `generelles.md` | ok |
+| platform/initial-setup | `generelles-erste-schritte.md` + `konto.md` | ok (+ Install-Schritt) |
+| platform/pwa-install | `app-installieren.md` | ok (neu) |
+| platform/global-nav, user-menu-external-links, dirty-guard, keyboard-skip-navigation | `generelles.md` | ok (+ Menü **App installieren**) |
 | search/global-search | `globale-suche.md` | ok |
 | — | `generelles-browser-kompatibilitaet.md` | ok |
 
@@ -22,7 +23,10 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| platform/dashboard | `uebersicht/uebersicht.md` | ok |
+| platform/dashboard | `uebersicht/uebersicht.md` | ok (3 Register) |
+| platform/dashboard-overview-monthly-deltas | in `uebersicht.md` | ok |
+| platform/data-health-tab | in `uebersicht.md` | ok |
+| platform/dashboard-collection-charts | — | ausstehend (UI Phase 2+, noch nicht in Overview) |
 
 ## 3 Artikel & Kategorien
 
@@ -56,7 +60,7 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| reporting/reports-hub | `drucken.md` + `drucken-uebersicht.md` | ok |
+| reporting/reports-hub | `drucken-uebersicht.md` | ok (**Erstellen**, Hub-Texte) |
 | reporting/address-list | `adressliste.md` | ok (Gratis) |
 | reporting/qr-code-grid | `drucken-qr-code.md` | ok (Premium) |
 | reporting/sales-list | `verkaufsliste.md` | ok (Premium) |
@@ -68,14 +72,14 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 | ------- | ----------- | ------ |
 | settings/premium-usage | `premium/abonnement.md` + `einstellungen/nutzung.md` | ok |
 | settings/credits | `premium/gratis-und-limits.md` | ok (+ Artikelsets) |
-| — | `premium/premium.md` | ok |
+| — | `premium/premium.md` | ok (+ Verweis Übersicht) |
 
 ## 7 Einstellungen (`einstellungen/`)
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
 | settings/settings-navigation | `einstellungen.md` | ok |
-| settings/account | `konto.md` | ok |
+| settings/account | `konto.md` | ok (+ Install-Schritt, **Einrichtung abschliessen**) |
 | settings/display-preferences | `anzeigeeinstellungen.md` | ok |
 | settings/display-language | `sprache.md` | ok |
 | settings/display-currency | `waehrung.md` | ok |

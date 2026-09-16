@@ -43,6 +43,6 @@ Die Karte **Ersteinrichtung** hilft beim Einstieg. Der Beschreibungstext lautet:
 - **Einrichtung starten**, solange die Ersteinrichtung angeboten wird (z. B. nach dem ersten Login über die Übersicht).
 - **Ersteinrichtung erneut starten**, wenn Sie den Assistenten abgeschlossen oder verworfen haben und die Schritte wiederholen möchten.
 
-Der Assistent **Ersteinrichtung** führt Sie durch **Sprache**, **Währung**, **Artikeltabelle** und einen kurzen **Premium**-Hinweis. Mit **Fertig** schliessen Sie ab; das Angebot auf der Übersicht verschwindet danach. Einstellungen bleiben unter **Einstellungen** erreichbar.
+Der Assistent **Ersteinrichtung** führt Sie durch **Sprache**, **Währung**, **Artikeltabelle**, optional **App installieren** und einen kurzen **Premium**-Hinweis. Mit **Einrichtung abschliessen** beenden Sie den Assistenten; das Angebot auf der Übersicht verschwindet danach. Einstellungen bleiben unter **Einstellungen** erreichbar.
 
-Details zu Sprache und Sammlungsanzeige: [Sprache und Design](./sprache.md), [Anzeigeeinstellungen](./anzeigeeinstellungen.md).
+Details zur Installation: [App installieren](../generelles/app-installieren.md). Sprache und Sammlungsanzeige: [Sprache und Design](./sprache.md), [Anzeigeeinstellungen](./anzeigeeinstellungen.md).

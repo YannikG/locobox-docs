@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 id: generelles-faq
 title: Häufige Fragen und Problembehebung
-description: Antworten auf häufige Fragen zu Anmeldung, Premium, Papierkorb, Suche und Anzeige, mit Verweisen auf die passenden Detailseiten.
+description: Antworten auf häufige Fragen zu Anmeldung, Premium, Papierkorb, Suche, App-Installation und Anzeige, mit Verweisen auf die passenden Detailseiten.
 ---
 
 # Häufige Fragen und Problembehebung
@@ -102,7 +102,7 @@ Details: [Papierkorb](../papierkorb/papierkorb.md).
 
 </details>
 
-## Suche und Anzeige
+## Suche, Installation und Anzeige
 
 <details>
 <summary>Die globale Suche zeigt nicht alle passenden Einträge.</summary>
@@ -110,6 +110,15 @@ Details: [Papierkorb](../papierkorb/papierkorb.md).
 Pro Abfrage werden höchstens zehn Treffer angezeigt. Gibt es mehr passende Einträge, grenzen Sie die Suche mit einem genaueren Begriff ein. Einträge im Papierkorb erscheinen in den Treffern nicht.
 
 Details: [Globale Suche](./globale-suche.md).
+
+</details>
+
+<details>
+<summary>Wie installiere ich Locobox als App auf dem Gerät?</summary>
+
+Über die **Ersteinrichtung** (Schritt **App installieren**) oder, wenn verfügbar, über **App installieren** im **Benutzermenü**. In Chrome und Edge erscheint oft **Jetzt installieren**. In Safari folgen Sie den Hinweisen **Teilen** → **Zum Dock hinzufügen**. Firefox auf dem Desktop bietet keine Direktinstallation.
+
+Details: [App installieren](./app-installieren.md).
 
 </details>
 

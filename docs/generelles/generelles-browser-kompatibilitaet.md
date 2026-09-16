@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 id: generelles-browser-kompatibilitaet
 title: Welcher Browser für Locobox?
 description: Unterstützte und getestete Browser für Locobox; andere Browser werden nicht unterstützt.
@@ -19,6 +19,10 @@ Locobox wird mit den gängigen aktuellen Versionen der folgenden Browser **regel
 ## Andere Browser
 
 **Weitere Browser** (z. B. Brave, Opera, Vivaldi, eingebettete Webviews oder veraltete Versionen) werden **nicht unterstützt**. Locobox kann darin laufen, es ist aber **nicht ausgeschlossen**, dass einzelne Funktionen fehlen, falsch dargestellt werden oder Fehler auftreten. Für einen zuverlässigen Alltagseinsatz empfehlen wir einen der vier getesteten Browser in aktueller Version.
+
+## App installieren
+
+Locobox können Sie in unterstützten Browsern zusätzlich wie ein Programm auf dem Gerät installieren. Die Schritte und Unterschiede zwischen Chrome, Edge, Safari und Firefox stehen unter [App installieren](./app-installieren.md).
 
 ## Praktischer Tipp
 

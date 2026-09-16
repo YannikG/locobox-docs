@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 id: globale-suche
 title: Globale Suche
 description: Zentrale Suche über Artikel, Kategorien, Decoder und Züge, inklusive Tastenkürzel und Trefferliste.

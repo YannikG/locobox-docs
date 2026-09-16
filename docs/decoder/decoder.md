@@ -20,6 +20,8 @@ Beide nutzen dieselben Register: **Übersicht**, **Funktionsmatrix** und **Konfi
 
 ## Detailansicht
 
+{/* SCREENSHOT_TODO /img/handbuch/decoder/decoder-detailansicht.webp : Decoder-Detailansicht auf dem Register «Übersicht» mit Stammdaten und verknüpften Artikeln */}
+
 Die Detailansicht zeigt die gespeicherten Daten nur zum Lesen. Auf **Übersicht** sehen Sie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion**, Beschreibung sowie **Verknüpfte Artikel**. Die Register **Funktionsmatrix** und **Konfiguration** zeigen die gespeicherten Zuordnungen und Einträge.
 
 Oben stehen **Zurück**, **Bearbeiten** und **Löschen**. Ohne Wechsel in die Bearbeitung oder in den Löschablauf werden hier keine Daten geändert.

@@ -21,6 +21,8 @@ In Locobox wird die Reihenfolge und Darstellung der Artikel in einem Zug in der 
 
 Oben im Formular steht zuerst die **Komposition**, darunter **Bezeichnung** und **Beschreibung**. Beim Anlegen eines neuen Zuges erscheint unter den Stammdaten zusätzlich eine **Vorschau** der Komposition. In der Detailansicht eines gespeicherten Zuges gibt es ebenfalls eine Vorschau mit der kompletten Darstellung.
 
+{/* SCREENSHOT_TODO /img/handbuch/zuege/zug-detailansicht.webp : Zug-Detailansicht mit Bezeichnung, Beschreibung, Komposition, Vorschau und Zuglänge über Puffer */}
+
 ## Zuglänge über Puffer
 
 Über der Kompositionsleiste wird die summierte **Zuglänge über Puffer** in **mm** angezeigt, soweit die beteiligten Artikel dazu Werte haben. Fehlen bei einzelnen Artikeln Angaben, bleibt die Summe unvollständig. Der Hinweis lautet: **Die Länge über Puffer ist nicht genau, weil nicht alle Artikel eine Länge über Puffer hinterlegt haben.**

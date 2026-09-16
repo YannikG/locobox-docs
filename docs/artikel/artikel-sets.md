@@ -60,6 +60,8 @@ In der Tabelle der Set-Artikel entfernen Sie eine Zeile. Der Artikel bleibt in I
 
 ## Set-Detailansicht
 
+{/* SCREENSHOT_TODO /img/handbuch/artikel/artikelset-detailansicht.webp : Artikelset-Detailansicht mit Kopfbereich, Finanzen, Lager und Tabelle der Set-Artikel */}
+
 Die Detailansicht eines Artikelsets ist eine reine Leseansicht mit Kopfbereich (Identität, Beschreibung), einer Finanzen- und einer Lager-Karte sowie der Tabelle der Set-Artikel mit Navigation zur Artikel-Detailansicht.
 
 ### Migrationsprüfung bei automatisch erstellten Sets
