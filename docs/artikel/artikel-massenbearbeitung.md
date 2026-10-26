@@ -22,6 +22,8 @@ Der Assistent gliedert den Ablauf in vier aufeinanderfolgende Phasen: **Artikel 
 
 Die Ansicht stellt eine filterbare Artikeltabelle bereit, analog zur [Artikelliste](artikel-liste.md).
 
+![Schritt 1 der Massenbearbeitung: gefilterte Artikeltabelle mit markierten Zeilen](/img/handbuch/artikel/massenbearbeitung-auswahl.webp)
+
 - Einzelne Zeilen lassen sich über Checkboxen für die Bearbeitung selektieren.
 - Das Kontrollkästchen in der Kopfzeile markiert alle zur aktuellen Filterung passenden Datensätze sammlungsweit, nicht nur die sichtbare Tabellenseite.
 - Eine Zusammenfassung im oberen Bereich gibt Auskunft über die Gesamtzahl passender Artikel sowie die Anzahl der ausgewählten Exemplare.
@@ -31,6 +33,8 @@ Die Fortsetzung über **Weiter** setzt mindestens einen ausgewählten Datensatz 
 **Hinweis:** Eine Anpassung der Filterkriterien setzt die bisherige Artikelauswahl zurück.
 
 ## Schritt 2: Felder auswählen
+
+![Schritt 2: Felder auswählen mit geöffnetem Mehrfachauswahl-Dropdown](/img/handbuch/artikel/massenbearbeitung-felder.webp)
 
 In dieser Phase wird bestimmt, welche Attribute bei den selektierten Datensätzen modifiziert werden sollen.
 
@@ -42,6 +46,8 @@ In dieser Phase wird bestimmt, welche Attribute bei den selektierten Datensätze
 Die Freigabe für den nächsten Schritt erfolgt, sobald mindestens ein Zielfeld gewählt ist.
 
 ## Schritt 3: Werte setzen
+
+![Schritt 3: pro Feld Modus «Wert setzen» oder «Wert löschen» und den Wert festlegen](/img/handbuch/artikel/massenbearbeitung-werte.webp)
 
 Für jedes ausgewählte Feld wird die gewünschte Operation festgelegt:
 
@@ -58,6 +64,8 @@ Abhängig vom Feldtyp erfordert die Eingabe Zahlen, Datumsangaben, Ja/Nein-Werte
 
 ## Schritt 4: Vorschau
 
+![Schritt 4: Vorschau mit Artikeln und geplanten Änderungen, Schaltfläche «Massenbearbeitung anwenden»](/img/handbuch/artikel/massenbearbeitung-vorschau.webp)
+
 Die Vorschau visualisiert die geplanten Änderungen vor der endgültigen Ausführung.
 
 - Die Tabelle führt exemplarisch die ersten zehn selektierten Artikel mitsamt den geplanten Anpassungen auf (Spalten **Artikel** und **Änderungen**). Die Gesamtanzahl bleibt eingeblendet.
@@ -66,6 +74,8 @@ Die Vorschau visualisiert die geplanten Änderungen vor der endgültigen Ausfüh
 ## Ausführung und Protokoll
 
 Die Schaltfläche **Massenbearbeitung anwenden** initiiert die Übernahme. Vor dem Start erfolgt die Sicherheitsabfrage «Möchten Sie die Massenbearbeitung wirklich anwenden?».
+
+![Bestätigungsdialog «Möchten Sie die Massenbearbeitung wirklich anwenden?»](/img/handbuch/artikel/massenbearbeitung-bestaetigung.webp)
 
 Während des Prozesses visualisiert eine Fortschrittsanzeige die Anzahl der bereits abgearbeiteten Datensätze.
 

@@ -12,8 +12,11 @@ Zu jedem Artikel lassen sich Bilddateien hinterlegen, beispielsweise für Vorder
 ## Bilder hinterlegen
 
 1. Den Artikel zur [Bearbeitung](artikel-bearbeiten.md) aufrufen oder eine Neuerfassung starten.
-2. Im Abschnitt **Bilder** die gewünschten Dateien auswählen (unterstützte Formate: JPEG, PNG, GIF oder WebP).
-3. Das Formular über **Speichern** sichern.
+2. Das Register **Bilder** öffnen. Dort stehen **Hauptbild** und **Gespiegeltes Bild**.
+3. Die gewünschten Dateien auswählen (JPEG, PNG, GIF oder WebP).
+4. Das Formular über **Speichern** sichern.
+
+![Register «Bilder» in der Artikelbearbeitung mit Hauptbild und gespiegeltem Bild](/img/handbuch/artikel/artikel-bilder-bearbeiten.webp)
 
 Neu ausgewählte Bilddateien werden erst beim Speichern des Artikels an den Server übertragen. In der [Detailansicht](artikel-detailansicht.md) stehen die Aufnahmen anschliessend als Vorschau bereit.
 
@@ -24,7 +27,7 @@ Neu ausgewählte Bilddateien werden erst beim Speichern des Artikels an den Serv
 
 ## Bilder entfernen
 
-In der Bearbeitungsmaske lässt sich ein hinterlegtes Bild wieder entfernen. Nach dem Speichern wird die Bildanzeige auch in der Detailansicht gelöscht.
+Unter dem jeweiligen Bild entfernt **Löschen** die Datei. Nach **Speichern** fehlt sie auch in der Detailansicht.
 
 ## Datenschutz
 
