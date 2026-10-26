@@ -1,60 +1,45 @@
 ---
 id: zuege
 title: Züge
-description: Zugkompositionen als Karten durchsuchen, filtern und aus Artikeln zusammenstellen.
+description: Zugkompositionen als Karten finden, filtern und aus Artikeln zusammenstellen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Züge
 
-Im Bereich **Züge** lassen sich aus erfassten [Artikeln](../artikel/artikel.md) vollständige Zugkompositionen zusammenstellen.
-Züge können angelegt, betrachtet, bearbeitet und in den [Papierkorb](../papierkorb/papierkorb.md) verschoben werden.
+Unter **Züge** entstehen Kompositionen aus vorhandenen [Artikeln](../artikel/artikel.md). Anlegen braucht Premium; gelöschte Züge liegen im [Papierkorb](../papierkorb/papierkorb.md).
 
 <LimitsPlanNote />
 
-## Zugübersicht (Karten)
+## Übersicht
 
-Die Übersicht zeigt Züge als **Kartenraster** (keine klassische Zeilentabelle).
+Statt einer Zeilentabelle zeigt Locobox ein **Kartenraster**.
 
 {/* SCREENSHOT_TODO /img/handbuch/zuege/zugliste-karten.webp : Zugübersicht als Kartenraster mit Kompositionsstreifen, Artikelanzahl und LüP */}
 
-Pro Karte typisch sichtbar:
+Auf der Karte stehen Titel (Badge, Zugnummer, Bezeichnung oder Formel aus den Zugangaben), der horizontale **Kompositionsstreifen**, darunter zuerst die **Anzahl Artikel** und danach die **Länge über Puffer (LüP)** in mm, sofern sie sich aus den Modellen ergibt. Verkaufte Fahrzeuge im Streifen tragen das Label **Verkauft**. Aktionen am Rand: Ansehen, Bearbeiten, Löschen.
 
-- Titelzeile mit Zuggattungs-Badge (soweit bekannt), Zugnummer und Bezeichnung bzw. Formel aus den Zugangaben
-- horizontaler **Kompositionsstreifen** der Fahrzeuge
-- Kennzahlen: zuerst **Anzahl Artikel**, danach **Länge über Puffer (LüP)** in mm, sofern berechenbar
-- Länderflaggen und Aktionen (u. a. Ansehen, Bearbeiten, Löschen)
+**Neu** öffnet das Formular für einen neuen Zug.
 
-Verkaufte Modelle im Streifen sind als **Verkauft** hervorgehoben.
+## Filter
 
-Die Schaltfläche **Neu** startet das Anlegen eines neuen Zuges und setzt ein aktives Premium-Abonnement voraus.
-
-## Filtern
-
-Über den aufklappbaren Filterbereich lassen sich die Karten eingrenzen. Mit **Anwenden** wird die Auswahl wirksam; **Zurücksetzen** leert alle Kriterien. Aktive Filter erscheinen als Chips und lassen sich einzeln entfernen.
+Der aufklappbare Filterbereich grenzt die Karten ein. **Anwenden** lädt die Treffer, **Zurücksetzen** leert alles. Aktive Kriterien erscheinen als Chips und lassen sich einzeln entfernen.
 
 {/* SCREENSHOT_TODO /img/handbuch/zuege/zugliste-filter.webp : Aufgeklappter Zugfilter mit Zugangaben und Bereichen für Artikelanzahl und LüP */}
 
-Typische Kriterien:
-
-- **Bezeichnung** und weitere **Zugangaben** (u. a. Zuggattung, Zugnummer, Betreiber, Epoche, Länder)
-- Bereiche für **Anzahl Artikel** und **Länge über Puffer (LüP)**
-
-Beim Zurückkehren aus der Detailansicht bleiben die Filter der Sitzung erhalten.
+Filtern lässt sich nach **Bezeichnung** und den übrigen **Zugangaben** (Zuggattung, Zugnummer, Betreiber, Epoche, Länder u. a.) sowie nach Bereichen für **Anzahl Artikel** und **Länge über Puffer (LüP)**. Kommt man aus der Detailansicht zurück, bleiben die Filter der Sitzung stehen.
 
 ## Detail und Bearbeitung
 
-Ein Klick auf die Karte öffnet die Detailansicht. Von dort oder über die Kartenaktionen führt **Bearbeiten** in die Eingabemaske.
+Klick auf die Karte öffnet die Detailansicht. **Bearbeiten** steht dort und an den Kartenaktionen. Wie Komposition und Zugangaben funktionieren, steht unter [Zug zusammenstellen](zuege-komposition.md).
 
-Komposition, Zugangaben und Bezeichnung (gesperrt oder frei) sind unter [Zug zusammenstellen](zuege-komposition.md) beschrieben.
-
-Fehlt ein Zug unter der aufgerufenen Adresse (etwa nach Löschung), erscheint die Seite **Nicht gefunden** mit dem Hinweis «Dieser Eintrag ist nicht vorhanden.» und dem Link **Zur Liste**.
+Existiert der Zug unter der URL nicht mehr, erscheint **Nicht gefunden** («Dieser Eintrag ist nicht vorhanden.») mit dem Link **Zur Liste**.
 
 ## Globale Suche
 
-In der [globalen Suche](../generelles/globale-suche.md) erscheinen Züge in der Gruppe **Züge**. Treffer nutzen Bezeichnung bzw. Zugangaben; ein Kompositionsstreifen wird dort nicht angezeigt.
+In der [globalen Suche](../generelles/globale-suche.md) landen Züge in der Gruppe **Züge**, nach Bezeichnung bzw. Zugangaben. Den Kompositionsstreifen gibt es dort nicht.
 
 ## Löschen
 
-Gelöschte Züge landen im [Papierkorb](../papierkorb/papierkorb.md) im Register **Züge** und können innerhalb der Aufbewahrungsfrist wiederhergestellt werden. Das Menü-Badge am Papierkorb zählt Züge mit.
+Löschen legt den Zug im Papierkorb unter dem Register **Züge** ab. Innerhalb der Frist ist Wiederherstellen möglich; das rote Badge am Menüeintrag zählt Züge mit.
