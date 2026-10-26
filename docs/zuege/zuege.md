@@ -8,38 +8,46 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Züge
 
-Unter **Züge** entstehen Kompositionen aus vorhandenen [Artikeln](../artikel/artikel.md). Anlegen braucht Premium; gelöschte Züge liegen im [Papierkorb](../papierkorb/papierkorb.md).
+Unter **Züge** stehen die zusammengestellten Züge der Sammlung. Ein Zug besteht aus [Artikeln](../artikel/artikel.md), die bereits erfasst sind. Gelöschte Züge bleiben im [Papierkorb](../papierkorb/papierkorb.md).
 
 <LimitsPlanNote />
 
 ## Übersicht
 
-Statt einer Zeilentabelle zeigt Locobox ein **Kartenraster**.
+Die Übersicht zeigt die Züge als **Kartenraster**.
 
 {/* SCREENSHOT_TODO /img/handbuch/zuege/zugliste-karten.webp : Zugübersicht als Kartenraster mit Kompositionsstreifen, Artikelanzahl und LüP */}
 
-Auf der Karte stehen Titel (Badge, Zugnummer, Bezeichnung oder Formel aus den Zugangaben), der horizontale **Kompositionsstreifen**, darunter zuerst die **Anzahl Artikel** und danach die **Länge über Puffer (LüP)** in mm, sofern sie sich aus den Modellen ergibt. Verkaufte Fahrzeuge im Streifen tragen das Label **Verkauft**. Aktionen am Rand: Ansehen, Bearbeiten, Löschen.
+Im Titel stehen das Badge der Zuggattung, die Zugnummer und die Bezeichnung, je nachdem, was gesetzt ist. Bei gesperrter Bezeichnung kommt der sichtbare Titel aus den Zugangaben. Darunter liegt der Kompositionsstreifen mit den Fahrzeugen in der Reihenfolge des Zuges. Verkaufte Modelle sind im Streifen mit **Verkauft** markiert.
 
-**Neu** öffnet das Formular für einen neuen Zug.
+Unter dem Streifen folgt die Anzahl der Artikel, danach die Länge in mm. Fehlen Längen, sitzt neben der Millimeterzahl ein Info-Symbol; der Hinweistext steht unter [Zug zusammenstellen](zuege-komposition.md). Rechts liegen die Länderflaggen, sofern Länder erfasst sind, sowie **Ansehen**, **Bearbeiten** und **Löschen**. Nur **Ansehen** öffnet die Detailansicht.
+
+**Neu** öffnet das Formular für einen neuen Zug. Im Gratisplan gilt dafür eine Obergrenze. Ist sie erreicht, erscheint der Hinweis auf Premium statt des Formulars. Mit Premium entfällt die Grenze.
+
+Ohne Züge erscheint **Noch keine Einträge vorhanden.** Die Aktion **Erstellen** macht dann dasselbe wie **Neu**. Passt kein Zug zum Filter, steht dort **Keine Einträge entsprechen den aktuellen Filtern.** und **Filter zurücksetzen**.
+
+Am unteren Rand stehen die Seitenwahl und die Anzahl Karten pro Seite.
 
 ## Filter
 
-Der aufklappbare Filterbereich grenzt die Karten ein. **Anwenden** lädt die Treffer, **Zurücksetzen** leert alles. Aktive Kriterien erscheinen als Chips und lassen sich einzeln entfernen.
+Der Bereich **Filter** klappt auf. Darin stehen **Bezeichnung**, **Zuggattung**, **Zugnummer**, **Betreiber**, **Epoche** und **Länder**, dazu je ein Bereich für **Anzahl Artikel** und **Länge über Puffer (LüP)**.
 
 {/* SCREENSHOT_TODO /img/handbuch/zuege/zugliste-filter.webp : Aufgeklappter Zugfilter mit Zugangaben und Bereichen für Artikelanzahl und LüP */}
 
-Filtern lässt sich nach **Bezeichnung** und den übrigen **Zugangaben** (Zuggattung, Zugnummer, Betreiber, Epoche, Länder u. a.) sowie nach Bereichen für **Anzahl Artikel** und **Länge über Puffer (LüP)**. Kommt man aus der Detailansicht zurück, bleiben die Filter der Sitzung stehen.
+**Anwenden** lädt die Trefferliste neu, **Zurücksetzen** leert die Maske. Aktive Kriterien stehen als Chips unter dem Filter. Ein Klick auf das Kreuz am Chip entfernt nur dieses Kriterium, und die Liste lädt sofort neu.
+
+Die Filter bleiben erhalten, solange Locobox im Browser offen bleibt, auch nach der Rückkehr aus der Detailansicht. Ein Neuladen der Seite setzt sie zurück.
 
 ## Detail und Bearbeitung
 
-Klick auf die Karte öffnet die Detailansicht. **Bearbeiten** steht dort und an den Kartenaktionen. Wie Komposition und Zugangaben funktionieren, steht unter [Zug zusammenstellen](zuege-komposition.md).
+**Ansehen** öffnet die Detailansicht. **Bearbeiten** steht an der Karte und noch einmal in der Detailansicht. Komposition und Zugangaben beschreibt [Zug zusammenstellen](zuege-komposition.md).
 
-Existiert der Zug unter der URL nicht mehr, erscheint **Nicht gefunden** («Dieser Eintrag ist nicht vorhanden.») mit dem Link **Zur Liste**.
+Fehlt der Zug unter der aufgerufenen Adresse, zeigt die Seite **Nicht gefunden**. Der Text lautet «Dieser Eintrag ist nicht vorhanden.» Darunter führt **Zur Liste** zurück zur Übersicht.
 
 ## Globale Suche
 
-In der [globalen Suche](../generelles/globale-suche.md) landen Züge in der Gruppe **Züge**, nach Bezeichnung bzw. Zugangaben. Den Kompositionsstreifen gibt es dort nicht.
+In der [globalen Suche](../generelles/globale-suche.md) erscheinen Züge in der Gruppe **Züge**. Locobox sucht dort nach Bezeichnung und Zugangaben. Der Kompositionsstreifen der Karte ist in diesen Treffern nicht dabei.
 
 ## Löschen
 
-Löschen legt den Zug im Papierkorb unter dem Register **Züge** ab. Innerhalb der Frist ist Wiederherstellen möglich; das rote Badge am Menüeintrag zählt Züge mit.
+**Löschen** fragt zuerst «Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?» Der Zug liegt danach im Papierkorb, im Register **Züge**. Innerhalb von 30 Tagen holt **Wiederherstellen** ihn zurück. Das rote Badge am Menüeintrag **Papierkorb** zählt auch diesen Zug. Ablauf und Register: [Papierkorb](../papierkorb/papierkorb.md).

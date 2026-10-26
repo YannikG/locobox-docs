@@ -6,24 +6,24 @@ description: Gelöschte Artikel, Kategorien, Decoder, Artikelsets und Züge wied
 
 # Papierkorb
 
-Gelöschte [Artikel](../artikel/artikel.md), [Kategorien](../kategorien/kategorien.md), [Decoder](../decoder/decoder.md), [Artikelsets](../artikel/artikel-sets.md) und [Züge](../zuege/zuege.md) liegen hier **30 Tage**, bevor Locobox sie endgültig entfernt.
+Gelöschte [Artikel](../artikel/artikel.md), [Kategorien](../kategorien/kategorien.md), [Decoder](../decoder/decoder.md), [Artikelsets](../artikel/artikel-sets.md) und [Züge](../zuege/zuege.md) bleiben 30 Tage hier. Danach entfernt Locobox sie.
 
-**Navigation:** Benutzermenü (Profilsymbol oben rechts) → **Papierkorb**. Liegt etwas im Papierkorb, zeigt ein rotes Badge am Menüeintrag die Gesamtzahl inklusive Züge. Ist alles leer oder wiederhergestellt, verschwindet das Badge.
+Zu finden über das Benutzermenü (Profilsymbol oben rechts) → **Papierkorb**. Liegt etwas im Papierkorb, zeigt ein rotes Badge am Menüeintrag die Anzahl. Auch gelöschte Züge zählen dazu. Ist alles leer oder wiederhergestellt, verschwindet das Badge.
 
 ## Register
 
 {/* SCREENSHOT_TODO /img/handbuch/papierkorb/papierkorb-register.webp : Papierkorb mit fünf Registern inkl. Züge und Badge mit Gesamtzahl */}
 
-Fünf Register: **Artikel**, **Kategorien**, **Decoder**, **Artikelsets**, **Züge**.
+Die Seite hat fünf Register: **Artikel**, **Kategorien**, **Decoder**, **Artikelsets** und **Züge**.
 
-Pro Zeile: **Gelöscht am** und **Tage bis zur endgültigen Löschung** (z. B. «12 Tage»). Sortieren und Blättern wie in den übrigen Listen.
+Pro Zeile stehen **Gelöscht am** und **Tage bis zur endgültigen Löschung**. Die Restfrist erscheint zum Beispiel als «12 Tage», bei einem einzelnen Tag als «1 Tag». Ein Klick auf **Gelöscht am** sortiert **Artikel**, **Kategorien**, **Decoder** und **Züge**. Die Liste öffnet mit den zuletzt gelöschten Einträgen oben. **Artikelsets** zeigt dieselben Spalten, ohne Sortierung. Unten liegen die Seitenwahl und die Anzahl Zeilen pro Seite.
+
+Ein leeres Register meldet **Noch keine Einträge vorhanden.**
 
 ## Wiederherstellen
 
-Zeilenaktion **Wiederherstellen**, Abfrage «Möchten Sie diesen Eintrag wiederherstellen?» bestätigen. Danach ist der Eintrag wieder in den normalen Listen; bei Artikelsets kommen die Artikelverknüpfungen mit, Züge erscheinen wieder unter [Züge](../zuege/zuege.md). Meldung: «Eintrag erfolgreich wiederhergestellt.»
+Die Zeilenaktion **Wiederherstellen** fragt «Möchten Sie diesen Eintrag wiederherstellen?» Nach der Bestätigung liegt der Eintrag wieder in der normalen Liste. Bei einem Artikelset kommen die Artikelverknüpfungen mit, ein Zug erscheint wieder unter [Züge](../zuege/zuege.md). Die Meldung lautet «Eintrag erfolgreich wiederhergestellt.»
 
-Manuell endgültig löschen geht nicht. Nach 30 Tagen räumt Locobox von selbst auf. Mit einem Artikel verschwinden dann auch dessen Bilddateien.
-
-Leere Register melden sinngemäss «Keine gelöschten Artikel in den letzten 30 Tagen.»
+Nach 30 Tagen entfernt Locobox die Einträge endgültig. Mit einem Artikel gehen dabei auch die Bilddateien weg. Bis dahin steht im Papierkorb nur **Wiederherstellen**.
 
 Einträge im Papierkorb fehlen in der [globalen Suche](../generelles/globale-suche.md) und in den normalen Auswahllisten.
