@@ -1,24 +1,24 @@
 ---
 id: premium
 title: Premium und Gratisplan
-description: Was Gratis und Premium in Locobox bedeuten und wo Sie die Einzelheiten finden.
+description: Tarifstruktur in Locobox, Funktionsumfang und Kontingente im Überblick.
 ---
 
 # Premium und Gratisplan
 
-Locobox können Sie im **Gratisplan** nutzen, mit Limits für Artikel, Züge, Artikelsets, Kategorien und Decoder. **Premium** hebt diese Limits auf und schaltet zusätzliche Funktionen frei, zum Beispiel erweiterte Finanzdiagramme, Detailtabellen bei ausgewählten **Datenqualität**-Problemen und Premium-Berichte unter **Drucken**.
+Locobox steht im **Gratisplan** mit definierten Obergrenzen für Artikel, Züge, Artikelsets, Kategorien und Decoder bereit. Das **Premium-Abonnement** hebt diese Kontingente auf und schaltet weiterführende Funktionen frei, beispielsweise erweiterte Finanzdiagramme, detaillierte Auswertungen zur **Datenqualität** sowie zusätzliche Druckberichte.
 
-Diese Seite gibt einen Überblick. Die Einzelheiten stehen auf den verlinkten Seiten.
+Diese Seite bietet eine Übersicht. Weiterführende Details sind in den Fachkapiteln hinterlegt.
 
-## Wo Sie was finden
+## Themenübersicht
 
 | Thema | Seite |
 | --- | --- |
-| Was im Gratisplan enthalten ist und wie die Limits angezeigt werden | [Gratisplan und Limits](gratis-und-limits.md) |
-| Premium buchen, Abo verwalten und Status nach der Zahlung aktualisieren | [Abonnement abschliessen und verwalten](abonnement.md) |
-| Plan, Kontingente und Kulanzfrist in den Einstellungen ansehen | [Nutzung in den Einstellungen](../einstellungen/nutzung.md) |
-| Finanzen und Datenqualität auf der Startseite | [Übersicht](../uebersicht/uebersicht.md) |
+| Leistungsumfang des Gratisplans und Darstellung von Kontingenten | [Gratisplan und Limits](gratis-und-limits.md) |
+| Premium abonnieren, Zahlungsabwicklung und Tarifaktualisierung | [Abonnement abschliessen und verwalten](abonnement.md) |
+| Kontostatus, Kontingente und Kulanzfristen in den Systemeinstellungen | [Nutzung in den Einstellungen](../einstellungen/nutzung.md) |
+| Finanzstatistiken und Datenqualität auf der Startseite | [Übersicht](../uebersicht/uebersicht.md) |
 
-## Wo Sie Ihren Plan sehen
+## Abfrage des Kontostatus
 
-Ihren Plan finden Sie unter **Einstellungen** → **Premium**, unter **Aktueller Plan** (**Gratis** oder **Premium**). Die Schritt-für-Schritt-Erklärung mit allen Anzeigen und Schaltflächen steht unter [Nutzung in den Einstellungen](../einstellungen/nutzung.md).
+Der aktive Tarif ist unter **Einstellungen** → **Premium** im Feld **Aktueller Plan** (**Gratis** oder **Premium**) ausgewiesen. Die Erläuterung aller Kennzahlen und Schaltflächen findet sich unter [Nutzung in den Einstellungen](../einstellungen/nutzung.md).

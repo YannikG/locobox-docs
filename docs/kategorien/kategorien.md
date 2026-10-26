@@ -1,25 +1,24 @@
 ---
 id: kategorien
 title: Kategorien
-description: Kategorien helfen, Artikel schneller zu finden und gezielt zu filtern.
+description: Kategorien zur thematischen Strukturierung und gezielten Filterung von Artikeln.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Kategorien
 
-Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) nach Themen ordnen.
+Mit **Kategorien** lassen sich [Artikel](../artikel/artikel.md) thematisch nach Modellarten oder Sachgebieten strukturieren.
 
-**Wo:** Hauptmenü **Sammlung** → **Kategorien**.
+**Navigation:** Hauptmenü **Sammlung** → **Kategorien**.
 
 <LimitsPlanNote />
 
-
-## Liste
+## Übersichtstabelle
 
 ![Kategorien-Liste mit den Spalten und dem Dialog «Neu Kategorien»](/img/handbuch/kategorien/kategorien-liste.webp)
 
-Die Seite zeigt alle aktiven Kategorien in einer Tabelle mit den Spalten:
+Die Übersichtstabelle führt alle aktiven Kategorien auf:
 
 - **Name** (sortierbar)
 - **Beschreibung**
@@ -27,24 +26,24 @@ Die Seite zeigt alle aktiven Kategorien in einer Tabelle mit den Spalten:
 - **Zuletzt aktualisiert** (sortierbar)
 - **Aktionen**
 
-Über die Toolbar erreichen Sie **Zurück** und **Neu**. Sind noch keine Kategorien vorhanden, erscheint «Keine Kategorien gefunden.»
+Die Symbolleiste enthält **Zurück** und **Neu**. Sind noch keine Kategorien vorhanden, erscheint die Meldung «Keine Kategorien gefunden.».
 
 ## Kategorie anlegen oder bearbeiten
 
-1. **Neu** öffnet den Dialog mit dem Titel **Neu Kategorien**.
-2. **Name** ist Pflicht (Hinweis «Name ist erforderlich.»). **Beschreibung** ist optional.
-3. Mit **Speichern** legen Sie die Kategorie an, mit **Abbrechen** verwerfen Sie den Dialog.
+1. **Neu** öffnet das Erfassungsfenster mit dem Titel **Neu Kategorien**.
+2. **Name** ist ein Pflichtfeld (Hinweis «Name ist erforderlich.»). **Beschreibung** ist optional.
+3. Die Schaltfläche **Speichern** legt die Kategorie an; **Abbrechen** verwirft die Eingaben.
 
-Zum Anpassen einer bestehenden Zeile wählen Sie **Bearbeiten** (Dialogtitel **Bearbeiten Kategorien**), ändern **Name** oder **Beschreibung** und speichern.
+Zur Anpassung einer bestehenden Kategorie dient die Zeilenaktion **Bearbeiten** (Fenstertitel **Bearbeiten Kategorien**). Nach Eingabe der Anpassungen erfolgt die Sicherung über **Speichern**.
 
-Neue und geänderte Kategorien stehen anschliessend in den Kategorie-Auswahlen am Artikel und in den Filtern der [Artikelliste](../artikel/artikel-liste.md) zur Verfügung.
+Neue sowie modifizierte Kategorien stehen unmittelbar in den Auswahllisten der Artikelmaske sowie in den Filtern der [Artikelliste](../artikel/artikel-liste.md) bereit.
 
 ## Verknüpfte Artikel anzeigen
 
-Bei einer Kategorie mit mindestens einem verknüpften Artikel öffnet **Verknüpfte Artikel anzeigen** die Artikelliste, gefiltert auf diese Kategorie.
+Weist eine Kategorie mindestens ein verknüpftes Modell auf, leitet die Aktion **Verknüpfte Artikel anzeigen** direkt zur Artikelliste mit aktivem Filter auf diese Kategorie weiter.
 
 ## Löschen und Papierkorb
 
-Solange noch aktive Artikel mit der Kategorie verknüpft sind, bleibt **Löschen** deaktiviert. Der Hinweis lautet: «Diese Kategorie ist noch einem oder mehreren Artikeln zugeordnet. Entfernen Sie die Zuordnung bei allen Artikeln, bevor Sie die Kategorie löschen.»
+Solange aktive Artikel mit der Kategorie verknüpft sind, bleibt die Aktion **Löschen** deaktiviert. Der Hinweistext lautet: «Diese Kategorie ist noch einem oder mehreren Artikeln zugeordnet. Entfernen Sie die Zuordnung bei allen Artikeln, bevor Sie die Kategorie löschen.».
 
-Sind keine aktiven Artikel mehr verknüpft, können Sie die Kategorie löschen. Sie wird zuerst in den [Papierkorb](../papierkorb/papierkorb.md) verschoben und kann dort wiederhergestellt werden.
+Sobald keine Artikelverknüpfungen mehr vorliegen, lässt sich die Kategorie löschen. Sie wird in den [Papierkorb](../papierkorb/papierkorb.md) überführt und kann von dort wiederhergestellt werden.

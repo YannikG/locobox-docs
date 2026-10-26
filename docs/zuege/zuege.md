@@ -1,30 +1,29 @@
 ---
 id: zuege
 title: Züge
-description: Züge aus Artikeln zusammenstellen, Reihenfolge anpassen und Bildansicht pro Artikel wählen.
+description: Zugkompositionen aus Artikeln zusammenstellen, Reihung organisieren und Wagenbilder steuern.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Züge
 
-Im Bereich **Züge** lassen sich aus vorhandenen [Artikeln](../artikel/artikel.md) komplette Zug-Kompositionen zusammenstellen.
-Züge können angelegt, angezeigt, bearbeitet und bei Bedarf gelöscht werden.
+Im Bereich **Züge** lassen sich aus erfassten [Artikeln](../artikel/artikel.md) vollständige Zugkompositionen zusammenstellen.
+Züge können angelegt, betrachtet, modifiziert und gelöscht werden.
 
 <LimitsPlanNote />
 
-
 ## Zugliste
 
-Die Übersicht listet jeden Zug mit **Bezeichnung**, einer **Komposition**-Darstellung als waagrechte Reihe sowie **Zuletzt aktualisiert**.
-Sie können mit **Suchen** filtern und die Tabelle blättern. Über **Neu** legen Sie einen Zug an. Das Anlegen eines neuen Zuges erfordert Premium.
+Die Übersichtstabelle führt jeden erfassten Zug mit **Bezeichnung**, einer horizontalen Visualisierung der **Komposition** sowie dem Datum unter **Zuletzt aktualisiert** auf.
+Über das Suchfeld lässt sich die Tabelle filtern und durchblättern. Die Schaltfläche **Neu** startet das Anlegen eines neuen Zuges (erfordert ein aktives Premium-Abonnement).
 
-Pro Zeile öffnen **Ansehen** die Detailansicht und **Bearbeiten** das Formular **Zug bearbeiten**.
+Pro Zeile führen **Ansehen** in die Detailansicht und **Bearbeiten** in die Eingabemaske **Zug bearbeiten**.
 
 ## Komposition zusammenstellen
 
-Wie Artikel eingefügt, sortiert, mit Haupt- oder gespiegeltem Bild dargestellt und wie die **Zuglänge über Puffer** angezeigt wird, steht unter [Zug zusammenstellen](zuege-komposition.md).
+Das Einfügen von Artikeln, die Sortierung der Fahrzeugreihenfolge, die Wahl der Bildansicht sowie die Anzeige der Zuglänge über Puffer werden unter [Zug zusammenstellen](zuege-komposition.md) beschrieben.
 
 ## Löschen
 
-Gelöschte Züge erscheinen **nicht** im [Papierkorb](../papierkorb/papierkorb.md) und können dort nicht wiederhergestellt werden. Nach dem Löschen sind sie aus der Zugliste entfernt.
+Gelöschte Züge werden **nicht** in den [Papierkorb](../papierkorb/papierkorb.md) überführt und können nachträglich nicht wiederhergestellt werden. Nach Ausführung des Löschvorgangs ist der Eintrag endgültig entfernt.

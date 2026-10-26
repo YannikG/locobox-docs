@@ -2,12 +2,12 @@
 sidebar_position: 4
 id: generelles-browser-kompatibilitaet
 title: Welcher Browser für Locobox?
-description: Unterstützte und getestete Browser für Locobox; andere Browser werden nicht unterstützt.
+description: Unterstützte und getestete Webbrowser für den Betrieb von Locobox.
 ---
 
 # Welcher Browser für Locobox?
 
-Locobox wird mit den gängigen aktuellen Versionen der folgenden Browser **regelmässig getestet**. Diese Kombinationen gelten als **unterstützt**: Sie können Locobox darin erwarten, wie vorgesehen nutzen.
+Locobox wird mit aktuellen Versionen der führenden Webbrowser regelmässig getestet. Die folgenden Browser gelten als offiziell **unterstützt**:
 
 | Browser | Unterstützt und getestet |
 |--------|---------------------------|
@@ -18,12 +18,12 @@ Locobox wird mit den gängigen aktuellen Versionen der folgenden Browser **regel
 
 ## Andere Browser
 
-**Weitere Browser** (z. B. Brave, Opera, Vivaldi, eingebettete Webviews oder veraltete Versionen) werden **nicht unterstützt**. Locobox kann darin laufen, es ist aber **nicht ausgeschlossen**, dass einzelne Funktionen fehlen, falsch dargestellt werden oder Fehler auftreten. Für einen zuverlässigen Alltagseinsatz empfehlen wir einen der vier getesteten Browser in aktueller Version.
+Weitere Browser (beispielsweise Brave, Opera, Vivaldi, eingebettete Webviews oder ältere Softwarestände) werden nicht offiziell unterstützt. Eine einwandfreie Darstellung und Funktionsfähigkeit ist in diesen Umgebungen nicht garantiert. Für den zuverlässigen Betrieb empfiehlt sich der Einsatz eines der vier getesteten Standardbrowser in neuester Version.
 
 ## App installieren
 
-Locobox können Sie in unterstützten Browsern zusätzlich wie ein Programm auf dem Gerät installieren. Die Schritte und Unterschiede zwischen Chrome, Edge, Safari und Firefox stehen unter [App installieren](./app-installieren.md).
+Auf unterstützten Plattformen lässt sich Locobox als eigenständiges Programm auf dem Endgerät einrichten. Die Voraussetzungen und systemspezifischen Unterschiede sind unter [App installieren](./app-installieren.md) dokumentiert.
 
-## Praktischer Tipp
+## Praxishinweis
 
-Wenn etwas in der Oberfläche unerwartet wirkt, zuerst prüfen, ob ein **Browser-Update** oder ein **Wechsel zu Chrome, Edge, Firefox oder Safari** das Verhalten klärt.
+Bei unerwartetem Verhalten der Benutzeroberfläche empfiehlt sich als erste Massnahme die Durchführung eines Browser-Updates oder ein Testlauf in einem der anderen unterstützten Browser.

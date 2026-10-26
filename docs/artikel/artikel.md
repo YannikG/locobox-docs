@@ -1,21 +1,18 @@
 ---
 id: artikel
 title: Artikel
-description: Artikel erfassen, mit Decodern und Zügen verknüpfen, Bilder hochladen und alles zentral pflegen.
+description: Artikel erfassen, mit Decodern und Zügen verknüpfen, Bilder hochladen und zentral verwalten.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Artikel
 
-Im Bereich **Artikel** unter **Sammlung** lassen sich alle Einträge der Sammlung an einem Ort verwalten.
-Neue Artikel können erfasst, bestehende Einträge bearbeitet und bei Bedarf dupliziert werden.
-Mehrere neue Artikel lassen sich über den [CSV-Import](artikel-csv-import.md) anlegen.
+Im Bereich **Artikel** unter **Sammlung** lassen sich alle Einträge der Sammlung zentral verwalten. Neue Artikel können erfasst, bestehende Einträge bearbeitet und bei Bedarf dupliziert werden. Grössere Bestände lassen sich über den [CSV-Import](artikel-csv-import.md) gesammelt importieren.
 
 <LimitsPlanNote />
 
-
-## Wo Sie was finden
+## Themenübersicht
 
 | Thema | Seite |
 | --- | --- |
@@ -32,11 +29,8 @@ Mehrere neue Artikel lassen sich über den [CSV-Import](artikel-csv-import.md) a
 
 ## Verknüpfungen und Inhalte
 
-Artikel lassen sich mit [Kategorien](../kategorien/kategorien.md), [Labels](artikel-labels.md) und [Decodern](../decoder/decoder.md) verknüpfen.
-Ausserdem können Artikel in [Zügen](../zuege/zuege.md) verwendet werden, damit ganze Kompositionen zusammenstellbar sind.
-Zu jedem Eintrag lassen sich Bilder hochladen und weitere Angaben pflegen.
+Artikel lassen sich mit [Kategorien](../kategorien/kategorien.md), [Labels](artikel-labels.md) und [Decodern](../decoder/decoder.md) verknüpfen. Zudem können Modelle in [Zügen](../zuege/zuege.md) für vollständige Kompositionen hinterlegt werden. Zu jedem Eintrag lassen sich Bilder hochladen und Zusatzdaten erfassen.
 
 ## Löschen und Papierkorb
 
-Beim Löschen landet ein Artikel zuerst im [Papierkorb](../papierkorb/papierkorb.md) und kann dort wiederhergestellt werden.
-Ein Artikel, der in einem aktiven Zug verwendet wird, kann nicht direkt gelöscht werden. Die Meldung lautet dann: «Dieser Artikel ist noch mit einem Zug verknüpft und kann nicht gelöscht werden.»
+Beim Löschen wird ein Artikel zunächst in den [Papierkorb](../papierkorb/papierkorb.md) verschoben und lässt sich von dort wiederherstellen. Befindet sich ein Artikel noch in einem aktiven Zug, wird der direkte Löschvorgang blockiert. Die Systemmeldung lautet: «Dieser Artikel ist noch mit einem Zug verknüpft und kann nicht gelöscht werden.»

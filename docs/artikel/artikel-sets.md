@@ -2,120 +2,118 @@
 sidebar_position: 8
 id: artikel-sets
 title: Artikelsets verwalten
-description: Ein Artikelset als kommerzielle Produkteinheit mit mehreren Artikeln verwalten, anlegen, verknüpfen, Finanzen und Lager vom Set übernehmen.
+description: Artikelsets als Handelseinheiten mit mehreren Artikeln anlegen, verknüpfen und Finanz- sowie Lagerwerte synchronisieren.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Artikelsets verwalten
 
-Ein **Artikelset** ist das kommerzielle Produkt, wie Sie es gekauft haben, zum Beispiel eine Startpackung oder eine Zusammenstellung mit mehreren Fahrzeugen.
-Jeder **Artikel** darin ist ein einzelnes physisches Stück mit eigener Hersteller- und Artikelnummer.
+Ein **Artikelset** repräsentiert eine kommerzielle Handelseinheit mit mehreren Teilmodellen, beispielsweise eine Startpackung oder eine Zugpackung. Jeder enthaltene **Artikel** bildet darin ein eigenständiges physisches Modell mit eigener Hersteller- und Artikelnummer.
 
-**Wo:** Hauptmenü **Sammlung** → **Artikelsets**.
+**Navigation:** Hauptmenü **Sammlung** → **Artikelsets**.
 
 <LimitsPlanNote />
 
+## Grundlagen zu Sets und Artikeln
 
-## Sets und Artikel verstehen
+Ein Artikelset fasst mehrere Einzelartikel unter einer gemeinsamen Produktbezeichnung zusammen. Ein Artikel kann jeweils **höchstens zu einem Set** gehören. Liegen zwei identische Packungen vor (beispielsweise zwei gleiche Startsets), werden zwei separate Artikelsets erfasst, die jeweils ihre eigenen Modelle aufnehmen.
 
-Ein Artikelset fasst mehrere Artikel unter einer gemeinsamen Produktbezeichnung zusammen. Ein Artikel kann **höchstens zu einem Set** gehören. Besitzen Sie zwei gleiche Sets (z. B. zweimal dieselbe Startpackung), legen Sie zwei separate Artikelsets an, die jeweils ihre eigenen Artikel enthalten.
+## Set-Übersicht
 
-## Set-Liste
+Die Übersichtstabelle listet alle aktiven Artikelsets auf. Über die Zeilenaktionen stehen **Ansehen** und **Bearbeiten** bereit. Zur Filterung und Sortierung dienen Kriterien wie Hersteller, Artikelnummer, Beschreibung, Artikelanzahl und Kaufpreis.
 
-Die Liste zeigt alle Ihre aktiven Artikelsets. Über die Zeilenaktionen wählen Sie **Ansehen** oder **Bearbeiten**. Zum Filtern und Sortieren stehen Kriterien wie Identität, Beschreibung, Artikelanzahl und Kaufpreis bereit.
+## Neues Set erfassen
 
-## Set erfassen
-
-1. In der Liste **Artikelset erstellen** wählen.
-2. Auf dem Register **Allgemein** **Hersteller** und **Artikelnummer** eingeben (Pflichtfelder) sowie optional eine **Beschreibung**.
-3. Auf den Registern **Finanzen** und **Lager** bei Bedarf Werte ergänzen.
-4. **Speichern**.
+1. In der Listenansicht die Schaltfläche **Artikelset erstellen** betätigen.
+2. Im Register **Allgemein** die Pflichtangaben **Hersteller** und **Artikelnummer** eingeben sowie optional eine **Beschreibung** hinterlegen.
+3. In den Registern **Finanzen** und **Lager** allfällige Stammdaten ergänzen.
+4. Mit **Speichern** abschliessen.
 
 ![Set-Formular mit den Registern «Allgemein», «Finanzen» und «Lager»; bei Bedarf der Neuberechnungs-Dialog](/img/handbuch/artikel/artikelset-formular.webp)
 
-Das Erfassungsformular ist in die Register **Allgemein**, **Finanzen** und **Lager** gegliedert. Enthält ein Register ungültige Eingaben, kennzeichnet die App das betroffene Register mit einem Fehlersymbol; beim Klick auf **Speichern** wechselt die Ansicht automatisch zum ersten Register mit Fehlern.
+Das Erfassungsformular gliedert sich in die Register **Allgemein**, **Finanzen** und **Lager**. Enthält ein Register fehlerhafte Werte, wird die Registerkarte mit einem Warnsymbol markiert. Ein Klick auf **Speichern** fokussiert automatisch das erste Register mit Validierungsfehlern.
 
-Anschliessend weisen Sie dem Set über die **Bearbeitung** Artikel zu.
+Die Zuweisung von Einzelartikeln erfolgt anschliessend in der **Bearbeitung**.
 
 ## Set bearbeiten
 
-In der Bearbeitung passen Sie Hersteller, Artikelnummer, Beschreibung, Finanzen und Lager an und verwalten die zugehörigen Artikel.
+In der Bearbeitungsansicht lassen sich Stammdaten, Finanzen, Lager und die Zusammensetzung der zugehörigen Artikel pflegen.
 
 ### Finanzen und Lager
 
-Im Set können Sie **Kaufpreis**, **Kaufdatum**, **Verkaufsstatus** und **Lagerort** hinterlegen, genau wie bei einem einzelnen Artikel.
+Im Set können **Kaufpreis**, **Kaufdatum**, **Verkaufsstatus** und **Lagerort** wie bei Einzelartikeln hinterlegt werden.
 
 ### Artikel zuweisen
 
-- **Artikel hinzufügen** öffnet den Dialog **Artikel zum Set hinzufügen** mit der Artikelliste. Es werden nur Artikel ohne bestehende Set-Zugehörigkeit angezeigt.
-- Einen oder mehrere Artikel auswählen und **Auswahl verknüpfen** wählen.
-- Die verknüpften Artikel erscheinen in der Tabelle der Set-Artikel.
+- **Artikel hinzufügen** öffnet den Auswahldialog **Artikel zum Set hinzufügen**. Es erscheinen ausschliesslich Artikel ohne bestehende Set-Zuordnung.
+- Nach Auswahl der gewünschten Datensätze erfolgt die Zuweisung über **Auswahl verknüpfen**.
+- Die verknüpften Artikel werden in die Tabelle der Set-Artikel übernommen.
 
-Zugefügte und entfernte Artikel sind zunächst nur **vorgemerkt** und werden erst beim **Speichern** des Set-Formulars übernommen (Hinweis in der App: «Speichern, um die Änderungen an den Set-Artikeln zu übernehmen.»). Verlassen Sie die Bearbeitung mit vorgemerkten Änderungen, fragt die App, ob Sie diese verwerfen möchten.
+Hinzugefügte oder entfernte Artikel gelten zunächst als vorgemerkt. Die dauerhafte Speicherung erfolgt erst beim Betätigen von **Speichern** im Set-Formular (Hinweismeldung: «Speichern, um die Änderungen an den Set-Artikeln zu übernehmen.»). Beim Verlassen des Formulars mit ungespeicherten Anpassungen erscheint eine Sicherheitsabfrage.
 
-### Artikel entfernen
+### Artikel aus dem Set entfernen
 
-In der Tabelle der Set-Artikel entfernen Sie eine Zeile. Der Artikel bleibt in Ihrer Sammlung; nur die Set-Verknüpfung wird gelöst.
+Über das Zeilensymbol in der Artikeltabelle des Sets lässt sich die Verknüpfung lösen. Der Artikel verbleibt als eigenständiger Datensatz in der Sammlung.
 
 ## Set-Detailansicht
 
 {/* SCREENSHOT_TODO /img/handbuch/artikel/artikelset-detailansicht.webp : Artikelset-Detailansicht mit Kopfbereich, Finanzen, Lager und Tabelle der Set-Artikel */}
 
-Die Detailansicht eines Artikelsets ist eine reine Leseansicht mit Kopfbereich (Identität, Beschreibung), einer Finanzen- und einer Lager-Karte sowie der Tabelle der Set-Artikel mit Navigation zur Artikel-Detailansicht.
+Die Detailansicht eines Artikelsets ist eine Leseansicht mit Stammdatenkopf (Hersteller, Artikelnummer, Beschreibung), Informationskarten für Finanzen und Lager sowie der Tabelle der enthaltenen Modelle mit Absprung in die Artikeldetails.
 
 ### Migrationsprüfung bei automatisch erstellten Sets
 
-Wurden Sets aus früheren Setnummern **automatisch** erstellt, zeigt die Detailansicht (nicht die Liste) das Badge **Migrationsprüfung**. Öffnen Sie das Set, prüfen Sie die Angaben und wählen Sie **Migration als geprüft markieren**. Der Nachfragedialog weist darauf hin, dass das Badge dauerhaft verschwindet und dies nicht rückgängig gemacht werden kann; mit **Weiter** bestätigen Sie.
+Wurden Sets im Zuge früherer Softwareversionen automatisch aus Setnummern generiert, weist die Detailansicht das Kennzeichen **Migrationsprüfung** auf. Nach Kontrolle der Angaben lässt sich der Status über **Migration als geprüft markieren** bestätigen. Ein Dialogfenster weist darauf hin, dass das Kennzeichen dauerhaft entfernt wird. Die Bestätigung erfolgt über **Weiter**.
 
-## Artikel einem Set zuweisen (vom Artikel aus)
+## Artikel einem Set zuweisen (aus der Artikelmaske)
 
-Sie können einen Artikel auch direkt aus der [Artikel-Bearbeitung](artikel-bearbeiten.md) einem Set zuweisen. Im Abschnitt **Allgemein** stehen dafür **Bestehendes Set verknüpfen** und **Set erstellen** zur Verfügung; ist bereits ein Set verknüpft, können Sie es über **Set wechseln** ändern.
+Ein Artikel lässt sich direkt in der [Artikel-Bearbeitung](artikel-bearbeiten.md) einem Set zuordnen. Im Bereich **Allgemein** stehen dazu **Bestehendes Set verknüpfen** und **Set erstellen** bereit. Bei bestehender Verknüpfung erlaubt **Set wechseln** eine Neuzuordnung.
 
-Legen Sie ein neues Set direkt im Artikelformular an, wird es erst **beim Speichern des Artikels** erstellt (Hinweis: «Das Set wird erst erstellt, wenn Sie diesen Artikel speichern.»). Aktivieren Sie beim Erfassen zusätzlich **Nach dem Speichern auf diesem Formular bleiben**, bleibt die Set-Auswahl für den nächsten Artikel erhalten, sodass Sie mehrere Stücke desselben Sets nacheinander erfassen können.
+Wird ein neues Set direkt im Artikelformular angelegt, erfolgt dessen Erstellung erst beim Speichern des Artikels (Hinweis: «Das Set wird erst erstellt, wenn Sie diesen Artikel speichern.»). Ist beim Erfassen die Option **Nach dem Speichern auf diesem Formular bleiben** aktiv, bleibt die Set-Zuordnung für den Folgeartikel vorausgewählt.
 
-### Set-Verknüpfung lösen
+### Set-Verknüpfung im Artikel lösen
 
-Über **Set-Verknüpfung lösen** im Abschnitt **Allgemein** trennen Sie den Artikel vom Set und **speichern** anschliessend. Der Artikel bleibt in Ihrer Sammlung; nur die Zugehörigkeit zum Set entfällt.
+Über **Set-Verknüpfung lösen** im Abschnitt **Allgemein** wird die Bindung aufgehoben und durch **Speichern** übernommen. Der Artikel bleibt in der Sammlung erhalten.
 
-## Finanzen und Lager vom Set übernehmen
+## Finanz- und Lagerwerte synchronisieren
 
-Hat ein Set bereits Finanz- oder Lagerwerte, können Sie beim Verknüpfen eines Artikels die Übernahme aktivieren:
+Sind im Set Finanz- oder Lagerwerte hinterlegt, lässt sich beim Verknüpfen eine automatische Übernahme aktivieren:
 
-- **Finanzen vom Set übernehmen:** übernimmt Kaufpreis (anteilig), Kaufdatum und Verkaufsstatus vom Set auf den Artikel.
-- **Lager vom Set übernehmen:** übernimmt Lagerort, Regal und Box vom Set auf den Artikel.
+- **Finanzen vom Set übernehmen:** Überträgt anteiligen Kaufpreis, Kaufdatum und Verkaufsstatus vom Set auf den Artikel.
+- **Lager vom Set übernehmen:** Überträgt Lagerort, Regal und Box vom Set auf den Artikel.
 
-Die Übernahme lässt sich pro Artikel ein- und ausschalten. Bei aktivierter Finanz-Übernahme wird der Kaufpreis des Sets **gleichmässig** auf die übernehmenden Artikel aufgeteilt.
+Die Übernahme lässt sich pro Artikel steuern. Bei aktiver Finanzübernahme wird der Gesamtkaufpreis des Sets gleichmässig auf alle übernehmenden Artikel umgelegt.
 
-Ändern sich der Kaufpreis des Sets oder die Anzahl der übernehmenden Artikel, fragt die App nach, in welchem Umfang der Anteil neu berechnet werden soll (nur die übernehmenden Artikel oder alle, auch zuvor manuell angepasste). Sie können die Neuberechnung auch abbrechen.
+Ändern sich der Kaufpreis des Sets oder die Anzahl übernehmender Modelle, blendet die Anwendung einen Dialog zur Neuberechnung der Anteile ein. Der Vorgang lässt sich wahlweise anwenden oder abbrechen.
 
-## Set und Verkauf
+## Verkauf von Sets
 
-Ein Artikelset können Sie **als Ganzes** als verkauft markieren: in der Set-Bearbeitung **Verkauft** setzen und die Verkaufsangaben ergänzen. Beim Speichern fragt die App, ob die Verkaufsinformationen auf die noch nicht verkauften, übernehmenden Artikel übertragen werden sollen; bereits verkaufte Artikel werden dabei standardmässig nicht überschrieben.
+Ein Artikelset lässt sich als geschlossene Einheit als verkauft kennzeichnen: In der Set-Bearbeitung wird **Verkauft** aktiviert und die Verkaufsangaben werden ausgefüllt. Beim Speichern erfolgt eine Abfrage, ob die Verkaufsdaten auf alle noch unverkaufte, übernehmende Einzelartikel übertragen werden sollen. Bereits zuvor einzeln verkaufte Artikel bleiben davon unberührt.
 
-Ist nur ein Teil der Artikel verkauft, zeigt die Liste das Badge **Teilweise verkauft**.
+Wurden lediglich Teilmengen der enthaltenen Artikel verkauft, weist die Listenansicht das Kennzeichen **Teilweise verkauft** aus.
 
-Markieren Sie stattdessen ein einzelnes, mit einem Set verknüpftes Stück in der [Artikel-Bearbeitung](artikel-bearbeiten.md) als verkauft, fragt die App nach, ob sich der Verkauf nur auf dieses Stück oder auf das ganze Set bezieht.
+Wird ein einzelner, mit einem Set verknüpfter Artikel in der [Artikel-Bearbeitung](artikel-bearbeiten.md) als verkauft deklariert, erkundigt sich das System, ob sich der Vorgang nur auf dieses Exemplar oder auf das gesamte Set bezieht.
 
 ## Set löschen
 
-Beim Löschen wird das Artikelset in den [Papierkorb](../papierkorb/papierkorb.md) verschoben. Die zugehörigen Artikel bleiben unverändert bestehen. Die Verknüpfungen zwischen Set und Artikeln bleiben erhalten: Stellen Sie das Set später wieder her, sind die vorherigen Artikel erneut damit verbunden.
+Beim Löschen wird das Artikelset in den [Papierkorb](../papierkorb/papierkorb.md) überführt. Die zugehörigen Artikel bleiben unverändert im Sammlungsbestand. Die Zuordnungen bleiben im Hintergrund gespeichert: Bei einer Wiederherstellung des Sets sind alle vorherigen Modelle wieder verknüpft.
 
 :::note
-Das gleichzeitige Löschen des Sets **und aller enthaltenen Artikel** ist aktuell noch nicht verfügbar. Möchten Sie einzelne Artikel entfernen, löschen Sie diese direkt über den Artikel.
+Ein gleichzeitiges Löschen des Sets mitsamt allen enthaltenen Artikeln in einer Aktion wird nicht unterstützt. Einzelne Artikel sind bei Bedarf über die Artikelverwaltung zu entfernen.
 :::
 
 ## Set aus dem Papierkorb wiederherstellen
 
-Ein gelöschtes Set stellen Sie im [Papierkorb](../papierkorb/papierkorb.md) unter dem Register **Artikelsets** wieder her; die zuvor verknüpften Artikel sind danach erneut zugeordnet.
+Ein gelöschtes Set lässt sich im [Papierkorb](../papierkorb/papierkorb.md) unter dem Register **Artikelsets** reaktivieren. Die Verknüpfungen zu den Artikeln werden dabei vollständig wiederhergestellt.
 
-## Grenzen
+## Obergrenzen
 
-- Gratis-Nutzer können maximal **5 aktive Artikelsets** verwalten.
-- Ein Artikel kann nur zu **einem Set** gleichzeitig gehören.
+- Im Gratisplan können maximal **fünf aktive Artikelsets** verwaltet werden.
+- Ein Artikel kann jeweils nur zu **einem Set** gehören.
 
-## Verwandte Themen
+## Verwandte Dokumente
 
-- [Artikel](artikel.md): Übersicht zu Artikeln
+- [Artikel](artikel.md): Zentrale Artikelverwaltung
 - [Artikel bearbeiten](artikel-bearbeiten.md): Set-Zuweisung im Artikelformular
-- [Papierkorb](../papierkorb/papierkorb.md): gelöschte Artikelsets wiederherstellen
+- [Papierkorb](../papierkorb/papierkorb.md): Wiederherstellung gelöschter Artikelsets

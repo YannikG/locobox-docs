@@ -2,26 +2,26 @@
 sidebar_position: 4
 id: artikel-duplizieren
 title: Artikel duplizieren
-description: Einen bestehenden Artikel inklusive Bilder und Kategorien kopieren.
+description: Bestehende Artikel mitsamt Bildern und Kategorien als Kopiervorlage nutzen.
 ---
 
 # Artikel duplizieren
 
-Wenn ein neuer Artikel dem gleichen Modell sehr ähnlich ist, lohnt sich **Duplizieren** statt alles neu einzutippen.
+Weist ein neuer Artikel grosse Ähnlichkeiten mit einem bestehenden Modell auf, beschleunigt die Funktion **Duplizieren** die Erfassung gegenüber einer manuellen Neueingabe.
 
-## So geht es
+## Vorgehen
 
-1. Artikel in der [Detailansicht](artikel-detailansicht.md) öffnen (aus der [Liste](artikel-liste.md) über **Ansehen**).
-2. **Duplizieren** wählen und im Dialog mit dem Titel **Duplizieren** die Abfrage «Sind Sie sicher, dass Sie diesen Artikel duplizieren möchten?» bestätigen.
-3. Locobox legt einen neuen Artikel an und öffnet dessen Detailansicht.
+1. Den Ausgangsartikel in der [Detailansicht](artikel-detailansicht.md) aufrufen (aus der [Liste](artikel-liste.md) über **Ansehen**).
+2. Die Schaltfläche **Duplizieren** betätigen und im Dialogfenster die Abfrage «Sind Sie sicher, dass Sie diesen Artikel duplizieren möchten?» bestätigen.
+3. Das System erzeugt ein Duplikat und öffnet unmittelbar dessen Detailansicht.
 
-## Was kopiert wird und was nicht
+## Umfang des Kopiervorgangs
 
-| Wird mitkopiert | Wird nicht mitkopiert |
+| Wird übernommen | Wird nicht übernommen |
 | --------------- | --------------------- |
 | Stammdaten (Hersteller, Artikelnummer, Rollmaterial, Modell Details, Finanzen, Lager) | Verknüpfung zu **Decodern** |
-| **Bilder** (**Hauptbild** und **Gespiegeltes Bild**) | Eintrag in **Zügen** (Sie ordnen den neuen Artikel separat zu) |
+| **Bilder** (**Hauptbild** und **Gespiegeltes Bild**) | Einreihung in **Züge** (Zuweisung erfolgt separat) |
 | **Kategorien** | **Labels** |
 | | Verknüpfung zu einem **Artikelset** |
 
-Passen Sie danach Bezeichnung, Artikelnummer und alles an, was sich vom Original unterscheidet. Zum Bearbeiten siehe [Artikel bearbeiten](artikel-bearbeiten.md).
+Anschliessend lassen sich Artikelnummer und abweichende Spezifikationen anpassen. Zur weiteren Anpassung siehe [Artikel bearbeiten](artikel-bearbeiten.md).

@@ -2,45 +2,45 @@
 sidebar_position: 2
 id: generelles-anmelden
 title: Anmelden und abmelden
-description: Sich bei Locobox anmelden, Anmeldewege und sicher abmelden.
+description: Anmeldeverfahren bei Locobox und sichere Abmeldung.
 ---
 
 # Anmelden und abmelden
 
-Locobox ist **persönlich**: Nach der Anmeldung sehen Sie **nur Ihre** Sammlung. Artikel, Züge, Decoder und Einstellungen gehören zu Ihrem Konto.
+Locobox speichert Bestände kontobasiert. Nach der Anmeldung sind ausschliesslich die Daten des jeweiligen Kontos sichtbar: Artikel, Züge, Decoder und Einstellungen.
 
 ## Anmelden
 
-1. Locobox im Browser öffnen (z. B. [app.locobox.ch](https://app.locobox.ch)).
-2. Wenn Sie noch nicht angemeldet sind, leitet die App zur Anmeldung weiter (Kartenüberschrift **Anmelden**). Kurz erscheint der Hinweis **Weiterleitung zur Anmeldung…**.
-3. Den Schritten auf dem Anmeldebildschirm folgen.
+1. Locobox im Browser aufrufen (beispielsweise [app.locobox.ch](https://app.locobox.ch)).
+2. Ohne bestehende Sitzung leitet die Web-App zur Anmeldemaske weiter (Kartenüberschrift **Anmelden**). Kurzzeitig erscheint die Statusmeldung «Weiterleitung zur Anmeldung…».
+3. Die Schritte auf dem Anmeldebildschirm ausführen.
 
-Unterstützte Wege:
+Unterstützte Anmeldeverfahren:
 
 - **E-Mail und Passwort**
-- **Google** (Anmeldung über Ihr Google-Konto)
+- **Google** (Anmeldung über ein Google-Konto)
 
-Nach erfolgreicher Anmeldung landen Sie in der App, meist auf der [Übersicht](../uebersicht/uebersicht.md). Hatten Sie vorher eine bestimmte Seite geöffnet (z. B. einen Import-Link), kann Locobox Sie dorthin zurückführen.
+Nach erfolgreicher Anmeldung erscheint in der Regel die [Übersicht](../uebersicht/uebersicht.md). Wurde zuvor ein spezifischer Pfad aufgerufen (beispielsweise ein Import-Link), leitet das System direkt dorthin weiter.
 
 ![Anmeldebildschirm mit den Wegen E-Mail und Passwort sowie Google und der Aktion «Passwort vergessen»](/img/handbuch/generelles/anmeldebildschirm.webp)
 
 ## Erster Besuch
 
-Beim ersten Login kann die Karte **Locobox anpassen** erscheinen. Mit **Einrichtung starten** öffnen Sie die **Ersteinrichtung**, mit **Später** blenden Sie den Hinweis aus. Schritte und erneuter Start: [Konto → Ersteinrichtung](../einstellungen/konto.md#ersteinrichtung). Kurzüberblick: [Erste Schritte](generelles-erste-schritte.md).
+Beim ersten Aufruf nach der Registrierung kann die Hinweiskarte **Locobox anpassen** erscheinen. Über **Einrichtung starten** lässt sich die **Ersteinrichtung** öffnen, über **Später** wird der Dialog ausgeblendet. Der Ablauf im Detail sowie Möglichkeiten zum erneuten Start: [Konto → Ersteinrichtung](../einstellungen/konto.md#ersteinrichtung). Schnelleinstieg: [Erste Schritte](generelles-erste-schritte.md).
 
 ## Abmelden
 
-1. **Benutzermenü** oben in der App öffnen (Profilbild oben rechts).
-2. **Abmelden** wählen.
+1. Das **Benutzermenü** oben rechts öffnen (Profilsymbol).
+2. Den Menüpunkt **Abmelden** auswählen.
 
-Die Sitzung endet; beim nächsten Besuch müssen Sie sich wieder anmelden. Kurz kann **Sie werden abgemeldet** erscheinen.
+Die Sitzung wird beendet. Beim nächsten Aufruf ist ein erneuter Login erforderlich. Kurzzeitig kann die Meldung «Sie werden abgemeldet» erscheinen.
 
 ## Passwort vergessen
 
-- **Nicht angemeldet (E-Mail und Passwort):** Wählen Sie auf dem Anmeldebildschirm **Passwort vergessen** und folgen Sie den Schritten. Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen.
-- **Angemeldet (E-Mail und Passwort):** unter [Einstellungen → Konto](../einstellungen/konto.md) können Sie **Passwort zurücksetzen** bzw. **E-Mail zum Zurücksetzen senden, danach abmelden** wählen. Sie erhalten eine E-Mail und werden danach abgemeldet.
-- **Google:** Für Google können Sie das Passwort nicht in Locobox zurücksetzen. Ändern Sie es direkt bei Google.
+- **Ohne aktive Sitzung (E-Mail und Passwort):** Auf dem Anmeldebildschirm die Funktion **Passwort vergessen** wählen und den Schritten folgen. Das System sendet eine E-Mail mit einem Link zum Zurücksetzen.
+- **Mit aktiver Sitzung (E-Mail und Passwort):** Unter [Einstellungen → Konto](../einstellungen/konto.md) steht **Passwort zurücksetzen** beziehungsweise **E-Mail zum Zurücksetzen senden, danach abmelden** zur Verfügung. Nach dem Absenden erfolgt die Abmeldung und das System verschickt eine E-Mail.
+- **Google:** Bei Anmeldungen über Google erfolgt die Passwortverwaltung unmittelbar über das Google-Konto.
 
-## Datenschutz und Browser
+## Datenschutz und gemeinsam genutzte Geräte
 
-Melden Sie sich auf **gemeinsam genutzten Geräten** immer ab. Details zu unterstützten Browsern: [Browser-Kompatibilität](generelles-browser-kompatibilitaet.md).
+Auf gemeinsam genutzten Arbeitsstationen empfiehlt sich nach Arbeitsende stets die manuelle Abmeldung. Technische Hinweise zu kompatiblen Browsern: [Browser-Kompatibilität](generelles-browser-kompatibilitaet.md).

@@ -2,56 +2,56 @@
 sidebar_position: 10
 id: artikel-externer-import
 title: Artikel aus externer Quelle importieren
-description: Artikel-Daten aus einem externen Link übernehmen und als neuen Artikel speichern, mit Vorschau und manueller Freigabe.
+description: Artikeldaten über externe Weblinks übernehmen und nach Prüfung als neue Artikel speichern.
 ---
 
 # Artikel aus externer Quelle importieren
 
-Über einen speziellen Link (z. B. von einer Datenbank oder einem Shop) können Sie Artikel-Daten direkt in Locobox übernehmen, ohne alles neu einzutippen.
+Über spezifische Weblinks (beispielsweise aus Modellbahnkatalogen, Community-Datenbanken oder Fachhandelsseiten) lassen sich Artikelstammdaten direkt in Locobox übernehmen.
 
-**So erkennen Sie den Link:** Er enthält Daten zu Hersteller und Artikelnummer sowie optional weitere Angaben wie Typ oder Modellbezeichnung.
+**Merkmale des Links:** Die URL enthält strukturierte Parameter zu Hersteller und Artikelnummer sowie optionale Detailinformationen wie Typ oder Modellbezeichnung.
 
-## Ablauf
+## Ablauf des Imports
 
-1. Klicken Sie auf den Import-Link von der externen Quelle.
-2. Falls Sie noch nicht angemeldet sind, werden Sie zum Login weitergeleitet. Nach der Anmeldung gelangen Sie automatisch zurück zum Import.
-3. Auf der **Übersicht** erscheint ein Dialog mit den übermittelten Angaben.
-4. Prüfen Sie die Angaben. Mit **Weiter zum Formular** gelangen Sie zum neuen Artikel-Formular, das mit den Daten vorausgefüllt ist.
-5. Ergänzen oder korrigieren Sie die Angaben nach Bedarf und speichern Sie den Artikel manuell.
+1. Den Importlink der externen Quelle aufrufen.
+2. Liegt keine aktive Anmeldung vor, leitet das System zum Login weiter und führt nach erfolgreicher Authentifizierung automatisch zum Import zurück.
+3. Auf der **Übersicht** öffnet sich ein Dialogfenster mit den ausgelesenen Daten.
+4. Nach Durchsicht der Attribute leitet die Schaltfläche **Weiter zum Formular** in die vorausgefüllte Erfassungsmaske weiter.
+5. Allfällige Angaben im Formular ergänzen und den Datensatz über **Speichern** sichern.
 
-**Wichtig:** Erst wenn Sie im Artikel-Formular **Speichern** wählen, wird ein neuer Eintrag in Ihrer Sammlung angelegt. Im Vorschau-Dialog passiert noch nichts. Der Hinweis im Dialog lautet: «Sie können den Artikel danach im Formular prüfen und bearbeiten. Es wird nichts automatisch gespeichert.»
+**Wichtig:** Ein neuer Sammlungsartikel entsteht erst durch das finale **Speichern** im Formular. Der Vorschau-Dialog führt keine Schreiboperationen durch. Der Hinweis im Dialog lautet: «Sie können den Artikel danach im Formular prüfen und bearbeiten. Es wird nichts automatisch gespeichert.».
 
 ## Vorschau-Dialog
 
-Der Dialog trägt den Titel **Übermittelte Angaben** und zeigt die aus dem Link gelesenen Felder:
+Das Fenster trägt den Titel **Übermittelte Angaben** und führt die übergebenen Felder auf:
 
-| Feld | Beschreibung |
+| Feld | Verarbeitung |
 | ---- | ------------ |
-| **Hersteller** | Wird ins Formular übernommen (Pflicht) |
-| **Artikelnummer** | Wird ins Formular übernommen (Pflicht) |
+| **Hersteller** | Wird in das Formular übernommen (Pflichtfeld) |
+| **Artikelnummer** | Wird in das Formular übernommen (Pflichtfeld) |
 | **Setnummer** | Optional |
 | **Typ** | Optional |
 | **Betriebsnummer** | Optional (im Link als Modellnummer) |
 | **Eigentümer** | Optional (im Link als Betreiber) |
 | **Land** | Optional |
-| **Mindestradius** | Optional, in **mm** |
-| **Länge über Puffer** | Optional, in **mm** |
+| **Mindestradius** | Optional, Massangabe in **mm** |
+| **Länge über Puffer** | Optional, Massangabe in **mm** |
 
-Fehlen **Hersteller** oder **Artikelnummer**, erscheint die Fehlermeldung «Der Importlink ist unvollständig. Hersteller und Artikelnummer sind erforderlich.» und der Import wird nicht fortgesetzt.
+Fehlen **Hersteller** oder **Artikelnummer**, bricht der Ablauf mit der Fehlermeldung «Der Importlink ist unvollständig. Hersteller und Artikelnummer sind erforderlich.» ab.
 
-Mit **Abbrechen** schliessen Sie den Dialog, ohne etwas anzulegen. Es erscheint der Hinweis «Import wurde abgebrochen. Es wurde kein Artikel erstellt.»
+Die Schaltfläche **Abbrechen** schliesst das Fenster ohne Datenübernahme. Die Anwendung bestätigt den Abbruch mit «Import wurde abgebrochen. Es wurde kein Artikel erstellt.».
 
-## Nach dem Import
+## Nachbereitung
 
-Der neue Artikel verhält sich wie jeder andere manuell erfasste Artikel. Sie können ihn bearbeiten, Bilder hinzufügen, mit Decodern oder Zügen verknüpfen. Siehe [Artikel bearbeiten](artikel-bearbeiten.md).
+Ein über diesen Weg angelegter Artikel unterliegt denselben Funktionen wie manuell erfasste Bestände: Bearbeitung von Stammdaten, Hochladen von Bildern sowie Verknüpfung mit Decodern oder Zügen (siehe [Artikel bearbeiten](artikel-bearbeiten.md)).
 
-## Grenzen
+## Systemgrenzen
 
-- Der Import übernimmt nur vorausgefüllte Werte. Alle weiteren Angaben (Bilder, Decoder, Kategorien, Finanzen) pflegen Sie wie gewohnt im Artikel-Formular.
-- Die Quelle wird im Formular als Hinweis angezeigt, zum Beispiel «Quelle: Community. Bitte prüfen Sie die Angaben sorgfältig vor dem Speichern.» oder «Quelle: Externer Import. Bitte prüfen Sie die Angaben sorgfältig vor dem Speichern.»
+- Der Import beschränkt sich auf tabellarische Stammdaten. Medien, Decoder, Kategorien und Finanzdaten werden im Formular nachgepflegt.
+- Die Erfassungsmaske weist auf externe Quellen hin, beispielsweise über Meldungen wie «Quelle: Community. Bitte prüfen Sie die Angaben sorgfältig vor dem Speichern.» oder «Quelle: Externer Import. Bitte prüfen Sie die Angaben sorgfältig vor dem Speichern.».
 
-## Verwandte Themen
+## Verwandte Dokumente
 
-- [Artikel](artikel.md): Übersicht
-- [Artikel bearbeiten](artikel-bearbeiten.md): Formular nach Import anpassen
-- [Artikel per CSV importieren](artikel-csv-import.md): mehrere Artikel auf einmal importieren
+- [Artikel](artikel.md): Zentrale Artikelübersicht
+- [Artikel bearbeiten](artikel-bearbeiten.md): Maske zur Artikelbearbeitung
+- [Artikel per CSV importieren](artikel-csv-import.md): Sammelimport via CSV-Datei

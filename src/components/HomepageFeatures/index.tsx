@@ -16,17 +16,17 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Locobox läuft direkt im Browser und ist ohne Installation nutzbar.
-        Du kannst deine Sammlung schnell erfassen und verwalten.
+        Sammlungsbestände lassen sich rasch erfassen und verwalten.
       </>
     ),
   },
   {
-    title: 'Fokus auf deine Sammlung',
+    title: 'Fokus auf die Sammlung',
     imageSrc: require('@site/static/img/overview.webp').default,
     description: (
       <>
-        Nutze die globale Suche, den Zug-Builder und den CSV-Import, um
-        effizienter mit deinem Bestand zu arbeiten.
+        Globale Suche, Zug-Builder und CSV-Import ermöglichen ein
+        effizientes Arbeiten mit dem gesamten Bestand.
       </>
     ),
   },
@@ -35,8 +35,8 @@ const FeatureList: FeatureItem[] = [
     imageSrc: require('@site/static/img/mobile.webp').default,
     description: (
       <>
-        Die App ist fürs Handy optimiert und läuft auf Desktop und Mobilgerät
-        konsistent und performant.
+        Die Benutzeroberfläche ist für Mobilgeräte optimiert und funktioniert
+        auf Desktop und Smartphone gleichermassen verlässlich.
       </>
     ),
   },

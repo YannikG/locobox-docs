@@ -2,89 +2,88 @@
 sidebar_position: 9
 id: artikel-labels
 title: Labels verwalten
-description: Farbige Arbeitsflow-Labels anlegen, Artikeln zuweisen und danach filtern.
+description: Farbige Arbeitsflow-Labels erstellen, Artikeln zuweisen und gezielt danach filtern.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Labels verwalten
 
-**Labels** sind farbige Markierungen für Ihren Arbeitsablauf, zum Beispiel für Fahrzeuge an einer Ausstellung, für den Verkauf oder für die Werkstatt. Sie sind unabhängig von den [Kategorien](../kategorien/kategorien.md): Kategorien beschreiben, **was** ein Artikel ist, Labels halten fest, in **welchem Zustand** oder Vorgang er sich befindet.
+**Labels** sind farbige Markierungen zur Abbildung betrieblicher Arbeitsabläufe, beispielsweise für Ausstellungsfahrzeuge, Verkaufsbestände oder Werkstattaufträge. Sie existieren unabhängig von den [Kategorien](../kategorien/kategorien.md): Während Kategorien die Modellart klassifizieren, dokumentieren Labels temporäre Zustände oder Vorgänge.
 
-**Wo:** Hauptmenü **Sammlung** → **Labels**.
+**Navigation:** Hauptmenü **Sammlung** → **Labels**.
 
 <LimitsPlanNote />
 
+## Funktionsumfang nach Tarif
 
-## Was Sie mit und ohne Premium tun können
+- **Labels erstellen, anpassen und entfernen:** Erfordert ein aktives **Premium-Abonnement**. Ohne Premium erscheint ein entsprechender Hinweiskasten.
+- **Bestehende Labels zuweisen und entfernen:** Ist uneingeschränkt im **Gratisplan** möglich.
+- **Filtern nach Labels:** (in Listen, Kompositionen und Druckansichten) Ist als **Premium-Funktion** hinterlegt; der Hinweistext lautet «Labelfilter sind ein Premium-Feature.».
 
-- **Labels anlegen, bearbeiten und löschen** ist ein **Premium-Feature**. Ohne aktives Premium erscheint beim Versuch der Premium-Hinweis.
-- **Bestehende Labels zuweisen und wieder entfernen** ist auch im **Gratisplan** möglich.
-- **Nach Labels filtern** (in Liste, Zug-Zusammenstellung und Berichten) ist ebenfalls ein **Premium-Feature**; der Hinweis lautet «Labelfilter sind ein Premium-Feature.»
+Nach einem Wechsel vom Premium-Tarif in den Gratisplan bleiben vorhandene Labels und Zuweisungen vollständig sichtbar und können Artikeln weiterhin zugeordnet werden. Das Neuerstellen, Löschen, Filtern sowie die Sammelzuweisung über die Massenbearbeitung sind dann deaktiviert.
 
-Nach einem Wechsel von Premium zurück in den Gratisplan bleiben Ihre Labels und Zuweisungen sichtbar. Vorhandene Labels können Sie weiterhin zuweisen; Anlegen, Filtern und die Zuweisung per Massenbearbeitung sind dann wieder gesperrt.
-
-## Label-Liste
+## Label-Übersicht
 
 ![Labels-Seite mit den Spalten «Label» und «Artikel» sowie geöffnetem Dialog zum Anlegen eines Labels](/img/handbuch/artikel/labels-liste.webp)
 
-Die Seite **Labels** zeigt alle Ihre Labels in einer Tabelle:
+Die Übersichtstabelle umfasst folgende Spalten:
 
-- **Label** mit einem farbigen Punkt in der Label-Farbe.
-- **Artikel**: wie viele Artikel das Label tragen.
-- **Aktionen**: **Bearbeiten** und **Löschen** pro Zeile.
+- **Label:** Farbiger Indikatorpunkt mit dem Namen der Markierung.
+- **Artikel:** Anzahl der aktuell verknüpften Datensätze.
+- **Aktionen:** Optionen zum **Bearbeiten** und **Löschen** pro Zeile.
 
-Über die Toolbar erreichen Sie **Zurück** und **Neu**. Sind noch keine Labels vorhanden, erscheint der Hinweis **Keine Labels**.
+Über die Symbolleiste sind **Zurück** und **Neu** erreichbar. Liegen noch keine Einträge vor, erscheint der Hinweis **Keine Labels**.
 
-## Label anlegen
+## Neues Label erstellen
 
-1. Auf der Seite **Labels** **Neu** wählen.
-2. Im Dialog **Label erstellen** einen **Namen** eingeben.
-3. Eine **Farbe** aus der vorgegebenen Farbpalette wählen (ein freier Farbwähler ist bewusst nicht vorgesehen).
-4. **Speichern**.
+1. Auf der Seite **Labels** die Schaltfläche **Neu** betätigen.
+2. Im Dialog **Label erstellen** einen eindeutigen **Namen** hinterlegen.
+3. Eine **Farbe** aus der vorgegebenen Farbpalette auswählen.
+4. Mit **Speichern** bestätigen.
 
-Label-Namen müssen eindeutig sein. Ein neues Label ohne Namen lässt sich nicht speichern.
+Label-Namen müssen eindeutig sein. Einträge ohne Bezeichnung können nicht gespeichert werden.
 
-## Label bearbeiten
+## Label anpassen
 
-In der Zeile **Bearbeiten** wählen, im Dialog **Label bearbeiten** Name oder Farbe anpassen und **Speichern**.
+In der jeweiligen Tabellenzeile **Bearbeiten** anwählen, im Fenster **Label bearbeiten** Bezeichnung oder Farbe modifizieren und mit **Speichern** sichern.
 
 ## Label löschen
 
-Ein Label lässt sich nur löschen, wenn ihm **kein Artikel** mehr zugewiesen ist. Solange Artikel verknüpft sind, ist die Schaltfläche **Löschen** deaktiviert und ein Hinweis erklärt den Grund. Entfernen Sie das Label zuerst von allen Artikeln.
+Ein Label kann nur entfernt werden, wenn kein Artikel mehr damit verknüpft ist. Bei bestehenden Zuweisungen bleibt die Schaltfläche **Löschen** deaktiviert. Vor dem Löschen müssen sämtliche Artikelverknüpfungen gelöst werden.
 
-## Labels einem Artikel zuweisen
+## Zuweisung zu einem Artikel
 
-Labels weisen Sie im [Artikelformular](artikel-bearbeiten.md) im Abschnitt **Kategorien** über den Bereich **Labels** zu:
+Die Zuordnung erfolgt im [Artikelformular](artikel-bearbeiten.md) im Abschnitt **Kategorien** unter **Labels**:
 
-1. Über **Labels auswählen** ein oder mehrere Labels als Chips wählen; die **Schnellauswahl** bietet häufig genutzte Labels direkt an.
-2. Pro Artikel sind **höchstens 5 Labels** möglich. Ist die Grenze erreicht, erscheint «Maximal 5 Labels pro Artikel.»
-3. Mit Premium können Sie über **Erstellen** direkt ein **neues Label** anlegen; es wird anschliessend für den Artikel ausgewählt.
+1. Über **Labels auswählen** die Markierungen selektieren; die **Schnellauswahl** bietet häufig genutzte Optionen direkt an.
+2. Pro Artikel sind maximal fünf Labels zulässig. Bei Erreichen der Höchstgrenze meldet das System «Maximal 5 Labels pro Artikel.».
+3. Mit aktivem Premium-Status erlaubt **Erstellen** das direkte Anlegen neuer Markierungen aus der Erfassungsmaske heraus.
 
-In der [Detailansicht](artikel-detailansicht.md) erscheinen die zugewiesenen Labels als farbige Chips in der Karte **Allgemein**.
+In der [Detailansicht](artikel-detailansicht.md) erscheinen die hinterlegten Labels als farbige Kennzeichnungen in der Karte **Allgemein**.
 
 ## Nach Labels filtern
 
-In der [Artikelliste](artikel-liste.md) filtern Sie über **Nach Labels filtern** (Premium):
+In der [Artikelliste](artikel-liste.md) filtert die Option **Nach Labels filtern** (Premium):
 
-- Wählen Sie mehrere Labels, zeigt die Liste nur Artikel, die **alle** gewählten Labels tragen (UND-Verknüpfung). Das unterscheidet sich vom Kategorienfilter, der bereits bei einer Übereinstimmung greift.
-- Die häufigsten Labels stehen als **Schnellauswahl** bereit.
+- Werden mehrere Labels gewählt, zeigt die Trefferliste ausschliesslich Artikel an, die alle ausgewählten Kriterien erfüllen (UND-Logik).
+- Die gebräuchlichsten Markierungen stehen in der **Schnellauswahl** zur Verfügung.
 
-Derselbe Labelfilter steht auch bei der [Zug-Zusammenstellung](../zuege/zuege-komposition.md) und in den [Berichten](../drucken/drucken-uebersicht.md) zur Verfügung (jeweils Premium).
+Die Filterung nach Labels steht ebenfalls in der [Zug-Zusammenstellung](../zuege/zuege-komposition.md) sowie in den [Druck- und Exportfunktionen](../drucken/drucken-uebersicht.md) bereit.
 
-## Labels in der Massenbearbeitung
+## Sammelzuweisung in der Massenbearbeitung
 
-In der [Artikel in Masse bearbeiten](artikel-massenbearbeitung.md) können Sie das Feld **Labels** wählen und für alle ausgewählten Artikel setzen oder leeren (Premium). Der Hinweis lautet «Wählen Sie Arbeitsflow-Labels für alle ausgewählten Artikel aus.»
+Unter [Artikel in Masse bearbeiten](artikel-massenbearbeitung.md) lässt sich das Feld **Labels** auswählen, um Markierungen für alle selektierten Datensätze gleichzeitig zu setzen oder zu entfernen (Premium). Der Systemhinweis lautet: «Wählen Sie Arbeitsflow-Labels für alle ausgewählten Artikel aus.».
 
-## Grenzen
+## Systemgrenzen
 
-- Pro Artikel höchstens **5 Labels**.
-- Label-Namen sind **eindeutig**.
-- Löschen nur bei **0 zugewiesenen Artikeln**.
+- Maximal fünf Labels pro Artikel.
+- Bezeichnungen müssen sammlungsweit eindeutig sein.
+- Löschvorgang setzt null verknüpfte Artikel voraus.
 
-## Verwandte Themen
+## Verwandte Dokumente
 
-- [Artikel bearbeiten](artikel-bearbeiten.md): Labels im Abschnitt Kategorien
-- [Artikelliste](artikel-liste.md): nach Labels filtern
-- [Kategorien](../kategorien/kategorien.md): thematische Einordnung statt Arbeitsflow
-- [Premium und Gratisplan](../premium/premium.md): Limits und Premium-Funktionen
+- [Artikel bearbeiten](artikel-bearbeiten.md): Label-Verwaltung im Kategorie-Abschnitt
+- [Artikelliste](artikel-liste.md): Filterfunktionen
+- [Kategorien](../kategorien/kategorien.md): Strukturierung nach Modellgattungen
+- [Premium und Gratisplan](../premium/premium.md): Tarifübersicht und Berechtigungen

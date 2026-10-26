@@ -2,46 +2,46 @@
 sidebar_position: 2
 id: nutzung
 title: Nutzung ansehen
-description: Aktueller Plan, Gratislimits, Premium und Status in den Einstellungen.
+description: Kontostatus, Kontingente im Gratisplan, Premium-Funktionen und Tarifverwaltung in den Einstellungen.
 ---
 
 # Nutzung ansehen
 
-Unter **Einstellungen** den Bereich **Premium** öffnen (Gruppe **Premium** in der Seitenleiste). Die Seite trägt den Navigationsnamen **Premium** und zeigt die Karte **Aktueller Plan**, Kontingente im Gratisplan sowie Aktionen zum **Status aktualisieren**, **Jetzt abonnieren** und **Abo verwalten**.
+Unter **Einstellungen** führt der Menüpunkt **Premium** (Gruppe **Premium** in der Navigation) zur Tarif- und Kontingentübersicht. Die Seite enthält die Karte **Aktueller Plan**, Auslastungsanzeigen der Gratisgrenzen sowie die Aktionen **Status aktualisieren**, **Jetzt abonnieren** und **Abo verwalten**.
 
-## Überschrift und Status laden
+## Status laden
 
-Zu Beginn können kurz Daten eingelesen werden. Über **Status aktualisieren** holen Sie die Anzeige manuell auf den neuesten Stand.
+Beim Aufruf werden die aktuellen Lizenzdaten vom Server abgerufen. Über **Status aktualisieren** lässt sich die Anzeige bei Bedarf manuell synchronisieren.
 
 ## Aktueller Plan
 
-Die Karte **Aktueller Plan** fasst den Stand zusammen:
+Die Karte **Aktueller Plan** dokumentiert den Kontostatus:
 
-- **Gratis**, mit dem Hinweis: Erstellungen sind durch die Gratis-Limits begrenzt.
-- oder **Premium**, mit dem Hinweis: Alle Premium-Funktionen sind aktuell aktiv.
+- **Gratis:** Mit dem Hinweis, dass Neuerfassungen durch die Obergrenzen des Gratisplans limitiert sind.
+- **Premium:** Mit der Bestätigung, dass alle Premium-Funktionen freigeschaltet sind.
 
-Liegen Daten vor, sehen Sie unter den Premium-Hinweisen z. B. den Satz, dass Ihr Premium vom angegebenen Datum bis zum Enddatum gültig ist, oder nur bis zu einem Enddatum.
+Bei aktivem Premium-Status weist die Oberfläche die Vertragslaufzeit mit Enddatum aus.
 
-## Kulanzzeit nach Auslaufen von Premium
+## Kulanzfrist nach Ablauf
 
-Läuft ein Abo aus, kann eine **Premium Kulanzfrist** angezeigt werden (3 Tage). In diesem Fall erscheint **Jetzt erneuern**, das wieder zu einem bezahlten Zugang führt.
+Endet ein bezahltes Abonnement, schliesst sich eine dreitägige **Premium Kulanzfrist** an. Während dieser Spanne steht die Schaltfläche **Jetzt erneuern** zur direkten Vertragsverlängerung bereit.
 
-## Upgrade und Abo-Verwaltung
+## Upgrade und Vertragsverwaltung
 
-Ohne aktives Premium (oder in der Kulanzfrist) erscheint der Bereich **Upgrade verfügbar**. Mit Premium erscheint die Karte **Vielen Dank für Ihre Unterstützung von Locobox!** sowie, wenn hinterlegt, **Abo verwalten**.
+Ohne aktives Abonnement (sowie während der Kulanzfrist) erscheint der Abschnitt **Upgrade verfügbar**. Bei laufendem Premium-Tarif blendet das System die Hinweiskarte «Vielen Dank für Ihre Unterstützung von Locobox!» sowie die Schaltfläche **Abo verwalten** ein.
 
-Wie Sie Premium buchen, den Status nach der Zahlung aktualisieren und das Abo verwalten: [Abonnement abschliessen und verwalten](../premium/abonnement.md).
+Ablauf von Buchung, Zahlungsbestätigung und Tarifverwaltung: [Abonnement abschliessen und verwalten](../premium/abonnement.md).
 
 ## Kontingente im Gratisplan
 
-Ohne Premium zeigt die Seite **Im Gratisplan enthalten** und den Abschnitt **Nutzung nach Bereich** (Balken und Zahlen pro Kategorie). Mit Premium ersetzt die App das durch **Keine Limiten im Premium-Plan**.
+Im Gratisplan führt der Abschnitt **Nutzung nach Bereich** unter der Überschrift **Im Gratisplan enthalten** die Auslastung pro Modul tabellarisch mit Fortschrittsbalken und absoluten Zahlenwerten auf. Bei aktivem Premium-Status ersetzt der Text **Keine Limiten im Premium-Plan** diese Anzeige.
 
-Was die Limits bedeuten und was passiert, wenn eines erreicht ist: [Gratisplan und Limits](../premium/gratis-und-limits.md).
+Bedeutung der Grenzwerte und Verhalten bei Erreichen des Maximums: [Gratisplan und Limits](../premium/gratis-und-limits.md).
 
-## FAQ
+## Häufige Fragen
 
-Weiter unten steht **FAQ zu Limits und Premium** mit aufklappbaren Fragen, unter anderem zu bestehenden Einträgen, Ablauf von Premium, Datenverlust und Verwendung der Beiträge.
+Im unteren Seitenbereich behandelt der Abschnitt **FAQ zu Limits und Premium** wiederkehrende Fragen zu Bestandsdaten, Fristen und Datensicherheit.
 
-## Anzeige und Konto
+## Verwandte Systemeinstellungen
 
-**Sprache und Design**, **Anzeigewährung** und **Konto** sind eigene Bereiche derselben Einstellungsseite, siehe [Sprache](./sprache.md), [Anzeigeeinstellungen](./anzeigeeinstellungen.md) und [Konto](./konto.md).
+[Sprache und Design](./sprache.md), [Anzeigewährung](./waehrung.md) sowie die Benutzerdaten unter [Konto](./konto.md).

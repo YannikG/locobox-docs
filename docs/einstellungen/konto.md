@@ -2,47 +2,47 @@
 sidebar_position: 1
 id: konto
 title: Konto verwalten
-description: Profil, Anmeldung, Passwort zurücksetzen und Ersteinrichtung.
+description: Benutzerprofil, Authentifizierungsmethode, Passwortverwaltung und Ersteinrichtungsassistent.
 ---
 
 # Konto verwalten
 
-Unter **Einstellungen** → **Konto** sehen Sie zwei Bereiche: **Profil** und **Ersteinrichtung**.
+Unter **Einstellungen** → **Konto** stehen zwei Funktionskarten bereit: **Profil** und **Ersteinrichtung**.
 
 ## Profil
 
-Die Karte **Profil** zeigt:
+Die Karte **Profil** beinhaltet:
 
-- Profilbild, Anzeigename und E-Mail
-- **Anmeldemethode** (z. B. **E-Mail und Passwort** oder **Google**)
-- Aktionen zum **Passwort**, sofern möglich
+- Profilbild, Benutzername und E-Mail-Adresse
+- **Anmeldemethode** (beispielsweise **E-Mail und Passwort** oder **Google**)
+- Optionen zur Kennwortverwaltung
 
-### Wie sind Sie angemeldet?
+### Verwendetes Anmeldeverfahren
 
-Locobox unterstützt unter anderem **E-Mail und Passwort** und **Google**. Die angezeigte Methode entscheidet, ob Sie das Passwort in Locobox zurücksetzen können.
+Locobox unterstützt Anmeldungen über **E-Mail und Passwort** sowie über **Google**. Das jeweils aktive Verfahren entscheidet darüber, auf welchem Weg eine Kennwortänderung erfolgen kann.
 
 ### Passwort per E-Mail zurücksetzen
 
-Bei **E-Mail und Passwort**:
+Bei Konten mit **E-Mail und Passwort**:
 
-1. **Passwort zurücksetzen** tippen (wenn aktiv).
-2. Sie erhalten eine E-Mail von uns und werden danach abgemeldet.
-3. E-Mail im Postfach öffnen und dem Link folgen.
-4. Melden Sie sich danach mit dem neuen Passwort an.
+1. Die Schaltfläche **Passwort zurücksetzen** betätigen (sofern aktiv).
+2. Das System versendet eine E-Mail mit einem Bestätigungslink und meldet das Benutzerkonto aus Sicherheitsgründen ab.
+3. Den Bestätigungslink im E-Mail-Postfach aufrufen.
+4. Ein neues Kennwort festlegen und die Neuanmeldung durchführen.
 
-Ist die Schaltfläche ausgegraut, gibt es für diese Anmeldung kein zurücksetzbares Locobox-Passwort. Die App weist darauf hin, dass Sie das Passwort direkt beim Anmeldeanbieter ändern sollen.
+Ist die Schaltfläche deaktiviert, existiert für das Konto kein separates Locobox-Passwort. Die Anwendung verweist in diesem Fall auf den jeweiligen Authentifizierungsdienst.
 
-### Anmeldung mit Google
+### Anmeldung über Google
 
-Mit **Google** setzen Sie das Passwort nicht in Locobox zurück, sondern in Ihrem Google-Konto.
+Bei Konten mit Google-Authentifizierung erfolgt die Passwortverwaltung ausschliesslich direkt über das Google-Benutzerkonto.
 
 ## Ersteinrichtung {#ersteinrichtung}
 
-Die Karte **Ersteinrichtung** hilft beim Einstieg. Der Beschreibungstext lautet: Starten Sie die Ersteinrichtung erneut, wenn Sie Stammdaten oder Grundeinstellungen der Sammlung anpassen möchten.
+Die Karte **Ersteinrichtung** dient der Konfiguration der Grundeinstellungen. Der Beschreibungstext lautet: «Starten Sie die Ersteinrichtung erneut, wenn Sie Stammdaten oder Grundeinstellungen der Sammlung anpassen möchten.».
 
-- **Einrichtung starten**, solange die Ersteinrichtung angeboten wird (z. B. nach dem ersten Login über die Übersicht).
-- **Ersteinrichtung erneut starten**, wenn Sie den Assistenten abgeschlossen oder verworfen haben und die Schritte wiederholen möchten.
+- **Einrichtung starten:** Steht zur Verfügung, solange die Ersteinrichtung noch offen ist.
+- **Ersteinrichtung erneut starten:** Erlaubt die nachträgliche Wiederholung aller Einrichtungsschritte bei bereits abgeschlossenem oder übersprungenem Assistenten.
 
-Der Assistent **Ersteinrichtung** führt Sie durch **Sprache**, **Währung**, **Artikeltabelle**, optional **App installieren** und einen kurzen **Premium**-Hinweis. Mit **Einrichtung abschliessen** beenden Sie den Assistenten; das Angebot auf der Übersicht verschwindet danach. Einstellungen bleiben unter **Einstellungen** erreichbar.
+Der Assistent führt strukturiert durch **Sprache**, **Währung**, **Artikeltabelle**, optional **App installieren** sowie einen kurzen **Premium**-Hinweis. Die Schaltfläche **Einrichtung abschliessen** schliesst den Assistenten ab und entfernt die Hinweiskarte von der Startseite. Alle Parameter bleiben jederzeit unter **Einstellungen** editierbar.
 
-Details zur Installation: [App installieren](../generelles/app-installieren.md). Sprache und Sammlungsanzeige: [Sprache und Design](./sprache.md), [Anzeigeeinstellungen](./anzeigeeinstellungen.md).
+Details zur Anwendungsinstallation: [App installieren](../generelles/app-installieren.md). Spracheinstellungen und Tabellenkonfiguration: [Sprache und Design](./sprache.md), [Anzeigeeinstellungen](./anzeigeeinstellungen.md).

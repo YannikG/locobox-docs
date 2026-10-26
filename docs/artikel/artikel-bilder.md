@@ -2,32 +2,30 @@
 sidebar_position: 5
 id: artikel-bilder
 title: Artikelbilder verwalten
-description: Fotos am Artikel hochladen, ansehen und wieder entfernen.
+description: Fotografien zu Artikeln hochladen, betrachten und entfernen.
 ---
 
 # Artikelbilder verwalten
 
-Zu jedem Artikel können Sie **Fotos** speichern, zum Beispiel Vorder- und Rückansicht des Modells.
+Zu jedem Artikel lassen sich Bilddateien hinterlegen, beispielsweise für Vorder- und Rückansicht des Modells.
 
-## Bilder hinzufügen
+## Bilder hinterlegen
 
-1. Artikel [bearbeiten](artikel-bearbeiten.md) oder neu anlegen.
-2. Im Bereich **Bilder** Dateien wählen (übliche Formate wie JPEG, PNG, GIF oder WebP).
-3. Artikel **speichern**, wenn die Oberfläche das verlangt.
+1. Den Artikel zur [Bearbeitung](artikel-bearbeiten.md) aufrufen oder eine Neuerfassung starten.
+2. Im Abschnitt **Bilder** die gewünschten Dateien auswählen (unterstützte Formate: JPEG, PNG, GIF oder WebP).
+3. Das Formular über **Speichern** sichern.
 
-Neu ausgewählte Bilder werden erst **beim Speichern des Artikels** hochgeladen. In der [Detailansicht](artikel-detailansicht.md) erscheinen die Bilder als Vorschau, sobald sie hinterlegt sind.
+Neu ausgewählte Bilddateien werden erst beim Speichern des Artikels an den Server übertragen. In der [Detailansicht](artikel-detailansicht.md) stehen die Aufnahmen anschliessend als Vorschau bereit.
 
-## Wenn ein Bild nicht verarbeitet werden kann
+## Fehlerbehandlung beim Bild-Upload
 
-Locobox unterscheidet zwei Situationen:
-
-- **Schon beim Auswählen:** Lässt sich ein Bild nicht verarbeiten, erscheint sofort ein Hinweis mit einer Empfehlung (z. B. ein einfacheres oder kleineres Bild zu wählen). Der Artikel wurde dabei noch nicht gespeichert.
-- **Beim Speichern:** Konnte ein vorgemerktes Bild nicht verarbeitet werden, meldet die App, dass der **Artikel gespeichert** wurde, das **Bild aber nicht** hochgeladen werden konnte. Ihre übrigen Angaben bleiben erhalten; das Bild können Sie später erneut hinzufügen.
+- **Bereits bei der Dateiauswahl:** Kann eine Datei technisch nicht verarbeitet werden, blendet die Anwendung sofort einen Hinweis mit Empfehlungen zur Dateianpassung ein. Der Artikel bleibt zu diesem Zeitpunkt ungespeichert.
+- **Während des Speichervorgangs:** Schlägt die Bildverarbeitung während der Übertragung fehl, meldet die App, dass der Artikel gespeichert, das Bild jedoch abgewiesen wurde. Die übrigen Artikelangaben bleiben erhalten; das Bild lässt sich nachträglich erneut hochladen.
 
 ## Bilder entfernen
 
-In der Bearbeitung können Sie ein Bild wieder **entfernen**. Nach dem Speichern fehlt es auch in der Detailansicht.
+In der Bearbeitungsmaske lässt sich ein hinterlegtes Bild wieder entfernen. Nach dem Speichern wird die Bildanzeige auch in der Detailansicht gelöscht.
 
-## Hinweis
+## Datenschutz
 
-Bilder gehören zu **Ihrer** Sammlung und sind nicht öffentlich über Locobox durchsuchbar.
+Hochgeladene Bilder sind ausschliesslich an das jeweilige Benutzerkonto gebunden und nicht öffentlich über Locobox abrufbar.

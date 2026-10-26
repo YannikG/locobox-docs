@@ -2,43 +2,43 @@
 sidebar_position: 6
 id: generelles-faq
 title: Häufige Fragen und Problembehebung
-description: Antworten auf häufige Fragen zu Anmeldung, Premium, Papierkorb, Suche, App-Installation und Anzeige, mit Verweisen auf die passenden Detailseiten.
+description: Antworten auf häufige Fragen zu Anmeldung, Premium, Papierkorb, Suche, App-Installation und Anzeige mit Verweisen auf die Detailkapitel.
 ---
 
 # Häufige Fragen und Problembehebung
 
-Diese Seite fasst häufige Fragen und typische Stolpersteine zusammen. Öffnen Sie eine Frage, um die Antwort zu sehen. Für ausführliche Anleitungen führt jede Antwort auf die passende Detailseite.
+Diese Übersicht behandelt wiederkehrende Fragestellungen und typische Problemsituationen. Das Auswählen einer Frage klappt die Antwort auf. Weiterführende Anleitungen finden sich auf den verlinkten Fachseiten.
 
 ## Anmeldung und Konto
 
 <details>
-<summary>Ich kann mich nicht anmelden. Was kann ich tun?</summary>
+<summary>Anmeldung nicht möglich</summary>
 
-1. Prüfen Sie, ob Sie einen unterstützten Browser in aktueller Version nutzen: [Welcher Browser für Locobox?](./generelles-browser-kompatibilitaet.md)
-2. Öffnen Sie die App erneut. Kurz erscheint der Hinweis **Weiterleitung zur Anmeldung…**, danach der Anmeldebildschirm mit der Überschrift **Anmelden**.
-3. Wählen Sie den Weg, mit dem Sie das Konto angelegt haben: **E-Mail und Passwort** oder **Google**.
+1. Prüfen, ob ein unterstützter Browser in aktueller Version vorliegt: [Welcher Browser für Locobox?](./generelles-browser-kompatibilitaet.md).
+2. Die Anwendungsadresse erneut aufrufen. Nach der kurzen Einblendung «Weiterleitung zur Anmeldung…» erscheint das Anmeldefenster mit der Beschriftung **Anmelden**.
+3. Das zur Registrierung verwendete Verfahren wählen: **E-Mail und Passwort** oder **Google**.
 
 Details: [Anmelden und abmelden](./generelles-anmelden.md).
 
 </details>
 
 <details>
-<summary>Ich habe mein Passwort vergessen.</summary>
+<summary>Passwort zurücksetzen</summary>
 
-Das hängt davon ab, ob Sie angemeldet sind, und von Ihrer Anmeldemethode:
+Das Vorgehen unterscheidet sich nach Anmeldemethode und Sitzungsstatus:
 
-- **Nicht angemeldet (E-Mail und Passwort):** Wählen Sie auf dem Anmeldebildschirm **Passwort vergessen** und folgen Sie den Schritten. Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen.
-- **Angemeldet (E-Mail und Passwort):** Unter **Einstellungen** → **Konto** wählen Sie **Passwort zurücksetzen**. Sie erhalten eine E-Mail und werden danach abgemeldet. Folgen Sie dem Link in der E-Mail und melden Sie sich mit dem neuen Passwort an.
-- **Google:** Das Passwort lässt sich nicht in Locobox zurücksetzen. Ändern Sie es direkt bei Google.
+- **Ohne aktive Sitzung (E-Mail und Passwort):** Auf dem Anmeldebildschirm **Passwort vergessen** betätigen und den Anweisungen folgen. Das System stellt eine E-Mail mit einem Rücksetzlink zu.
+- **Mit aktiver Sitzung (E-Mail und Passwort):** Unter **Einstellungen** → **Konto** die Option **Passwort zurücksetzen** anwählen. Nach Versand der E-Mail erfolgt eine Abmeldung. Der Link in der E-Mail führt zum Dialog für ein neues Passwort.
+- **Google:** Die Passwortverwaltung liegt bei Google und kann nicht über Locobox erfolgen.
 
 Details: [Konto verwalten](../einstellungen/konto.md).
 
 </details>
 
 <details>
-<summary>Wie melde ich mich sicher ab?</summary>
+<summary>Sitzung beenden</summary>
 
-Öffnen Sie oben rechts das **Benutzermenü** (Profilbild) und wählen Sie **Abmelden**. Kurz kann **Sie werden abgemeldet** erscheinen. Auf gemeinsam genutzten Geräten sollten Sie sich immer abmelden.
+Oben rechts das **Benutzermenü** (Profilsymbol) anwählen und **Abmelden** anklicken. Kurzzeitig erscheint «Sie werden abgemeldet». Auf geteilten Endgeräten ist das manuelle Abmelden stets ratsam.
 
 Details: [Anmelden und abmelden](./generelles-anmelden.md#abmelden).
 
@@ -47,27 +47,27 @@ Details: [Anmelden und abmelden](./generelles-anmelden.md#abmelden).
 ## Premium und Limits
 
 <details>
-<summary>Warum kann ich keinen neuen Artikel, Zug oder Decoder mehr anlegen?</summary>
+<summary>Erfassungslimit für neue Artikel, Züge oder Decoder erreicht</summary>
 
-Ohne Premium gelten Limits pro Bereich. Ist ein Limit erreicht, können Sie in diesem Bereich keine weiteren Einträge anlegen, bis Sie welche löschen oder auf Premium wechseln. Unter **Einstellungen** → **Premium** zeigt der Abschnitt **Nutzung nach Bereich**, wie viel belegt ist.
+Im Gratisplan gelten Obergrenzen je Bereich. Nach Erreichen eines Grenzwerts können keine zusätzlichen Einträge mehr angelegt werden, bis Datensätze entfernt werden oder ein Wechsel auf den Premium-Plan erfolgt. Unter **Einstellungen** → **Premium** zeigt der Bereich **Nutzung nach Bereich** den aktuellen Belegungsstand.
 
 Details: [Gratisplan und Limits](../premium/gratis-und-limits.md).
 
 </details>
 
 <details>
-<summary>Was passiert mit meinen Daten, wenn Premium ausläuft?</summary>
+<summary>Auswirkungen nach Ablauf von Premium</summary>
 
-Bestehende Einträge bleiben erhalten und bearbeitbar. Die Limits betreffen nur das Erstellen neuer Einträge. Nach dem Auslaufen kann eine **Premium Kulanzfrist** von 3 Tagen angezeigt werden, in der **Jetzt erneuern** erscheint.
+Bestehende Daten bleiben unverändert erhalten und bearbeitbar. Die Beschränkungen greifen ausschliesslich bei der Neuerfassung. Nach dem regulären Ablauf greift eine dreitägige **Premium Kulanzfrist**, in welcher die Option **Jetzt erneuern** zur Verfügung steht.
 
 Details: [Nutzung ansehen](../einstellungen/nutzung.md).
 
 </details>
 
 <details>
-<summary>Wie verwalte oder kündige ich mein Abo?</summary>
+<summary>Abonnement verwalten oder kündigen</summary>
 
-Unter **Einstellungen** → **Premium** öffnet **Abo verwalten** den externen Kundenbereich, in dem Sie Laufzeit, Zahlweise oder Kündigung prüfen. Der Bezahlvorgang läuft über den sicheren Checkout.
+Unter **Einstellungen** → **Premium** führt die Schaltfläche **Abo verwalten** zum externen Abrechnungsportal. Dort lassen sich Vertragslaufzeiten, Zahlungsmittel sowie Kündigungen einsehen und bearbeiten.
 
 Details: [Nutzung ansehen](../einstellungen/nutzung.md) und [Abonnement](../premium/abonnement.md).
 
@@ -76,27 +76,27 @@ Details: [Nutzung ansehen](../einstellungen/nutzung.md) und [Abonnement](../prem
 ## Papierkorb und Wiederherstellung
 
 <details>
-<summary>Ich habe versehentlich etwas gelöscht. Wie hole ich es zurück?</summary>
+<summary>Versehentlich gelöschte Einträge wiederherstellen</summary>
 
-Öffnen Sie über das **Benutzermenü** den **Papierkorb** und wählen Sie beim Eintrag **Wiederherstellen**. Der Eintrag ist danach wieder aktiv. Das gilt für Artikel, Kategorien, Decoder und Artikelsets.
-
-Details: [Papierkorb](../papierkorb/papierkorb.md).
-
-</details>
-
-<details>
-<summary>Warum ist mein gelöschter Zug nicht im Papierkorb?</summary>
-
-Gelöschte Züge erscheinen nicht im Papierkorb und können dort nicht wiederhergestellt werden. Nur Artikel, Kategorien, Decoder und Artikelsets nutzen die weiche Löschung mit Papierkorb.
+Über das **Benutzermenü** den **Papierkorb** aufrufen und beim entsprechenden Datensatz die Aktion **Wiederherstellen** ausführen. Der Eintrag wird daraufhin reaktiviert. Dieser Mechanismus steht für Artikel, Kategorien, Decoder und Artikelsets bereit.
 
 Details: [Papierkorb](../papierkorb/papierkorb.md).
 
 </details>
 
 <details>
-<summary>Wie lange bleibt Gelöschtes erhalten?</summary>
+<summary>Verbleib gelöschter Züge</summary>
 
-Die Aufbewahrungsfrist beträgt 30 Tage ab dem Löschen. Innerhalb dieser Frist können Sie Einträge wiederherstellen. Nach Ablauf werden sie automatisch endgültig entfernt. Eine Schaltfläche zum sofortigen endgültigen Löschen gibt es nicht.
+Gelöschte Züge werden nicht in den Papierkorb verschoben und lassen sich nicht wiederherstellen. Die Papierkorbfunktion mit Wiederherstellungsmöglichkeit ist auf Artikel, Kategorien, Decoder und Artikelsets beschränkt.
+
+Details: [Papierkorb](../papierkorb/papierkorb.md).
+
+</details>
+
+<details>
+<summary>Aufbewahrungsdauer im Papierkorb</summary>
+
+Die Aufbewahrungsfrist beträgt 30 Tage ab Löschdatum. Innerhalb dieses Zeitfensters ist eine Reaktivierung möglich. Nach Ablauf der Frist erfolgt die unwiderrufliche Bereinigung durch das System. Eine manuelle Sofortlöschung existiert nicht.
 
 Details: [Papierkorb](../papierkorb/papierkorb.md).
 
@@ -105,28 +105,28 @@ Details: [Papierkorb](../papierkorb/papierkorb.md).
 ## Suche, Installation und Anzeige
 
 <details>
-<summary>Die globale Suche zeigt nicht alle passenden Einträge.</summary>
+<summary>Unvollständige Treffermenge in der globalen Suche</summary>
 
-Pro Abfrage werden höchstens zehn Treffer angezeigt. Gibt es mehr passende Einträge, grenzen Sie die Suche mit einem genaueren Begriff ein. Einträge im Papierkorb erscheinen in den Treffern nicht.
+Die Trefferanzeige ist technisch auf maximal zehn Resultate limitiert. Bei umfangreichen Treffermengen empfiehlt sich eine präzisere Suchbegriffseingabe. Einträge im Papierkorb sind von der Suche grundsätzlich ausgeschlossen.
 
 Details: [Globale Suche](./globale-suche.md).
 
 </details>
 
 <details>
-<summary>Wie installiere ich Locobox als App auf dem Gerät?</summary>
+<summary>Installation als Desktop- oder Mobilanwendung</summary>
 
-Über die **Ersteinrichtung** (Schritt **App installieren**) oder, wenn verfügbar, über **App installieren** im **Benutzermenü**. In Chrome und Edge erscheint oft **Jetzt installieren**. In Safari folgen Sie den Hinweisen **Teilen** → **Zum Dock hinzufügen**. Firefox auf dem Desktop bietet keine Direktinstallation.
+Die Einrichtung erfolgt entweder im Zuge der **Ersteinrichtung** (Schritt **App installieren**) oder über die Funktion **App installieren** im **Benutzermenü**. In Chrome und Edge blendet der Browser **Jetzt installieren** ein. Unter Safari führt der Weg über **Teilen** → **Zum Dock hinzufügen**. Desktop-Versionen von Firefox unterstützen keine direkte Anwendungsinstallation.
 
 Details: [App installieren](./app-installieren.md).
 
 </details>
 
 <details>
-<summary>Etwas in der Oberfläche wird falsch dargestellt oder eine Aktion schlägt fehl.</summary>
+<summary>Darstellungsfehler oder fehlgeschlagene Aktionen</summary>
 
-1. Prüfen Sie, ob ein **Browser-Update** oder ein **Wechsel zu Chrome, Edge, Firefox oder Safari** das Verhalten klärt.
-2. Bei einer allgemeinen Fehlermeldung (z. B. beim Laden oder Wiederherstellen) versuchen Sie es später erneut oder rufen die Seite neu auf.
+1. Browserversion aktualisieren oder auf einen der weiteren unterstützten Browser (Chrome, Edge, Firefox, Safari) ausweichen.
+2. Bei temporären Verbindungs- oder Serverproblemen die Aktion nach kurzer Wartezeit wiederholen oder die Seite neu laden.
 
 Details: [Welcher Browser für Locobox?](./generelles-browser-kompatibilitaet.md).
 

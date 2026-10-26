@@ -8,66 +8,64 @@ import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Decoder
 
-Im Bereich **Decoder** lassen sich alle aktiven Decoder verwalten.
-Die [Decoder finden und filtern](./decoder-liste.md) ist der Einstieg; ein Klick öffnet die Detail- oder Bearbeitungsansicht.
-Direkt sichtbar ist, ob ein Decoder bereits mit einem [Artikel](../artikel/artikel.md) verbunden ist.
+Im Bereich **Decoder** werden alle aktiven Decoder der Sammlung verwaltet.
+Der Einstieg erfolgt über die Übersichtsseite [Decoder finden und filtern](./decoder-liste.md); ein Klick öffnet die Detail- oder Bearbeitungsansicht.
+In allen Ansichten ist unmittelbar ersichtlich, ob ein Decoder bereits mit einem [Artikel](../artikel/artikel.md) verbunden ist.
 
-Es gibt zwei klar getrennte Modi: eine **Detailansicht** zum Prüfen der Daten und eine **Bearbeitungsansicht**, in der alle Änderungen vorgenommen werden.
-Beide nutzen dieselben Register: **Übersicht**, **Funktionsmatrix** und **Konfiguration**.
+Die Anwendung unterscheidet zwei Arbeitsmodi: Eine **Detailansicht** zum reinen Prüfen der Werte sowie eine **Bearbeitungsansicht** zur Anpassung von Attributen.
+Beide Modi gliedern sich in dieselben drei Register: **Übersicht**, **Funktionsmatrix** und **Konfiguration**.
 
 <LimitsPlanNote />
-
 
 ## Detailansicht
 
 {/* SCREENSHOT_TODO /img/handbuch/decoder/decoder-detailansicht.webp : Decoder-Detailansicht auf dem Register «Übersicht» mit Stammdaten und verknüpften Artikeln */}
 
-Die Detailansicht zeigt die gespeicherten Daten nur zum Lesen. Auf **Übersicht** sehen Sie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion**, Beschreibung sowie **Verknüpfte Artikel**. Die Register **Funktionsmatrix** und **Konfiguration** zeigen die gespeicherten Zuordnungen und Einträge.
+Die Detailansicht stellt alle gespeicherten Werte schreibgeschützt dar. Das Register **Übersicht** führt Hersteller, Modell, Protokoll, Adresse, den Status **Nur Funktion**, Beschreibung sowie **Verknüpfte Artikel** auf. Die Register **Funktionsmatrix** und **Konfiguration** zeigen hinterlegte Tastenbelegungen und Konfigurationsparameter an.
 
-Oben stehen **Zurück**, **Bearbeiten** und **Löschen**. Ohne Wechsel in die Bearbeitung oder in den Löschablauf werden hier keine Daten geändert.
+Im Kopfbereich stehen **Zurück**, **Bearbeiten** und **Löschen** bereit. Ohne expliziten Wechsel in den Bearbeitungs- oder Löschmodus erfolgen keine Datenänderungen.
 
 ## Bearbeitungsansicht
 
 ![Bearbeitungsansicht mit den Registern «Übersicht», «Funktionsmatrix» und «Konfiguration», Fehlersymbol am Register hervorheben](/img/handbuch/decoder/decoder-bearbeitung.webp)
 
-Die Bearbeitungsansicht ist der Arbeitsplatz für Änderungen. Oben stehen **Zurück**, **Abbrechen** und **Speichern**.
+Die Bearbeitungsansicht dient als Eingabemaske für Datenänderungen. Die Symbolleiste umfasst **Zurück**, **Abbrechen** und **Speichern**.
 
-- **Abbrechen** führt zurück zur Decoder-Ansicht, ohne die Änderungen dieses Durchgangs zu speichern.
-- **Speichern** übernimmt alle in dieser Sitzung angepassten Daten der drei Register.
-- Verlassen Sie die Seite mit ungespeicherten Änderungen, fragt die App nach, ob Sie wirklich weitergehen möchten.
+- **Abbrechen** führt zur Detailansicht zurück und verwirft alle nicht gesicherten Eingaben.
+- **Speichern** sichert die Daten aller drei Register parallel in der Datenbank.
+- Beim Verlassen der Maske mit ungespeicherten Eingaben blendet das System die Sicherheitsabfrage «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?» ein.
 
-Die drei Register:
+Die drei Register im Überblick:
 
-- **Übersicht**: Kernfelder wie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion** und Beschreibung sowie die Artikelverknüpfung. Hinweise zu doppelten Adressen erscheinen am Adressfeld, siehe [Decoder-Adressen verwalten](./decoder-adressen.md).
-- **Funktionsmatrix**: Zuordnung der Funktionstasten (F0, F1, …) zu Funktionsarten und optionalen Beschriftungen, ausführlich unter [Funktionsmatrix bearbeiten](./decoder-funktionsmatrix.md).
-- **Konfiguration**: CV-Einträge mit Schlüssel und Wert, getrennt von der Funktionsmatrix, ausführlich unter [Konfiguration](./decoder-konfiguration.md).
+- **Übersicht:** Stammdaten wie Hersteller, Modell, Protokoll, Adresse, **Nur Funktion**, Beschreibung sowie die Artikelverknüpfung. Adressprüfungen und Mehrfachbelegungen werden direkt am Adressfeld ausgewiesen (siehe [Decoder-Adressen verwalten](./decoder-adressen.md)).
+- **Funktionsmatrix:** Zuordnung logischer Funktionstasten (F0, F1...) zu Funktionsarten und Tastenbeschriftungen (siehe [Funktionsmatrix bearbeiten](./decoder-funktionsmatrix.md)).
+- **Konfiguration:** Verwaltung von CV-Parametern mit Schlüssel und Wert (siehe [Konfiguration](./decoder-konfiguration.md)).
 
-Pflichtangaben werden auf dem Register **Übersicht** geprüft. Ist dort etwas ungültig, markiert die App das Register mit einem Fehlersymbol. Wählen Sie **Speichern**, während Fehler bestehen, wechselt die Ansicht automatisch zum Register mit Fehlern.
+Validierungsprüfungen für Pflichtfelder erfolgen auf dem Register **Übersicht**. Ungültige Werte werden mit einem Fehlersymbol an der Registerkarte markiert. Wird **Speichern** bei bestehenden Validierungsfehlern betätigt, wechselt die Ansicht automatisch zum ersten fehlerhaften Register.
 
 ## Neuen Decoder anlegen
 
-In der [Decoder finden und filtern](./decoder-liste.md):
+Auf der Seite [Decoder finden und filtern](./decoder-liste.md):
 
-- Die Schaltfläche **Neu** öffnet den Dialog **Neuer Decoder** (Standard-Decoder).
-- Über das Menü daneben: **Neuer Funktions-Decoder**, siehe [Nur Funktion](#nur-funktion).
+- Die Schaltfläche **Neu** öffnet den Dialog **Neuer Decoder** zur Anlage eines Standard-Decoders.
+- Das Zusatzmenü daneben bietet **Neuer Funktions-Decoder** zur Erfassung von Decodern ohne Fahrantrieb (siehe [Nur Funktion](#nur-funktion)).
 
 ## Nur Funktion {#nur-funktion}
 
-Ein Decoder mit dem Kennzeichen **Nur Funktion** steht für reine Zusatzfunktionen, zum Beispiel Beleuchtung oder Sound, ohne eigenes angetriebenes Fahrzeug. Das Kennzeichen sehen Sie in Liste und Detailansicht. Beim Anlegen über **Neuer Funktions-Decoder** ist es vorausgewählt.
+Die Kennzeichnung **Nur Funktion** kennzeichnet Decoder für reine Zusatzverbraucher (beispielsweise Innenbeleuchtung, Steuerwagen oder Soundmodule) ohne eigenen Antriebsmotor. Das Kennzeichen ist in Listen- und Detailansichten ersichtlich. Bei der Neuerfassung über **Neuer Funktions-Decoder** ist die Option standardmässig aktiv.
 
 ## Mit Artikel verknüpfen
 
-Ein Decoder lässt sich mit [Artikeln](../artikel/artikel.md) verbinden (Lok oder Wagen, in dem er eingebaut ist).
+Ein Decoder lässt sich direkt mit einem [Artikel](../artikel/artikel.md) verknüpfen:
 
-- Beim Anlegen oder beim **Bearbeiten** wählen Sie unter **Artikel verknüpfen** einen Artikel. Ist bereits eine Verknüpfung vorhanden, müssen Sie diese zuerst aufheben, bevor Sie einen anderen Artikel verknüpfen.
-- In der Detailansicht sehen Sie unter **Verknüpfte Artikel** die Verbindungen; von dort öffnen oder entfernen Sie die Verknüpfung, wo die App es erlaubt.
-- Umgekehrt zeigt der Artikel den zugehörigen Decoder.
+- Bei der Erfassung oder unter **Bearbeiten** steht das Auswahlfeld **Artikel verknüpfen** bereit. Besteht bereits eine Zuordnung, muss diese vor einer Neuzuordnung zunächst gelöst werden.
+- In der Detailansicht führt der Abschnitt **Verknüpfte Artikel** aktive Zuordnungen auf, die sich dort ansteuern oder trennen lassen.
+- In der Artikel-Detailansicht ist die Verbindung spiegelbildlich hinterlegt.
 
 ## Adressen
 
-Dieselbe Adresse darf mehrfach vorkommen; Locobox warnt trotzdem, ohne das Speichern zu blockieren. Wie Sie eine Adresse wählen, Vorschläge nutzen und die Hinweise verstehen, steht unter [Decoder-Adressen verwalten](./decoder-adressen.md).
+Gleiche Adressen dürfen innerhalb der Sammlung mehrfach vergeben werden; das System weist informativ darauf hin, ohne die Speicherung zu blockieren. Einzelheiten zu Adressbereichen, Vergabevorschlägen und Warnhinweisen finden sich unter [Decoder-Adressen verwalten](./decoder-adressen.md).
 
 ## Löschen
 
-Ein gelöschter Decoder verschwindet zuerst aus der aktiven Liste und landet im [Papierkorb](../papierkorb/papierkorb.md), wo er innerhalb der Aufbewahrungsfrist wiederhergestellt werden kann.
-Solange ein Decoder nicht wieder aktiv ist, ist keine neue Verknüpfung mit einem Artikel und keine Bearbeitung möglich.
+Ein gelöschter Decoder wird aus der aktiven Übersicht entfernt und in den [Papierkorb](../papierkorb/papierkorb.md) verschoben. Innerhalb der Aufbewahrungsfrist kann der Datensatz reaktiviert werden. Solange ein Decoder im Papierkorb liegt, sind keine Artikelzuordnungen oder Bearbeitungen möglich.

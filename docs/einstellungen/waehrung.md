@@ -2,29 +2,27 @@
 sidebar_position: 5
 id: waehrung
 title: Anzeigewährung wählen
-description: In welcher Währung Beträge in Locobox formatiert werden.
+description: Konfiguration des Währungsformats für die Ausgabe von Geldbeträgen.
 ---
 
 # Anzeigewährung wählen
 
-Unter **Einstellungen** → Gruppe **Sammlung** → **Anzeigewährung** legen Sie fest, wie Geldbeträge in der Oberfläche dargestellt werden (z. B. **Schweizer Franken (CHF)**).
+Unter **Einstellungen** → Gruppe **Sammlung** → **Anzeigewährung** wird festgelegt, in welchem Format Geldbeträge in der Benutzeroberfläche formatiert werden (beispielsweise **Schweizer Franken (CHF)**).
 
-## Was sich ändert, und was nicht
+## Auswirkungen auf die Datenbestände
 
-Die App erklärt: Dies betrifft nur die Anzeige von Beträgen. Beim Wechsel der Währung werden gespeicherte Werte nicht umgerechnet oder geändert.
+Die Anwendung weist mit folgendem Text darauf hin: «Dies betrifft nur die Anzeige von Beträgen. Beim Wechsel der Währung werden gespeicherte Werte nicht umgerechnet oder geändert.».
 
-Geändert wird die Anzeige: Listen, Artikeldetails, Finanzfelder, Suchtreffer (wenn Preise eingeblendet sind) und Berichte formatieren Beträge in der gewählten Währung.
+Die Umstellung betrifft ausschliesslich die optische Darstellung: Listen, Artikeldetails, Finanzkarten, Suchtreffer und Druckberichte formatieren Zahlenwerte mit dem gewählten Währungssymbol. Gespeicherte Beträge an den Artikeln bleiben numerisch unverändert; eine automatische Währungsumrechnung findet nicht statt.
 
-Nicht geändert werden die gespeicherten Werte an Ihren Artikeln. Locobox rechnet Kauf- oder Verkaufspreise nicht automatisch in eine andere Währung um.
+## Speicherung im Konto
 
-## Speichern und Konto
+Die Anzeigewährung wird serverseitig im Benutzerkonto hinterlegt und bleibt über Sitzungen und Seitenaktualisierungen hinweg dauerhaft aktiv.
 
-Die Anzeigewährung gehört zu Ihren Ansichtseinstellungen im Konto. Nach dem Speichern gilt sie auch nach einem Neuladen.
+## Trennung von Abrechnung und Sammlungsdaten
 
-## Abo und Bezahlung
-
-Die Anzeigewährung betrifft nur Ihre Sammlungsdaten. Ihr Premium-Abo und Zahlungen laufen unabhängig davon. Der sichere Checkout wird über Stripe abgewickelt.
+Die gewählte Sammlungsanzeige hat keinen Einfluss auf Abonnementgebühren. Die Abrechnung von Premium-Tarifen erfolgt separat über die Zahlungsplattform Stripe.
 
 ## Ersteinrichtung
 
-Im Assistenten **Ersteinrichtung** können Sie die Währung bereits beim ersten Login setzen. Siehe [Konto → Ersteinrichtung](./konto.md#ersteinrichtung).
+Im Assistenten **Ersteinrichtung** lässt sich die Währung bereits beim ersten Login festlegen (siehe [Konto → Ersteinrichtung](./konto.md#ersteinrichtung)).

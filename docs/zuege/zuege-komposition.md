@@ -2,65 +2,64 @@
 sidebar_position: 1
 id: zuege-komposition
 title: Zug zusammenstellen
-description: Komposition zusammenstellen, Artikel hinzufügen, Reihenfolge per Drag-and-drop, Bildvariante und Zuglänge.
+description: Komposition zusammenstellen, Artikel einreihen, Reihenfolge per Drag-and-drop steuern und Zuglänge berechnen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Zug zusammenstellen
 
-In Locobox wird die Reihenfolge und Darstellung der Artikel in einem Zug in der gleichen Ansicht wie **Zug erstellen** und **Zug bearbeiten** gepflegt. In der Oberfläche heisst dieser Block **Komposition**.
+In Locobox wird die Reihung und Darstellung der Fahrzeuge in den Masken **Zug erstellen** und **Zug bearbeiten** festgelegt. In der Benutzeroberfläche trägt dieser Bereich den Namen **Komposition**.
 
 <LimitsPlanNote />
 
+## Navigation zur Komposition
 
-## Wo die Komposition zu finden ist
+- Neuer Zug: Über **Neu** in der Zugliste öffnet sich die Eingabemaske **Zug erstellen** (Premium erforderlich).
+- Bestehender Zug: In der Zugliste führt **Ansehen** in die Detailansicht, **Bearbeiten** in die Maske **Zug bearbeiten**.
 
-- Neuer Zug: Über **Neu** in der Zugliste öffnet sich das Formular **Zug erstellen** (Premium erforderlich).
-- Bestehender Zug: In der Liste **Ansehen** öffnet die Detailansicht, **Bearbeiten** öffnet **Zug bearbeiten**.
-
-Oben im Formular steht zuerst die **Komposition**, darunter **Bezeichnung** und **Beschreibung**. Beim Anlegen eines neuen Zuges erscheint unter den Stammdaten zusätzlich eine **Vorschau** der Komposition. In der Detailansicht eines gespeicherten Zuges gibt es ebenfalls eine Vorschau mit der kompletten Darstellung.
+Im oberen Bereich des Formulars befindet sich die Leiste **Komposition**, darunter die Felder **Bezeichnung** und **Beschreibung**. Beim Erstellen eines neuen Zuges blendet die Seite unter den Stammdaten zusätzlich eine **Vorschau** der Reihung ein. In der Detailansicht gespeicherter Züge steht diese vollständige Wagenreihung ebenfalls zur Verfügung.
 
 {/* SCREENSHOT_TODO /img/handbuch/zuege/zug-detailansicht.webp : Zug-Detailansicht mit Bezeichnung, Beschreibung, Komposition, Vorschau und Zuglänge über Puffer */}
 
 ## Zuglänge über Puffer
 
-Über der Kompositionsleiste wird die summierte **Zuglänge über Puffer** in **mm** angezeigt, soweit die beteiligten Artikel dazu Werte haben. Fehlen bei einzelnen Artikeln Angaben, bleibt die Summe unvollständig. Der Hinweis lautet: **Die Länge über Puffer ist nicht genau, weil nicht alle Artikel eine Länge über Puffer hinterlegt haben.**
+Oberhalb der Kompositionsleiste summiert das System die **Zuglänge über Puffer** in **mm**, sofern bei den beteiligten Modellen entsprechende Werte hinterlegt sind. Fehlen bei einzelnen Fahrzeugen Angaben, weist die Anwendung mit folgendem Hinweis darauf hin: **Die Länge über Puffer ist nicht genau, weil nicht alle Artikel eine Länge über Puffer hinterlegt haben.**
 
 ## Artikel hinzufügen
 
-1. **Hinzufügen** öffnet den Dialog **Artikel hinzufügen**.
-2. Darin stehen dieselben Filter wie in der Artikelübersicht zur Verfügung, damit gezielt nach Einträgen gesucht werden kann.
-3. In der Tabelle können Sie Artikel mehrfach auswählen. Über das Kontrollkästchen im Tabellenkopf markieren Sie alle zum aktuellen Filter passenden Artikel auf einmal oder setzen die Markierung zurück.
-4. Mit **Auswahl hinzufügen** werden die gewählten Artikel ans Ende der Komposition gehängt. Bereits vorhandene Artikel im Zug werden dabei nicht doppelt eingefügt.
+1. Die Schaltfläche **Hinzufügen** öffnet das Auswahlfenster **Artikel hinzufügen**.
+2. Darin stehen dieselben Filterfunktionen wie in der Artikelübersicht bereit.
+3. In der Auswahltabelle lassen sich Modelle selektieren. Das Kontrollkästchen im Tabellenkopf markiert alle zur Filterung passenden Datensätze auf einmal oder hebt die Markierung auf.
+4. Über **Auswahl hinzufügen** werden die gewählten Artikel an das Zugende angehängt. Bereits im Zug vorhandene Artikel werden dabei nicht doppelt eingefügt.
 
-## Reihenfolge und Darstellung jedes Wagens
+## Reihenfolge und Wagendarstellung
 
-Die eingefügten Artikel erscheinen als waagrechte Reihe kleiner Karten mit Kennzeichnung und Bild.
+Die eingefügten Modelle erscheinen als horizontale Kette kleiner Karten mit Bezeichnung und Bild.
 
-- Reihenfolge: Über den Bereich **Neu anordnen** (Griff-Symbol) kann jede Karte mit der Maus verschoben werden (Drag-and-drop).
-- Kontextmenü: Über das Menü **Weitere Aktionen** oder ein Rechtsklick auf den Bildbereich öffnen sich weitere Befehle:
-  - Wechsel zwischen **Hauptbild verwenden** und **Gespiegeltes Bild verwenden**, sofern der Artikel beide Bilder hat.
-  - **Einen nach vorne** / **Einen nach hinten**, **An den Anfang**, **Ans Ende**.
-  - **Löschen** entfernt den Artikel aus der Komposition; dabei erscheint eine Sicherheitsabfrage.
+- **Reihenfolge:** Über die Griffleiste **Neu anordnen** lässt sich jede Karte per Drag-and-drop verschieben.
+- **Aktionsmenü:** Über das Menü **Weitere Aktionen** oder einen Rechtsklick auf den Bildbereich stehen Steuerungsbefehle zur Verfügung:
+  - Umschalten zwischen **Hauptbild verwenden** und **Gespiegeltes Bild verwenden**, sofern beide Varianten hinterlegt sind.
+  - Schrittweise Verschiebung über **Einen nach vorne** / **Einen nach hinten**, **An den Anfang** oder **Ans Ende**.
+  - **Löschen** entfernt das Modell nach einer Sicherheitsabfrage aus der Reihung.
 
-Verkaufte Artikel werden in der Komposition hervorgehoben dargestellt (Kennzeichnung **Verkauft**), damit sie in der Garnitur leicht erkennbar sind.
+Verkaufte Artikel werden in der Reihung mit dem Label **Verkauft** hervorgehoben, um Lücken oder Verkäufe im Verband schnell zu erkennen.
 
-## Speichern und Gültigkeit
+## Gültigkeitsregeln beim Speichern
 
-Speichern ist nur möglich, wenn eine **Bezeichnung** eingetragen ist und mindestens ein Artikel in der Komposition liegt.
+Das Speichern setzt eine eingetragene **Bezeichnung** sowie mindestens ein zugeordnetes Modell voraus.
 
 - Fehlende Bezeichnung: **Name ist erforderlich.**
 - Leere Komposition: **Ein Zug benötigt mindestens einen Artikel.**
 
-Wenn Sie das Formular ohne zu speichern verlassen und es gibt noch Änderungen, fragt die Anwendung: **Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?**
+Beim Verlassen des Formulars mit ungespeicherten Daten blendet die Oberfläche folgende Sicherheitsabfrage ein: «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?».
 
-Nach dem ersten Speichern eines neuen Zuges gelangen Sie zur Detailansicht dieses Zuges. Nach dem Speichern einer Bearbeitung kehren Sie zur vorherigen Ansicht zurück.
+Nach dem Speichern eines neuen Zuges öffnet sich direkt dessen Detailansicht. Bei bestehenden Zügen führt das Speichern zur vorherigen Ansicht zurück.
 
-## Verknüpfung von einem Artikel aus
+## Verknüpfung aus der Artikelperspektive
 
-Öffnen Sie einen [Artikel](../artikel/artikel.md), zeigt die Sektion **Verknüpfte Züge**, in welchen Zügen dieser Artikel vorkommt. Von dort können Sie einen Zug mit **Ansehen** öffnen und bei Bedarf danach zur Bearbeitung wechseln.
+In der Detailansicht eines [Artikels](../artikel/artikel.md) dokumentiert der Abschnitt **Verknüpfte Züge** alle Zugehörigkeiten. Über **Ansehen** lässt sich der jeweilige Zug direkt aufrufen.
 
-## Übriges zum Bereich Züge
+## Weiterführend
 
-Löschen und Papierkorb sind unter [Züge](zuege.md) beschrieben.
+Löschfunktionen und Besonderheiten bezüglich des Papierkorbs sind unter [Züge](zuege.md) dokumentiert.

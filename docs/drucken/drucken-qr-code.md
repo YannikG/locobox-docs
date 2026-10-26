@@ -2,39 +2,38 @@
 sidebar_position: 2
 id: drucken-qr-code
 title: QR Codes drucken
-description: PDF mit QR-Codes für Artikel erstellen; Etikette und Grösse.
+description: PDF-Raster mit QR-Codes zur Kennzeichnung von Verpackungen oder Vitrinen generieren.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # QR Codes drucken
 
-Unter **QR Code Raster** entsteht ein druckfertiges PDF mit einem Raster aus QR-Codes für ausgewählte Artikel. So bereiten Sie Etiketten oder Aushänge vor, um einen Artikel per Scan mit dem Mobilgerät zu öffnen.
+Unter **QR Code Raster** entsteht ein druckfertiges Dokument mit einem Raster aus QR-Codes für ausgewählte Modelle. Dies dient der Vorbereitung von Etiketten oder Vitrinenbeschriftungen, um Modelle per Smartphone-Scan direkt in Locobox aufzurufen.
 
-In der App lautet die Kartenbeschreibung: Druckbares PDF mit QR-Codes für ausgewählte Artikel in einem Raster.
+In der Anwendung lautet der Hinweistext: «Druckbares PDF mit QR-Codes für ausgewählte Artikel in einem Raster.».
 
-Der Einstieg erfolgt über den Bereich **[Berichte drucken](drucken-uebersicht.md)**. **QR Code Raster** ist eine Premium-Funktion. Ohne Premium zeigt die Karte **Premium erforderlich** und öffnet die Paywall.
+Der Zugang erfolgt über [Berichte drucken](drucken-uebersicht.md). Das **QR Code Raster** ist eine Premium-Funktion. Ohne aktiven Tarif verweist die Schaltfläche auf die Optionen für ein Upgrade.
 
 <LimitsPlanNote />
 
-
 ## Artikel auswählen
 
-Die Seite öffnen Sie über **Drucken** → **QR Code Raster**. Dort wählen Sie Artikel wie bei der **Adressliste** aus: Filter, eine oder mehrere Zeilen markieren. Standardmässig sind nur noch nicht verkaufte Artikel sichtbar; über die Filter grenzen Sie die Treffer weiter ein, mit Premium auch über [Labels](../artikel/artikel-labels.md). Ohne mindestens einen ausgewählten Eintrag lässt sich kein PDF erzeugen; die App weist mit **Wählen Sie mindestens einen Artikel aus.** hin. Oben steht, wie viele passende Einträge es insgesamt gibt und wie viele Sie gewählt haben.
+Der Aufruf erfolgt über **Drucken** → **QR Code Raster**. Die Auswahl der Artikel entspricht dem Vorgehen bei der [Adressliste](adressliste.md): Filter anwenden, Zeilen selektieren. Standardmässig sind unverkaufte Bestände vorausgewählt; mit Premium steht die Einschränkung nach [Labels](../artikel/artikel-labels.md) bereit. Ohne ausgewählten Datensatz unterbindet das System den Export mit dem Hinweis **Wählen Sie mindestens einen Artikel aus.**. Die Zählerzeile informiert über Gesamt- und Auswahltreffer.
 
-## PDF-Einstellungen
+## Konfigurationsoptionen
 
 ![Einstellungen mit «Inhalt auf dem Etikett» und «QR Code Grösse»](/img/handbuch/drucken/qr-einstellungen.webp)
 
-Unter **Einstellungen** legen Sie fest:
+Unter **Einstellungen** stehen folgende Parameter bereit:
 
-- **Inhalt auf dem Etikett**: wählen Sie, ob nur der QR Code oder zusätzlich Hersteller und Artikelnummer gedruckt werden:
+- **Inhalt auf dem Etikett:** Steuert, ob ausschliesslich der QR-Code oder zusätzlich Hersteller und Artikelnummer ausgegeben werden:
   - **Nur QR Code**
   - **QR Code mit Artikeltitel**
-- **QR Code Grösse**: Kantenlänge des Symbols in Zentimeter (Bereich und Schrittweite sind auf der Seite beschriftet). Damit lässt sich zwischen kompakterem Raster oder besserer Lesbarkeit beim Scannen wählen.
+- **QR Code Grösse:** Kantenlänge des Codes in Zentimetern. Dies erlaubt die Abstimmung zwischen kompakter Bogenaufteilung und optimaler Scan-Distanz.
 
-## PDF erzeugen und nutzen
+## Dokumenterzeugung
 
-Die Schaltfläche **PDF erzeugen** erstellt die Datei aus der aktuellen Auswahl und den eingestellten Optionen; anschliessend wird die Datei auf das Gerät heruntergeladen. Der Vorgang lässt sich bei Bedarf nach geänderter Auswahl oder Grösse wiederholen. Jeder QR-Code verknüpft den jeweiligen Artikel dieser Sammlung, sodass beim Scannen mit einem geeigneten Gerät der passende Eintrag geöffnet werden kann.
+Die Schaltfläche **PDF erzeugen** generiert das Dokument und startet den Download. Jeder QR-Code referenziert den jeweiligen Sammlungsartikel, sodass ein Scan mit einem Mobilgerät direkt zur Detailansicht führt.
 
-Siehe auch [Artikel](../artikel/artikel.md) und bei allgemeinem PDF-Überblick [Berichte drucken](drucken-uebersicht.md).
+Ergänzende Abschnitte: [Artikel](../artikel/artikel.md), [Berichte drucken](drucken-uebersicht.md).

@@ -2,52 +2,52 @@
 sidebar_position: 3
 id: sammlungsverzeichnis
 title: Bestandsliste drucken
-description: PDF-Inventar aller nicht verkauften Artikel mit Deckblatt. Premium-Bericht.
+description: PDF-Inventar aller unverkaufte Artikel mit Deckblatt für Versicherungen oder Zollbehörden.
 ---
 
 # Bestandsliste drucken
 
-In der App heisst dieser Bericht **Bestandsliste**. Er erzeugt ein PDF-Inventar aller nicht verkauften Artikel mit Deckblatt für Versicherung oder Zoll.
+In der Anwendung heisst dieser Bericht **Bestandsliste**. Er erzeugt ein vollständiges PDF-Inventar aller unverkaufte Modelle mitsamt offiziellem Deckblatt für Versicherungs- oder Zollnachweise.
 
-In der App lautet die Kartenbeschreibung: PDF-Inventar aller nicht verkauften Artikel mit Deckblatt für Versicherung oder Zoll.
+Die Beschreibung in der App lautet: «PDF-Inventar aller nicht verkauften Artikel mit Deckblatt für Versicherung oder Zoll.».
 
-## Voraussetzung
+## Voraussetzungen
 
-Die Bestandsliste ist eine Premium-Funktion. Ohne Premium zeigt die Karte unter **Drucken** **Premium erforderlich**; ein Klick führt zur Paywall. Mehr: [Premium und Gratisplan](../premium/premium.md).
+Die Bestandsliste erfordert ein aktives Premium-Abonnement. Im Gratisplan verweist die Funktionskarte auf die Upgrade-Möglichkeiten (siehe [Premium und Gratisplan](../premium/premium.md)).
 
-## Bericht starten
+## Berichtskonfiguration
 
-Über **Drucken** → **Bestandsliste** gelangen Sie auf die Optionsseite. Dort passen Sie unter **Optionen** die Deckblatt- und Tabellenfelder an (siehe unten) und starten mit **PDF erzeugen** den Download (Name z. B. `bestandsliste.pdf`).
+Über **Drucken** → **Bestandsliste** öffnet sich die Konfigurationsseite. Dort lassen sich Deckblatt- und Tabelleneinstellungen definieren. Die Schaltfläche **PDF erzeugen** startet die Erstellung (Dateiname `bestandsliste.pdf`).
 
-Es gibt keine Artikelauswahl: alle nicht verkauften Artikel werden in das PDF aufgenommen, sortiert nach **Hersteller** und **Artikelnummer**. Optional können Sie die Treffer über Labels eingrenzen.
+Eine manuelle Artikelauswahl entfällt: Alle unverkaufte Artikel werden vollständig in das Dokument übernommen, sortiert nach **Hersteller** und **Artikelnummer**. Optional lässt sich der Umfang über Labels eingrenzen.
 
-Der Einleitungstext auf der Optionsseite lautet: Alle nicht verkauften Artikel werden in das PDF aufgenommen. Optional können Sie Deckblatt-Felder anpassen.
+Der Hinweistext auf der Konfigurationsseite lautet: «Alle nicht verkauften Artikel werden in das PDF aufgenommen. Optional können Sie Deckblatt-Felder anpassen.».
 
 ## Optionen
 
 ### Deckblatt
 
-Unter **Optionen** können Sie angeben:
+Unter **Optionen** stehen folgende Deckblattfelder zur Verfügung:
 
-- **Name auf dem Deckblatt** (auf dem PDF als **Sammler**)
-- **Referenz auf dem Deckblatt anzeigen**: mit **Referenzfeld (Bezeichnung)** (Standard: **Fallnummer**) und **Referenzfeld (Wert)**, z. B. für ein Versicherungs- oder Zollverfahren
-- **Ort für Unterschrift** und **Datum für Unterschrift** (Datum standardmässig heute)
+- **Name auf dem Deckblatt** (im Dokument als **Sammler** ausgewiesen)
+- **Referenz auf dem Deckblatt anzeigen:** Mit **Referenzfeld (Bezeichnung)** (Standard: **Fallnummer**) und **Referenzfeld (Wert)**, beispielsweise für Aktenzeichen von Versicherungen oder Zollstellen
+- **Ort für Unterschrift** und **Datum für Unterschrift** (Tagesdatum voreingestellt)
 
-Das Deckblatt enthält Logo, Titel, den Untertitel **Sammlungsinventar für Versicherung oder Zoll**, eine Zusammenfassung (**Anzahl Artikel**, **Gesamtwert der Sammlung**) und Platz für eine handschriftliche **Unterschrift**.
+Das Deckblatt umfasst Logo, Dokumenttitel, den Untertitel **Sammlungsinventar für Versicherung oder Zoll**, eine statistische Zusammenfassung (**Anzahl Artikel**, **Gesamtwert der Sammlung**) sowie ein Unterschriftenfeld.
 
-### Tabelle
+### Tabellenspalten
 
-Standardspalten:
+Standardmässig ausgegebene Spalten:
 
 - **Hersteller**
 - **Artikelnummer**
 - **Fahrzeug**
 - **Kaufpreis**
 
-Optional: **Kaufdatum-Spalte einschliessen** (standardmässig aus).
+Zusatzoption: **Kaufdatum-Spalte einschliessen** (standardmässig inaktiv).
 
-Beträge folgen Ihrer [Anzeigewährung](../einstellungen/waehrung.md).
+Alle Währungswerte richten sich nach der hinterlegten [Anzeigewährung](../einstellungen/waehrung.md).
 
-## Weitere Berichte
+## Weiterführend
 
-[Berichte drucken](drucken-uebersicht.md)
+Übersicht aller Berichtsarten: [Berichte drucken](drucken-uebersicht.md).

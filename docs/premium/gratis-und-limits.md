@@ -2,13 +2,13 @@
 sidebar_position: 1
 id: gratis-und-limits
 title: Gratisplan und Limits
-description: Was im Gratisplan enthalten ist und wie die Kontingente in den Einstellungen angezeigt werden.
+description: Kontingente und Begrenzungen im Gratisplan sowie deren Visualisierung in den Einstellungen.
 ---
 
 # Gratisplan und Limits
 
-Ohne bezahltes Premium gelten Limits pro Bereich: **Artikel**, **Züge**, **Artikelsets**, **Kategorien** und **Decoder**. Unter **Einstellungen** → **Premium** zeigt der Abschnitt **Nutzung nach Bereich** Balken und Zahlen (belegt / Limit). Darüber steht **Im Gratisplan enthalten**.
+Im Gratisplan gelten Obergrenzen je Funktionsbereich: **Artikel**, **Züge**, **Artikelsets**, **Kategorien** und **Decoder**. Unter **Einstellungen** → **Premium** visualisiert der Abschnitt **Nutzung nach Bereich** die Auslastung über Fortschrittsbalken und Zahlenwerte (belegt / Gesamtkontingent). Der Bereich trägt die Bezeichnung **Im Gratisplan enthalten**.
 
-Wenn ein Limit erreicht ist, können Sie in diesem Bereich keine weiteren Einträge mehr anlegen, bis Sie welche löschen oder auf Premium wechseln. Bestehende Einträge bleiben bearbeitbar; die Limits betreffen nur das Erstellen neuer Artikel, Züge, Kategorien und Decoder.
+Nach Erreichen einer Obergrenze ist die Neuanlage weiterer Datensätze im betreffenden Modul gesperrt, bis bestehende Einträge entfernt werden oder ein Upgrade auf Premium erfolgt. Vorhandene Daten bleiben uneingeschränkt abrufbar und editierbar; die Kontingente betreffen ausschliesslich Neuerfassungen.
 
-Mit aktivem Premium entfällt diese Aufschlüsselung; die App zeigt **Keine Limiten im Premium-Plan** und erklärt, dass Sie ohne Gratisplan-Limits arbeiten können.
+Mit aktivem Premium-Abonnement entfällt die Aufteilung nach Kontingenten. Die Benutzeroberfläche bestätigt dies mit dem Hinweis **Keine Limiten im Premium-Plan**.

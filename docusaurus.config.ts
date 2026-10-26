@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Locobox Dokumentation',
-  tagline: 'Deine Modelleisenbahn, deine Kontrolle.',
+  tagline: 'Modelleisenbahn-Verwaltung mit System.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

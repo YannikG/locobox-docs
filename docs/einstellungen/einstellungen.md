@@ -1,12 +1,12 @@
 ---
 id: einstellungen
 title: Einstellungen
-description: Konto, Sprache, Premium, Sammlungsanzeige und Credits in der Einstellungsseite.
+description: Konto, Sprache, Design, Tarife, Anzeigeoptionen und Systeminformationen.
 ---
 
 # Einstellungen
 
-Über **Einstellungen** im Menü gelangen Sie zu einer Seite mit Seitenleiste (Desktop) bzw. Bereichsauswahl (Mobile). Jeder Eintrag zeigt rechts den passenden Inhalt. Die App merkt sich den gewählten Bereich, sodass Lesezeichen und Zurück funktionieren.
+Über **Einstellungen** im Hauptmenü öffnet sich die zentrale Konfigurationsansicht mit Seitenleiste (Desktop) beziehungsweise Bereichsauswahl (Mobilgeräte). Jeder Menüpunkt stellt im Hauptbereich die zugehörigen Parameter bereit. Die Anwendung speichert den jeweils aktiven Bereich, sodass Lesezeichen und Browsernavigation direkt funktionieren.
 
 ## Bereiche in der Seitenleiste
 
@@ -18,24 +18,23 @@ description: Konto, Sprache, Premium, Sammlungsanzeige und Credits in der Einste
 | **Sammlung** | Anzeigewährung | [Währung](./waehrung.md) |
 | **Sammlung** | Artikelliste | [Anzeigeeinstellungen Artikelliste](./anzeigeeinstellungen.md#artikelliste) |
 | **Sammlung** | Globale Suche | [Anzeigeeinstellungen Globale Suche](./anzeigeeinstellungen.md#globale-suche) |
-| **Über** | Credits | Kurzinfos und Danksagungen (nur lesen) |
+| **Über** | Credits | Systeminformationen und Danksagungen (schreibgeschützt) |
 
-Labels verwalten Sie nicht hier, sondern unter **Sammlung** → **Labels** im Hauptmenü.
+Die Verwaltung von Arbeitsflow-Labels befindet sich nicht in diesem Bereich, sondern unter **Sammlung** → **Labels** im Hauptmenü.
 
 ![Einstellungs-Seitenleiste mit den Gruppen Konto, Sprache und Design, Premium, Sammlung und Über](/img/handbuch/einstellungen/einstellungen-seitenleiste.webp)
 
-Ausführlich zu Premium-Limits und Bezahlung: [Premium und Gratisplan](../premium/premium.md).
+Umfassende Erläuterungen zu Tarifgrenzen und Zahlungsmodalitäten: [Premium und Gratisplan](../premium/premium.md).
 
-## Desktop und Mobile
+## Ansichten für Desktop und Mobilgeräte
 
-Desktop: Links gruppierte Menüpunkte, rechts der Inhalt des aktiven Bereichs.
-
-Mobile: Unter der Überschrift **Einstellungen** wählen Sie zuerst den **Bereich** (Gruppe), dann den konkreten Eintrag. Der Inhalt aktualisiert sich wie auf dem Desktop.
+- **Desktop:** Gruppierte Navigation am linken Rand mit Inhaltsdarstellung auf der rechten Seite.
+- **Mobilgeräte:** Unter der Überschrift **Einstellungen** erfolgt zunächst die Anwahl des gewünschten **Bereichs** (Gruppe) und danach des konkreten Unterpunkts.
 
 ## Ungespeicherte Änderungen
 
-Bearbeiten Sie **Artikelliste** oder **Globale Suche** und wechseln ohne **Speichern**, fragt die App: **Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?** So gehen Spalten- oder Such-Einstellungen nicht versehentlich verloren.
+Beim Verlassen der Konfigurationsseiten **Artikelliste** oder **Globale Suche** mit ungespeicherten Eingaben blendet das System folgende Sicherheitsabfrage ein: «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?». Dies verhindert den unbeabsichtigten Verlust von Anzeigeeinstellungen.
 
 ## Ersteinrichtung
 
-Neue Nutzer können dieselben Themen (Sprache, Währung, Spalten) auch im Assistenten **Ersteinrichtung** setzen. Start und erneuter Durchlauf stehen unter [Konto → Ersteinrichtung](./konto.md#ersteinrichtung).
+Die Basiseinstellungen (Sprache, Währung, Standardspalten) lassen sich alternativ über den Assistenten **Ersteinrichtung** durchlaufen. Einzelheiten zum Ablauf und zum erneuten Aufruf: [Konto → Ersteinrichtung](./konto.md#ersteinrichtung).

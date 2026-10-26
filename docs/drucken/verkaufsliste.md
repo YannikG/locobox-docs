@@ -2,30 +2,30 @@
 sidebar_position: 4
 id: verkaufsliste
 title: Verkaufsliste drucken
-description: PDF-Verkaufsliste mit ausgewählten Artikeln, Preisen und Spalten. Premium-Funktion.
+description: PDF-Verkaufsdokument mit ausgewählten Artikeln, Preisen und flexibler Spaltenkonfiguration.
 ---
 
 # Verkaufsliste drucken
 
-Die **Verkaufsliste** ist ein PDF-Bericht für den Verkauf: Darstellung wie bei der Adressliste, optional mit Zustand, wählbaren Zusatzspalten und anpassbarem Verkaufspreis. Sie wählen welche Artikel und welche Spalten im PDF erscheinen und können den **Verkaufspreis** je Artikel anpassen.
+Die **Verkaufsliste** dient der Erstellung von Verkaufsübersichten: Tabellarischer Aufbau ähnlich der Adressliste, ergänzt um Zustandsbeschreibungen, frei wählbare Zusatzspalten sowie anpassbare Verkaufspreise.
 
-## Voraussetzung
+## Voraussetzungen
 
-Die Verkaufsliste gehört zu den Premium-Funktionen. Ohne Premium zeigt die Karte unter **Drucken** die Schaltfläche **Premium erforderlich** und öffnet die Paywall. Mehr dazu: [Premium und Gratisplan](../premium/premium.md).
+Die Verkaufsliste setzt ein aktives Premium-Abonnement voraus. Im Gratisplan verweist die Funktionskarte auf die Upgrade-Möglichkeiten (siehe [Premium und Gratisplan](../premium/premium.md)).
 
-## Bericht erzeugen
+## Ablauf im Assistenten
 
-Über **Drucken** → **Verkaufsliste** öffnet sich ein Assistent mit vier Schritten:
+Über **Drucken** → **Verkaufsliste** öffnet sich ein vierstufiger Assistent:
 
 ![Assistent der Verkaufsliste mit sichtbarer Schrittleiste (Artikel wählen, Preise, Spalten, Vorschau)](/img/handbuch/drucken/verkaufsliste-assistent.webp)
 
-1. **Artikel wählen**: markieren Sie die Einträge; oben sehen Sie, wie viele passenden Artikel ausgewählt sind. Die Treffer lassen sich über Filter und [Labels](../artikel/artikel-labels.md) eingrenzen.
-2. **Preise**: legen Sie je Artikel den **Verkaufspreis** fest.
-3. **Spalten**: öffnen Sie bei Bedarf **Export-Spalten**. Artikel und Verkaufspreis sind für den Export erforderlich; das Bild ist optional. Weitere Spalten wie **Zustand** können Sie dazuwählen und die Reihenfolge festlegen.
-4. **Vorschau**: prüfen Sie die Darstellung, dann **PDF erzeugen**.
+1. **Artikel wählen:** Datensätze selektieren; eine Zähleranzeige beziffert die getroffene Auswahl. Die Treffermenge lässt sich über Filter und [Labels](../artikel/artikel-labels.md) eingrenzen.
+2. **Preise:** Festlegung des individuellen **Verkaufspreises** je Modell.
+3. **Spalten:** Konfiguration der **Export-Spalten**. Artikel und Verkaufspreis sind Pflichtspalten; Bilddarstellungen sind optional. Zusatzangaben wie **Zustand** lassen sich ergänzen und in der Anzeigereihenfolge verschieben.
+4. **Vorschau:** Finale Prüfung der Formatierung mit anschliessender Generierung über **PDF erzeugen**.
 
-Ohne Auswahl weist die App mit **Wählen Sie mindestens einen Artikel aus.** hin. Fehlen erforderliche Spalten, erscheint der Hinweis, dass Artikel und Verkaufspreis fehlen und die Spaltenauswahl angepasst werden muss.
+Ohne markierte Datensätze erscheint die Meldung **Wählen Sie mindestens einen Artikel aus.**. Fehlen erforderliche Pflichtspalten, fordert die Anwendung zur Korrektur der Spaltenauswahl auf.
 
-## Weitere Berichte
+## Weiterführend
 
-Übersicht aller Berichte: [Berichte drucken](drucken-uebersicht.md).
+Übersicht aller Berichtsarten: [Berichte drucken](drucken-uebersicht.md).
