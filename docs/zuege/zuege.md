@@ -16,7 +16,7 @@ Unter **Züge** stehen die zusammengestellten Züge der Sammlung. Ein Zug besteh
 
 Die Übersicht zeigt die Züge als **Kartenraster**.
 
-{/* SCREENSHOT_TODO /img/handbuch/zuege/zugliste-karten.webp : Zugübersicht als Kartenraster mit Kompositionsstreifen, Artikelanzahl und LüP */}
+![Zugübersicht mit aufgeklapptem Filter und Kartenraster inkl. Kompositionsstreifen](/img/handbuch/zuege/zugliste-filter.webp)
 
 Im Titel stehen das Badge der Zuggattung, die Zugnummer und die Bezeichnung, je nachdem, was gesetzt ist. Bei gesperrter Bezeichnung kommt der sichtbare Titel aus den Zugangaben. Darunter liegt der Kompositionsstreifen mit den Fahrzeugen in der Reihenfolge des Zuges. Verkaufte Modelle sind im Streifen mit **Verkauft** markiert.
 
@@ -31,8 +31,6 @@ Am unteren Rand stehen die Seitenwahl und die Anzahl Karten pro Seite.
 ## Filter
 
 Der Bereich **Filter** klappt auf. Darin stehen **Bezeichnung**, **Zuggattung**, **Zugnummer**, **Betreiber**, **Epoche** und **Länder**, dazu je ein Bereich für **Anzahl Artikel** und **Länge über Puffer (LüP)**.
-
-{/* SCREENSHOT_TODO /img/handbuch/zuege/zugliste-filter.webp : Aufgeklappter Zugfilter mit Zugangaben und Bereichen für Artikelanzahl und LüP */}
 
 **Anwenden** lädt die Trefferliste neu, **Zurücksetzen** leert die Maske. Aktive Kriterien stehen als Chips unter dem Filter. Ein Klick auf das Kreuz am Chip entfernt nur dieses Kriterium, und die Liste lädt sofort neu.
 

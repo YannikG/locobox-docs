@@ -58,7 +58,7 @@ Hinzugefügte oder entfernte Artikel gelten zunächst als vorgemerkt. Die dauerh
 
 ## Set-Detailansicht
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/artikelset-detailansicht.webp : Artikelset-Detailansicht mit Kopfbereich, Finanzen, Lager und Tabelle der Set-Artikel */}
+![Artikelset-Detailansicht mit Finanzen, Lager und Tabelle der Set-Artikel](/img/handbuch/artikel/artikelset-detailansicht.webp)
 
 Die Detailansicht eines Artikelsets ist eine Leseansicht mit Stammdatenkopf (Hersteller, Artikelnummer, Beschreibung), Informationskarten für Finanzen und Lager sowie der Tabelle der enthaltenen Modelle mit Absprung in die Artikeldetails.
 

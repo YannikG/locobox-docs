@@ -23,7 +23,7 @@ unlisted: true
 ## Nachzug 26.10.2026 (Züge + Papierkorb)
 
 - `docs/zuege/zuege.md`, `zuege-komposition.md`, `papierkorb/papierkorb.md` an v2.1.0 angeglichen
-- Screenshot-Platzhalter (`SCREENSHOT_TODO`) für Kartenliste, Filter, Formular, Detail, Papierkorb mit fünf Registern
+- Screenshots nachgezogen: Züge (Liste/Formular/Detail), Papierkorb, Datenqualität (+ Leer), Artikel-/Set-/Decoder-Detail
 
 ## Noch offen (v2.1.0)
 

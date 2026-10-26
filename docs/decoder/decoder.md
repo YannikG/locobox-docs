@@ -19,7 +19,7 @@ Beide Modi gliedern sich in dieselben drei Register: **Übersicht**, **Funktions
 
 ## Detailansicht
 
-{/* SCREENSHOT_TODO /img/handbuch/decoder/decoder-detailansicht.webp : Decoder-Detailansicht auf dem Register «Übersicht» mit Stammdaten und verknüpften Artikeln */}
+![Decoder-Detailansicht Register «Übersicht» mit Stammdaten und verknüpften Artikeln](/img/handbuch/decoder/decoder-detailansicht.webp)
 
 Die Detailansicht stellt alle gespeicherten Werte schreibgeschützt dar. Das Register **Übersicht** führt Hersteller, Modell, Protokoll, Adresse, den Status **Nur Funktion**, Beschreibung sowie **Verknüpfte Artikel** auf. Die Register **Funktionsmatrix** und **Konfiguration** zeigen hinterlegte Tastenbelegungen und Konfigurationsparameter an.
 

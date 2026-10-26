@@ -31,7 +31,7 @@ Gelöschte Artikel werden in den [Papierkorb](../papierkorb/papierkorb.md) versc
 
 ## Aufbau der Detailansicht
 
-{/* SCREENSHOT_TODO /img/handbuch/artikel/artikel-detailansicht.webp : Artikel-Detailansicht mit Bildern, Kartenraster und verknüpften Zügen */}
+![Artikel-Detailansicht mit Bildern, Allgemein, Rollmaterial und Decoder-Bereich](/img/handbuch/artikel/artikel-detailansicht.webp)
 
 1. **Bilder**: **Hauptbild** und optional **Gespiegeltes Bild**, sofern vorhanden.
 2. Informationskarten im zweispaltigen Raster:

@@ -40,7 +40,7 @@ In der entsprechenden Tabellenzeile die Aktion **Bearbeiten** betätigen. Im Dia
 
 ## Bit-Ansicht in der Detailansicht
 
-![Bit-Ansicht eines gespeicherten CV-Werts mit den einzelnen Bits](/img/handbuch/decoder/decoder-bitansicht.webp)
+![Register «Konfiguration» mit geöffnetem Dialog «Bitansicht CV 302»](/img/handbuch/decoder/decoder-bitansicht.webp)
 
 In der Detailansicht steht im Register **Konfiguration** für jeden Eintrag eine Bit-Darstellung bereit (Hinweistext: **CV-Wert als Bits anzeigen.**). Die Ansicht zerlegt den gespeicherten Wert in seine acht Einzelbits.
 

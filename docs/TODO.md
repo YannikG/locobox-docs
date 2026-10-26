@@ -29,12 +29,12 @@ Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Be
 
 ### Tier 1: Kernflüsse (zuerst)
 
-- [ ] `uebersicht/uebersicht.md`: Dashboard Register **Übersicht** (drei Kennzahlenkarten inkl. Monatsaktivität + «Neueste Artikel»), Register **Finanzen** und Register **Datenqualität** (Problemtypen + Detailtabelle).
+- [x] `uebersicht/uebersicht.md`: Register Übersicht, Finanzen und Datenqualität.
 - [ ] `artikel/artikel-liste.md`: Artikelliste mit Toolbar; Filterbereich hervorheben, Tabelle/Karten-Umschalter zeigen.
 - [ ] `artikel/artikel-bearbeiten.md`: Bearbeitungsformular; je ein Bild der relevanten Abschnitte (Allgemein, Kategorien, Decoder, Finanzen, Lager, Bilder).
 - [ ] `decoder/decoder.md`: Bearbeitungsansicht mit den drei Registern **Übersicht/Funktionsmatrix/Konfiguration**; Fehlersymbol am Register hervorheben.
 - [ ] `generelles/globale-suche.md`: Suchdialog offen (Platzhalter im Eingabefeld, gemischte Trefferliste).
-- [ ] `papierkorb/papierkorb.md`: **fünf** Register (inkl. **Züge**) + Badge mit Gesamtzahl, Spalten «Gelöscht am» / «Tage bis zur endgültigen Löschung».
+- [x] `papierkorb/papierkorb.md`: **fünf** Register (inkl. **Züge**), Screenshot mit Artikelsets.
 
 ### Tier 2: Funktionen mit Optionen
 
@@ -42,17 +42,17 @@ Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Be
 - [ ] `drucken/verkaufsliste.md`: die vier Assistenten-Schritte (Schrittleiste sichtbar).
 - [ ] `drucken/sammlungsverzeichnis.md`: Optionsseite (Deckblatt-Felder) + Beispiel-Deckblatt-PDF.
 - [ ] `drucken/drucken-qr-code.md`: Einstellungen («Inhalt auf dem Etikett», «QR Code Grösse») + QR-Raster-PDF.
-- [ ] `artikel/artikel-detailansicht.md`: Artikel-Detailansicht mit Bildern, Kartenraster und verknüpften Zügen.
+- [x] `artikel/artikel-detailansicht.md`: Artikel-Detailansicht (`artikel-detailansicht.webp`).
 - [ ] `artikel/artikel-labels.md`: Labels-Seite (Tabelle Label/Artikel) + farbige Chips am Artikel.
-- [ ] `artikel/artikel-sets.md`: Set-Formular mit Registern Allgemein/Finanzen/Lager + Neuberechnungs-Dialog sowie Set-Detailansicht.
-- [ ] `decoder/decoder.md`: Decoder-Detailansicht mit Stammdaten und verknüpften Artikeln.
+- [x] `artikel/artikel-sets.md`: Set-Formular und Set-Detailansicht (`artikelset-detailansicht.webp`).
+- [x] `decoder/decoder.md`: Decoder-Detailansicht (`decoder-detailansicht.webp`).
 - [ ] `decoder/decoder-liste.md`: Decoder-Liste mit Filterpanel und hervorgehobener mehrfach verwendeter Adresse.
 - [ ] `decoder/decoder-adressen.md`: Protokoll, freie Adressvorschläge und Verfügbarkeits- oder Warnhinweis.
 - [ ] `decoder/decoder-konfiguration.md`: CV-Tabelle + Dialog zum Erfassen eines Konfigurationseintrags sowie separate Bit-Ansicht.
 - [ ] `decoder/decoder-funktionsmatrix.md`: Funktionsmatrix-Tabelle (F0/F1…, Funktionsart, Vorlagen-Auswahl).
 - [ ] `decoder/decoder-voreinstellungen.md`: Liste der Voreinstellungen mit Zeilenaktionen.
-- [ ] `zuege/zuege.md`: Zugübersicht als Kartenraster (`zugliste-karten.webp`) und Filterbereich (`zugliste-filter.webp`).
-- [ ] `zuege/zuege-komposition.md`: Zugformular mit Zugangaben (`zug-formular.webp`) und Detailansicht (`zug-detailansicht.webp`).
+- [x] `zuege/zuege.md`: Filter + Karten (`zugliste-filter.webp`).
+- [x] `zuege/zuege-komposition.md`: Formular und Detailansicht (`zug-formular.webp`, `zug-detailansicht.webp`).
 - [ ] `einstellungen/einstellungen.md`: Einstellungs-Seitenleiste (Gruppen Konto/Sprache und Design/Premium/Sammlung/Über).
 
 ### Tier 3: Onboarding und Premium

@@ -12,7 +12,7 @@ Zu finden über das Benutzermenü (Profilsymbol oben rechts) → **Papierkorb**.
 
 ## Register
 
-{/* SCREENSHOT_TODO /img/handbuch/papierkorb/papierkorb-register.webp : Papierkorb mit fünf Registern inkl. Züge und Badge mit Gesamtzahl */}
+![Papierkorb mit fünf Registern, Artikelsets und Dialog «Wiederherstellen»](/img/handbuch/papierkorb/papierkorb-register.webp)
 
 Die Seite hat fünf Register: **Artikel**, **Kategorien**, **Decoder**, **Artikelsets** und **Züge**.
 

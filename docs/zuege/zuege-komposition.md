@@ -21,7 +21,7 @@ Die Überschrift zeigt den Titel. Ein neuer Zug ohne Formel heisst **Neuer Zug**
 
 Unter der Überschrift folgen **Komposition**, dann **Zugangaben** und zum Schluss **Beschreibung**. Die **Bezeichnung** steht oben im Block **Zugangaben**.
 
-{/* SCREENSHOT_TODO /img/handbuch/zuege/zug-formular.webp : Zugformular mit Komposition, Zugangaben und Bezeichnungssperre */}
+![Zugformular mit Komposition, Zugangaben und gesperrter Bezeichnung](/img/handbuch/zuege/zug-formular.webp)
 
 ## Zugangaben
 
@@ -47,7 +47,7 @@ Verkaufte Modelle sind an der Wagenkarte mit **Verkauft** markiert.
 
 Nach dem Speichern öffnet Locobox die Detailansicht. Oben steht **Vorschau** mit dem Streifen, der Artikelzahl und der **Zuglänge über Puffer**. Danach kommen **Zugangaben**, **Beschreibung** und die Artikeltabelle unter **Komposition**. Im Streifen und in der Tabelle gilt dasselbe Label **Verkauft** für verkaufte Modelle.
 
-{/* SCREENSHOT_TODO /img/handbuch/zuege/zug-detailansicht.webp : Zug-Detailansicht mit Streifen, Zugangaben, Beschreibung und Artikeltabelle */}
+![Zug-Detailansicht mit Vorschau, Zugangaben, Beschreibung und Kompositionstabelle](/img/handbuch/zuege/zug-detailansicht.webp)
 
 ## Speichern
 

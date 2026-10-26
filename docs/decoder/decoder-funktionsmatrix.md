@@ -57,6 +57,8 @@ Importierte Belegungen werden erst nach Betätigung von **Speichern** in der Bea
 
 Die Aktion **Als Voreinstellung speichern** steht in der Detailansicht (nicht während der Bearbeitung) im Register **Funktionsmatrix** für den zuletzt gesicherten Zustand bereit. Nach Eingabe einer Bezeichnung speichert Locobox die Vorlage im Benutzerkonto.
 
+![Detailansicht Register «Funktionsmatrix» mit Tabelle und «Als Voreinstellung speichern»](/img/handbuch/decoder/decoder-funktionsmatrix-detail.webp)
+
 Abonnenten vorbehalten:
 
 - Eigene Voreinstellungen sichern, umbenennen und löschen

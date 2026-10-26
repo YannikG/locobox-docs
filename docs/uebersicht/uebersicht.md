@@ -33,7 +33,7 @@ Im oberen Bereich stehen die Karten **Gesamtausgaben**, **Durch Verkäufe erhalt
 
 ## Registerkarte «Datenqualität»
 
-{/* SCREENSHOT_TODO /img/handbuch/uebersicht/dashboard-datenqualitaet.webp : Register «Datenqualität» mit Problemtypen-Liste und Detailtabelle */}
+![Register «Datenqualität» mit Problemtypen-Liste und Detailtabelle](/img/handbuch/uebersicht/dashboard-datenqualitaet.webp)
 
 Die dritte Registerkarte **Datenqualität** dient der Prüfung auf Lücken und Unstimmigkeiten im Sammlungsbestand. Auf der linken Seite (auf Mobilgeräten als Auswahlliste) sind die **Problemtypen** mit Mengenangaben aufgeführt. Ein grüner Status signalisiert fehlerfreie Daten, Gelb weist auf offene Fälle hin.
 
@@ -51,6 +51,8 @@ Zwei weitere Typen setzen ein bezahltes Premium-Abonnement oder die laufende Kul
 - **Züge mit unvollständiger LÜP**
 
 Über die Schaltflächen **Details** oder **Bearbeiten** in der Detailtabelle lässt sich ein Eintrag direkt ansteuern. Liegen für den ausgewählten Typ keine Beanstandungen vor, erscheint der Text **Keine Probleme für diesen Typ.**
+
+![Register «Datenqualität» ohne Treffer: «Keine Probleme für diesen Typ.»](/img/handbuch/uebersicht/dashboard-datenqualitaet-leer.webp)
 
 ## Hinweise auf der Startseite
 
