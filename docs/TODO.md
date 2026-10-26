@@ -9,8 +9,19 @@ unlisted: true
 
 Diese Liste ergänzt die Qualitätssicherung aus dem Nutzerhandbuch-Workflow. Einträge nach Bedarf abhaken oder streichen.
 
-- [ ] **UI-Wortlaut:** Schaltflächen- und Menübezeichnungen gegen die aktuelle App prüfen (ohne technische Details zu dokumentieren).
+**Abgleichsbasis:** locobox2 **v2.1.0** (`4ea3cfa4`). Nicht den Feature-Branch-Tip verwenden.
+
+- [ ] **UI-Wortlaut:** Schaltflächen- und Menübezeichnungen gegen die App am Tag `v2.1.0` prüfen (ohne technische Details zu dokumentieren).
 - [ ] **Neue Features:** Nach Produktreleases kurz prüfen, ob `docs/` und `sidebars.ts` noch zur Bedienung passen.
+
+### Nachzug Release v2.1.0 (Priorität)
+
+- [ ] `zuege/zuege.md` + `zuege-komposition.md`: Kartenraster, Zugangaben, Bezeichnung sperren/freigeben, Lean-Filter (Name / LüP / Artikelanzahl).
+- [ ] `papierkorb/papierkorb.md` + `zuege/zuege.md`: Züge soft-delete, Register **Züge**, Wiederherstellen (alte «endgültig gelöscht»-Aussage entfernen).
+- [ ] `premium/abonnement.md` (+ ggf. `nutzung.md` / `premium.md`): Planwahl **monatlich** / **jährlich**, Intervallwechsel, Kundenportal.
+- [ ] `artikel/artikel-massenbearbeitung.md`: Kategorien gratis wählbar; Labels Premium; Premium-Hinweis an App-Text anpassen.
+- [ ] `artikel/artikel-liste.md`: Filter-Autocomplete Lager **Standort**, **Regal**, **Schachtel** (Anzeigespalten oft aus).
+- [ ] Eingebettete Artikeltabellen: Kategorienamen erwähnen (Zug-Komposition, Neueste Artikel, Decoder verknüpft).
 
 ## Screenshots
 

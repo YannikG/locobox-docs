@@ -1,12 +1,14 @@
 # Doku-Rewrite — Journey-Inventar
 
-Stand: 2026-09-09 · Epic [locobox-docs#2](https://github.com/YannikG/locobox-docs/issues/2)  
+Stand: 2026-10-26 · Epic [locobox-docs#2](https://github.com/YannikG/locobox-docs/issues/2)  
 Quelle: `locobox2/docs/journeys/` + `public/i18n/de-CH.json` (Verhalten und Wortlaut), **nicht** für Endleser zitieren.
 
-Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalter angelegt · **fehlt** = noch anlegen
+Legende: **ok** = Seite vorhanden und gegen App geprüft · **nachziehen** = Seite existiert, Inhalt hinter Release · **stub** = Platzhalter angelegt · **fehlt** = noch anlegen
 
-> Abgeglichen mit locobox2 **v2.0.0** (`f142f096`, 2026-09-08).  
-> Nachzug 09.09.: Dashboard **Datenqualität**, Monatsaktivität, PWA **App installieren**, Drucken-Hub **Erstellen**.
+> Abgleichsbasis: locobox2 **v2.1.0** (`4ea3cfa4`, Tag 2026-10-18). Früher: v2.0.0 (`f142f096`).  
+> Nur Release-Tags als Quelle. Commits auf Feature-Branches **nach** `v2.1.0` (z. B. aktuelle Such-Fixes) sind fürs Handbuch **out of scope**, bis sie in einem Tag landen.  
+> Nachzug 09.09. (noch v2.0.0): Dashboard **Datenqualität**, Monatsaktivität, PWA **App installieren**, Drucken-Hub **Erstellen**.  
+> Gap-Scan 26.10. gegen `v2.1.0..v2.0.0`: Züge-Overhaul, Züge im Papierkorb, Premium monatlich/jährlich, Massenbearbeitung Kategorien, Lager-Filter-Autocomplete.
 
 ## 1 Einstieg (`generelles/`)
 
@@ -32,11 +34,13 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| articles/list-filtering | `artikel-liste.md` | ok |
+| articles/list-filtering | `artikel-liste.md` | nachziehen (Lager Standort/Regal/Schachtel-Autocomplete, Anzeigespalten) |
+| articles/lager-autocomplete-filters | in `artikel-liste.md` | nachziehen (neu in v2.1.0) |
 | articles/article-detail | `artikel-detailansicht.md` | ok |
 | articles/create-article, edit-article, edit-validation, create-with-decoder, document-links | `artikel-bearbeiten.md` | ok |
 | articles/csv-import | `artikel-csv-import.md` | ok |
-| articles/bulk-edit | `artikel-massenbearbeitung.md` | ok (+ Labels, Premium-Feldgrenze) |
+| articles/bulk-edit | `artikel-massenbearbeitung.md` | nachziehen (Kategorien gratis; Labels Premium; alter Premium-Hinweistext) |
+| articles/embedded-article-table-categories | Detail-/Kompositions-/Decoder-Tabellen | nachziehen (Kategorienamen in eingebetteten Tabellen) |
 | articles/clone-article | `artikel-duplizieren.md` | ok |
 | articles/image-upload | `artikel-bilder.md` | ok |
 | articles/soft-delete-restore, delete-guards | Papierkorb + Artikel-Abschnitt | ok |
@@ -51,8 +55,9 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| trains/list-and-search | `zuege/zuege.md` | ok |
-| trains/create-composition | `zuege/zuege-komposition.md` | ok |
+| trains/module-overhaul | `zuege/*.md` + Papierkorb | nachziehen (Karten, Zugangaben, Name-Lock, Soft-Delete) |
+| trains/list-and-search | `zuege/zuege.md` | nachziehen (Kartenraster, Lean-Filter, LüP/Anzahl) |
+| trains/create-composition | `zuege/zuege-komposition.md` | nachziehen (Zugangaben, Bezeichnung sperren/freigeben) |
 | decoders/* (Liste, Detail, Bearbeitung, Adressen, Konfiguration) | `decoder/*.md` | ok |
 | decoders/function-map-preset-list, function-map-csv-and-presets | `decoder/decoder-voreinstellungen.md` + `decoder-funktionsmatrix.md` | ok (neue Seite) |
 
@@ -70,9 +75,9 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| settings/premium-usage | `premium/abonnement.md` + `einstellungen/nutzung.md` | ok |
-| settings/credits | `premium/gratis-und-limits.md` | ok (+ Artikelsets) |
-| — | `premium/premium.md` | ok (+ Verweis Übersicht) |
+| settings/premium-usage | `premium/abonnement.md` + `einstellungen/nutzung.md` | nachziehen (Premium monatlich/jährlich, Intervallwahl, Portal-Wechsel) |
+| settings/credits | `premium/gratis-und-limits.md` | nachziehen (Limits inkl. Züge prüfen) |
+| — | `premium/premium.md` | nachziehen (Verweis Übersicht + Intervall) |
 
 ## 7 Einstellungen (`einstellungen/`)
 
@@ -88,5 +93,5 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **stub** = Platzhalt
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| platform/soft-delete-and-recycling | `papierkorb/papierkorb.md` | ok (4 Register inkl. Artikelsets) |
-| platform/recycling-bin-menu-badge | in `papierkorb.md` + `generelles.md` | ok |
+| platform/soft-delete-and-recycling | `papierkorb/papierkorb.md` | nachziehen (**falsch:** Züge stehen seit v2.1.0 Soft-Delete + Register **Züge**) |
+| platform/recycling-bin-menu-badge | in `papierkorb.md` + `generelles.md` | nachziehen (Badge zählt Züge mit) |

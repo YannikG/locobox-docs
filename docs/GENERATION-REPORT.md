@@ -7,27 +7,42 @@ unlisted: true
 
 # Bericht: Doku-Update
 
-**Datum:** 9. September 2026  
-**Quelle:** App `../locobox2` v2.0.0 (`f142f096`), Journeys, Specs, `public/i18n/de-CH.json`  
+**Datum:** 26. Oktober 2026  
+**Quelle:** App `../locobox2` **v2.1.0** (`4ea3cfa4`, Tag 2026-10-18), Journeys, Specs, `public/i18n/de-CH.json`  
+**Nicht als Quelle:** Feature-Branch-Tip nach dem Tag (u. a. globale Suche nach Artikelsets).  
 **Build:** nach inhaltlichem Nachzug prüfen mit `npm run build`
 
-## Neu oder geändert (dieser Durchlauf)
+## Versionspin
 
-- **Neu:** `docs/generelles/app-installieren.md` (Ersteinrichtung + Benutzermenü, Browser-Unterschiede)
-- **Übersicht:** Monatsaktivität unter **Artikel im Bestand**, Register **Datenqualität** (Gratis- und Premium-Problemtypen)
-- **Drucken-Hub:** Schaltfläche **Erstellen**, Kartenbeschreibungen an App angeglichen
-- **Erste Schritte / Konto / Generelles / FAQ / Browser / Premium:** Install-Schritt und Verweise nachgezogen; Assistent endet mit **Einrichtung abschliessen**
-- **Inventar:** auf locobox2 v2.0.0 aktualisiert; Collection-Charts Overview noch ausstehend (UI Phase 2+)
+| Was | Wert |
+| --- | --- |
+| Dokumentierter Release | **v2.1.0** |
+| Commit (Tag) | `4ea3cfa4` |
+| Vorheriger Pin | v2.0.0 (`f142f096`, 2026-09-08) |
 
-## Geprüfte Nutzer-Themen
+## Gap-Scan v2.0.0 → v2.1.0 (Inhalt noch nachziehen)
 
-- Einstieg inkl. App-Installation, Übersicht (drei Register), Drucken-Hub, Premium-Hinweise
-- UI-Wortlaut gegen `de-CH.json` und Journeys `pwa-install`, `data-health-tab`, `dashboard`, `dashboard-overview-monthly-deltas`
+Nutzerrelevante Änderungen im Release, Handbuch noch auf v2.0.0-Stand:
+
+- **Züge:** Modul-Overhaul (Karten, Zugangaben, Name sperren/freigeben, Lean-Filter, LüP)
+- **Papierkorb:** Züge soft-delete + Wiederherstellen (Handbuch sagt fälschlich «endgültig»)
+- **Premium:** Abrechnung **monatlich** / **jährlich**, Intervallwechsel im Portal
+- **Massenbearbeitung:** Kategorien im Gratisplan; Labels weiter Premium; Hinweistext veraltet
+- **Artikelliste:** Autocomplete-Filter für Lager Standort / Regal / Schachtel
+- **Eingebettete Tabellen:** Kategorienamen (Zug, Übersicht, Decoder)
+- **Sonstiges (klein):** Not-found-Seite, PWA-Install Doppelklick-Fix, Datenqualität Premium/Grace
+
+Details und Status: `REWRITE-INVENTORY.md`. Arbeitsliste: `docs/TODO.md`.
+
+## Geprüft (dieser Durchlauf)
+
+- Nur Diff/Journeys/`de-CH.json` zwischen Tags `v2.0.0` und `v2.1.0`
+- Kein Live-Klickdurchlauf, keine Feature-Branch-Commits nach dem Tag
 
 ## Vertrauen
 
-**mittel bis hoch** für die geänderten Bereiche. Live-App nicht klickweise durchgespielt. Screenshots für Datenqualität und App-Installation fehlen noch (siehe `docs/TODO.md`).
+**niedrig bis mittel** für Züge, Papierkorb, Premium und Massenbearbeitung (Inhalt hinter Release). Übrige Cluster unverändert zum v2.0.0-Nachzug.
 
 ## Offenes
 
-Siehe `docs/TODO.md` (Screenshots, visueller UI-Faktencheck). Collection-Charts auf der Übersicht dokumentieren, sobald die UI ausgeliefert ist.
+Siehe `docs/TODO.md` (v2.1.0-Nachzug, Screenshots). Collection-Charts auf der Übersicht erst dokumentieren, wenn die UI im Release ist.
