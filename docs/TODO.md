@@ -16,8 +16,8 @@ Diese Liste ergänzt die Qualitätssicherung aus dem Nutzerhandbuch-Workflow. Ei
 
 ### Nachzug Release v2.1.0 (Priorität)
 
-- [ ] `zuege/zuege.md` + `zuege-komposition.md`: Kartenraster, Zugangaben, Bezeichnung sperren/freigeben, Lean-Filter (Name / LüP / Artikelanzahl).
-- [ ] `papierkorb/papierkorb.md` + `zuege/zuege.md`: Züge soft-delete, Register **Züge**, Wiederherstellen (alte «endgültig gelöscht»-Aussage entfernen).
+- [x] `zuege/zuege.md` + `zuege-komposition.md`: Kartenraster, Zugangaben, Bezeichnung sperren/freigeben, Lean-Filter (Name / LüP / Artikelanzahl).
+- [x] `papierkorb/papierkorb.md` + `zuege/zuege.md`: Züge soft-delete, Register **Züge**, Wiederherstellen (alte «endgültig gelöscht»-Aussage entfernt).
 - [ ] `premium/abonnement.md` (+ ggf. `nutzung.md` / `premium.md`): Planwahl **monatlich** / **jährlich**, Intervallwechsel, Kundenportal.
 - [ ] `artikel/artikel-massenbearbeitung.md`: Kategorien gratis wählbar; Labels Premium; Premium-Hinweis an App-Text anpassen.
 - [ ] `artikel/artikel-liste.md`: Filter-Autocomplete Lager **Standort**, **Regal**, **Schachtel** (Anzeigespalten oft aus).
@@ -34,7 +34,7 @@ Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Be
 - [ ] `artikel/artikel-bearbeiten.md`: Bearbeitungsformular; je ein Bild der relevanten Abschnitte (Allgemein, Kategorien, Decoder, Finanzen, Lager, Bilder).
 - [ ] `decoder/decoder.md`: Bearbeitungsansicht mit den drei Registern **Übersicht/Funktionsmatrix/Konfiguration**; Fehlersymbol am Register hervorheben.
 - [ ] `generelles/globale-suche.md`: Suchdialog offen (Platzhalter im Eingabefeld, gemischte Trefferliste).
-- [ ] `papierkorb/papierkorb.md`: vier Register + Badge mit Gesamtzahl, Spalten «Gelöscht am» / «Tage bis zur endgültigen Löschung».
+- [ ] `papierkorb/papierkorb.md`: **fünf** Register (inkl. **Züge**) + Badge mit Gesamtzahl, Spalten «Gelöscht am» / «Tage bis zur endgültigen Löschung».
 
 ### Tier 2: Funktionen mit Optionen
 
@@ -51,7 +51,8 @@ Ablage einheitlich unter `static/img/handbuch/<bereich>/`, im Markdown mit `![Be
 - [ ] `decoder/decoder-konfiguration.md`: CV-Tabelle + Dialog zum Erfassen eines Konfigurationseintrags sowie separate Bit-Ansicht.
 - [ ] `decoder/decoder-funktionsmatrix.md`: Funktionsmatrix-Tabelle (F0/F1…, Funktionsart, Vorlagen-Auswahl).
 - [ ] `decoder/decoder-voreinstellungen.md`: Liste der Voreinstellungen mit Zeilenaktionen.
-- [ ] `zuege/zuege-komposition.md`: Zug-Detailansicht mit Komposition, Vorschau und Zuglänge über Puffer.
+- [ ] `zuege/zuege.md`: Zugübersicht als Kartenraster (`zugliste-karten.webp`) und Filterbereich (`zugliste-filter.webp`).
+- [ ] `zuege/zuege-komposition.md`: Zugformular mit Zugangaben (`zug-formular.webp`) und Detailansicht (`zug-detailansicht.webp`).
 - [ ] `einstellungen/einstellungen.md`: Einstellungs-Seitenleiste (Gruppen Konto/Sprache und Design/Premium/Sammlung/Über).
 
 ### Tier 3: Onboarding und Premium

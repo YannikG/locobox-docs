@@ -55,9 +55,9 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **nachziehen** = Sei
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| trains/module-overhaul | `zuege/*.md` + Papierkorb | nachziehen (Karten, Zugangaben, Name-Lock, Soft-Delete) |
-| trains/list-and-search | `zuege/zuege.md` | nachziehen (Kartenraster, Lean-Filter, LüP/Anzahl) |
-| trains/create-composition | `zuege/zuege-komposition.md` | nachziehen (Zugangaben, Bezeichnung sperren/freigeben) |
+| trains/module-overhaul | `zuege/*.md` + Papierkorb | ok (v2.1.0 Nachzug; Screenshots offen) |
+| trains/list-and-search | `zuege/zuege.md` | ok (Kartenraster, Lean-Filter, LüP/Anzahl) |
+| trains/create-composition | `zuege/zuege-komposition.md` | ok (Zugangaben, Bezeichnung sperren/freigeben) |
 | decoders/* (Liste, Detail, Bearbeitung, Adressen, Konfiguration) | `decoder/*.md` | ok |
 | decoders/function-map-preset-list, function-map-csv-and-presets | `decoder/decoder-voreinstellungen.md` + `decoder-funktionsmatrix.md` | ok (neue Seite) |
 
@@ -93,5 +93,5 @@ Legende: **ok** = Seite vorhanden und gegen App geprüft · **nachziehen** = Sei
 
 | Journey | Nutzerseite | Status |
 | ------- | ----------- | ------ |
-| platform/soft-delete-and-recycling | `papierkorb/papierkorb.md` | nachziehen (**falsch:** Züge stehen seit v2.1.0 Soft-Delete + Register **Züge**) |
-| platform/recycling-bin-menu-badge | in `papierkorb.md` + `generelles.md` | nachziehen (Badge zählt Züge mit) |
+| platform/soft-delete-and-recycling | `papierkorb/papierkorb.md` | ok (5 Register inkl. **Züge**; Screenshot nachziehen) |
+| platform/recycling-bin-menu-badge | in `papierkorb.md` + `generelles.md` | ok (Badge zählt Züge mit) |

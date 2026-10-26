@@ -20,28 +20,29 @@ unlisted: true
 | Commit (Tag) | `4ea3cfa4` |
 | Vorheriger Pin | v2.0.0 (`f142f096`, 2026-09-08) |
 
-## Gap-Scan v2.0.0 → v2.1.0 (Inhalt noch nachziehen)
+## Nachzug 26.10.2026 (Züge + Papierkorb)
 
-Nutzerrelevante Änderungen im Release, Handbuch noch auf v2.0.0-Stand:
+- `docs/zuege/zuege.md`, `zuege-komposition.md`, `papierkorb/papierkorb.md` an v2.1.0 angeglichen
+- Screenshot-Platzhalter (`SCREENSHOT_TODO`) für Kartenliste, Filter, Formular, Detail, Papierkorb mit fünf Registern
 
-- **Züge:** Modul-Overhaul (Karten, Zugangaben, Name sperren/freigeben, Lean-Filter, LüP)
-- **Papierkorb:** Züge soft-delete + Wiederherstellen (Handbuch sagt fälschlich «endgültig»)
+## Noch offen (v2.1.0)
+
 - **Premium:** Abrechnung **monatlich** / **jährlich**, Intervallwechsel im Portal
 - **Massenbearbeitung:** Kategorien im Gratisplan; Labels weiter Premium; Hinweistext veraltet
 - **Artikelliste:** Autocomplete-Filter für Lager Standort / Regal / Schachtel
-- **Eingebettete Tabellen:** Kategorienamen (Zug, Übersicht, Decoder)
-- **Sonstiges (klein):** Not-found-Seite, PWA-Install Doppelklick-Fix, Datenqualität Premium/Grace
+- **Eingebettete Tabellen:** Kategorienamen (Übersicht, Decoder; Zug erwähnt)
+- **Sonstiges (klein):** Not-found wo relevant, Datenqualität Premium/Grace
 
-Details und Status: `REWRITE-INVENTORY.md`. Arbeitsliste: `docs/TODO.md`.
+Details: `REWRITE-INVENTORY.md`. Arbeitsliste: `docs/TODO.md`.
 
 ## Geprüft (dieser Durchlauf)
 
-- Nur Diff/Journeys/`de-CH.json` zwischen Tags `v2.0.0` und `v2.1.0`
+- Journeys/Specs/`de-CH.json` am Tag `v2.1.0` für Züge und Papierkorb
 - Kein Live-Klickdurchlauf, keine Feature-Branch-Commits nach dem Tag
 
 ## Vertrauen
 
-**niedrig bis mittel** für Züge, Papierkorb, Premium und Massenbearbeitung (Inhalt hinter Release). Übrige Cluster unverändert zum v2.0.0-Nachzug.
+**mittel** für Züge und Papierkorb (Text nachgezogen, Screenshots offen). **niedrig bis mittel** für Premium, Massenbearbeitung und Lager-Filter.
 
 ## Offenes
 
