@@ -63,7 +63,9 @@ const config: Config = {
 
   themeConfig: {
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Locobox Doku',
@@ -152,42 +154,38 @@ const config: Config = {
           items: [
             {
               href: 'https://www.locobox.ch',
-              label: 'Locobox Hauptseite',
+              label: 'Locobox',
             },
             {
-              href: 'https://github.com/yannikg/locobox-docs',
-              label: 'GitHub',
+              href: 'https://database.locobox.ch',
+              label: 'Datenbank',
             },
           ],
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Dokumentation',
           items: [
             {
-              label: 'Einstieg',
+              label: 'Erste Schritte',
               to: '/docs/generelles/generelles-erste-schritte',
             },
           ],
         },
         {
-          title: 'Projekt',
+          title: 'Locobox',
           items: [
             {
-              label: 'Locobox Hauptseite',
+              label: 'Locobox',
               href: 'https://www.locobox.ch',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/yannikg/locobox-docs',
-            },
-            {
-              label: 'Probleme melden',
-              href: 'https://github.com/yannikg/locobox-docs/issues',
+              label: 'Datenbank',
+              href: 'https://database.locobox.ch',
             },
           ],
         },
@@ -196,7 +194,6 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
 };
