@@ -5,6 +5,10 @@ description: Offene Punkte für Menschen, keine automatische Generierung.
 unlisted: true
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Manuelle Nacharbeit
 
 Diese Liste ergänzt die Qualitätssicherung aus dem Nutzerhandbuch-Workflow. Einträge nach Bedarf abhaken oder streichen.

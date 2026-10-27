@@ -15,10 +15,11 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://www.locobox.ch',
+  url: 'https://docs.locobox.ch',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
 
@@ -41,6 +42,13 @@ const config: Config = {
             'https://github.com/yannikg/locobox-docs/tree/main/',
         },
         blog: false,
+        sitemap: {
+          ignorePatterns: [
+            '/docs/todo/',
+            '/docs/generation-report/',
+            '/search/',
+          ],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
