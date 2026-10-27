@@ -8,8 +8,8 @@ import Link from '@docusaurus/Link';
 export default function LimitsPlanNote() {
   return (
     <Admonition type="note" title="Limits und Plan">
-      Für dieses Feature können <strong>Nutzungsgrenzen</strong> oder{' '}
-      <strong>Regeln Ihres Plans</strong> gelten. Einzelheiten finden Sie unter{' '}
+      Für diese Funktion können <strong>Nutzungsgrenzen</strong> oder{' '}
+      <strong>Regeln des jeweiligen Plans</strong> gelten. Einzelheiten dazu unter{' '}
       <Link to="/docs/einstellungen/nutzung">Nutzung</Link>.
     </Admonition>
   );

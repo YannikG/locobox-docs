@@ -106,6 +106,13 @@ dist
 
 # Docusaurus cache and generated files
 .docusaurus
+/build
+
+# Graphify generated knowledge graph
+/graphify-out/
+
+# Local agent / tooling scratch
+.pi/
 
 # Serverless directories
 .serverless/

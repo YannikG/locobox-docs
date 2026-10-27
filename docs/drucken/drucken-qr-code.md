@@ -1,36 +1,39 @@
 ---
+sidebar_position: 2
 id: drucken-qr-code
 title: QR Codes drucken
-description: PDF mit QR-Codes für Artikel erstellen; Etikette und Grösse.
+description: PDF-Raster mit QR-Codes zur Kennzeichnung von Verpackungen oder Vitrinen generieren.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # QR Codes drucken
 
-Unter **QR Code Raster** entsteht ein druckfertiges PDF mit einem Raster aus QR Codes für ausgewählte Artikel. So lassen sich Etiketten oder Aushänge vorbereiten, um Einträge schneller wiederzufinden oder mit dem Mobilgerät zu öffnen.
+Unter **QR Code Raster** entsteht ein druckfertiges Dokument mit einem Raster aus QR-Codes für ausgewählte Modelle. Dies dient der Vorbereitung von Etiketten oder Vitrinenbeschriftungen, um Modelle per Smartphone-Scan direkt in Locobox aufzurufen.
 
-Der Einstieg erfolgt über den Bereich **[Drucken](drucken.md)**.
+In der Anwendung lautet der Hinweistext: «Druckbares PDF mit QR-Codes für ausgewählte Artikel in einem Raster.».
+
+Der Zugang erfolgt über [Berichte drucken](drucken-uebersicht.md). Das **QR Code Raster** ist eine Premium-Funktion. Ohne aktiven Tarif verweist die Schaltfläche auf die Optionen für ein Upgrade.
 
 <LimitsPlanNote />
 
-
-## Überblick in Drucken
-
-Auf der Einstiegsseite von **Drucken** gibt es zwei Karten. Neben der **Adressliste** gibt es die Karte **QR Code Raster**. Über die dortige Schaltfläche **Drucken** öffnet sich die Seite zur Erstellung der QR Codes.
-
 ## Artikel auswählen
 
-Auf der Seite **QR Code Raster** wählen Sie Artikel wie bei der **Adressliste** aus: **Suche**, **Filter**, eine oder mehrere Zeilen markieren. Standardmässig sind nur noch nicht verkaufte Artikel sichtbar; über die Filter grenzen Sie die Treffer weiter ein. Ohne mindestens einen ausgewählten Eintrag lässt sich kein PDF erzeugen. Oben steht, wie viele passende Einträge es insgesamt gibt und wie viele Sie gewählt haben.
+Der Aufruf erfolgt über **Drucken** → **QR Code Raster**. Die Auswahl der Artikel entspricht dem Vorgehen bei der [Adressliste](adressliste.md): Filter anwenden, Zeilen selektieren. Standardmässig sind unverkaufte Bestände vorausgewählt; mit Premium steht die Einschränkung nach [Labels](../artikel/artikel-labels.md) bereit. Ohne ausgewählten Datensatz unterbindet das System den Export mit dem Hinweis **Wählen Sie mindestens einen Artikel aus.**. Die Zählerzeile informiert über Gesamt- und Auswahltreffer.
 
-## PDF-Einstellungen
+## Konfigurationsoptionen
 
-Mit **Inhalt auf dem Etikett** wird festgelegt, ob pro Feld nur der QR Code erscheint oder zusätzlich Hersteller und Artikelnummer wie ein kurzer Artikeltitel.
+![Einstellungen mit «Inhalt auf dem Etikett» und «QR Code Grösse»](/img/handbuch/drucken/qr-einstellungen.webp)
 
-Unter **QR Code Grösse** lässt sich die Kantenlänge des Symbols in Zentimeter einstellen (Bereich und Schrittweite sind auf der Seite beschriftet). Damit lässt sich zwischen kompakterem Raster oder besser Lesbarkeit beim Scannen von weiter weg oder auf kleinem Papier wählen.
+Unter **Einstellungen** stehen folgende Parameter bereit:
 
-## PDF erzeugen und nutzen
+- **Inhalt auf dem Etikett:** Steuert, ob ausschliesslich der QR-Code oder zusätzlich Hersteller und Artikelnummer ausgegeben werden:
+  - **Nur QR Code**
+  - **QR Code mit Artikeltitel**
+- **QR Code Grösse:** Kantenlänge des Codes in Zentimetern. Dies erlaubt die Abstimmung zwischen kompakter Bogenaufteilung und optimaler Scan-Distanz.
 
-Die Schaltfläche **PDF erzeugen** erstellt die Datei aus der aktuellen Auswahl und den eingestellten Optionen; anschliessend wird die Datei auf das Gerät heruntergeladen. Der Vorgang lässt sich bei Bedarf nach geänderter Auswahl oder Grösse wiederholen. Jeder QR Code verknüpft den jeweiligen Artikel dieser Sammlung, sodass beim Scannen mit einem geeigneten Gerät der passende Eintrag geöffnet werden kann.
+## Dokumenterzeugung
 
-Siehe auch [Artikel](../artikel/artikel.md) und bei allgemeinem PDF-Überblick [Drucken](drucken.md).
+Die Schaltfläche **PDF erzeugen** generiert das Dokument und startet den Download. Jeder QR-Code referenziert den jeweiligen Sammlungsartikel, sodass ein Scan mit einem Mobilgerät direkt zur Detailansicht führt.
+
+Ergänzende Abschnitte: [Artikel](../artikel/artikel.md), [Berichte drucken](drucken-uebersicht.md).

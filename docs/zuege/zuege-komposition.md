@@ -1,60 +1,58 @@
 ---
+sidebar_position: 1
 id: zuege-komposition
-title: Zug-Komposition
-description: Komposition zusammenstellen, Artikel hinzufügen, Reihenfolge per Drag-and-drop, Bildvariante und Zuglänge.
+title: Zug zusammenstellen
+description: Komposition und Zugangaben pflegen, Bezeichnung sperren oder freigeben, Zuglänge über Puffer lesen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
-# Zug-Komposition bearbeiten
+# Zug zusammenstellen
 
-In Locobox wird die Reihenfolge und Darstellung der Artikel in einem Zug in der gleichen Ansicht wie **Zug erstellen** und **Zug bearbeiten** gepflegt. In der Oberfläche heisst dieser Block **Komposition** (nicht „Builder“).
+Das Formular für einen neuen oder bestehenden Zug enthält den Fahrzeugbereich **Komposition**, die **Zugangaben** und eine **Beschreibung**.
 
 <LimitsPlanNote />
 
+## Einstieg
 
-## Wo die Komposition zu finden ist
+**Neu** in der [Zugübersicht](zuege.md) oder **Bearbeiten** an einem bestehenden Zug öffnet das Formular. Für **Neu** gilt dieselbe Obergrenze des Plans wie in der Übersicht.
 
-- **Neuer Zug:** Über **Neu** in der Zugliste öffnet sich das Formular **Zug erstellen**.
-- **Bestehender Zug:** In der Liste **Anzeigen** öffnet die Detailansicht, **Bearbeiten** öffnet **Zug bearbeiten**.
+Die Überschrift zeigt den Titel. Ein neuer Zug ohne Formel heisst **Neuer Zug**. Beim Bearbeiten hängt «bearbeiten» am Titel. Fehlt jede Bezeichnung, lautet der Titel **Zug ohne Bezeichnung**. In der Symbolleiste liegen **Zurück**, **Abbrechen** und **Speichern**.
 
-Oben im Formular steht zuerst die **Komposition**, darunter **Bezeichnung** und **Beschreibung**. Beim Anlegen eines neuen Zuges erscheint unter den Stammdaten zusätzlich eine **Vorschau** der Komposition; in der Detailansicht eines gespeicherten Zuges gibt es ebenfalls eine Vorschau mit der kompletten Darstellung.
+Unter der Überschrift folgen **Komposition**, dann **Zugangaben** und zum Schluss **Beschreibung**. Die **Bezeichnung** steht oben im Block **Zugangaben**.
+
+![Zugformular mit Komposition, Zugangaben und gesperrter Bezeichnung](/img/handbuch/zuege/zug-formular.webp)
+
+## Zugangaben
+
+Neue Züge starten mit gesperrter **Bezeichnung**. Unter dem Feld steht «Automatisch aus den Zugangaben.» Der Titel entsteht dann aus diesen Angaben. **Frei benennen** öffnet das Feld. Ist es noch leer, steht die bisherige Formel schon drin. **Zugangaben verwenden** sperrt wieder und leert die freie Bezeichnung.
+
+Eine bekannte **Zuggattung** erscheint als Badge mit Symbol. Freitext ohne passendes Symbol bleibt eine einfache Markierung. Das Feld nimmt Vorschläge aus der Liste oder eigenen Text. Die übrigen Angaben sind optional: **Zugnummer**, **Liniennummer**, **Marketingname**, **Startbahnhof**, **Zielbahnhof**, **Betreiber**, **Epoche**, **Betriebsjahr** und **Länder**.
+
+Nur beim Anlegen übernimmt Locobox Werte aus den hinzugefügten Artikeln. Leere Felder **Betreiber** und **Epoche** bekommen den Wert vom ersten Artikel. **Länder** setzt Locobox aus allen Artikeln im Zug neu zusammen, bis das Feld von Hand geändert wurde.
 
 ## Zuglänge über Puffer
 
-Über der Kompositionsleiste wird die summierte **Zuglänge über Puffer** in Millimetern angezeigt, soweit die beteiligten Artikel dazu Werte haben. Fehlen bei einzelnen Artikeln Angaben, bleibt die Summe unvollständig und die Oberfläche weist mit einem Hinweis darauf hin, dass die Länge nicht exakt ist.
+Unter der Überschrift **Komposition** und über der Wagenreihe steht **Zuglänge über Puffer** in mm. Fehlt bei einzelnen Artikeln die Länge, färbt sich die Zahl. Ein Info-Symbol nennt dann den Hinweis: «Die Länge über Puffer ist nicht genau, weil nicht alle Artikel eine Länge über Puffer hinterlegt haben.» Dasselbe Symbol sitzt in der Übersicht neben der Millimeterzahl.
 
-## Artikel hinzufügen
+## Artikel in die Komposition
 
-1. **Hinzufügen** öffnet den Dialog **Artikel hinzufügen**.
-2. Darin stehen dieselben **Filter** wie in der Artikelübersicht zur Verfügung, damit gezielt nach Einträgen gesucht werden kann.
-3. In der Tabelle können Sie Artikel **mehrfach auswählen**. Über das Kontrollkästchen im **Tabellenkopf** markieren Sie alle **zum aktuellen Filter passenden** Artikel auf einmal oder setzen die Markierung zurück.
-4. Mit **Auswahl hinzufügen** werden die gewählten Artikel ans Ende der Komposition gehängt. Bereits vorhandene Artikel im Zug werden dabei nicht doppelt eingefügt.
+**Hinzufügen** öffnet den Dialog **Artikel hinzufügen**, mit denselben Filtern wie die [Artikelliste](../artikel/artikel-liste.md). **Auswahl hinzufügen** hängt die markierten Modelle ans Ende des Zuges. Was schon in der Komposition steckt, kommt nicht ein zweites Mal dazu. Das Häkchen im Tabellenkopf markiert alle Zeilen, die zum aktuellen Filter passen. Die Spalte **Kategorien** zeigt die Namen, wenn der Artikel welche hat.
 
-## Reihenfolge und Darstellung jedes Wagens
+Die Modelle liegen als Reihe mit Bild und Bezeichnung. Am Griff **Neu anordnen** wandert ein Modell an eine andere Stelle. **Weitere Aktionen** oder ein Rechtsklick auf das Bild zeigt **Hauptbild verwenden**, **Gespiegeltes Bild verwenden**, **Einen nach vorne**, **Einen nach hinten**, **An den Anfang**, **Ans Ende** und **Löschen**. Vor dem Entfernen erscheint «Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?»
 
-Die eingefügten Artikel erscheinen als **Waagrechte Reihe** kleiner Karten mit Kennzeichnung und Bild.
+Verkaufte Modelle sind an der Wagenkarte mit **Verkauft** markiert.
 
-- **Reihenfolge:** Über den Bereich zum **Neu anordnen** (Griff-Symbol) kann jede Karte mit der Maus verschoben werden (**Drag-and-drop**).
-- **Kontextmenü:** Über das Menü (**Weitere Aktionen**) oder ein **Rechtsklick** auf den Bildbereich öffnen sich weitere Befehle:
-  - Wechsel zwischen **Hauptbild** und **gespiegeltes Bild**, sofern der Artikel beide Bilder hat.
-  - **Einen nach vorne** / **Einen nach hinten**, **An den Anfang**, **Ans Ende**.
-  - **Löschen** entfernt den Artikel aus der Komposition; dabei erscheint eine Sicherheitsabfrage.
+## Detailansicht
 
-Verkaufte Artikel werden in der Komposition **hervorgehoben** dargestellt, damit sie in der Garnitur leicht erkennbar sind.
+Nach dem Speichern öffnet Locobox die Detailansicht. Oben steht **Vorschau** mit dem Streifen, der Artikelzahl und der **Zuglänge über Puffer**. Danach kommen **Zugangaben**, **Beschreibung** und die Artikeltabelle unter **Komposition**. Im Streifen und in der Tabelle gilt dasselbe Label **Verkauft** für verkaufte Modelle.
 
-## Speichern und Gültigkeit
+![Zug-Detailansicht mit Vorschau, Zugangaben, Beschreibung und Kompositionstabelle](/img/handbuch/zuege/zug-detailansicht.webp)
 
-Speichern ist nur möglich, wenn eine **Bezeichnung** eingetragen ist und **mindestens ein Artikel** in der Komposition liegt. Ungültige Eingaben werden an den Feldern beziehungsweise mit einer Meldung bei leerer Komposition angezeigt.
+## Speichern
 
-Wenn Sie das Formular **ohne zu speichern** verlassen und es gibt noch Änderungen, fragt die Anwendung nach, ob Sie wirklich weiternavigieren möchten.
+Es braucht eine Bezeichnung und mindestens einen Artikel. Die Bezeichnung ist frei eingegeben oder kommt aus den Zugangaben. Eine gesperrte Bezeichnung genügt, sobald Badge oder Formel einen Titel ergeben. Ist die freie Bezeichnung leer, meldet das Feld **Name ist erforderlich.** Solange kein Artikel in der Komposition liegt, steht dort **Ein Zug benötigt mindestens einen Artikel.** **Speichern** wird erst aktiv, wenn beides erfüllt ist und das Formular geändert wurde.
 
-Nach dem ersten Speichern eines neuen Zuges gelangen Sie zur **Detailansicht** dieses Zuges.
+**Speichern** wechselt in die Detailansicht. **Abbrechen** und **Zurück** verlassen das Formular. Bei offenen Änderungen erscheint «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?» Ein neuer Zug führt danach zur Liste, ein bestehender in die Detailansicht.
 
-## Verknüpfung von einem Artikel aus
-
-Öffnen Sie einen [Artikel](../artikel/artikel.md), zeigt die Sektion **Verknüpfte Züge**, in welchen Zügen dieser Artikel vorkommt. Von dort können Sie einen Zug **anzeigen** und bei Bedarf danach zur Bearbeitung wechseln.
-
-## Übriges zum Bereich Züge
-
-Löschen und Papierkorb sind unter [Züge](zuege.md) beschrieben.
+Am [Artikel](../artikel/artikel.md) listet **Verknüpfte Züge** die Züge, in denen das Modell steckt, mit einem eigenen Kompositionsstreifen. **Ansehen** öffnet den Zug. Löschen und Wiederherstellen: [Züge](zuege.md), [Papierkorb](../papierkorb/papierkorb.md).

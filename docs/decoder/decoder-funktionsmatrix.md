@@ -1,43 +1,80 @@
 ---
+sidebar_position: 2
 id: decoder-funktionsmatrix
-title: Funktionsmatrix
-description: Funktionstasten im Decoder zuordnen, Vorlagen nutzen und Zeilen bearbeiten.
+title: Funktionsmatrix bearbeiten
+description: Funktionstasten im Decoder definieren, Vorlagen einsetzen und Belegungen per CSV verwalten.
 ---
 
-# Funktionsmatrix
+# Funktionsmatrix bearbeiten
 
-Hier legen Sie fest, welches Verhalten jede logische Funktionstaste hat (zum Beispiel zeitgesteuert, Ein/Aus oder tastend) und optional, wie die Bezeichnung der Taste lautet, die dann auf dem Fahrregler oder in der App erscheint.
+In der Funktionsmatrix wird festgelegt, welche **Funktionsart** den logischen Funktionstasten zugewiesen ist (beispielsweise **Zeitgesteuert**, **Ein/Aus** oder **Taster**), ergänzt um eine optionale **Beschriftung**.
 
-**Wo:** Decoder öffnen, **Bearbeiten** wählen, Tab **Funktionsmatrix**.
+**Navigation:** Decoder öffnen → **Bearbeiten** wählen → Register **Funktionsmatrix**.
 
-**Speichern:** Änderungen gelten erst nach **Speichern** in der **Bearbeitungsansicht**, siehe [Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht).
+**Speicherung:** Anpassungen werden erst mit dem Betätigen von **Speichern** in der Bearbeitungsmaske wirksam ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
+
+Ist die Matrix noch unbesetzt, öffnet das System beim ersten Aufruf dieses Registers automatisch den Dialog **Funktionsvorlage wählen** (einmalig pro Decoder und Sitzung). Das Fenster lässt sich schliessen; die Auswahl bleibt über die Schaltfläche **Vorlage wählen** jederzeit erreichbar.
+
+![Funktionsmatrix-Tabelle mit Funktionstasten (F0, F1 ...), Funktionsart und Beschriftung](/img/handbuch/decoder/funktionsmatrix.webp)
 
 ## Vorlage aus dem Dialog übernehmen
 
-1. Auf dem Tab **Funktionsmatrix** **Vorlage wählen** anklicken.
-2. Im Dialog nach Namen suchen oder die Liste durchblättern (Seitengrösse wechseln, falls angeboten).
+1. Im Register **Funktionsmatrix** auf **Vorlage wählen** klicken.
+2. Im Fenster **Funktionsvorlage wählen** nach Bezeichnungen suchen oder die Liste durchblättern.
 3. Genau eine Vorlage markieren.
-4. **Vorlage anwenden** anklicken.
+4. Mit **Vorlage übernehmen** bestätigen.
 
-Ist die Matrix schon befüllt, fragt die App nach einer Bestätigung, weil die bestehende Zuordnung ersetzt wird.
-Ist die Matrix leer, kann das Anwenden ohne Zwischenfrage erfolgen.
+Der Auswahldialog stellt zwei Register bereit: **Systemvorlagen** und **Meine Voreinstellungen**.
+
+Enthält die Matrix bereits Einträge, blendet das System die Sicherheitsabfrage **Vorlage ersetzen?** ein, da bestehende Belegungen überschrieben werden. Bei einer leeren Matrix erfolgt die Übernahme direkt.
 
 ## Vorlage vor dem Übernehmen prüfen
 
-Im Dialog **Vorlage wählen** wählen Sie in der Zeile der gewünschten Vorlage **Vorschau**.
-
-So prüfen Sie die Funktionszuordnung, bevor Sie die Vorlage übernehmen.
-Anschliessend wieder in die Liste wechseln, die Vorlage markieren und **Vorlage anwenden** wie oben beschrieben.
+Über das Augensymbol in der jeweiligen Zeile des Dialogs lässt sich eine Vorschau der Vorlage einblenden. Dies erlaubt die Kontrolle der Funktionsbelegungen vor der Zuweisung. Anschliessend erfolgt die Übernahme über **Vorlage übernehmen**.
 
 ## Funktionstaste ergänzen
 
-Auf dem Tab **Funktionsmatrix** die Aktion zum Hinzufügen einer weiteren Taste wählen (Beschriftung entspricht der App).
-Es wird der nächste freie Slot angelegt, mit einem Standardtyp (meist **Ein/Aus**).
+Im Register **Funktionsmatrix** legt **Weitere Taste** die nächste unbesetzte Taste am Listenende an (Standardeinstellung: **Ein/Aus**).
+
+Über das Menü neben der Schaltfläche erlaubt **Position wählen…** das Einfügen einer Taste an einer definierten Position innerhalb der Reihe.
 
 ## Zeilen anpassen oder entfernen
 
-In jeder Zeile den Funktionstyp aus der Liste wählen und bei Bedarf ein eigenes Label eintragen.
+In jeder Tabellenzeile lässt sich die **Funktionsart** aus der Liste wählen und bei Bedarf eine **Beschriftung** hinterlegen (Platzhalter: **Optionale Beschriftung**).
 
-Eine Zeile entfernen: dafür vorgesehene Aktion in der Zeile wählen und die Bestätigung in der App bestätigen, falls sie erscheint.
+Über die Zeilenaktion **Löschen** wird eine Funktionstaste nach Bestätigung der Abfrage **Taste entfernen** aus der Matrix gelöscht.
 
-Zurück zur Übersicht [Decoder](./decoder.md).
+## CSV-Export und CSV-Import
+
+Im Register **Funktionsmatrix** der Bearbeitungsmaske steht die Option **CSV** bereit:
+
+- **CSV exportieren:** Lädt die aktuelle Matrix als CSV-Datei herunter (Spalten **Funktion**, **Funktionsart** und optional **Beschriftung**). Für alle Tarife nutzbar.
+- **CSV importieren:** Ermöglicht das Hochladen einer Datei inklusive Spaltenzuordnung und Voransicht. Der Import überschreibt den bestehenden Entwurf nach Bestätigung einer Rückfrage.
+
+Importierte Belegungen werden erst nach Betätigung von **Speichern** in der Bearbeitungsansicht fest gesichert.
+
+## Eigene Voreinstellungen (Premium)
+
+Die Aktion **Als Voreinstellung speichern** steht in der Detailansicht (nicht während der Bearbeitung) im Register **Funktionsmatrix** für den zuletzt gesicherten Zustand bereit. Nach Eingabe einer Bezeichnung speichert Locobox die Vorlage im Benutzerkonto.
+
+![Detailansicht Register «Funktionsmatrix» mit Tabelle und «Als Voreinstellung speichern»](/img/handbuch/decoder/decoder-funktionsmatrix-detail.webp)
+
+Abonnenten vorbehalten:
+
+- Eigene Voreinstellungen sichern, umbenennen und löschen
+- Nutzung des Registers **Meine Voreinstellungen** im Auswahldialog
+
+Im Gratisplan stehen die Systemvorlagen sowie der CSV-Austausch bereit; der Zugriff auf eigene Voreinstellungen verweist auf die Tarifoptionen.
+
+### Voreinstellungen verwalten
+
+Gespeicherte Vorlagen werden auf der Seite [Funktionsmatrix-Voreinstellungen](./decoder-voreinstellungen.md) verwaltet (Menü **Sammlung** → **Decoder** → **Funktionsmatrix-Voreinstellungen**): Ansicht, **Vorschau** sowie bei aktivem Premium **Umbenennen** und **Löschen**.
+
+## Systemvorlagen und eigene Vorlagen
+
+Im Dialog **Funktionsvorlage wählen**:
+
+- **Systemvorlagen:** Werksseitig hinterlegte Standardvorlagen für alle Konten.
+- **Meine Voreinstellungen:** Individuell gespeicherte Matrizen (Auswahl und Bearbeitung erfordern Premium).
+
+Zurück zur Übersicht: [Decoder](./decoder.md).

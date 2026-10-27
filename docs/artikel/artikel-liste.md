@@ -1,57 +1,68 @@
 ---
+sidebar_position: 1
 id: artikel-liste
-title: Artikel Liste
-description: Artikelliste auf Desktop und Mobile, Filter, Sortierung, Seitenweise Ansicht, Zeilenaktionen und Ansichtseinstellungen.
+title: Artikel finden und filtern
+description: Artikelliste auf Desktop und Mobilgeräten, Filter, Sortierung, Paginierung, Zeilenaktionen und Ansichtseinstellungen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
-# Artikel Liste
+# Artikel finden und filtern
 
-Unter **Artikel** im Hauptmenü sehen Sie die **Artikelliste**: alle Einträge Ihrer Sammlung, die Sie filtern, sortieren und öffnen können.
+Unter **Sammlung** → **Artikelliste** befindet sich die Übersicht aller erfassten Sammlungsbestände. Die Seitenüberschrift lautet **Artikel**.
 
-Kurzüberblick zum Bereich: [Artikel](artikel.md). Zum Erfassen oder Ändern einzelner Datensätze: [Artikel bearbeiten](artikel-bearbeiten.md) und [Artikel Detailansicht](artikel-detailansicht.md).
+Kurzüberblick zum Bereich: [Artikel](artikel.md). Zum Erfassen oder Ändern einzelner Datensätze: [Artikel bearbeiten](artikel-bearbeiten.md) und [Artikeldetails ansehen](artikel-detailansicht.md).
 
 <LimitsPlanNote />
 
+## Symbolleiste
 
-## Toolbar
+![Artikelliste mit Toolbar und aufgeklapptem Filterbereich](/img/handbuch/artikel/artikelliste.webp)
 
-- **Zurück** kehrt zur vorherigen Stelle im Browser-Verlauf zurück.
-- **Ansichtseinstellungen** öffnet ein Fenster, in dem Sie **verfügbare** und **ausgewählte** Spalten wählen, suchen und **in der Reihenfolge anpassen** können. Dort speichern Sie Ihre Liste mit **Speichern**, setzen auf **Auf Standard zurücksetzen** oder brechen mit **Abbrechen** ab. Die Beschreibung im Dialog lautet wörtlich: «Wählen Sie die sichtbaren Spalten und legen Sie deren Reihenfolge fest.»
-- **Neu** öffnet das Formular für einen neuen Artikel (siehe [Artikel bearbeiten](artikel-bearbeiten.md)).
+- **Zurück** führt zur vorherigen Stelle im Browserverlauf zurück.
+- **Ansichtseinstellungen** öffnet einen Dialog mit den Bereichen **Verfügbar** und **Ausgewählt** zur Auswahl, Suche und Reihenfolgenanpassung von Spalten. Die Speicherung erfolgt über **Speichern**, das Zurücksetzen über **Auf Standard zurücksetzen**, der Abbruch über **Abbrechen**. Der Dialoghinweis lautet wörtlich: «Wählen Sie die sichtbaren Spalten und legen Sie deren Reihenfolge fest.»
+- **Neu** öffnet das Formular zur Erfassung eines neuen Artikels (siehe [Artikel bearbeiten](artikel-bearbeiten.md)).
 
-## Darstellung: Desktop und Mobile
+CSV-Import und Massenbearbeitung liegen nicht in dieser Symbolleiste, sondern im Hauptmenü **Sammlung** (siehe [Artikel per CSV importieren](artikel-csv-import.md) und [Artikel in Masse bearbeiten](artikel-massenbearbeitung.md)).
 
-- **Desktop:** Die Liste erscheint als **Tabelle**. Bei vielen Spalten können Sie die Tabelle **seitlich verschieben** (horizontal scrollen).
-- **Mobile:** Die Artikel werden als **Karten** dargestellt. Mit einem **Tipp** auf eine Karte öffnen Sie die **Detailansicht** des Artikels.
-- Zeigt die aktuelle Filterung keine Treffer, erscheint der Hinweis **Keine Artikel entsprechen den aktuellen Filtern.**
+## Darstellung: Desktop und Mobilgeräte
+
+- **Desktop:** Die Anzeige erfolgt als **Tabelle**. Bei vielen Spalten lässt sich die Tabelle horizontal scrollen.
+- **Mobilgeräte:** Die Artikel erscheinen als Kartenansicht. Ein Antippen einer Karte öffnet die Detailansicht des Artikels.
+- Ergibt eine Filterkombination keine Treffer, blendet die Oberfläche den Text **Keine Artikel entsprechen den aktuellen Filtern.** ein.
 
 ## Filter
 
-Über den aufklappbaren Bereich **Filter** stellen Sie Kriterien ein, die zu den **sichtbaren und filterbaren** Spalten passen (Text, Auswahllisten, Ja/Nein-Felder, Kategorien usw.). Zusätzliche Steuerungen können erscheinen, wenn bestimmte Spalten aktiv sind, zum Beispiel:
+Über den aufklappbaren Bereich **Filter** lassen sich Kriterien definieren, die den sichtbaren und filterbaren Spalten entsprechen (Textsuche, Auswahllisten, Ja/Nein-Werte, Kategorien):
 
-- **Adresse** (Mit Adresse / Ohne Adresse), wenn die Spalte **Adressen** in der Liste vorgesehen ist.
-- **Zug-Zuordnung** (Alle / Nur ohne Zug-Zuordnung / Nur mit Zug-Zuordnung).
+- **Kategorien auswählen** inklusive der Option **Ohne Kategorie** für Artikel ohne Kategoriezuordnung.
+- **Adresse** (**Mit Adresse** / **Ohne Adresse**), sofern die Spalte **Adressen** eingeblendet ist.
+- **Zug-Zuordnung** (**Alle** / **Nur ohne Zug-Zuordnung** / **Nur mit Zug-Zuordnung**).
+- Preisfilter (**Kaufpreis vorhanden**), sofern die Preisspalte filterbar ist.
+- **Nach Labels filtern** (Premium): Bei mehreren gewählten [Labels](artikel-labels.md) listet das System ausschliesslich Artikel auf, die alle gewählten Labels aufweisen (UND-Verknüpfung). Ohne Premium lautet die Rückmeldung «Labelfilter sind ein Premium-Feature.»
 
-**Zurücksetzen** leert die Filtereingaben im Formular, **Anwenden** lädt die Liste mit den gewählten Kriterien neu.
+**Zurücksetzen** leert die Filtermaske, **Anwenden** lädt die Trefferliste neu.
 
 ## Sortierung
 
-- In der **Tabelle** klicken Sie auf sortierbare **Spaltenüberschriften**; ein Symbol zeigt die Sortierrichtung.
-- In der **Kartenansicht** wählen Sie **Sortieren nach** und **Aufsteigend** oder **Absteigend** (Bezeichnungen **Sortierung**, **Aufsteigend**, **Absteigend** wie in der Oberfläche).
+- In der Tabelle genügt ein Klick auf die Spaltenüberschrift; ein Richtungssymbol zeigt die Sortierung an.
+- In der Kartenansicht stehen unter **Sortierung** das Auswahlfeld **Sortieren nach** sowie **Aufsteigend** und **Absteigend** bereit.
 
-## Auswahl in der Tabelle und Aktionen
+## Tabellenspalten und Zeilenaktionen
 
-Die sichtbaren Spalten richten sich nach Ihren **Ansichtseinstellungen**; typische Spalten heissen unter anderem **Hersteller**, **Artikelnummer**, **Bild**, **Kategorien**, **Adressen**, Finanz- und Lagerthemen, **Erstellt am** am Ende der Tabelle.
+Die sichtbaren Spalten richten sich nach den gewählten **Ansichtseinstellungen**. Typische Spalten sind **Hersteller**, **Artikelnummer**, **Bild**, **Kategorien**, **Labels**, **Adressen**, Finanz- und Lagerdaten sowie **Erstellt am** am Zeilenende.
 
-In der letzten Spalte **Aktionen** finden Sie pro Zeile:
+In der letzten Spalte **Aktionen** stehen pro Zeile bereit:
 
 - **Ansehen** zur [Detailansicht](artikel-detailansicht.md).
-- **Bearbeiten** zum [Formular](artikel-bearbeiten.md).
+- **Bearbeiten** zum [Erfassungsformular](artikel-bearbeiten.md).
 
-**Keine Einträge gefunden** erscheint, wenn die Tabelle leer ist.
+Bei leerer Datenbasis erscheint die Meldung **Keine Einträge gefunden**.
 
-## Seitenweise Anzeige
+## Rückkehr aus der Detailansicht
 
-Unten an Tabelle oder Karten bestimmen Sie **Seitengrösse** und **Seite**; bei Bedarf werden weitere Einträge nachgeladen.
+Beim Verlassen der Detailansicht und der Rückkehr zur Artikelliste bleiben Filtereinstellungen, Sortierung sowie die vorherige Scrollposition erhalten. Dies ermöglicht die fortlaufende Prüfung mehrerer Datensätze ohne erneute Filtereingabe.
+
+## Paginierung
+
+Am unteren Rand der Liste lässt sich die Anzahl der Datensätze pro Seite festlegen sowie zwischen den Seiten navigieren. Bei Bedarf werden weitere Daten dynamisch nachgeladen.

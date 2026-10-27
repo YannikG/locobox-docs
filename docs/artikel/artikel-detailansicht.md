@@ -1,47 +1,50 @@
 ---
+sidebar_position: 2
 id: artikel-detailansicht
-title: Artikel Detailansicht
-description: Artikel nur lesen, mit Bildern, Karten zu Allgemein, Rollmaterial, Modell, Decoder, Finanzen, Lager, verknüpften Zügen und Metadaten.
+title: Artikeldetails ansehen
+description: Artikelansicht im Lesemodus mit Bildern, Stammdaten, Rollmaterial, Modell, Decodern, Finanzen, Lager, Zügen und Metadaten.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
-# Artikel Detailansicht
+# Artikeldetails ansehen
 
-Die **Detailansicht** eines Artikels ist eine **reine Leseansicht**: Hier prüfen Sie alle gespeicherten Angaben, ohne sie direkt auf dieser Seite zu bearbeiten.
-Sie öffnen sie über die [Artikelliste](artikel-liste.md) (**Ansehen** oder Kartenklick) oder über Verweise aus anderen Bereichen.
+Die Detailansicht eines Artikels ist eine reine Leseansicht zur Überprüfung aller gespeicherten Angaben ohne direkte Bearbeitung.
+Der Aufruf erfolgt über die [Artikelliste](artikel-liste.md) (Schaltfläche **Ansehen** oder Klick auf die Artikelkarte) oder über Querverweise aus anderen Modulen.
 
-Überblick: [Artikel](artikel.md). Änderungen nehmen Sie in der [Bearbeitungsansicht](artikel-bearbeiten.md) vor.
+Überblick: [Artikel](artikel.md). Anpassungen erfolgen in der [Bearbeitungsansicht](artikel-bearbeiten.md).
 
 <LimitsPlanNote />
 
-
-## Toolbar
+## Symbolleiste
 
 Die Überschrift setzt sich aus **Hersteller** und **Artikelnummer** zusammen.
 
 Schaltflächen:
 
-- **Zurück**
-- **Duplizieren** (mit Sicherheitsabfrage «Sind Sie sicher, dass Sie diesen Artikel duplizieren möchten?»; nach Erfolg kann ein Hinweis zum Ansehen des neuen Artikels erscheinen)
-- **Bearbeiten** öffnet das Formular.
-- **Löschen** öffnet die Bestätigung «Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?» Ist der Artikel noch **mit einem Zug verknüpft**, ist das direkte Löschen nicht möglich: Die Meldung lautet «Dieser Artikel ist noch mit einem Zug verknüpft und kann nicht gelöscht werden.»
+- **Zurück** führt zur vorherigen Ansicht zurück.
+- **Duplizieren** öffnet die Sicherheitsabfrage «Sind Sie sicher, dass Sie diesen Artikel duplizieren möchten?». Nach der Bestätigung im Dialog öffnet sich direkt die Detailansicht des neu erzeugten Artikels.
+- **Bearbeiten** öffnet die Eingabemaske.
+- **Löschen** blendet die Bestätigung «Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?» ein. Ist der Artikel noch Bestandteil eines Zuges, wird das direkte Löschen verwehrt: Die Systemmeldung lautet «Dieser Artikel ist noch mit einem Zug verknüpft und kann nicht gelöscht werden.»
 
-Nach dem Löschen finden Sie den Eintrag bei Bedarf im [Papierkorb](../papierkorb/papierkorb.md).
+Gelöschte Artikel werden in den [Papierkorb](../papierkorb/papierkorb.md) verschoben und lassen sich von dort wiederherstellen.
 
-## Inhalt von oben nach unten
+## Aufbau der Detailansicht
 
-1. **Bilder**: Hauptbild und ggf. gespiegeltes Bild, soweit vorhanden.
-2. **Karten im Raster** (auf grösseren Bildschirmen zwei Spalten):
-   - **Allgemein**: Hersteller, Artikelnummer, ggf. Setnummer, Kategorien, Verpackung, Massstab.
-   - **Rollmaterial**: Eigentümer, Typ, Betriebsnummer, Farbe, Land, Epoche (nur befüllte Felder werden hervorgehoben).
-   - **Modell Details**: Stromsystem, Mindestradius, Kupplung, Länge über Puffer, Breite, Höhe, sowie **Dokumentlinks**, falls erfasst.
-   - **Decoder**: Tabelle der verknüpften Decoder mit der Möglichkeit, in die Decoder-Ansicht zu wechseln (siehe [Decoder](../decoder/decoder.md)).
-   - **Finanzen**: Kaufdatum, Kaufpreis, Zustand, «Gekauft bei», Verkaufsstatus «Verkauft», ggf. Verkaufspreis, Verkaufsdatum, «Verkauft an». Hinweise können erscheinen, wenn ein verkaufter Artikel noch Zug-Verknüpfungen hat.
-   - **Lager**: Lagerort, Regal, Box.
-3. **Verknüpfte Züge**: Liste der Züge, in denen der Artikel vorkommt, mit Sprung zur [Zug-Ansicht](../zuege/zuege.md).
-4. **Metadaten**: technische Begleitinformationen zum Datensatz (Lesen).
+![Artikel-Detailansicht mit Bildern, Allgemein, Rollmaterial und Decoder-Bereich](/img/handbuch/artikel/artikel-detailansicht.webp)
 
-## Grenzen und Querverweise
+1. **Bilder**: **Hauptbild** und optional **Gespiegeltes Bild**, sofern vorhanden.
+2. Informationskarten im zweispaltigen Raster:
+   - **Allgemein**: **Hersteller**, **Artikelnummer**, allfällige **Set-Artikelnummer** mit Verlinkung zum [Artikelset](artikel-sets.md), **Kategorien**, zugewiesene [Labels](artikel-labels.md) als farbige Chips (oder **Keine**), **Verpackung** sowie **Massstab**.
+   - **Rollmaterial**: **Eigentümer**, **Typ**, **Betriebsnummer**, **Vollständige Fahrzeugnummer** (**UIC** oder **Manuell**), **Farbe**, **Land** und **Epoche**.
+   - **Modell Details**: **Stromsystem**, **Mindestradius**, **Kupplung**, **Länge über Puffer**, **Breite**, **Höhe** (Masse in **mm**) sowie allfällige Dokumentlinks.
+   - **Decoder**: Übersicht der verknüpften Decoder mit Direktsprung in die jeweilige Decoder-Ansicht (siehe [Decoder](../decoder/decoder.md)).
+   - **Finanzen**: **Kaufdatum**, **Kaufpreis**, **Zustand**, **Gekauft bei**, Verkaufsstatus **Verkauft** (**Ja** / **Nein**), allfälliger **Verkaufspreis**, **Verkaufsdatum** und **Verkauft an**. Ist ein verkaufter Artikel noch einem Zug zugeordnet, weist das System mit dem Text «Dieser Artikel ist noch mit einem Zug verknüpft» darauf hin.
+   - **Lager**: **Lagerort**, **Regal** und **Box**.
+3. **Verknüpfte Züge**: Auflistung aller Züge, in denen das Modell eingereiht ist, mit Verlinkung zur [Zug-Ansicht](../zuege/zuege.md).
+4. **Metadaten**: Technische Zusatzinformationen zum Datensatz (Erstellungsdatum, Änderungsstand).
 
-- Gelöschte [Kategorien](../kategorien/kategorien.md) können weiterhin am Artikel sichtbar sein; die Oberfläche weist mit einem Hinweis darauf hin.
+## Besonderheiten
+
+- Gelöschte [Kategorien](../kategorien/kategorien.md) bleiben am Artikel sichtbar, werden aber mit dem Hinweis «Diese Kategorie ist gelöscht und wird in den Kategorien nicht mehr aufgelistet.» markiert.
+- Zur Duplizierfunktion siehe [Artikel duplizieren](artikel-duplizieren.md).

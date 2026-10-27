@@ -1,45 +1,45 @@
 ---
+sidebar_position: 3
 id: anzeigeeinstellungen
-title: Anzeigeeinstellungen
-description: Sprache, Artikel-Liste und globale Suche optisch einstellen.
+title: Artikelliste und Suche anpassen
+description: Tabellenspalten der Artikelliste und Detailfelder in Suchergebnissen individuell konfigurieren.
 ---
 
-# Anzeigeeinstellungen
+# Artikelliste und Suche anpassen
 
-Unter **Einstellungen** die Registerkarte **Anzeigeeinstellungen** wählen. Dort wird die **Darstellung** der App angepasst, ohne Ihre Daten (Artikel, Kategorien, Decoder usw.) zu ändern.
+Unter **Einstellungen** → Gruppe **Sammlung** lässt sich die optische Darstellung anpassen, ohne die eigentlichen Datensätze von Artikeln, Kategorien oder Decodern zu verändern.
 
-## Sprache
+Zwei Konfigurationsmasken stehen bereit:
 
-**Sprache:** Über die Auswahl stellen Sie die gewünschte Sprache ein. Die App zeigt einen Hinweis, dass diese Einstellung **nur dieses Gerät und diesen Browser** betrifft und **nicht** in Ihr Nutzerkonto synchronisiert wird.
+- **Artikelliste:** Spaltenauswahl und Reihenfolge in der [Artikelliste](../artikel/artikel-liste.md)
+- **Globale Suche:** Informationsfelder auf den Trefferkarten der [Globalen Suche](../generelles/globale-suche.md)
 
-## Artikel-Anzeige (eigenes Fenster)
+Sprache, Farbschema und Währungsformat: [Sprache und Design](./sprache.md), [Anzeigewährung](./waehrung.md).
 
-Die Schaltfläche **«Artikel Anzeige Einstellungen»** öffnet ein **Fenster** für dieselben Spaltenthemen wie in der **[Artikel Liste](../artikel/artikel-liste.md)**:
+## Artikelliste {#artikelliste}
 
-- Spalten **ein- oder ausblenden**
-- **Reihenfolge** ändern
-- mit **«Auf Standard zurücksetzen»** die wiederherstellen
+1. Den Pfad **Einstellungen** → **Sammlung** → **Artikelliste** aufrufen.
+2. Spalten wahlweise ein- oder ausblenden und die Reihenfolge über Pfeile oder Drag-and-drop justieren.
+3. Die Schaltfläche **Auf Standard zurücksetzen** stellt das werksseitige Spaltenlayout wieder her.
+4. Mit **Speichern** wird die Konfiguration fest im Benutzerkonto hinterlegt.
 
-Einige Spalten bleiben zwingend sichtbar und stehen vorne; das entspricht dem Verhalten beim Anpassen der Liste aus der Artikelübersicht.
+Bestimmte Kernspalten bleiben dauerhaft aktiv und sind am Tabellenanfang fixiert. Nach dem Speichern greift das Layout unmittelbar in der [Artikelliste](../artikel/artikel-liste.md).
 
-**Speichern** übernimmt die Einstellungen. **Abbrechen** verwirft ungesicherte Änderungen beim Verlassen des Fensters.
+## Globale Suche {#globale-suche}
 
-## Globale Suche (eigenes Fenster)
+1. Den Pfad **Einstellungen** → **Sammlung** → **Globale Suche** aufrufen.
+2. Die gewünschten Zusatzattribute für die Suchergebniskarten aktivieren:
+   - **Kaufpreis**, **Kaufdatum**
+   - **Verkaufspreis**, **Verkaufsdatum**
+   - **Verkauftes Badge auf dem Artikelbild anzeigen**
+3. Die Sicherung erfolgt über **Speichern**; ein Rücksetzen ist über **Auf Standard zurücksetzen** möglich.
 
-**«Globale Suche Anzeige Einstellungen»** steuert nur die **Treffer-Karten** in der **[Globale Suche](../generelles/globale-suche.md)**.
+Die vorgenommenen Einstellungen lassen sich direkt in der [Globalen Suche](../generelles/globale-suche.md) überprüfen.
 
-Im Fenster gibt es einen kurzen erklärenden Text. Sie entscheiden pro Option, ob zusätzliche **Artikeldetails** in den Suchtreffern angezeigt werden:
+## Ungespeicherte Änderungen
 
-- optional **Kaufpreis**, **Kaufdatum**, **Verkaufspreis**, **Verkaufsdatum** (wie in der Oberfläche benannt),
-- zusätzlich: **«Verkauftes Badge auf dem Artikelbild anzeigen»**, falls die App dieses Feld anzeigt.
+Beim Navigieren in einen anderen Bereich ohne vorherige Sicherung meldet die Anwendung: «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?».
 
-Auch hier gelten **Speichern**, **«Auf Standard zurücksetzen»** und **Abbrechen** wie oben beschrieben.
+## Abgrenzung zu Tarifkontingenten
 
-## Wichtig zu wissen
-
-Dieser Bereich ändert nur **Darstellung und Such-Darstellung**, nicht bestehende Inhalte oder Verknüpfungen.
-
-## Limits
-
-Welche Mengenlimits unabhängig von der Ansicht gelten, steht unter **[Nutzung](./nutzung.md)**.
-
+Darstellungsoptionen für Spalten und Karten sind von Kontingentgrenzen unabhängig. Details zu Kontingenten unter [Nutzung und Abo](./nutzung.md) sowie [Gratisplan und Limits](../premium/gratis-und-limits.md).

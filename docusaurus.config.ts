@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Locobox Dokumentation',
-  tagline: 'Deine Modelleisenbahn, deine Kontrolle.',
+  tagline: 'Modelleisenbahn-Verwaltung mit System.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -63,7 +63,9 @@ const config: Config = {
 
   themeConfig: {
     colorMode: {
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
       title: 'Locobox Doku',
@@ -73,101 +75,117 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'generellesSidebar',
-          position: 'left',
-          label: 'Generelles',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'uebersichtSidebar',
+          type: 'doc',
+          docId: 'uebersicht/uebersicht',
           position: 'left',
           label: 'Übersicht',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'artikelSidebar',
+          type: 'dropdown',
+          label: 'Sammlung',
+          to: '/docs/artikel/',
+          activeBaseRegex: 'docs/(artikel|decoder|kategorien)',
           position: 'left',
-          label: 'Artikel',
+          items: [
+            {
+              type: 'doc',
+              docId: 'artikel/artikel',
+              label: 'Artikel',
+            },
+            {
+              type: 'doc',
+              docId: 'decoder/decoder',
+              label: 'Decoder',
+            },
+            {
+              type: 'doc',
+              docId: 'kategorien/kategorien',
+              label: 'Kategorien',
+            },
+            {
+              type: 'doc',
+              docId: 'artikel/artikel-labels',
+              label: 'Labels',
+            },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'zuegeSidebar',
+          type: 'doc',
+          docId: 'zuege/zuege',
           position: 'left',
           label: 'Züge',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'decoderSidebar',
-          position: 'left',
-          label: 'Decoder',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'kategorienSidebar',
-          position: 'left',
-          label: 'Kategorien',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'druckenSidebar',
+          type: 'doc',
+          docId: 'drucken/drucken-uebersicht',
           position: 'left',
           label: 'Drucken',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'einstellungenSidebar',
-          position: 'left',
-          label: 'Einstellungen',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'papierkorbSidebar',
-          position: 'left',
-          label: 'Papierkorb',
-        },
-        {
-          href: 'https://www.locobox.ch',
-          label: 'Hauptseite',
-          position: 'right',
         },
         {
           type: 'search',
           position: 'right',
         },
         {
-          href: 'https://github.com/yannikg/locobox-docs',
-          label: 'GitHub',
+          type: 'dropdown',
+          label: 'Mehr',
           position: 'right',
+          items: [
+            {
+              type: 'doc',
+              docId: 'premium/premium',
+              label: 'Premium',
+            },
+            {
+              type: 'doc',
+              docId: 'einstellungen/einstellungen',
+              label: 'Einstellungen',
+            },
+            {
+              type: 'doc',
+              docId: 'papierkorb/papierkorb',
+              label: 'Papierkorb',
+            },
+          ],
+        },
+        {
+          type: 'dropdown',
+          label: 'Links',
+          position: 'right',
+          items: [
+            {
+              href: 'https://www.locobox.ch',
+              label: 'Locobox',
+            },
+            {
+              href: 'https://database.locobox.ch',
+              label: 'Datenbank',
+            },
+          ],
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Dokumentation',
           items: [
             {
-              label: 'Einstieg',
+              label: 'Erste Schritte',
               to: '/docs/generelles/generelles-erste-schritte',
             },
           ],
         },
         {
-          title: 'Projekt',
+          title: 'Locobox',
           items: [
             {
-              label: 'Locobox Hauptseite',
+              label: 'Locobox',
               href: 'https://www.locobox.ch',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/yannikg/locobox-docs',
-            },
-            {
-              label: 'Probleme melden',
-              href: 'https://github.com/yannikg/locobox-docs/issues',
+              label: 'Datenbank',
+              href: 'https://database.locobox.ch',
             },
           ],
         },
@@ -176,7 +194,6 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
 };

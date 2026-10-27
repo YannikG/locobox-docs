@@ -1,64 +1,47 @@
 ---
+sidebar_position: 2
 id: nutzung
-title: Nutzung
-description: Aktueller Plan, Gratislimits, Premium und Status in den Einstellungen.
+title: Nutzung ansehen
+description: Kontostatus, Kontingente im Gratisplan, Premium-Funktionen und Tarifverwaltung in den Einstellungen.
 ---
 
-# Nutzung
+# Nutzung ansehen
 
-Unter **Einstellungen** die Registerkarte **Nutzung** öffnen. Dort sehen Sie den **aktuellen Plan**, Kontingente im **Gratisplan** sowie Aktionen zu **Premium** und zum **Aktualisieren des Status**.
+Unter **Einstellungen** führt der Menüpunkt **Premium** (Gruppe **Premium** in der Navigation) zur Tarif- und Kontingentübersicht. Die Seite enthält die Karte **Aktueller Plan**, Auslastungsanzeigen der Gratisgrenzen sowie die Aktionen **Status aktualisieren**, **Jetzt abonnieren** und **Abo verwalten**.
 
-## Überschrift und Status laden
+## Status laden
 
-Zu Beginn können kurz Daten eingelesen werden. Über **«Status aktualisieren»** holen Sie die Anzeige manuell auf den neuesten Stand (mit kurzer Ladephase wie in der Oberfläche).
+Beim Aufruf werden die aktuellen Lizenzdaten vom Server abgerufen. Über **Status aktualisieren** lässt sich die Anzeige bei Bedarf manuell synchronisieren.
 
 ## Aktueller Plan
 
-Eine erste Karte fasst den Stand zusammen:
+Die Karte **Aktueller Plan** dokumentiert den Kontostatus:
 
-- **Gratis**, mit Hinweis, dass Erstellung und Nutzung durch Gratislimits begrenzt sein können,
-- oder **Premium**, wenn ein aktives Paid-Abo gilt, verbunden mit dem Hinweis, dass Premium-Funktionen derzeit aktiv sind.
+- **Gratis:** Mit dem Hinweis, dass Neuerfassungen durch die Obergrenzen des Gratisplans limitiert sind.
+- **Premium:** Mit der Bestätigung, dass alle Premium-Funktionen freigeschaltet sind.
 
-## Kulanzzeit nach Auslaufen von Premium
+Bei aktivem Premium-Status weist die Oberfläche die Vertragslaufzeit mit Enddatum aus.
 
-Läuft ein Abo aus, kann vor einer Rückstellung auf reinen Gratisbetrieb eine **Kulanzfrist** angezeigt werden (oft wenige Tage). In diesem Fall kann ein **Erneuerungsschritt** wie **«Jetzt erneuern»** angezeigt werden, der wieder zu einem bezahlten Zugang führt.
+## Kulanzfrist nach Ablauf
 
-## Upgrade und Abo-Verwaltung
+Endet ein bezahltes Abonnement, schliesst sich eine dreitägige **Premium Kulanzfrist** an. Während dieser Spanne steht die Schaltfläche **Jetzt erneuern** zur direkten Vertragsverlängerung bereit.
 
-**Ohne aktiv zahlungspflichtiges Premium:**
+## Upgrade und Vertragsverwaltung
 
-- Bereich etwa **«Upgrade verfügbar»** mit Erklärung, dass mehr Einträge und erweiterte Funktionen freigeschaltet werden können,
-- über **«Jetzt abonnieren»** wird der **bezahlte Abschluss** in einem geschützten, von der App angestossenen Ablauf im Browser weitergeführt.
+Ohne aktives Abonnement (sowie während der Kulanzfrist) erscheint der Abschnitt **Upgrade verfügbar**. Bei laufendem Premium-Tarif blendet das System die Hinweiskarte «Vielen Dank für Ihre Unterstützung von Locobox!» sowie die Schaltfläche **Abo verwalten** ein.
 
-**Mit Premium:**
-
-- Hinweis- und Dankestexte zur aktiven Unterstützung,
-- wenn Ihr Nutzerprofil bereits für die Abwicklung hinterlegt ist, gibt es häufig **«Abo verwalten»**. Das öffnet den **externen Kundenbereich**, in dem Sie Laufzeit, Zahlweise oder Kündigung prüfen (je nach dortiger Maske).
-
-Nach einem gelungenem Abschluss kann die App vorübergehend eine kurze **Bestätigung** einblenden. Die konkreten Texte entsprechen der jeweiligen App-Sprache.
-
-## Gültigkeitszeitraum Premium
-
-Liegen Start- oder Enddatum (inklusive Kulanz) vor und die App kombiniert sie zu einer Nutzerzeile, sehen Sie eine Angabe der Art **«gültig vom … bis …»** unter den Premium-Hinweisen.
+Ablauf von Buchung, Zahlungsbestätigung und Tarifverwaltung: [Abonnement abschliessen und verwalten](../premium/abonnement.md).
 
 ## Kontingente im Gratisplan
 
-Ohne aktiv zahlende Premium-Stufe finden Sie:
+Im Gratisplan führt der Abschnitt **Nutzung nach Bereich** unter der Überschrift **Im Gratisplan enthalten** die Auslastung pro Modul tabellarisch mit Fortschrittsbalken und absoluten Zahlenwerten auf. Bei aktivem Premium-Status ersetzt der Text **Keine Limiten im Premium-Plan** diese Anzeige.
 
-- Hinweise, was zum **Gratisplan** gehört,
+Bedeutung der Grenzwerte und Verhalten bei Erreichen des Maximums: [Gratisplan und Limits](../premium/gratis-und-limits.md).
 
-- dann den Abschnitt **«Nutzung nach Bereich»** mit Balken und Zahlen je Kategorie, typischerweise:
+## Häufige Fragen
 
-  - **Artikel**
-  - **Züge**
-  - **Kategorien**
-  - **Decoder**
+Im unteren Seitenbereich behandelt der Abschnitt **FAQ zu Limits und Premium** wiederkehrende Fragen zu Bestandsdaten, Fristen und Datensicherheit.
 
-Pro Zeile zeigt die App **belegt** und **Limit** (Prozent und Verhältnis). Farben markieren, ob noch Kapazität frei ist oder das Limit erreicht ist.
+## Verwandte Systemeinstellungen
 
-**Mit Premium** ersetzt die App diese Aufschlüsselung durch eine **Erfolgs-Nachricht**, dass **keine Gratisplan-Limits** mehr für die Erstellung gelten.
-
-## Anzeige und Konto
-
-**Anzeigeeinstellungen** und **Konto** sind eigene Registerkarten derselben Einstellungsseite, siehe **[Anzeigeeinstellungen](./anzeigeeinstellungen.md)** und **[Konto](./konto.md)**.
-
+[Sprache und Design](./sprache.md), [Anzeigewährung](./waehrung.md) sowie die Benutzerdaten unter [Konto](./konto.md).

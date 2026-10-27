@@ -1,27 +1,48 @@
 ---
+sidebar_position: 1
 id: konto
-title: Konto
-description: Passwort-Hilfen und Hinweise zur Anmeldung in den Einstellungen.
+title: Konto verwalten
+description: Benutzerprofil, Authentifizierungsmethode, Passwortverwaltung und Ersteinrichtungsassistent.
 ---
 
-# Konto
+# Konto verwalten
 
-Unter **Einstellungen** öffnen Sie die Registerkarte **Konto**, um Hinweise zur Anmeldung und gegebenenfalls **Passwort zurücksetzen** zu nutzen.
+Unter **Einstellungen** → **Konto** stehen zwei Funktionskarten bereit: **Profil** und **Ersteinrichtung**.
 
-## Wie sind Sie angemeldet?
+## Profil
 
-Die App zeigt an, ob Sie mit **E-Mail und Passwort** oder mit **Google** angemeldet sind. Aktuell unterstützt Locobox **nur diese zwei Anmeldewege**. Daran hängt, ob Sie das Passwort in Locobox zurücksetzen können.
+Die Karte **Profil** beinhaltet:
 
-## Passwort per E-Mail zurücksetzen
+- Profilbild, Benutzername und E-Mail-Adresse
+- **Anmeldemethode** (beispielsweise **E-Mail und Passwort** oder **Google**)
+- Optionen zur Kennwortverwaltung
 
-Wenn Sie mit **E-Mail und Passwort** angemeldet sind, gibt es einen Schritt, der eine **Rücksetz-E-Mail** anstösst:
+### Verwendetes Anmeldeverfahren
 
-1. Unter **Konto** die Schaltfläche **«E-Mail zum Zurücksetzen senden, danach abmelden»** verwenden (wenn sie aktiv ist).
-2. Die E-Mail in Ihrem Postfach durchgehen und dem Link folgen (Vorgang des Anmeldedienstes).
-3. Sie werden nach dem Start aus Locobox **abgemeldet** und können sich danach wieder anmelden.
+Locobox unterstützt Anmeldungen über **E-Mail und Passwort** sowie über **Google**. Das jeweils aktive Verfahren entscheidet darüber, auf welchem Weg eine Kennwortänderung erfolgen kann.
 
-Ist diese Schaltfläche nicht verfügbar oder ausgegraut, ist kein zurücksetzbares Locobox-Passwort für diese Anmeldung hinterlegt.
+### Passwort per E-Mail zurücksetzen
 
-## Anmeldung mit Google
+Bei Konten mit **E-Mail und Passwort**:
 
-Mit **Google** können Sie Ihr Passwort **nicht** in Locobox zurücksetzen. Das machen Sie in Ihrem **Google-Konto**.
+1. Die Schaltfläche **Passwort zurücksetzen** betätigen (sofern aktiv).
+2. Das System versendet eine E-Mail mit einem Bestätigungslink und meldet das Benutzerkonto aus Sicherheitsgründen ab.
+3. Den Bestätigungslink im E-Mail-Postfach aufrufen.
+4. Ein neues Kennwort festlegen und die Neuanmeldung durchführen.
+
+Ist die Schaltfläche deaktiviert, existiert für das Konto kein separates Locobox-Passwort. Die Anwendung verweist in diesem Fall auf den jeweiligen Authentifizierungsdienst.
+
+### Anmeldung über Google
+
+Bei Konten mit Google-Authentifizierung erfolgt die Passwortverwaltung ausschliesslich direkt über das Google-Benutzerkonto.
+
+## Ersteinrichtung {#ersteinrichtung}
+
+Die Karte **Ersteinrichtung** dient der Konfiguration der Grundeinstellungen. Der Beschreibungstext lautet: «Starten Sie die Ersteinrichtung erneut, wenn Sie Stammdaten oder Grundeinstellungen der Sammlung anpassen möchten.».
+
+- **Einrichtung starten:** Steht zur Verfügung, solange die Ersteinrichtung noch offen ist.
+- **Ersteinrichtung erneut starten:** Erlaubt die nachträgliche Wiederholung aller Einrichtungsschritte bei bereits abgeschlossenem oder übersprungenem Assistenten.
+
+Der Assistent führt strukturiert durch **Sprache**, **Währung**, **Artikeltabelle**, optional **App installieren** sowie einen kurzen **Premium**-Hinweis. Die Schaltfläche **Einrichtung abschliessen** schliesst den Assistenten ab und entfernt die Hinweiskarte von der Startseite. Alle Parameter bleiben jederzeit unter **Einstellungen** editierbar.
+
+Details zur Anwendungsinstallation: [App installieren](../generelles/app-installieren.md). Spracheinstellungen und Tabellenkonfiguration: [Sprache und Design](./sprache.md), [Anzeigeeinstellungen](./anzeigeeinstellungen.md).

@@ -1,77 +1,86 @@
 ---
+sidebar_position: 3
 id: artikel-bearbeiten
 title: Artikel bearbeiten
-description: Neues Artikel-Formular und Bearbeitung, Abschnitte Allgemein bis Bilder, Speichern, Abbrechen, typische Prüfmeldungen.
+description: Erfassungsmaske und Bearbeitung von Artikeln von Allgemein bis Bilder, Validierung und typische Systemmeldungen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
 # Artikel bearbeiten
 
-Das **Artikelformular** nutzen Sie zum **Erfassen** neuer Artikel und zum **Bearbeiten** bestehender. Eine bestehende Bearbeitung öffnen Sie aus der [Liste](artikel-liste.md) über **Bearbeiten** oder aus der [Detailansicht](artikel-detailansicht.md) ebenfalls über **Bearbeiten**. Neu starten Sie über **Neu** auf der Artikelliste.
+Das Artikelformular dient der Neuerfassung sowie der Pflege bestehender Datensätze. Der Aufruf erfolgt aus der [Artikelliste](artikel-liste.md) oder aus der [Detailansicht](artikel-detailansicht.md) über die Schaltfläche **Bearbeiten**. Die Neuerfassung startet über **Neu** in der Artikelliste (**Sammlung** → **Artikelliste**).
 
 Grundlagen und Verknüpfungen: [Artikel](artikel.md).
 
 <LimitsPlanNote />
 
+## Kopfbereich
 
-## Titelzeile
+- Bei der Neuerfassung lautet die Überschrift **Neu**, bei bestehenden Datensätzen **Bearbeiten**.
 
-- Beim **neuen** Artikel lautet die Überschrift **Neu**, beim Bearbeiten **Bearbeiten**.
+## Optionen bei der Neuerfassung
 
-## Nur beim neuen Artikel
+- Schalter **Nach dem Speichern auf diesem Formular bleiben**: Bei aktivem Schalter bleiben nach dem Speichern Artikelangaben und Bilder für die Erfassung eines Folgeartikels vorausgefüllt. Bestehende **Decoder**-Verknüpfungen werden dabei zurückgesetzt. Der Hinweistext lautet: «Nach dem Speichern bleiben dieselben Artikelangaben und Bilder erhalten, um einen weiteren Artikel zu erfassen. Decoder-Verknüpfungen werden jeweils zurückgesetzt.» Bei inaktivem Schalter öffnet sich nach dem Speichern direkt die Detailansicht des neu angelegten Artikels.
+- Wurde das Formular über einen externen Import oder aus der Community vorbefüllt, weist eine Hinweismeldung auf die Datenquelle hin, beispielsweise «Quelle: Community. Bitte prüfen Sie die Angaben sorgfältig vor dem Speichern.» oder «Quelle: Externer Import. Bitte prüfen Sie die Angaben sorgfältig vor dem Speichern.».
 
-- Schalter **Nach dem Speichern auf diesem Formular bleiben**: Bleibt er aktiv, bleiben nach dem Speichern die meisten Artikelangaben und Bilder für den nächsten Datensatz erhalten; **Decoder-Verknüpfungen** werden dabei jeweils zurückgesetzt (laut Hinweistext in der App).
+## Symbolleiste
 
-Kann die Seite aus einem **externen Import** oder der **Community** vorbefüllt worden sein, erscheint ein **Info-Hinweis** mit dem Wortlaut zur Quelle (z.&nbsp;B. «Quelle: Community …» oder «Quelle: Externer Import …»), damit Sie die Angaben vor dem Speichern prüfen.
+- **Zurück** und **Abbrechen** verlassen das Formular. Liegen ungespeicherte Eingaben vor, erscheint die Sicherheitsabfrage «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?».
+- **Speichern** sichert die Daten, sobald alle Pflichtfelder korrekt befüllt sind. Die Schaltfläche bleibt deaktiviert, solange Validierungsfehler vorliegen. Nach erfolgreicher Sicherung erscheint eine Bestätigungsmeldung.
 
-## Toolbar
+## Abschnitte des Formulars
 
-- **Abbrechen** verlässt die Seite (ohne Speichern; bei Änderungen kann eine **Sicherheitsabfrage** erscheinen: «Sie haben ungespeicherte Änderungen. Möchten Sie die Seite wirklich verlassen?»).
-- **Speichern** übernimmt die Eingaben, wenn das Formular **gültig** ist. Der Speichern-Button bleibt deaktiviert, solange Pflichtregeln verletzt sind. Nach dem Speichern erscheint eine **Erfolgsmeldung**; bei Problemen eine **Fehlermeldung**.
+![Artikelformular mit den Abschnitten Allgemein, Kategorien, Decoder, Finanzen, Lager und Bilder](/img/handbuch/artikel/artikel-formular.webp)
 
-## Abschnitte des Formulars (Reihenfolge)
-
-Die Bereiche entsprechen den Panel-Überschriften in der Anwendung:
+Die Abschnitte entsprechen den Bereichen in der Anwendung:
 
 1. **Allgemein**  
-   **Hersteller** und **Artikelnummer** sind **Pflicht**. Optional: **Setnummer**. Hersteller wählen oder eingeben Sie wie in der Oberfläche beschrieben (Platzhalter «Hersteller auswählen oder eingeben», «Artikelnummer eingeben»).
+   **Hersteller** und **Artikelnummer** sind Pflichtangaben.  
+   Über den Bereich **Artikelset** lässt sich der Artikel über **Bestehendes Set verknüpfen** oder **Set erstellen** einem [Artikelset](artikel-sets.md) zuordnen. Bei bestehender Verknüpfung stehen **Set wechseln**, **Set-Verknüpfung lösen** sowie **Finanzen vom Set übernehmen** und **Lager vom Set übernehmen** bereit.  
+   Ebenfalls in diesem Abschnitt befindet sich das Feld **Verpackung**.
 
 2. **Kategorien**  
-   Zuordnung zu [Kategorien](../kategorien/kategorien.md) über die Verwaltung in diesem Abschnitt.
+   Zuordnung zu [Kategorien](../kategorien/kategorien.md) über das Mehrfachauswahlfeld (Platzhalter **Kategorien auswählen**). Ohne Zuordnung erscheint «Keine Kategorien verknüpft.».  
+   Im selben Abschnitt lassen sich unter **Labels** über **Labels auswählen** farbige [Labels](artikel-labels.md) hinterlegen (maximal fünf Labels pro Artikel; Hinweis «Maximal 5 Labels pro Artikel.»). Mit Premium erlaubt **Erstellen** das direkte Anlegen eines neuen Labels im Dialog **Neues Label erstellen**.
 
 3. **Rollmaterial**  
-   Felder wie Eigentümer, Typ, Betriebsnummer, Farbe, Land, Epoche (alle optional).
+   Optionale Angaben wie **Eigentümer**, **Typ**, **Betriebsnummer**, **Vollständige Fahrzeugnummer**, **Farbe**, **Land** und **Epoche**.  
+   Für die **Vollständige Fahrzeugnummer** stehen drei Betriebsarten zur Auswahl:  
+   - **UIC:** Eingabe der ersten elf Ziffern; die zwölfte Prüfziffer berechnet das System automatisch. Hinweistexte: «Geben Sie 11 Ziffern ein. Die Prüfziffer wird automatisch ergänzt.» sowie «Die UIC-Prüfziffer ist ungültig.».  
+   - **Manuell:** Freitextfeld für abweichende Nummernsysteme.  
+   - **Keine:** Entfernt die vollständige Fahrzeugnummer.
 
 4. **Modell Details**  
-   Stromsystem, Massstab, Verpackung, Mindestradius, Kupplung, Masse (Länge über Puffer, Breite, Höhe), **Dokumentlinks** (mehrere Einträge mit Typ, Bezeichnung, URL möglich).
+   Technische Parameter wie **Stromsystem**, **Massstab**, **Mindestradius**, **Kupplung** sowie Abmessungen (**Länge über Puffer**, **Breite**, **Höhe**, jeweils in **mm**).
 
 5. **Decoder**  
-   Verknüpfung mit bestehenden oder neu erfassten [Decodern](../decoder/decoder.md). Neue Decoder können in diesem Zusammenhang angelegt werden und werden beim Speichern mit dem Artikel verbunden.
+   Verknüpfung mit vorhandenen oder neuen [Decodern](../decoder/decoder.md) über **Decoder verknüpfen** oder **Decoder schnell erstellen**. Neu angelegte Decoder werden beim Speichern des Artikels fest verknüpft.
 
-6. **Dokumentlinks** (über die volle Breite auf grossen Bildschirmen)  
-   Dieselben Einträge wie unter Modell Details lassen sich bearbeiten.
+6. **Dokumentlinks**  
+   Verwaltung externer Links mit Angabe von **Dokumenttyp**, **Bezeichnung** und **URL**. Die Schaltfläche **Dokument hinzufügen** öffnet den Erfassungsdialog; bestehende Einträge lassen sich über **Dokumentlink bearbeiten** anpassen. Unterstützte Typen: **Anleitung**, **Garantie**, **Rechnung**, **Eigenes**. Standardhinweis bei leerer Liste: «Noch keine Dokumentlinks erfasst.».
 
 7. **Finanzen**  
-   Kaufdatum, Kaufpreis, Zustand, «Gekauft bei», **Verkauft** (Ja/Nein).  
-   Wenn **Verkauft** auf Ja steht, sind **Verkaufspreis** und **Verkaufsdatum** erforderlich; fehlt eines, zählt das Formular als ungültig. Liegt das **Verkaufsdatum vor dem Kaufdatum**, erscheint die Meldung «Das Verkaufsdatum darf nicht vor dem Kaufdatum liegen.»  
-   Ist der Artikel als verkauft markiert aber noch **Zügen zugeordnet**, weist ein **Warnhinweis** darauf hin, dass Sie trotzdem speichern können.  
-   **Kaufpreis** und **Verkaufspreis** dürfen nicht negativ sein.
+   Erfassung von **Kaufdatum**, **Kaufpreis**, **Zustand**, **Gekauft bei** und **Verkauft** (**Ja** / **Nein**).  
+   Steht **Verkauft** auf **Ja**, werden **Verkaufspreis** und **Verkaufsdatum** zu Pflichtfeldern. Liegt das Verkaufsdatum zeitlich vor dem Kaufdatum, meldet das System «Das Verkaufsdatum darf nicht vor dem Kaufdatum liegen.».  
+   Ist ein als verkauft markierter Artikel noch einem Zug zugeordnet, erscheint die Warnung «Dieser Artikel ist noch mit einem Zug verknüpft. Sie können trotzdem speichern und die Verknüpfung später im Zug entfernen.».  
+   Negative Beträge sind für Kauf- und Verkaufspreise unzulässig.
 
 8. **Lager**  
-   Lagerort, Regal, Box.
+   Standortangaben über **Lagerort**, **Regal** und **Box**.
 
 9. **Bilder**  
-   Hauptbild und gespiegeltes Bild: Auswahl und Upload; Entfernen möglich. Neu angekündigte Bilder werden laut Hinweis **erst beim Speichern des Artikels** hochgeladen.
+   Auswahl und Upload von **Hauptbild** und **Gespiegeltes Bild**. Eine vorgenommene Auswahl lässt sich über **Auswahl entfernen** zurücksetzen. Neu ausgewählte Bilddateien werden gemäss Systemhinweis erst beim Speichern des Artikels übertragen: «Wählen Sie Bilder aus; sie werden beim Speichern des Artikels hochgeladen.».
 
-## Typische Prüf- und Fehlermeldungen
+## Validierungs- und Fehlermeldungen
 
-- **Pflichtfelder**: Für leere Hersteller- oder Artikelnummer-Felder gilt der generische Hinweis «Dieses Feld ist erforderlich.» (markierte Felder).
-- **Speichern trotz anderer Fehler**: Es erscheint eine **Fehlerbenachrichtigung** mit dem Text «Bitte prüfen Sie die markierten Felder vor dem Speichern.»
-- **Dokument-URL**: Ungültige oder nicht mit `http://` oder `https://` beginnende Adressen: «Bitte geben Sie eine gültige URL ein, die mit http:// oder https:// beginnt.»
-- **Bilder**: Fehler beim Hochladen oder bei der Bildverarbeitung werden mit den Meldungen der App beantwortet (z.&nbsp;B. erneuter Upload-Versuch oder einfacheres Bild).
+- **Pflichtfelder**: Leere Pflichtangaben werden mit dem Text «Dieses Feld ist erforderlich.» markiert.
+- **Formularfehler beim Speichern**: Bei offenen Validierungsfehlern erscheint die Benachrichtigung «Bitte prüfen Sie die markierten Felder vor dem Speichern.».
+- **Dokument-URL**: Ungültige Webadressen quittiert die App mit «Bitte geben Sie eine gültige URL ein, die mit http:// oder https:// beginnt.».
+- **Bilder-Upload**: Fehler bei Dateigrösse oder Formatierung erzeugen entsprechende Systemmeldungen, beispielsweise «Das Hochladen des Bildes ist fehlgeschlagen. Bitte erneut versuchen.» oder «Das Bild ist zu detailreich für das Limit von 6 KB. Bitte ein einfacheres oder zugeschnittenes Foto verwenden.».
 
-## Datenimport und Massenänderung
+## Datenimport und Sammelbearbeitung
 
-- Viele Artikel aus einer Datei: [CSV-Import](artikel-csv-import.md).
-- Felder vieler Artikel gleichzeitig: [Artikel Massenbearbeitung](artikel-massenbearbeitung.md).
+- Import mehrerer Datensätze aus einer Datei: [Artikel per CSV importieren](artikel-csv-import.md).
+- Parallele Anpassung mehrerer Artikel: [Artikel in Masse bearbeiten](artikel-massenbearbeitung.md).
+- Übernahme externer Webdaten: [Import aus externer Quelle](artikel-externer-import.md).

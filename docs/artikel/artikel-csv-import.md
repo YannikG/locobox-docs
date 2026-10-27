@@ -1,72 +1,75 @@
 ---
+sidebar_position: 6
 id: artikel-csv-import
-title: CSV-Import
-description: Artikel aus einer CSV-Datei importieren mit Dateiauswahl, Spaltenzuordnung und Vorschau.
+title: Artikel per CSV importieren
+description: Artikelbestände aus einer CSV-Datei importieren mit Dateiprüfung, Spaltenzuordnung und Vorschau.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
-# CSV-Import
+# Artikel per CSV importieren
 
-Über den **CSV-Import** erstellen Sie viele neue Artikel auf einmal aus einer CSV-Datei.
+Über den **CSV-Import** lassen sich grössere Artikelbestände gesammelt aus einer CSV-Tabelle in Locobox einspielen.
 
-**Wo:** Hauptmenü **Artikel** → **CSV importieren**.
+**Navigation:** Hauptmenü **Sammlung** → unter **Artikel** der Eintrag **CSV importieren**.
 
-Die Oberfläche führt Sie in vier Schritten: **Datei**, **Zuordnung**, **Vorschau** und **Ausführen**. Unten können Sie das Fenster über **Schliessen** beenden oder mit **Vorschau erstellen** und **Import starten** fortfahren.
+Der Assistent führt in vier Schritten durch den Import: **Datei**, **Zuordnung**, **Vorschau** und **Ausführen**. Die Schaltfläche **Schliessen** bricht den Vorgang ab; **Vorschau erstellen** und **Import starten** steuern den weiteren Ablauf.
+
+![CSV-Import-Assistent (Datei, Zuordnung mit beiden Registern, Vorschau-Tabelle, Ausführen)](/img/handbuch/artikel/csv-import.webp)
 
 <LimitsPlanNote />
 
+## 1. Datei
 
-## 1\. Datei
+- Über **CSV auswählen** wird eine gültige CSV-Datei bestimmt (Schrittbezeichnung: **CSV-Datei wählen**). Es kann jeweils eine Datei pro Importlauf gewählt werden.
+- Die erste Zeile der Datei muss Spaltenüberschriften aufweisen. Reine Leerzeilen übergeht das System automatisch.
+- Nach erfolgter Dateianalyse erscheint der Dateiname unter **Ausgewählte Datei**.
 
-- Wählen Sie eine gültige **CSV**-Datei über **CSV auswählen** (nur eine Datei gleichzeitig).
-- Die erste Zeile muss die **Spaltenüberschriften** enthalten. Leere Datenzeilen werden ignoriert.
-- Nach erfolgreicher Auswertung erscheint der Name der gewählten Datei («Ausgewählte Datei»).
+Unter **CSV-Format Hilfe** sind die Formatvorgaben für Datentypen aufgeführt:
 
-Unter **CSV-Format Hilfe** sind die gültigen Eingaben zusammengefasst (Sie gelten entsprechend in der CSV):
+- **Pflichtangaben:** Jede Datenzeile muss Werte für **Hersteller** und **Artikelnummer** enthalten.
+- **Ja/Nein-Werte:** Empfohlen sind `ja` oder `nein`. Zulässig sind ebenso `true` / `false`, `1` / `0` sowie `yes` / `no`.
+- **Zahlenwerte:** Punkt oder Komma als Dezimaltrenner (beispielsweise `329.90` oder `329,90`).
+- **Datumsformate:** Bevorzugt im Format **TT.MM.JJJJ** (Schweizer Schreibweise).
+- **Ländercodes:** Zweistellige ISO-Kürzel (beispielsweise `CH`, `DE`, `FR`). Historische Kennungen: `DD` für DDR, `SU` für Sowjetunion, `YU` für Jugoslawien.
+- **Stromsystem:** Textangaben oder Zahlencodes gemäss Anleitung (**Andere**, **DC**, **AC**).
+- **Massstab:** Definierte Modellbaukürzel wie `H0`, `N`, `Z`. Unbekannte Werte bleiben leer.
+- **Verpackung und Zustand:** Zulässige Bezeichnungen gemäss Werteliste (**OVP**, **Gebraucht**).
 
-- **Pflicht:** In jeder importierten Zeile müssen **Hersteller** und **Artikelnummer** befüllt sein.
-- **Ja/Nein:** z.&nbsp;B. `ja` / `nein`, ebenfalls gültig: `true` / `false`, `1` / `0`, `yes` / `no`.
-- **Zahlen:** Punkt oder Komma als Dezimaltrenner (z.&nbsp;B. `329.90` oder `329,90`).
-- **Daten:** bevorzugt **TT.MM.JJJJ** (Schweizer Schreibweise).
-- **Land:** zweistelliger ISO-Code (z.&nbsp;B. CH, DE, FR). Für historische Fälle gilt z.&nbsp;B. DDR&nbsp;=`DD`, Sowjetunion&nbsp;=`SU`, Jugoslawien&nbsp;=`YU`.
-- **Stromsystem:** Text oder Zahlen-Codes wie in der Hilfe («Andere», «DC», «AC» usw.).
-- **Massstab:** nur **Textcodes** wie `H0`, `N`, `Z` usw.; keine reinen Zahlen-IDs. Leer lassen, wenn unbekannt.
-- **Verpackung** und **Zustand**: erlaubte Texte oder Codes gemäss Hilfeliste (OVP, Gebraucht usw.).
+Kann die Datei technisch nicht analysiert werden, erscheint der Hinweis **Die CSV-Datei konnte nicht verarbeitet werden.**
 
-Konnte die Datei nicht gelesen oder verstanden werden, erscheint die Meldung **Die CSV-Datei konnte nicht verarbeitet werden.**
+## 2. Zuordnung
 
-## 2\. Zuordnung
+In diesem Schritt werden die Spalten der Ausgangsdatei den Zielfeldern in Locobox zugewiesen, Konstantwerte definiert oder irrelevante Spalten ausgeschlossen (Schrittbezeichnung: **Felder zuordnen**).
 
-Hier entscheiden Sie, welche CSV-Spalte zu welchem Artikel-Feld gehört, wo ein **Konstantwert** für alle Zeilen gilt, und welche Spalten ignoriert werden.
+- Automatische Erkennung: Gängige Spaltenüberschriften (beispielsweise **Hersteller**) ordnet die Anwendung bereits beim Einlesen selbstständig zu.
+- Register **CSV-Spalten**: Für jede gefundene Spalte wird das Zielfeld bestimmt oder die Option **Diese Spalte ignorieren** gewählt.
+- Register **Verbleibende Felder**: Nicht über die Datei abgedeckte Attribute lassen sich über **Konstante** mit einem festen Sammelwert belegen oder auf **Ignorieren** setzen. Bei der Wahl von **Konstante** muss das Eingabefeld in der Spalte **Konstante** befüllt werden.
 
-- **Automatik:** Bekannte englische und deutsche Überschriften (z.&nbsp;B. «Hersteller», «Manufacturer») werden bei Bedarf bereits beim Hochladen vorgeschlagen.
-- Register **CSV-Spalten**: Pro Spaltenüberschrift wählen Sie das **Zielfeld** oder **Diese Spalte ignorieren**.
-- Register **Verbleibende Felder**: Felder ohne verknüpfte CSV-Spalte können auf **Konstante** (fester Text für alle Zeilen) oder **Ignorieren** gestellt werden. Wo **Konstante** gewählt ist, gehört ein Wert in die Spalte **Konstante**.
+Die Pflichtfelder **Hersteller** und **Artikelnummer** müssen zwingend abgedeckt sein (entweder über eine Spaltenzuordnung oder als Konstantwert).
 
-Die Pflichtfelder **Hersteller** und **Artikelnummer** müssen sinnvoll befüllt sein (über eine Spalte oder einen Konstantwert).
+Hinweise in der Zuordnungsmaske:
 
-Hinweise in der Zuordnung:
+- **In der Zuordnung fehlen Pflichtfelder:** Erscheint, solange Hersteller oder Artikelnummer nicht zugeordnet sind.
+- **Pflicht-CSV-Spalten enthalten in einer oder mehreren Zeilen leere Werte:** Weist darauf hin, dass Pflichtspalten in einzelnen Zeilen leere Zellen aufweisen. Die Erstellung der Vorschau bleibt gesperrt, bis die Daten bereinigt sind.
+- Nicht zugewiesene Spalten werden mit einem separaten Prüfhinweis quittiert.
 
-- **In der Zuordnung fehlen Pflichtfelder**, wenn Hersteller oder Artikelnummer noch nicht korrekt zugewiesen sind.
-- **Pflicht-CSV-Spalten enthalten … leere Werte**, wenn für eine Zuordnung vorkommende Zeilen dort leer wären. In diesem Fall ist **Vorschau erstellen** bis zur Korrektur nicht möglich.
+## 3. Vorschau
 
-## 3\. Vorschau
+Nach Klick auf **Vorschau erstellen** listet der Abschnitt **Importdaten prüfen** alle Zeilen mit den Spalten **Hersteller**, **Artikelnummer**, **Validierung** (**Gültig** / **Ungültig**) sowie **Zeilenfehler** auf.
 
-Nach **Vorschau erstellen** sehen Sie jede Datenzeile mit **Hersteller**, **Artikelnummer**, **Validierung** (gültig oder ungültig) und **Zeilenfehler**.
+Fehlerhafte Datensätze sperren den Start des Imports. Die Meldung quantifiziert die fehlerhaften Zeilen. Nach Korrektur der Datei oder Zuordnung lässt sich die Vorschau neu aufbauen.
 
-Ungültige Zeilen (z.&nbsp;B. unzulässige Zahlen, Daten oder Auswahlcodes) blockieren den Start: Es erscheint ein Hinweis, wie viele Zeilen betroffen sind (**… Zeilen enthalten Validierungsfehler**). Korrigieren Sie die CSV oder die Zuordnung und erzeugen Sie die Vorschau erneut.
+## 4. Ausführen
 
-## 4\. Ausführen
+Im Schritt **Import ausführen** startet die Schaltfläche **Import starten** das sequentielle Einspielen der validierten Zeilen.
 
-**Import starten** legt die gültigen Vorschauzeilen nacheinander als **neue Artikel** an.
+- Eine Fortschrittsanzeige visualisiert die verarbeiteten und aktuellen Zeilennummern.
+- Schlägt das Schreiben einer Zeile fehl, stoppt der Prozess mit Nennung der fehlerhaften Zeilennummer und Fehlerursache. Bereits geschriebene Datensätze verbleiben in der Datenbank.
+- Nach erfolgreichem Durchlauf fasst eine Bestätigungsmeldung die Anzahl neu erstellter Artikel zusammen.
 
-- Während des Laufs sehen Sie den Fortschritt (verarbeitete und aktuelle Zeile).
-- Schlägt eine Zeile endgültig fehl, stoppt der Import (**Import bei Zeile … fehlgeschlagen**) mit Angabe der betroffenen Zeile und der Ursache. Bereits verarbeitete Zeilen bleiben gespeichert.
-- Nach Erfolg bestätigt die Meldung, **wie viele Zeilen importiert** wurden; zusätzlich erscheint eine kurze Erfolgsmeldung in der App.
+Bilder, Decoder und Kategorien werden beim CSV-Import nicht verknüpft; diese Spezifikationen erfolgen anschliessend an den jeweiligen Einzelartikeln.
 
-Bilder, Decoder und Kategorien werden durch den CSV-Import **nicht** gesetzt; diese pflegen Sie bei Bedarf anschliessend am einzelnen Artikel.
+Importierte Artikel unterliegen denselben Kontingenten wie manuell erfasste Bestände (siehe [Nutzung](../einstellungen/nutzung.md)).
 
-Importierte Artikel zählen gegen dieselben Grenzen wie manuell erfasste Einträge; Einzelheiten stehen unter [Nutzung](../einstellungen/nutzung.md).
-
-Weitere Bedienungshilfen: [Artikel](artikel.md), [Artikelseite zum Bearbeiten](artikel-bearbeiten.md).
+Ergänzende Handbuchkapitel: [Artikel](artikel.md), [Artikel bearbeiten](artikel-bearbeiten.md).

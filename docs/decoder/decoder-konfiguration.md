@@ -1,47 +1,49 @@
 ---
+sidebar_position: 4
 id: decoder-konfiguration
-title: Konfiguration
-description: Schlüssel-Wert-Einträge am Decoder ergänzen, bearbeiten, löschen und speichern; Bit-Ansicht aus Nutzersicht.
+title: Decoder konfigurieren
+description: Schlüssel-Wert-Einträge für CV-Parameter anlegen, bearbeiten, löschen und in der Bit-Ansicht prüfen.
 ---
 
 import LimitsPlanNote from '@site/src/components/LimitsPlanNote';
 
-# Konfiguration
+# Decoder konfigurieren
 
-Liste von **Schlüssel-Wert**-Einträgen (oft CV-bezogen): Schlüssel als Identifier, Wert als Zahl oder Text.
+Das Modul verwaltet Konfigurationseinträge und CV-Parameter. In der Übersichtstabelle lauten die Spalten **CV** und **Wert**; in der Eingabemaske heissen die Felder **Schlüssel** und **CV-Wert**.
 
-Zuordnung der Funktionstasten (F0, F1 und so weiter): [Funktionsmatrix](./decoder-funktionsmatrix.md).
+Die Zuordnung logischer Funktionstasten (F0, F1...) behandelt das Kapitel [Funktionsmatrix](./decoder-funktionsmatrix.md).
 
 <LimitsPlanNote />
 
+## Bearbeitung und Speicherung
 
-## Wo und Speichern
+Die Konfigurationsparameter lassen sich im Decoder über **Bearbeiten** im Register **Konfiguration** pflegen. Neue sowie modifizierte Einträge werden erst mit dem **Speichern** der gesamten Bearbeitungsmaske dauerhaft gesichert ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
 
-1. Decoder öffnen.
-2. **Bearbeiten** wählen.
-3. Tab **Konfiguration** öffnen.
+## Konfigurationseintrag hinzufügen
 
-Neue und geänderte Einträge werden erst beim **Speichern** in der **Bearbeitungsansicht** übernommen ([Decoder-Bearbeitung](./decoder.md#bearbeitungsansicht)).
+Die Schaltfläche **Eintrag hinzufügen** öffnet das Dialogfenster **Konfigurationseintrag hinzufügen**. Nach Eingabe von **Schlüssel** und **CV-Wert** (Ganzzahl von 0 bis 255) erfolgt die Sicherung über **Speichern**.
 
-## Eintrag hinzufügen
+![Register «Konfiguration» mit CV-Tabelle und geöffnetem Dialog «Konfigurationseintrag hinzufügen»](/img/handbuch/decoder/decoder-konfiguration.webp)
 
-**Eintrag hinzufügen** → Schlüssel und Wert eintragen → Dialog bestätigen.
+Im Dialogfenster wird der eingegebene Wert parallel als Binärfolge visualisiert (**Dualzahl (Bitfolge)**). Einzelne Bits lassen sich dort direkt umschalten; der Dezimalwert passt sich synchron an.
 
-## Eintrag ändern
+## Konfigurationseintrag anpassen
 
-In der Liste für die Zeile **Bearbeiten** wählen → anpassen → Dialog bestätigen.
+In der entsprechenden Tabellenzeile die Aktion **Bearbeiten** betätigen. Im Dialog **Konfigurationseintrag bearbeiten** den CV-Wert anpassen und mit **Speichern** bestätigen. Der **Schlüssel** kann bei bestehenden Einträgen nicht mehr editiert werden.
 
-## Eintrag löschen
+## Konfigurationseintrag löschen
 
-Für die Zeile **Entfernen** wählen und eine allenfalls angezeigte Sicherheitsabfrage bestätigen.
+Über das Papierkorbsymbol der Zeile die Aktion **Löschen** ausführen. Das System blendet eine Bestätigungsabfrage mit der Beschriftung **Eintrag entfernen** ein.
 
-- Doppelte Schlüssel sind nicht erlaubt.
-- Fehlender oder ungültiger Schlüssel: Speichern ist bis zur Korrektur nicht möglich.
+- Doppelte Schlüssel sind unzulässig (**Dieser Schlüssel existiert bereits.**).
+- Ohne Eingabe eines Schlüssels meldet das Formular **Bitte einen Schlüssel eingeben.** und sperrt die Speicherung bis zur Behebung.
 
-## Bit-Ansicht
+## Bit-Ansicht in der Detailansicht
 
-In der Bit-Ansicht wird der **Wert** eines Eintrags als **einzelne Bits** dargestellt. Pro Bit können Beschriftungen oder Bedeutungen sichtbar sein, je nach Eintrag und Datenhaltung.
+![Register «Konfiguration» mit geöffnetem Dialog «Bitansicht CV 302»](/img/handbuch/decoder/decoder-bitansicht.webp)
 
-Die Bits lassen sich dort auslesen; Anpassungen können in dieser Darstellung auf der Ebene einzelner Bits erfolgen, soweit die Oberfläche das zulässt.
+In der Detailansicht steht im Register **Konfiguration** für jeden Eintrag eine Bit-Darstellung bereit (Hinweistext: **CV-Wert als Bits anzeigen.**). Die Ansicht zerlegt den gespeicherten Wert in seine acht Einzelbits.
 
-Zurück zur Übersicht [Decoder](./decoder.md).
+Die Bitansicht in der Detailansicht ist Abonnenten vorbehalten. Ohne aktiven Premium-Status verweist ein Hinweisfeld auf die Tarifgrenzen.
+
+Zurück zur Übersicht: [Decoder](./decoder.md).
