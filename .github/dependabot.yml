@@ -1,0 +1,25 @@
+# Dependabot version updates — grouped minor/patch npm bumps.
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    # Normale Versions-Updates erst 7 Tage nach Release.
+    # Security-Updates sind davon nicht betroffen (GitHub verzögert sie nie).
+    cooldown:
+      default-days: 7
+    groups:
+      minor-and-patch:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
+      security-updates:
+        applies-to: security-updates
+        patterns:
+          - '*'
