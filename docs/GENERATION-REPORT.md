@@ -5,6 +5,10 @@ description: Letzter Prüfdurchlauf Nutzerhandbuch-Workflow (Skill user-manual-g
 unlisted: true
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Bericht: Doku-Update
 
 **Datum:** 26. Oktober 2026  
