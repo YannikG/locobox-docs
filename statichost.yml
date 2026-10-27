@@ -1,0 +1,8 @@
+# https://www.statichost.eu/docs/build-config/
+# Image must be linux/amd64.
+image: node:22.14.0-bookworm-slim
+command: |
+  set -eu
+  npm ci
+  npm run build
+public: build
