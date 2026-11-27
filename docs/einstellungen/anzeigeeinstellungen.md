@@ -16,7 +16,7 @@ Zwei Konfigurationsmasken stehen bereit:
 
 Sprache, Farbschema und Währungsformat: [Sprache und Design](./sprache.md), [Anzeigewährung](./waehrung.md).
 
-## Artikelliste {#artikelliste}
+## Artikelliste {/* #artikelliste */}
 
 1. Den Pfad **Einstellungen** → **Sammlung** → **Artikelliste** aufrufen.
 2. Spalten wahlweise ein- oder ausblenden und die Reihenfolge über Pfeile oder Drag-and-drop justieren.
@@ -25,7 +25,7 @@ Sprache, Farbschema und Währungsformat: [Sprache und Design](./sprache.md), [An
 
 Bestimmte Kernspalten bleiben dauerhaft aktiv und sind am Tabellenanfang fixiert. Nach dem Speichern greift das Layout unmittelbar in der [Artikelliste](../artikel/artikel-liste.md).
 
-## Globale Suche {#globale-suche}
+## Globale Suche {/* #globale-suche */}
 
 1. Den Pfad **Einstellungen** → **Sammlung** → **Globale Suche** aufrufen.
 2. Die gewünschten Zusatzattribute für die Suchergebniskarten aktivieren:
