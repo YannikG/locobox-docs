@@ -37,9 +37,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          showLastUpdateAuthor: true,
-          editUrl:
-            'https://github.com/YannikG/locobox-docs/blob/master/',
         },
         blog: false,
         sitemap: {
