@@ -77,6 +77,8 @@ const config: Config = {
       logo: {
         alt: 'Locobox Logo',
         src: 'img/logo.png',
+        width: 32,
+        height: 32,
       },
       items: [
         {

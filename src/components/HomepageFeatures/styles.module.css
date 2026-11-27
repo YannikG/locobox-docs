@@ -10,3 +10,7 @@
   width: 200px;
   object-fit: contain;
 }
+
+.featureTitle {
+  font-size: var(--ifm-h3-font-size);
+}
