@@ -50,7 +50,7 @@ Auf der Seite [Decoder finden und filtern](./decoder-liste.md):
 - Die Schaltfläche **Neu** öffnet den Dialog **Neuer Decoder** zur Anlage eines Standard-Decoders.
 - Das Zusatzmenü daneben bietet **Neuer Funktions-Decoder** zur Erfassung von Decodern ohne Fahrantrieb (siehe [Nur Funktion](#nur-funktion)).
 
-## Nur Funktion {#nur-funktion}
+## Nur Funktion {/* #nur-funktion */}
 
 Die Kennzeichnung **Nur Funktion** kennzeichnet Decoder für reine Zusatzverbraucher (beispielsweise Innenbeleuchtung, Steuerwagen oder Soundmodule) ohne eigenen Antriebsmotor. Das Kennzeichen ist in Listen- und Detailansichten ersichtlich. Bei der Neuerfassung über **Neuer Funktions-Decoder** ist die Option standardmässig aktiv.
 

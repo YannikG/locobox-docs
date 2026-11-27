@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           showLastUpdateAuthor: true,
           editUrl:
-            'https://github.com/yannikg/locobox-docs/tree/main/',
+            'https://github.com/YannikG/locobox-docs/blob/master/',
         },
         blog: false,
         sitemap: {

@@ -36,7 +36,7 @@ Ist die Schaltfläche deaktiviert, existiert für das Konto kein separates Locob
 
 Bei Konten mit Google-Authentifizierung erfolgt die Passwortverwaltung ausschliesslich direkt über das Google-Benutzerkonto.
 
-## Ersteinrichtung {#ersteinrichtung}
+## Ersteinrichtung {/* #ersteinrichtung */}
 
 Die Karte **Ersteinrichtung** dient der Konfiguration der Grundeinstellungen. Der Beschreibungstext lautet: «Starten Sie die Ersteinrichtung erneut, wenn Sie Stammdaten oder Grundeinstellungen der Sammlung anpassen möchten.».
 
